@@ -113,7 +113,7 @@ $string['dependquestion_help'] = 'Você pode selecionar uma pergunta mãe e uma 
 $string['displaymethod'] = 'Método de apresentação não definido para questão.';
 $string['download'] = 'Baixar';
 $string['downloadtextformat'] = 'Baixar em formato texto';
-$string['downloadtextformat_help'] = 'Este recurso permite que você salve todas as respostas de um questionário para um arquivo de texto (CSV).
+$string['downloadtextformat_help'] = 'Este returma permite que você salve todas as respostas de um questionário para um arquivo de texto (CSV).
 Este arquivo pode ser importado para uma planilha (por exemplo, MS Excel ou Open Office Calc) ou um pacote estatístico para o processamento posterior dos dados.';
 $string['dropdown'] = 'Caixa de Menu';
 $string['dropdown_help'] = 'Não há vantagem real em utilizar a caixa de seleção ao invés de botões de rádio exceto pela longa lista de opções, para salvar espaço na tela.';

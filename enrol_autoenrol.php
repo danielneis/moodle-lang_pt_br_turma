@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auto'] = 'Automático';
 $string['autoenrol:config'] = 'Configurar inscrições automáticas';
-$string['autoenrol:method'] = 'O usuário pode inscrever usuários em um curso no início da sessão';
+$string['autoenrol:method'] = 'O usuário pode inscrever usuários em um turma no início da sessão';
 $string['config'] = 'Configuração';
 $string['filter'] = 'Permitir somente';
 $string['g_auth'] = 'Método de autenticação';

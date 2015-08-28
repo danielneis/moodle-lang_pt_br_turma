@@ -554,7 +554,7 @@ $string['media_dlg:progress'] = 'Progresso';
 $string['media_dlg:qt_options'] = 'Opções do Quicktime';
 $string['media_dlg:qtsrc'] = 'QT source';
 $string['media_dlg:qtsrcchokespeed'] = 'Choke speed';
-$string['media_dlg:qt_stream_warn'] = 'Recursos de stream RTSP devem ser acrescentados ao campo QT Source na aba avançado.
+$string['media_dlg:qt_stream_warn'] = 'Returmas de stream RTSP devem ser acrescentados ao campo QT Source na aba avançado.
 Uma versão não-stream também deve ser acrescentada ao campo Source.';
 $string['media_dlg:quality'] = 'Qualidade';
 $string['media_dlg:quicktime'] = 'QuickTime';

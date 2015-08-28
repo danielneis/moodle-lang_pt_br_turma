@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configdndmedia'] = 'Ofereça-se para criar um rótulo quando arquivos de mídia  são arrastados em um curso';
+$string['configdndmedia'] = 'Ofereça-se para criar um rótulo quando arquivos de mídia  são arrastados em um turma';
 $string['configdndresizeheight'] = 'Quando um rótulo é criado a partir de uma imagem arrastada , redimensioná-la, se for maior do que esta quantidade de pixels (0 para não redimensionar)';
 $string['configdndresizewidth'] = 'Quando um rótulo é criado a partir de uma imagem arrastada, redimensioná-la, se for maior do que esta quantidade de pixels (0 para não redimensionar)';
 $string['dndmedia'] = 'Mídia arrastar e soltar';
@@ -36,13 +36,13 @@ $string['dnduploadlabeltext'] = 'Adicionar um rótulo na página da turma';
 $string['label:addinstance'] = 'Adicionar novo rótulo';
 $string['labeltext'] = 'Texto do rótulo';
 $string['modulename'] = 'Rótulo';
-$string['modulename_help'] = 'Um rótulo permite que texto e imagens possam ser inserido no meio dos links de atividades na página da turma. Rótulos são muito versáteis e podem ajudar a melhorar a aparência de um curso caso utlizado sabiamente.
+$string['modulename_help'] = 'Um rótulo permite que texto e imagens possam ser inserido no meio dos links de atividades na página da turma. Rótulos são muito versáteis e podem ajudar a melhorar a aparência de um turma caso utlizado sabiamente.
 
 Rótulos podem ser utilizados
 
 * Para separar uma lista de atividades com uma cabeçalho ou uma imagem
 * Para exibir um som incorporado ou vídeo diretamente na página da turma
-* Para adicionar uma descrição breve a uma seção de um curso';
+* Para adicionar uma descrição breve a uma seção de um turma';
 $string['modulenameplural'] = 'Rótulos';
 $string['pluginadministration'] = 'Administração de rótulos';
 $string['pluginname'] = 'Rótulo';

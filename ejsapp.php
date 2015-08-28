@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['active'] = 'Disponível';
 $string['appletfile_required'] = 'Um arquivo .jar ou .zip deve ser selecionado';
 $string['appwording'] = 'Redação';
-$string['booked_lab'] = 'Este laboratório foi reservado para esta hora em um curso diferente. Tente novamente mais tarde.';
+$string['booked_lab'] = 'Este laboratório foi reservado para esta hora em um turma diferente. Tente novamente mais tarde.';
 $string['dailyslots'] = 'Horas diárias de trabalho';
 $string['dailyslots_help'] = 'Quantidade diária de horas máximas que cada aluno será autorizado a trabalhar com este laboratório.';
 $string['ejsappname_help'] = 'O nome que será exibido na turma para este laboratório';

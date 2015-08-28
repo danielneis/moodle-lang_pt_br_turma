@@ -27,14 +27,14 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addnewentry'] = 'Acrescentar novo texto';
 $string['addnewexternalblog'] = 'Registrar um blog externo';
-$string['assocdescription'] = 'Se estiver escrevendo sobre um curso e/ou sobre módulos de atividades, selecione-os aqui.';
+$string['assocdescription'] = 'Se estiver escrevendo sobre um turma e/ou sobre módulos de atividades, selecione-os aqui.';
 $string['associated'] = 'Associado {$a}';
 $string['associatewithcourse'] = 'Blog sobre a turma {$a->coursename}';
 $string['associatewithmodule'] = '	
 Blog sobre {$a->modtype}: {$a->modname}';
 $string['association'] = 'Associação';
 $string['associations'] = 'Associações';
-$string['associationunviewable'] = 'Esta entrada não pode ser vista por outras pessoas até que um curso seja associado a ela ou o campo \'Publicar\' for modificado.';
+$string['associationunviewable'] = 'Esta entrada não pode ser vista por outras pessoas até que um turma seja associado a ela ou o campo \'Publicar\' for modificado.';
 $string['autotags'] = 'Adicione estas tags';
 $string['autotags_help'] = 'Informe uma ou mais tags locais (separadas por vírgulas) que você deseja adicionar automaticamente a cada entrada de blog copiada do blog externo para seu blog local.';
 $string['backupblogshelp'] = 'Se habilitada, os blogs serão incluídos no backup automático do site';
@@ -67,13 +67,13 @@ $string['cannotviewsiteblog'] = 'Você não tem permissões para visualizar todo
 $string['cannotviewuserblog'] = 'Você não tem as permissões necessárias para ler blogs de usuários';
 $string['configexternalblogcrontime'] = 'Frequência com que o Moodle verifica se há novas mensagens nos blogs externos';
 $string['configmaxexternalblogsperuser'] = 'Número máximo de blogs externos que cada usuário pode associar a seu blog no Moodle';
-$string['configuseblogassociations'] = 'Habilita a associação de mensagens de blog com cursos e módulos de turmas';
+$string['configuseblogassociations'] = 'Habilita a associação de mensagens de blog com turmas e módulos de turmas';
 $string['configuseexternalblogs'] = 'Permite que o usuário especifique alimentadores de blogs externos. O Moodle verifica periodicamente estes alimentadores e copia novas mensagens para o blogo local do usuário.';
 $string['courseblog'] = 'Blog do Curso: {$a}';
 $string['courseblogdisable'] = 'Os blogs de turma não estão habilitados';
 $string['courseblogs'] = 'Os usuários podem acessar apenas os blogs de outros participantes da turma';
 $string['deleteblogassociations'] = 'Apagar associações de blog';
-$string['deleteblogassociations_help'] = 'Se selecionado, as mensagens do blog não serão mais asssociadas a esta turma ou a atividades ou recursos da turma. As mensagens não serão apagadas.';
+$string['deleteblogassociations_help'] = 'Se selecionado, as mensagens do blog não serão mais asssociadas a esta turma ou a atividades ou returmas da turma. As mensagens não serão apagadas.';
 $string['deleteexternalblog'] = 'Apagar o registro deste blog externo';
 $string['deleteotagswarn'] = 'Você tem certeza que deseja excluir estes tags de todas as mensagens do blog e removê-las do sistema?';
 $string['description'] = 'Descrição';

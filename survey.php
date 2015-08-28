@@ -34,7 +34,7 @@ $string['allscales'] = 'Todas as escalas, todos os participantes';
 $string['alreadysubmitted'] = 'Você já tinha enviado esta pesquisa de avaliação';
 $string['analysisof'] = 'Análise de {$a}';
 $string['answers'] = 'Respostas';
-$string['attls1'] = 'Quando avalio uma argumentação, me concentro na qualidade do discurso, e não na pessoa que o apresenta.';
+$string['attls1'] = 'Quando avalio uma argumentação, me concentro na qualidade do disturma, e não na pessoa que o apresenta.';
 $string['attls10'] = 'Quando faço análises, procuro ser muito objetivo.';
 $string['attls10short'] = 'manter a objetividade';
 $string['attls11'] = 'Procuro refletir junto com os outros em vez de ser contrário a eles.';
@@ -118,8 +118,8 @@ $string['colles13'] = 'O tutor me estimula a refletir.';
 $string['colles13short'] = 'o tutor estimula a refletir';
 $string['colles14'] = 'O tutor me encoraja a participar.';
 $string['colles14short'] = 'o tutor me encoraja';
-$string['colles15'] = 'O tutor ajuda a melhorar a qualidade dos discursos';
-$string['colles15short'] = 'tutor ajuda discursos';
+$string['colles15'] = 'O tutor ajuda a melhorar a qualidade dos disturmas';
+$string['colles15short'] = 'tutor ajuda disturmas';
 $string['colles16'] = 'O tutor ajuda a melhorar o processo de reflexão autocrítica.';
 $string['colles16short'] = 'tutor ajuda reflexão autocrítica';
 $string['colles17'] = 'Os outros participantes me encorajam a participar.';
@@ -173,7 +173,7 @@ O objetivo deste questionário é fazer uma pesquisa sobre a medida em que o seu
 
 Cada ítem abaixo consiste na comparação entre as suas expectativas e a sua experiência efetiva ao freqüentar esta turma.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem nesta turma (freqüência desejada) e a freqüência em que as situações descritas ocorrem atualmente neste curso (freqüência atual).
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem nesta turma (freqüência desejada) e a freqüência em que as situações descritas ocorrem atualmente neste turma (freqüência atual).
 
 Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
 

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_saml_course_field_id'] = 'Campo usado para identificar um curso';
+$string['auth_saml_course_field_id'] = 'Campo usado para identificar um turma';
 $string['auth_saml_error_executing'] = 'Erro ao executar';
 $string['auth_saml_ignoreinactivecourses'] = 'Ignorar Cursos Inativos';
 $string['auth_saml_ignoreinactivecourses_description'] = 'Se não for marcada o plugin irá cancelar a inscrição das turmas \'inativos\'';

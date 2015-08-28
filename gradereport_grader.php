@@ -36,6 +36,6 @@ $string['grader:view'] = 'Visualizar relatório de notas';
 $string['overriddengrade'] = 'Notas sobrepostas';
 $string['pluginname'] = 'Relatório de notas';
 $string['preferences'] = 'Preferências do relatório de notas';
-$string['summarygrader'] = 'Uma tabela com os nomes dos alunos na primeira coluna, com atividades passíveis de avaliação agrupadas por curso e categoria na parte superior.';
+$string['summarygrader'] = 'Uma tabela com os nomes dos alunos na primeira coluna, com atividades passíveis de avaliação agrupadas por turma e categoria na parte superior.';
 $string['useractivityfeedback'] = '{$a} comentários';
 $string['useractivitygrade'] = '{$a} avaliações';

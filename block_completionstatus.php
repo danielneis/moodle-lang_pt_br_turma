@@ -31,4 +31,4 @@ $string['criteriagroup'] = 'Grupo de critérios';
 $string['firstofsecond'] = '{$a->first} de {$a->second}';
 $string['pluginname'] = 'Andamento da turma';
 $string['requirement'] = 'Requisito';
-$string['returntocourse'] = 'Retornar para curso';
+$string['returntocourse'] = 'Retornar para turma';

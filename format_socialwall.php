@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addactivityresource'] = 'Adicionar atividade/recurso';
+$string['addactivityresource'] = 'Adicionar atividade/returma';
 $string['addalink'] = 'Adicionar um link';
 $string['allmodultypes'] = 'Todos os tipos de módulos';
 $string['allmygroups'] = 'Todos os meus grupos';
@@ -45,8 +45,8 @@ $string['countlikes'] = '{$a} Curtidas';
 $string['counttotalpost'] = '{$a->count}/{$a->total} postagens';
 $string['currentsection'] = 'Este tópico';
 $string['deleteafterunenrol'] = 'Excluir itens após desinscrever usuário';
-$string['deleteafterunenroldesc'] = 'Quando um usuário for desinscrito de um curso, todas as postagens e comentários dele serão excluídos.';
-$string['deleteafterunenrol_help'] = 'Quando um usuário for desinscrito de de um curso, todas as postagens e comentários dele serão excluídos.';
+$string['deleteafterunenroldesc'] = 'Quando um usuário for desinscrito de um turma, todas as postagens e comentários dele serão excluídos.';
+$string['deleteafterunenrol_help'] = 'Quando um usuário for desinscrito de de um turma, todas as postagens e comentários dele serão excluídos.';
 $string['editnotification'] = 'Editar configurações de notificação';
 $string['enablelikes'] = 'Habilitar "curtidas"';
 $string['enablelikesdesc'] = 'Configuração padrão para permitir "curtidas".';

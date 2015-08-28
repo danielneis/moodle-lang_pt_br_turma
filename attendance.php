@@ -120,11 +120,11 @@ $string['export'] = 'Exportar';
 $string['gradebookexplanation'] = 'Nota no livro de notas';
 $string['gradebookexplanation_help'] = 'O módulo de Presença mostra sua nota de presença atual baseada no número de pontos que você ganhou e o número total de pontos que poderiam ter sido ganhos até agora; ele não inclui aulas futuras. No livro de notas, sua nota de presença é baseada na percentagem da sua presença atual e o número de pontos que poderiam ser ganhos ao longo de todo o período da turma, incluindo aulas futuras. Deste modo, suas notas de presença mostradas no módulo de Presença e no livro de notas podem não ser o mesmo número de pontos, mas eles são a mesma percentagem.
 
-Por exemplo, se você ganhou 8 de 10 pontos até agora (80% de presença) e a presença para todo a turma é de 50 pontos, o módulo de Presença mostrará 8/10 e o livro de notas mostrará 40/50. Você ainda não ganhou 40 pontos, mas 40 é o valor equivalente de pontos para a sua percentagem atual de presença de 80%. Os pontos que você ganhou no módulo de Presença nunca podem diminuir, pois ela é baseada apenas na presença registrada até o momento; no entanto, os pontos de presença mostrados no livro de notas podem aumentar ou diminuir baseada na sua futura frequência, pois ela é calculada tomando em conta toda a duração do curso.';
+Por exemplo, se você ganhou 8 de 10 pontos até agora (80% de presença) e a presença para todo a turma é de 50 pontos, o módulo de Presença mostrará 8/10 e o livro de notas mostrará 40/50. Você ainda não ganhou 40 pontos, mas 40 é o valor equivalente de pontos para a sua percentagem atual de presença de 80%. Os pontos que você ganhou no módulo de Presença nunca podem diminuir, pois ela é baseada apenas na presença registrada até o momento; no entanto, os pontos de presença mostrados no livro de notas podem aumentar ou diminuir baseada na sua futura frequência, pois ela é calculada tomando em conta toda a duração do turma.';
 $string['gridcolumns'] = 'Colunas da grade';
 $string['groupsession'] = 'Grupo';
 $string['hiddensessions'] = 'Sessões ocultas';
-$string['hiddensessions_help'] = 'Sessões deixam de ser visíveis se sua data é anterior à data de início da turma. Altere a data de início do curso e as sessões ocultas serão apresentadas.
+$string['hiddensessions_help'] = 'Sessões deixam de ser visíveis se sua data é anterior à data de início da turma. Altere a data de início do turma e as sessões ocultas serão apresentadas.
 
 Você pode usar esta facilidade para ocultar sessões antigas em vez de excluí-las. Note que somente sessões visíveis são usadas no Livro de Notas.';
 $string['identifyby'] = 'Identificar estudante por';

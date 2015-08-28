@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['admindirerror'] = 'O diretório  admin indicado não é correto';
 $string['admindirname'] = 'Diretório admin';
-$string['admindirsetting'] = 'Alguns provedores usam o diretório /admin como uma URL especial para o acesso ao painel de administração do site. Infelizmente isto entra em conflito com o percurso de acesso predefinido para as páginas de administração do Moodle. Você pode superar este problema mudando o nome do diretório de administração da sua instalação e inserindo este nome aqui. Por exemplo:
+$string['admindirsetting'] = 'Alguns provedores usam o diretório /admin como uma URL especial para o acesso ao painel de administração do site. Infelizmente isto entra em conflito com o perturma de acesso predefinido para as páginas de administração do Moodle. Você pode superar este problema mudando o nome do diretório de administração da sua instalação e inserindo este nome aqui. Por exemplo:
 <br/> <br /><b>moodleadmin</b><br /> <br />Isto resolve os problemas dos links da página de administração do Moodle.';
 $string['admindirsettinghead'] = 'Criando o diretório admin ...';
-$string['admindirsettingsub'] = 'Alguns provedores usam o diretório /admin como uma URL especial para o acesso ao painel de administração do site. Infelizmente isto entra em conflito com o percurso de acesso predefinido para as páginas de administração do Moodle. Você pode superar este problema mudando o nome do diretório de administração da sua instalação e inserindo este nome aqui. Por exemplo:
+$string['admindirsettingsub'] = 'Alguns provedores usam o diretório /admin como uma URL especial para o acesso ao painel de administração do site. Infelizmente isto entra em conflito com o perturma de acesso predefinido para as páginas de administração do Moodle. Você pode superar este problema mudando o nome do diretório de administração da sua instalação e inserindo este nome aqui. Por exemplo:
 <br/> <br /><b>moodleadmin</b><br /> <br />Isto resolve os problemas dos links da página de administração do Moodle.';
 $string['availablelangs'] = 'Pacotes de idioma disponíveis';
 $string['caution'] = 'Atenção';
@@ -65,7 +65,7 @@ $string['databasetypehead'] = 'Escolha o driver da base de dados';
 $string['databasetypesub'] = 'O Moodle suporta diversos tipos de servidores de base de dados. Por favor, entre em contato com o administrador do seu servidor caso não saiba qual tipo utilizar.';
 $string['databaseuser'] = 'Usuário da base de dados';
 $string['dataroot'] = 'Diretório de dados';
-$string['datarooterror'] = 'O \'diretório de dados\' indicado não foi encontrado ou não foi criado.  Corrija a indicação do percurso ou crie o diretório manualmente.';
+$string['datarooterror'] = 'O \'diretório de dados\' indicado não foi encontrado ou não foi criado.  Corrija a indicação do perturma ou crie o diretório manualmente.';
 $string['datarootpermission'] = 'Permissões nos diretórios de dados';
 $string['datarootpublicerror'] = 'O diretório de dados que você indicou é acessível no web, è melhor escolher um outro diretório.';
 $string['dbconnectionerror'] = 'Não foi possível fazer a conexão com a base de dados indicada. Controle as configurações da base de dados.';
@@ -85,19 +85,19 @@ Indique o endereço completo do diretório de instalação, prestando muita aten
 
 <p><b>Diretório Data:</b>
 Indique um diretório para o arquivamento de documentos carregados no servidor. Este diretório deve ter as autorizações de acesso configuradas para que o Usuário do Servidor (ex. \'nobody\' ou \'apache\') possa acessar e criar novos arquivos. Atenção, este diretório não deve ter o acesso via web autorizado.</p>';
-$string['directorysettingshead'] = 'Confirme os percursos de acesso desta instalação de Moodle';
+$string['directorysettingshead'] = 'Confirme os perturmas de acesso desta instalação de Moodle';
 $string['directorysettingssub'] = '<b>Endereço Web:</b>
 Especifique o endereço web completo em que Moodle pode ser acessado. Se o acesso é múltiplo, escolha o endereço mais fácil para os alunos. Não inclua uma barra final no endereço.
 <br />
 <br />
 <b>Diretório Moodle:</b>
-Especifique o percurso completo de acesso ao diretório de instalação. Atenção ao uso de maiúsculas e minúsculas.
+Especifique o perturma completo de acesso ao diretório de instalação. Atenção ao uso de maiúsculas e minúsculas.
 <br />
 <br />
 <strong>Diretório de dados:</strong>
 Especifique um diretório para que o Moodle possa salvar arquivos carregados no servidor. Este diretório deve ter permissões de leitura e escrita pelo usuário do servidor web (normalmente \'nobody\' ou \'apache\'), mas não deve ter acesso livre via web.';
 $string['dirroot'] = 'Diretório Moodle';
-$string['dirrooterror'] = 'A configuração do percurso de acesso ao Diretório Moodle parece errada - não foi possível encontrar uma instalação de Moodle neste endereço. O valor abaixo foi reconfigurado.';
+$string['dirrooterror'] = 'A configuração do perturma de acesso ao Diretório Moodle parece errada - não foi possível encontrar uma instalação de Moodle neste endereço. O valor abaixo foi reconfigurado.';
 $string['download'] = 'Download';
 $string['downloadlanguagebutton'] = 'Baixar o Pacote de Idioma "{$a}"';
 $string['downloadlanguagehead'] = 'Baixar Pacote de Idioma';

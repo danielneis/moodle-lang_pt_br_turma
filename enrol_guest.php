@@ -30,14 +30,14 @@ $string['guestaccess_withoutpassword'] = 'Acesso como visitante';
 $string['guestaccess_withpassword'] = 'Acesso como visitante';
 $string['guest:config'] = 'Configurar instâncias do acesso como visitante';
 $string['password'] = 'Senha';
-$string['password_help'] = 'Uma senha permite que o acesso de visitantes à turma seja restrito apenas àqueles que sabem a senha. Os visitantes serão obrigadas a fornecer a senha cada vez que acessarem o curso.';
+$string['password_help'] = 'Uma senha permite que o acesso de visitantes à turma seja restrito apenas àqueles que sabem a senha. Os visitantes serão obrigadas a fornecer a senha cada vez que acessarem o turma.';
 $string['passwordinvalid'] = 'Senha de acesso incorreta, por favor tente novamente';
 $string['passwordinvalidhint'] = 'Essa senha de acesso estava incorreta, por favor, tente novamente<br />
 (Aqui vai uma dica - começa com \'{$a}\')';
 $string['pluginname'] = 'Acesso como visitante';
 $string['pluginname_desc'] = 'O plugin para acesso como visitante apenas concede acesso temporário aas turmas, ele não inscreve usuários.';
 $string['requirepassword'] = 'Exigir senha de acesso de visitantes';
-$string['requirepassword_desc'] = 'Exigir senha de acesso em novas turmas e evitar a remoção da senha de acesso dos cursos existentes.';
+$string['requirepassword_desc'] = 'Exigir senha de acesso em novas turmas e evitar a remoção da senha de acesso dos turmas existentes.';
 $string['showhint'] = 'Mostrar dica';
 $string['showhint_desc'] = 'Mostrar primeira letra da senha de acesso como visitante.';
 $string['status'] = 'Permitir o acesso de visitantes';

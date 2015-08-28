@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actenrolshhdr'] = 'Plugins de inscrição em curso disponíveis';
+$string['actenrolshhdr'] = 'Plugins de inscrição em turma disponíveis';
 $string['addinstance'] = 'Adicionar método';
 $string['addinstanceanother'] = 'Adicionar método e criar outro';
 $string['ajaxnext25'] = 'Próximos 25...';
@@ -38,9 +38,9 @@ $string['custominstancename'] = 'Nome personalizado da instância';
 $string['defaultenrol'] = 'Adicionar instância a novas turmas';
 $string['defaultenrol_desc'] = 'É possível adcionar este plugin a todos os novas turmas por padrão.';
 $string['deleteinstanceconfirm'] = 'Você está prestes a apagar o método de inscrição "{$a->name}". Todos os usuários {$a->users} atualmente matriculados usando este método serão descadastrados e todos os dados relacionados com a turma, tais como notas de usuários, membros do grupo ou assinaturas fórum serão apagados. Tem certeza de que quer continuar?';
-$string['deleteinstanceconfirmself'] = 'Você tem certeza que deseja excluir instância "{$a->name}", que dá acesso a esta turma? É possível que você não seja capaz de acessar este curso, se você continuar.';
+$string['deleteinstanceconfirmself'] = 'Você tem certeza que deseja excluir instância "{$a->name}", que dá acesso a esta turma? É possível que você não seja capaz de acessar este turma, se você continuar.';
 $string['deleteinstancenousersconfirm'] = 'Você está prestes a apagar a inscrição método &quot;{$a->name}&quot;. Tem certeza de que quer continuar?';
-$string['disableinstanceconfirmself'] = 'Você tem certeza que deseja desativar instância "{$a->name}", que dá acesso a esta turma? É possível que você não seja capaz de acessar este curso, se você continuar.';
+$string['disableinstanceconfirmself'] = 'Você tem certeza que deseja desativar instância "{$a->name}", que dá acesso a esta turma? É possível que você não seja capaz de acessar este turma, se você continuar.';
 $string['durationdays'] = '{$a} dias';
 $string['editenrolment'] = 'Editar inscrição';
 $string['enrol'] = 'Inscrever';
@@ -92,7 +92,7 @@ $string['finishenrollingusers'] = 'Concluir a inscrição de usuários';
 $string['foundxcohorts'] = 'Encontrados {$a} coortes';
 $string['instanceadded'] = 'Método adicionado';
 $string['instanceeditselfwarning'] = 'Aviso:';
-$string['instanceeditselfwarningtext'] = 'Você está matriculado nesta turma através deste método de inscrição, alterações podem afetar seu acesso a este curso.';
+$string['instanceeditselfwarningtext'] = 'Você está matriculado nesta turma através deste método de inscrição, alterações podem afetar seu acesso a este turma.';
 $string['invalidenrolinstance'] = 'Instância de inscrição inválida';
 $string['invalidrole'] = 'Papel inválido';
 $string['manageenrols'] = 'Gerenciar plugins de inscrição';

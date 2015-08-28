@@ -78,7 +78,7 @@ $string['limitanswers_help'] = 'Esta opção permite limitar o número de partic
 Se os limites forem desativados, então qualquer número de participantes pode selecionar cada uma das opções.';
 $string['members/'] = 'Preencher';
 $string['modulename'] = 'Escolha um grupo';
-$string['modulename_help'] = 'O módulo escolha um grupo permite que os estudantes inscrevam-se em um grupo dentro de um curso. O professor pode selecionar quais os grupos que os alunos podem escolher e o número máximo de alunos permitidos em cada grupo.';
+$string['modulename_help'] = 'O módulo escolha um grupo permite que os estudantes inscrevam-se em um grupo dentro de um turma. O professor pode selecionar quais os grupos que os alunos podem escolher e o número máximo de alunos permitidos em cada grupo.';
 $string['modulenameplural'] = 'Escolhas de grupo';
 $string['moveselectedusersto'] = 'Mover usuários selecionados para ...';
 $string['multipleenrollmentspossible'] = 'Permitir a inscrição de vários grupos';

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['allow_remlabaccess'] = 'Você foi concedida a permissão para fazer reservas para um novo laboratório remoto:';
 $string['already_enabled'] = 'Você já tem um sistema de reserva nesta turma.';
 $string['booking_rights'] = 'Direitos de reserva';
-$string['ejsappbookingname_help'] = 'Nome a ser exibido para o sistema de reservas em seu curso Moodle';
+$string['ejsappbookingname_help'] = 'Nome a ser exibido para o sistema de reservas em seu turma Moodle';
 $string['manage_access_but'] = 'Gerenciar acesso de usuários';
 $string['no_rem_labs'] = 'Não há laboratórios remotos nesta turma';
 $string['rem_lab_selection'] = 'Selecione um laboratório remoto';

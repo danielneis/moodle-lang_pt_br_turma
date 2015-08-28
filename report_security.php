@@ -33,7 +33,7 @@ $string['check_cookiesecure_details'] = '<p>Se você habilitar a comunicação h
 $string['check_cookiesecure_error'] = 'Por favor, habilite os cookies seguros';
 $string['check_cookiesecure_name'] = 'Cookies seguros';
 $string['check_cookiesecure_ok'] = 'Cookies seguros habilitados.';
-$string['check_defaultuserrole_details'] = '<p>Todos os usuários autenticados recebem as permissões do papel padrão. Por favor, certifique-se que nenhuma ação arriscada é permitida a este papel.</p><p>O único papel legado suportado o papel padrão de usuário é <em>Usuário autenticado</em>. A ação de visualizar curso não deve estar habilitada.</p>';
+$string['check_defaultuserrole_details'] = '<p>Todos os usuários autenticados recebem as permissões do papel padrão. Por favor, certifique-se que nenhuma ação arriscada é permitida a este papel.</p><p>O único papel legado suportado o papel padrão de usuário é <em>Usuário autenticado</em>. A ação de visualizar turma não deve estar habilitada.</p>';
 $string['check_defaultuserrole_error'] = 'O papel padrão "{$a}" está definido incorretamente!';
 $string['check_defaultuserrole_name'] = 'Papel padrão para todos usuários';
 $string['check_defaultuserrole_notset'] = 'O papel padrão não está definido.';
@@ -91,7 +91,7 @@ $string['check_riskadmin_warning'] = 'Encontrado {$a->admincount} administrador(
 $string['check_riskbackup_detailsok'] = 'Nenhum papel permite explicitamente o backup de dados de usuários. Entretanto, note que administradores com a permissão "doanything" ainda podem ser capazes de fazer isso.';
 $string['check_riskbackup_details_overriddenroles'] = '<p>Estas sobreposições ativas dão ao usuário a possibilidade de incluir dados de usuários nos backups. Por favor, certifique-se que esta permissão é necessária.</p> {$a}';
 $string['check_riskbackup_details_systemroles'] = '<p>As seguintes funções do sistema atualmente permitem aos usuários incluir dados de usuários nos backups. Por favor, certifique-se que esta permissão é necessária.</p> {$a}';
-$string['check_riskbackup_details_users'] = '<p>Em consequência dos papéis ou sobreposições locais acima, as seguintes contas de usuários tem permissão de fazer backups contendo dados pessoais de quaisquer usuários inscritos nos seus cursos. Certifique-se que eles são (a) confiáveis e (b) protegidos por senhas fortes:</p> {$a}';
+$string['check_riskbackup_details_users'] = '<p>Em consequência dos papéis ou sobreposições locais acima, as seguintes contas de usuários tem permissão de fazer backups contendo dados pessoais de quaisquer usuários inscritos nos seus turmas. Certifique-se que eles são (a) confiáveis e (b) protegidos por senhas fortes:</p> {$a}';
 $string['check_riskbackup_editoverride'] = '<a href="{$a->url}">{$a->name} em {$a->contextname}</a>';
 $string['check_riskbackup_editrole'] = '<a href="{$a->url}">{$a->name}</a>';
 $string['check_riskbackup_name'] = 'Backup de dados dos usuários';

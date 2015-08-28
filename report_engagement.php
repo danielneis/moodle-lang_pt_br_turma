@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['coursereport'] = 'Compromisso de engajamento para curso: {$a->course}';
+$string['coursereport'] = 'Compromisso de engajamento para turma: {$a->course}';
 $string['engagement:manage'] = 'Gerenciar relatório de análise de engajamento';
 $string['engagement:view'] = 'Ver relatório de análise de engajamento';
 $string['indicator'] = 'Indicador';

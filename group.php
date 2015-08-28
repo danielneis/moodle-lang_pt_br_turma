@@ -60,7 +60,7 @@ $string['editgroupingsettings'] = 'Editar configurações de agrupamentos';
 $string['editgroupsettings'] = 'Editar configurações de grupos';
 $string['enrolmentkey'] = 'Código de inscrição';
 $string['enrolmentkeyalreadyinuse'] = 'Esta chave de inscrição já está sendo utilizada para outro grupo.';
-$string['enrolmentkey_help'] = 'Uma senha de inscrição permite que o acesso à turma seja restrito apenas àqueles que conhecem a senha. Se uma senha de acesso para um grupo é especificada, então o aluno que se inscreve no curso usando-a também passa a fazer parte desse grupo.';
+$string['enrolmentkey_help'] = 'Uma senha de inscrição permite que o acesso à turma seja restrito apenas àqueles que conhecem a senha. Se uma senha de acesso para um grupo é especificada, então o aluno que se inscreve no turma usando-a também passa a fazer parte desse grupo.';
 $string['erroraddremoveuser'] = 'Erro ao adicionar/remover usuário {$a} no grupo';
 $string['erroreditgroup'] = 'Erro ao criar/atualizar grupo {$a}';
 $string['erroreditgrouping'] = 'Erro ao criar/atualizar agrupamento {$a}';
@@ -90,12 +90,12 @@ $string['groupinfopeople'] = 'Informações sobre as pessoas selecionadas';
 $string['grouping'] = 'Agrupamento';
 $string['groupingaddedsuccesfully'] = 'Agrupamento {$a} adicionado com sucesso';
 $string['groupingdescription'] = 'Descrição do agrupamento';
-$string['grouping_help'] = 'O agrupamento é uma coleção de grupos dentro de um curso. Se um agrupamento é selecionado, os alunos associados aos grupos desse agrupamento poderão trabalhar juntos.';
+$string['grouping_help'] = 'O agrupamento é uma coleção de grupos dentro de um turma. Se um agrupamento é selecionado, os alunos associados aos grupos desse agrupamento poderão trabalhar juntos.';
 $string['groupingname'] = 'Nome do agrupamento';
 $string['groupingnameexists'] = 'O nome do agrupamento \'{$a}\' já existe nesse turma, por favor escolha outro.';
 $string['groupings'] = 'Agrupamentos';
 $string['groupingsection'] = 'Permitir acesso somente ao agrupamento';
-$string['groupingsection_help'] = 'Um agrupamento é uma coleção de grupos em um curso. Se um agrupamento for selecionado aqui, somente alunos membros de grupos que fazem parte desse agrupamento terão acesso a esse tópico.';
+$string['groupingsection_help'] = 'Um agrupamento é uma coleção de grupos em um turma. Se um agrupamento for selecionado aqui, somente alunos membros de grupos que fazem parte desse agrupamento terão acesso a esse tópico.';
 $string['groupingsonly'] = 'Apenas agrupamentos';
 $string['groupmember'] = 'Membro do grupo';
 $string['groupmemberdesc'] = 'Papel padrão para um membro de um grupo.';
@@ -104,14 +104,14 @@ $string['groupmemberssee'] = 'Ver membros do grupo';
 $string['groupmembersselected'] = 'Membros do grupo selecionado';
 $string['groupmode'] = 'Modalidade grupo';
 $string['groupmodeforce'] = 'Forçar modalidade grupo';
-$string['groupmodeforce_help'] = 'Se o modo de grupo é forçado, então o modo de grupo da turma é aplicado a todas as atividades do curso. Configurações do modo de grupo de cada atividade serão ignoradas.';
+$string['groupmodeforce_help'] = 'Se o modo de grupo é forçado, então o modo de grupo da turma é aplicado a todas as atividades do turma. Configurações do modo de grupo de cada atividade serão ignoradas.';
 $string['groupmode_help'] = 'Esta configuração possui 3 opções:
 
 * Nenhum grupo - Não há sub-grupos, todos fazem parte de uma grande comunidade
 * Grupos separados - Cada membro de grupo pode ver apenas seu próprio grupos, os outros são invisíveis
 * Grupos visíveis - Cada membro do grupo trabalha no seu próprio grupo mas pode também ver outros grupos
 
-O tipo de grupo definido no nível da turma é o padrão para todas as atividades do curso. Cada atividade que suporta grupos pode também definir seu próprio tipo de grupo mas, se o tipo de grupo é forçado no nível do curso, o tipo de grupo para cada atividade é ignorado.';
+O tipo de grupo definido no nível da turma é o padrão para todas as atividades do turma. Cada atividade que suporta grupos pode também definir seu próprio tipo de grupo mas, se o tipo de grupo é forçado no nível do turma, o tipo de grupo para cada atividade é ignorado.';
 $string['groupmy'] = 'Meu grupo';
 $string['groupname'] = 'Nome do grupo';
 $string['groupnameexists'] = 'O nome de grupo \'{$a}\' já existe nesse turma, por favor escolha outro.';

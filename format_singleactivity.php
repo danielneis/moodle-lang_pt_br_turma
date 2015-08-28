@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activitytype'] = 'Tipo de atividade';
-$string['activitytype_help'] = 'Escolha o tipo de atividade ou recurso a ser usado nesta turma';
+$string['activitytype_help'] = 'Escolha o tipo de atividade ou returma a ser usado nesta turma';
 $string['defactivitytype'] = 'Tipo de atividade padrão';
 $string['defactivitytypedesc'] = 'Especifique o tipo de atividade a ser selecionada com padrão ao criar um nova turma';
 $string['erroractivitytype'] = 'O tipo de atividade não está configurada nas configurações da turma';

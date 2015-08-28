@@ -34,7 +34,7 @@ $string['addownitems-stop'] = 'Parar de adicionar seus próprios itens';
 $string['allowmodulelinks'] = 'Permitir links para módulos';
 $string['anygrade'] = 'Qualquer';
 $string['autopopulate'] = 'Mostrar módulos da turma no checklist';
-$string['autopopulate_help'] = 'Isto irá adicionar automaticamente ao checklist  todos os recursos e atividades na turma atual.<br />
+$string['autopopulate_help'] = 'Isto irá adicionar automaticamente ao checklist  todos os returmas e atividades na turma atual.<br />
 Este checklist será atualizado automaticamente ao abrir a sua página de configurações.<br />
 Itens podem ser ocultos, clicando no ícone ao lado deles.<br />
 Para remover os itens acrescentados automaticamente, mude esta opção de volta para "Não", e clique no "Remover itens da turma" nas configurações.';
@@ -92,7 +92,7 @@ $string['items'] = 'Itens do checklist';
 $string['linktomodule'] = 'Link para este módulo';
 $string['lockteachermarks'] = 'Bloquear marcas do professor';
 $string['modulename'] = 'Checklist';
-$string['modulename_help'] = 'Um "Checklist" permite criar uma lista de progresso a partir dos recursos e atividades existentes na turma.';
+$string['modulename_help'] = 'Um "Checklist" permite criar uma lista de progresso a partir dos returmas e atividades existentes na turma.';
 $string['modulenameplural'] = 'Listas de progresso';
 $string['moveitemdown'] = 'Mover item para baixo';
 $string['moveitemup'] = 'Mover item para cima';

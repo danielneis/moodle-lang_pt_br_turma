@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['currentsection'] = 'Tópico atual';
 $string['disable'] = 'Desativar';
 $string['disableajax'] = 'Ações assíncronas de edição';
-$string['disableajax_help'] = 'Desative as ações assíncronas para mover recursos entre os tópicos. Esta ação não é permanente, vale apenas para a sessão atual.';
+$string['disableajax_help'] = 'Desative as ações assíncronas para mover returmas entre os tópicos. Esta ação não é permanente, vale apenas para a sessão atual.';
 $string['enable'] = 'Ativar';
 $string['hidefromothers'] = 'Ocultar tópico';
 $string['hidetabsbar'] = 'Ocultar abas';

@@ -125,10 +125,10 @@ $string['browsersecurity_help'] = 'Se a opção "Tela cheia pop-up com seguranç
 
  * O teste só vai começar se o aluno tem um JavaScript habilitado no navegador.
 * O questionário aparece em uma janela <em>pop-up</em> em tela cheia, que abrange todas as outras janelas e não tem controles de navegação
- * Estudantes são impedidos, na medida do possível, de usar os recursos como copiar e colar.';
+ * Estudantes são impedidos, na medida do possível, de usar os returmas como copiar e colar.';
 $string['calculated'] = 'Calculado';
 $string['calculatedquestion'] = 'A Questão-Calculada da linha {$a} não é suportada. A questão será ignorada';
-$string['cannotcreatepath'] = 'Percurso não pode ser criado ({$a})';
+$string['cannotcreatepath'] = 'Perturma não pode ser criado ({$a})';
 $string['cannoteditafterattempts'] = 'Você não pode adicionar ou remover perguntas, porque já foram registradas tentativas. ({$a})';
 $string['cannotfindprevattempt'] = 'Não foi possível encontrar tentativa anterior de construção.
 ';
@@ -450,7 +450,7 @@ $string['import_help'] = 'Esta função permite que você importe perguntas de a
 
 Se o arquivo contém caracteres em formato não-ASCII, você deverá usar a codificação UTF-8. Tenha especial cautela ao tratar com arquivos gerados por aplicativos do Microsoft Office, uma vez que estes geralmente usam codificação especial que não serão tratados adequadamente.
 
-Formatos de importação e exportação são um recurso conectável. Outros formatos opcionais podem estar disponíveis na Modules and Plugins database.';
+Formatos de importação e exportação são um returma conectável. Outros formatos opcionais podem estar disponíveis na Modules and Plugins database.';
 $string['importingquestions'] = 'Importando {$a} questões de arquivo';
 $string['importmax10error'] = 'Erro nesta questão: você não pode incluir mais de dez respostas.';
 $string['importmaxerror'] = 'Erro na questão: número de respostas superior ao limite máximo.';
@@ -469,8 +469,8 @@ $string['invalidcategory'] = 'O ID da categoria é inválido';
 $string['invalidoverrideid'] = 'Identificação inválida de sobreposição';
 $string['invalidquestionid'] = 'Identificação inválida da pergunta';
 $string['invalidquizid'] = 'Identificação inválida do questionário';
-$string['invalidsource'] = 'O recurso não foi reconhecido como válido';
-$string['invalidsourcetype'] = 'Tipo de recurso inválido';
+$string['invalidsource'] = 'O returma não foi reconhecido como válido';
+$string['invalidsourcetype'] = 'Tipo de returma inválido';
 $string['invalidstateid'] = 'Estado inválido de identificação';
 $string['lastanswer'] = 'A sua última resposta foi';
 $string['layout'] = 'Layout';

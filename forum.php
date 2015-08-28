@@ -217,7 +217,7 @@ $string['everyoneissubscribed'] = 'Todos são assinantes deste fórum';
 $string['existingsubscribers'] = 'Assinantes';
 $string['exportdiscussion'] = 'Exportar todo o debate para o portfólio';
 $string['forcedreadtracking'] = 'Permitir rastreamento de leitura forçado';
-$string['forcedreadtracking_desc'] = 'Permitir que fóruns sejam configurados para rastreamento de leitura forçado. Irá resultar em desempenho reduzido para alguns usuários, principalmente em cursos com muitos fóruns e posts. Quando desligado, quaisquer fóruns configurados anteriormente como "Forçado" são tratados como opcionais.';
+$string['forcedreadtracking_desc'] = 'Permitir que fóruns sejam configurados para rastreamento de leitura forçado. Irá resultar em desempenho reduzido para alguns usuários, principalmente em turmas com muitos fóruns e posts. Quando desligado, quaisquer fóruns configurados anteriormente como "Forçado" são tratados como opcionais.';
 $string['forcesubscribed'] = 'Todos os usuários deste fórum são assinantes';
 $string['forcesubscribed_help'] = 'Este fórum foi configurado de forma que você não pode cancelar a sua inscrição nas discussões.';
 $string['forum'] = 'Fórum';
@@ -343,7 +343,7 @@ $string['myprofileotherdis'] = 'Discussões do fórum';
 $string['myprofileowndis'] = 'Minhas discussões do fórum';
 $string['myprofileownpost'] = 'Meus posts no fórum';
 $string['namenews'] = 'Fórum de notícias';
-$string['namenews_help'] = '<p>O fórum de notícias é um fórum especial que é automaticamente criado para cada curso e para a página principal do site e é um espaço para anúncios gerais. Só é possível ter um único fórum de notícias por curso.</p>
+$string['namenews_help'] = '<p>O fórum de notícias é um fórum especial que é automaticamente criado para cada turma e para a página principal do site e é um espaço para anúncios gerais. Só é possível ter um único fórum de notícias por turma.</p>
 
 <p>O bloco "Últimas Notícias" mostra as discussões mais recentes deste fórum especial (mesmo que se mude o nome dele). Por esta razão o fórum será recriado automaticamente pelo Moodle se o bloco Últimas Notícias está sendo usado.</p>';
 $string['namesocial'] = 'Fórum social';

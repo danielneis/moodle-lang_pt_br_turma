@@ -237,7 +237,7 @@ $string['glossary:managecomments'] = 'Gerenciar comentários';
 $string['glossary:manageentries'] = 'Gerenciar itens';
 $string['glossary:rate'] = 'Avaliar itens';
 $string['glossarytype'] = 'Tipo de glossário';
-$string['glossarytype_help'] = 'Um glossário principal é um glossário no qual as entradas de glossários secundários podem ser importadas. Só pode existir um glossário principal na turma. Se a importação de entradas de glossários não for necessária, todos os glossários no curso podem ser glossários secundários.';
+$string['glossarytype_help'] = 'Um glossário principal é um glossário no qual as entradas de glossários secundários podem ser importadas. Só pode existir um glossário principal na turma. Se a importação de entradas de glossários não for necessária, todos os glossários no turma podem ser glossários secundários.';
 $string['glossary:view'] = 'Ver glossário';
 $string['glossary:viewallratings'] = 'Visualizar todas as avaliações enviadas por indivíduos';
 $string['glossary:viewanyrating'] = 'Ver avaliação total que todos receberam';
@@ -280,7 +280,7 @@ Glossários tem muitos usos, como por exemplo:
 * Um espaço "apresente-se" onde novos estudantes adicionam seus nomes e detalhes pessoais
 * Centralização de dicas ou melhores práticas sobre algum item
 * Uma área de compartilhamento de vídeos, imagens ou arquivos de som
-* Como recurso de revisão de fatos a serem lembrados';
+* Como returma de revisão de fatos a serem lembrados';
 $string['modulenameplural'] = 'Glossários';
 $string['newentries'] = 'Novos itens';
 $string['newglossary'] = 'Novo glossário';
@@ -367,7 +367,7 @@ $string['studentcanpost'] = 'Estudantes podem adicionar itens';
 $string['totalentries'] = 'Total de itens';
 $string['usedynalink'] = 'Fazer o link automático dos itens';
 $string['usedynalink_help'] = '<P>Esta opção habilita a criação automática de links que levam aos itens do glossário sempre que
-   as palavras ou frases definidas como itens estiverem presentes nos textos da turma. Isto inclui as mensagens do fórum, materiais do curso, sumários das semanas, diários, etc.</p>
+   as palavras ou frases definidas como itens estiverem presentes nos textos da turma. Isto inclui as mensagens do fórum, materiais do turma, sumários das semanas, diários, etc.</p>
 
 <p>Se você não quiser que um texto tenha links, você deve adicionar os tags  &lt;nolink> e &lt;/nolink> ao redor do texto.</p>
 

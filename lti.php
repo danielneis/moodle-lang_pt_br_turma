@@ -64,14 +64,14 @@ $string['cancelled'] = 'Cancelado';
 $string['cannot_delete'] = 'Você não pode excluir a configuração desta ferramenta.';
 $string['cannot_edit'] = 'Você não deve editar a configuração desta ferramenta.';
 $string['capabilities'] = 'Capacidades';
-$string['capabilities_help'] = 'Selecione os recursos que você deseja oferecer ao provedor de ferramenta. Mais do que uma capacidade pode ser seleccionado.';
+$string['capabilities_help'] = 'Selecione os returmas que você deseja oferecer ao provedor de ferramenta. Mais do que uma capacidade pode ser seleccionado.';
 $string['click_to_continue'] = '<a href="{$a->link}" target="_top">Clique aqui para continuar</a>';
 $string['comment'] = 'Comentário';
 $string['configpassword'] = 'Senha padrão - Ferramenta externa';
 $string['configpreferheight'] = 'Altura';
 $string['configpreferwidget'] = 'Conjunto de widgets como padrão de lançamento';
 $string['configpreferwidth'] = 'Largura padrão preferida';
-$string['configresourceurl'] = 'URL recurso padrão';
+$string['configresourceurl'] = 'URL returma padrão';
 $string['configtoolurl'] = 'URL da ferramenta remota padrão';
 $string['configtypes'] = 'Habilitar Aplicações LTI';
 $string['configured'] = 'Configurado';
@@ -82,7 +82,7 @@ $string['createdon'] = 'Criada em';
 $string['curllibrarymissing'] = 'Biblioteca PHP Curl deve estar instalada para utilizar LTI';
 $string['custom'] = 'Parâmetros customizados';
 $string['custom_config'] = 'Usando configuração personalizada da ferramenta.';
-$string['custom_help'] = 'Parâmetros personalizados são as configurações utilizadas pelo provedor da ferramenta. Por exemplo, um parâmetro personalizado pode ser usada para exibir um recurso específico a partir do fornecedor.
+$string['custom_help'] = 'Parâmetros personalizados são as configurações utilizadas pelo provedor da ferramenta. Por exemplo, um parâmetro personalizado pode ser usada para exibir um returma específico a partir do fornecedor.
 
 É seguro deixar este campo inalterado, a menos que orientado pelo provedor da ferramenta.';
 $string['custominstr'] = 'Parâmetros customizados';
@@ -139,7 +139,7 @@ Ele também fornece uma oportunidade para os padrões de configuração e criaç
         você pode precisar para entrar nos detalhes de configuração da ferramenta manualmente.
 *** Um tipo de ferramenta específica ** - Ao selecionar um tipo de ferramenta específica, você pode forçar Moodle para usar essa configuração de ferramentas de comunicação com o
         provedor de ferramenta externa. Se o URL de lançamento não parecem pertencer ao fornecedor de ferramenta, aparecerá um aviso. Em alguns casos, não é necessário
-        para introduzir um URL de lançamento na prestação de um tipo de ferramenta específica (se não o lançamento de um recurso especial no âmbito do provedor de ferramenta).
+        para introduzir um URL de lançamento na prestação de um tipo de ferramenta específica (se não o lançamento de um returma especial no âmbito do provedor de ferramenta).
 Configuração personalizada *** ** - Para configurar ferramenta de configuração personalizada em apenas um exemplo disso, mostrar as opções avançadas, e inserir a chave do consumidor e
         segredo compartilhado si mesmo. Se você não tem uma chave do consumidor e segredo compartilhado, você pode ser capaz de solicitá-los a partir do fornecedor de ferramenta.
         Nem todas as ferramentas necessitam de uma chave secreta do consumidor e partilhada, caso em que os campos podem ser deixados em branco.
@@ -148,7 +148,7 @@ Configuração personalizada *** ** - Para configurar ferramenta de configuraç�
 
 Três ícones estão disponíveis após a lista externo ferramenta de texto dropdown:
 
- ***Adicionar ** - Criar um curso de configuração de ferramentas de nível. Todas as instâncias de ferramentas externas nesta turma podem usar a ferramenta de configuração.
+ ***Adicionar ** - Criar um turma de configuração de ferramentas de nível. Todas as instâncias de ferramentas externas nesta turma podem usar a ferramenta de configuração.
  ***Editar ** - Escolha um tipo de turma ferramenta de nível no menu suspenso, clique neste ícone. Os pormenores da configuração da ferramenta pode ser editado.
  ***Excluir ** - Retire o selecionado tipo de turma ferramenta de nível.';
 $string['external_tool_types'] = 'Tipos de ferramentas externas';
@@ -161,7 +161,7 @@ $string['fixexistingconf'] = 'Usar uma configuração existente para a instancia
 $string['fixnew'] = 'Nova configuração';
 $string['fixnewconf'] = 'Definir uma nova configuração para a instância desconfigurada';
 $string['fixold'] = 'Utilizar existente';
-$string['forced_help'] = 'Esta configuração foi forçada em uma ferramenta de configuração de um curso ou ao nível do site. Você não pode modificar a partir da interface.';
+$string['forced_help'] = 'Esta configuração foi forçada em uma ferramenta de configuração de um turma ou ao nível do site. Você não pode modificar a partir da interface.';
 $string['force_ssl'] = 'Forçar SSL';
 $string['force_ssl_help'] = 'Selecionando esta opção é forçada a utilização de SSL para inicialização de ferramentas.
 
@@ -181,9 +181,9 @@ $string['launch_in_popup'] = 'Ferramenta de lançamento em pop-up';
 $string['launchinpopup_help'] = 'O recipiente de lançamento afecta a exibição da ferramenta, quando iniciado a partir da turma. Alguns recipientes de lançamento fornecer mais espaço na tela para a ferramenta, e outros proporcionar uma sensação mais integrada com o environemnt Moodle. Padrão *** ** - Use o recipiente lançamento especificado pela configuração da ferramenta. Incorporar *** ** - A ferramenta é exibido no interior da janela Moodle existente, de uma maneira semelhante à maioria dos tipos outra actividade. Incorporar ***, sem blocos ** - A ferramenta é exibido no interior da janela Moodle existente, com apenas os controlos neavigation no topo da página. Nova janela *** ** - A ferramenta abre em uma nova janela, ocupando todo o espaço disponível. Dependendo do navegador, ele vai abrir em uma nova aba ou janela pop-up. É possível que navegadores irá impedir que a janela de novo a partir da abertura.';
 $string['launchoptions'] = 'Opções de lançamento';
 $string['launch_url'] = 'Lançamento de URL';
-$string['launch_url_help'] = 'A URL de lançamento indica que o endereço web da ferramenta externa, e pode conter informações adicionais, tais como o recurso para mostrar.
+$string['launch_url_help'] = 'A URL de lançamento indica que o endereço web da ferramenta externa, e pode conter informações adicionais, tais como o returma para mostrar.
 
-Se você não sabe o que para entrar para a URL de Lançamento, por favor verifique com o fornecedor de ferramenta para obter mais informações. Se você tiver selecionado um tipo de ferramenta específica, você pode não precisar digitar uma URL de lançamento. Se a ligação ferramenta é usada apenas para lançar no sistema do fornecedor de ferramenta, e não ir para um recurso específico, este será provavelmente o caso.';
+Se você não sabe o que para entrar para a URL de Lançamento, por favor verifique com o fornecedor de ferramenta para obter mais informações. Se você tiver selecionado um tipo de ferramenta específica, você pode não precisar digitar uma URL de lançamento. Se a ligação ferramenta é usada apenas para lançar no sistema do fornecedor de ferramenta, e não ir para um returma específico, este será provavelmente o caso.';
 $string['lti'] = 'LTI';
 $string['lti:addcoursetool'] = 'Adicionar configurações no nível da turma à ferramenta';
 $string['lti:addinstance'] = 'Adicionar uma nova atividade LTI';
@@ -192,7 +192,7 @@ $string['lti_errormsg'] = 'A ferramenta retornou a mensagem de erro a seguir: "{
 $string['lti:grade'] = 'Avaliar atividades LTI';
 $string['lti_launch_error'] = 'Ocorreu um erro ao lançar a ferramenta externa:';
 $string['lti_launch_error_tool_request'] = '<p>Para enviar uma requisição para o administrador para completar a ferramenta de configuração, clique <a href="{$a->admin_request_url}" target="_top">aqui</a></p>';
-$string['lti_launch_error_unsigned_help'] = '<p> Este erro pode ser um resultado de uma chave secreta consumidor ausente e partilhada para o prestador de ferramenta. </p><p> Se você tem uma chave secreta compartilhada do consumidor e, pode introduzi-lo ao editar a instância ferramenta externa (certifique-se opções avançadas são visíveis). <br /> Alternativamente, você pode criar um curso de nível configuração do provedor ferramenta <a href="{$a->course_tool_editor}">aqui</a> . </p>';
+$string['lti_launch_error_unsigned_help'] = '<p> Este erro pode ser um resultado de uma chave secreta consumidor ausente e partilhada para o prestador de ferramenta. </p><p> Se você tem uma chave secreta compartilhada do consumidor e, pode introduzi-lo ao editar a instância ferramenta externa (certifique-se opções avançadas são visíveis). <br /> Alternativamente, você pode criar um turma de nível configuração do provedor ferramenta <a href="{$a->course_tool_editor}">aqui</a> . </p>';
 $string['lti:manage'] = 'Editar atividades LTI';
 $string['lti:requesttooladd'] = 'Enviar uma ferramenta aos administradores para configuração';
 $string['ltisettings'] = 'Configurações LTI';
@@ -201,7 +201,7 @@ $string['lti_tool_request_existing'] = 'A ferramenta de configuração para o do
 $string['ltiunknownserviceapicall'] = 'Chamada LTI de serviço desconhecido';
 $string['lti:view'] = 'Ver atividades LTI';
 $string['main_admin'] = 'Ajuda geral';
-$string['main_admin_help'] = 'Ferramentas externas permitem que os usuários do Moodle para interagir sem interferências com recursos de aprendizagem hospedados remotamente. Através de um protocolo especial de lançamento, a ferramenta remota terá acesso a algumas informações gerais sobre o usuário de lançamento. Por exemplo, o nome da instituição, curso ID, ID de usuário e outras informações como nome do usuário ou endereço de correio electrónico. Tipos de ferramentas listados nesta página são separados em três categorias: *** atividade ** - Estes provedores de ferramentas têm sido aprovado e configurado por um administrador. Eles podem ser usados a partir de qualquer curso nessa instância Moodle. Se uma chave secreta compartilhada do consumidor e são inseridos, uma relação de confiança é estabelecida entre esta instância Moodle ea ferramenta de controle remoto, proporcionando um canal de comunicação seguro. Enquanto *** ** - Estes fornecedores de ferramenta veio através de um pacote de importação, mas não foi configurado por um administrador. Os professores podem ainda utilizar ferramentas desses fornecedores se eles têm uma chave secreta compartilhada e consumidor, ou se nenhum for necessário. Rejeitado *** ** - Estes fornecedores de ferramentas são marcados como aqueles que um administrador não tem a intenção de disponibilizar para a instância Moodle inteiro. Os professores podem ainda utilizar ferramentas desses fornecedores se eles têm uma chave secreta compartilhada e consumidor, ou se nenhum for necessário.';
+$string['main_admin_help'] = 'Ferramentas externas permitem que os usuários do Moodle para interagir sem interferências com returmas de aprendizagem hospedados remotamente. Através de um protocolo especial de lançamento, a ferramenta remota terá acesso a algumas informações gerais sobre o usuário de lançamento. Por exemplo, o nome da instituição, turma ID, ID de usuário e outras informações como nome do usuário ou endereço de correio electrónico. Tipos de ferramentas listados nesta página são separados em três categorias: *** atividade ** - Estes provedores de ferramentas têm sido aprovado e configurado por um administrador. Eles podem ser usados a partir de qualquer turma nessa instância Moodle. Se uma chave secreta compartilhada do consumidor e são inseridos, uma relação de confiança é estabelecida entre esta instância Moodle ea ferramenta de controle remoto, proporcionando um canal de comunicação seguro. Enquanto *** ** - Estes fornecedores de ferramenta veio através de um pacote de importação, mas não foi configurado por um administrador. Os professores podem ainda utilizar ferramentas desses fornecedores se eles têm uma chave secreta compartilhada e consumidor, ou se nenhum for necessário. Rejeitado *** ** - Estes fornecedores de ferramentas são marcados como aqueles que um administrador não tem a intenção de disponibilizar para a instância Moodle inteiro. Os professores podem ainda utilizar ferramentas desses fornecedores se eles têm uma chave secreta compartilhada e consumidor, ou se nenhum for necessário.';
 $string['manage_tool_proxies'] = 'Gerenciar Ferramenta de Inscrições Externas';
 $string['manage_tools'] = 'Gerenciar Tipos de ferramentas externas';
 $string['miscellaneous'] = 'Miscelânea';
@@ -209,7 +209,7 @@ $string['misconfiguredtools'] = 'Instâncias de ferramentas não configuradas fo
 $string['missingparameterserror'] = 'Esta página não está configurada: "{$a}"';
 $string['module_class_type'] = 'Tipo de módulo do Moodle';
 $string['modulename'] = 'Ferramenta externa';
-$string['modulename_help'] = 'O módulo de atividade externa ferramenta permite aos alunos interagir com os recursos de aprendizagem e atividades em outros sites. Por exemplo, uma ferramenta externa pode fornecer acesso a um tipo de atividade nova ou materiais de aprendizagem de uma editora. Para criar uma atividade ferramenta externa, um fornecedor de ferramenta que suporta a LTI (Learning Tools Interoperability) é necessária. Um professor pode criar uma atividade ferramenta externa ou fazer uso de uma ferramenta configurado pelo administrador do site. Atividades de ferramentas externas diferem de recursos URL em alguns aspectos: * As ferramentas externas são ie contexto conscientes de que têm acesso a informações sobre o usuário que iniciou a ferramenta, como a turma, instituição e nome * ferramentas externas suportam a leitura, atualização e exclusão de notas associado com a instância atividade * configurações de ferramentas externas criar uma relação de confiança entre seu site eo fornecedor de ferramenta, permitindo a comunicação segura entre eles.';
+$string['modulename_help'] = 'O módulo de atividade externa ferramenta permite aos alunos interagir com os returmas de aprendizagem e atividades em outros sites. Por exemplo, uma ferramenta externa pode fornecer acesso a um tipo de atividade nova ou materiais de aprendizagem de uma editora. Para criar uma atividade ferramenta externa, um fornecedor de ferramenta que suporta a LTI (Learning Tools Interoperability) é necessária. Um professor pode criar uma atividade ferramenta externa ou fazer uso de uma ferramenta configurado pelo administrador do site. Atividades de ferramentas externas diferem de returmas URL em alguns aspectos: * As ferramentas externas são ie contexto conscientes de que têm acesso a informações sobre o usuário que iniciou a ferramenta, como a turma, instituição e nome * ferramentas externas suportam a leitura, atualização e exclusão de notas associado com a instância atividade * configurações de ferramentas externas criar uma relação de confiança entre seu site eo fornecedor de ferramenta, permitindo a comunicação segura entre eles.';
 $string['modulenameplural'] = 'Ferramentas Externas';
 $string['modulenamepluralformatted'] = 'Instâncias LTI';
 $string['name'] = 'Nome';
@@ -268,12 +268,12 @@ $string['registrationurl'] = 'URL do registro';
 $string['registrationurl_help'] = 'A URL de registro deve estar disponível a partir do fornecedor de ferramentas como o local para o qual os pedidos de registo devem ser enviados.';
 $string['reject'] = 'Rejeitar';
 $string['rejected'] = 'Rejeitado';
-$string['resource'] = 'Recurso';
+$string['resource'] = 'Returma';
 $string['resourcekey'] = 'Chave do consumidor';
 $string['resourcekey_admin'] = 'Chave do consumidor';
-$string['resourcekey_admin_help'] = 'A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de recurso.';
-$string['resourcekey_help'] = 'Para a pré-configurados ferramentas, não é necessário introduzir uma chave de recurso aqui, como a chave consumidor será fornecido como parte do processo de configuração. Este campo deve ser preenchido se criar um link para um provedor de ferramenta que não já está configurado. Se o fornecedor de ferramenta deve ser usada mais de uma vez nesta turma, acrescentando uma ferramenta de configuração da turma é uma boa idéia. A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de recurso.';
-$string['resourceurl'] = 'Recurso URL';
+$string['resourcekey_admin_help'] = 'A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de returma.';
+$string['resourcekey_help'] = 'Para a pré-configurados ferramentas, não é necessário introduzir uma chave de returma aqui, como a chave consumidor será fornecido como parte do processo de configuração. Este campo deve ser preenchido se criar um link para um provedor de ferramenta que não já está configurado. Se o fornecedor de ferramenta deve ser usada mais de uma vez nesta turma, acrescentando uma ferramenta de configuração da turma é uma boa idéia. A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de returma.';
+$string['resourceurl'] = 'Returma URL';
 $string['return_to_course'] = 'Clique <a href="{$a->link}" target="_top">aqui</a> para retornar à turma';
 $string['saveallfeedback'] = 'Salvar todos os meus feedbacks';
 $string['secure_icon_url'] = 'URL de ícone seguro';
@@ -294,18 +294,18 @@ $string['share_name_admin_help'] = 'Especifique se o nome completo do usuário l
 $string['share_name_help'] = 'Especifique se o nome completo do usuário lançar a ferramenta deve ser compartilhado com o fornecedor da ferramenta. O fornecedor de ferramenta pode precisar nomes dos lançadores para mostrar informação relevante dentro da ferramenta. Observe que essa configuração pode ser substituído na configuração da ferramenta.';
 $string['share_roster'] = 'Permitir a ferramenta acesso a lista de turmas';
 $string['share_roster_admin'] = 'Ferramenta pode acessar lista de turmas';
-$string['share_roster_admin_help'] = 'Especificar se a ferramenta pode acessar a lista de usuários inscritos em cursos a partir do qual o tipo de ferramenta é inicializado';
+$string['share_roster_admin_help'] = 'Especificar se a ferramenta pode acessar a lista de usuários inscritos em turmas a partir do qual o tipo de ferramenta é inicializado';
 $string['share_roster_help'] = 'Especifica caso uma ferramentapossa acessara lista de usuários inscritos nesta turma.
 
 Note que esta configuração pode ser sobreescrita na ferramenta de configuração.';
 $string['show_in_course'] = 'Exibir tipo de ferramenta quando criando instâncias';
-$string['show_in_course_help'] = 'Se selecionada, esta ferramenta de configuração irá aparecer no &quot;tipo de ferramenta externa&quot; suspensa quando os professores configurar as ferramentas externas dentro das turmas. Na maioria dos casos, essa opção não precisa ser selecionado. Os professores podem utilizar esta ferramenta de configuração baseada na URL lançamento correspondente a URL base da ferramenta, que é o método preferido. O único caso em que esta opção deve ser selecionada é se a ferramenta de configuração é apenas destinado para uma única assinatura. Por exemplo, se todos os lançamentos para o provedor de ferramenta apenas levar o usuário para uma página de destino, em vez de a um recurso específico.';
+$string['show_in_course_help'] = 'Se selecionada, esta ferramenta de configuração irá aparecer no &quot;tipo de ferramenta externa&quot; suspensa quando os professores configurar as ferramentas externas dentro das turmas. Na maioria dos casos, essa opção não precisa ser selecionado. Os professores podem utilizar esta ferramenta de configuração baseada na URL lançamento correspondente a URL base da ferramenta, que é o método preferido. O único caso em que esta opção deve ser selecionada é se a ferramenta de configuração é apenas destinado para uma única assinatura. Por exemplo, se todos os lançamentos para o provedor de ferramenta apenas levar o usuário para uma página de destino, em vez de a um returma específico.';
 $string['size'] = 'Parâmetros de tamanho';
 $string['submission'] = 'Envio';
 $string['submissions'] = 'Envios';
 $string['submissionsfor'] = 'Envios para {$a}';
-$string['subplugintype_ltiresource'] = 'Recurso de serviço LTI';
-$string['subplugintype_ltiresource_plural'] = 'Recursos de serviços LTI';
+$string['subplugintype_ltiresource'] = 'Returma de serviço LTI';
+$string['subplugintype_ltiresource_plural'] = 'Returmas de serviços LTI';
 $string['subplugintype_ltiservice'] = 'Serviço LTI';
 $string['subplugintype_ltiservice_plural'] = 'Serviços LTI';
 $string['subplugintype_ltisource'] = 'Fonte LTI';
@@ -313,7 +313,7 @@ $string['subplugintype_ltisource_plural'] = 'Fontes LTI';
 $string['toggle_debug_data'] = 'Inicialize dados para debugar';
 $string['tool_config_not_found'] = 'Configuração da ferramenta não encontrada para esta URL';
 $string['toolproxy'] = 'Ferramenta de inscrições externas';
-$string['toolproxy_help'] = 'Inscrições ferramenta externa permitir Moodle administradores do site para configurar ferramentas externas a partir de um proxy ferramenta obtido de um fornecedor de ferramentas de apoio LTI 2.0. A URL de inscrição fornecido pelo provedor de ferramenta é tudo o que é necessário para iniciar o processo. Os recursos e serviços oferecidos ao provedor ferramenta estiver selecionada quando a configuração de um novo registo. Inscrições Ferramenta listados nesta página são separadas em quatro categorias: * ** Configurado ** - Esses registros ferramentas foram criadas, mas o processo de registro ainda não foi iniciado. * Pendente ** ** - O processo regisitration para esses registros ferramenta foi iniciada, mas não foi concluída. Abrir e salvar as configurações para movê-lo de volta para a categoria \'configurado\'. * ** Aceito ** - Esses registros ferramentas foram aprovados; os recursos especificados no proxy ferramenta aparecerá na página de tipos de ferramenta externa com um estado inicial de &quot;pendentes&quot;. * ** Rejeitado ** - Esses registros ferramentas são aquelas que foram rejeitadas durante o processo de registro. Abrir e salvar as configurações para movê-lo de volta para a categoria \'configurado\' para que o processo de registro cna ser reiniciado.';
+$string['toolproxy_help'] = 'Inscrições ferramenta externa permitir Moodle administradores do site para configurar ferramentas externas a partir de um proxy ferramenta obtido de um fornecedor de ferramentas de apoio LTI 2.0. A URL de inscrição fornecido pelo provedor de ferramenta é tudo o que é necessário para iniciar o processo. Os returmas e serviços oferecidos ao provedor ferramenta estiver selecionada quando a configuração de um novo registo. Inscrições Ferramenta listados nesta página são separadas em quatro categorias: * ** Configurado ** - Esses registros ferramentas foram criadas, mas o processo de registro ainda não foi iniciado. * Pendente ** ** - O processo regisitration para esses registros ferramenta foi iniciada, mas não foi concluída. Abrir e salvar as configurações para movê-lo de volta para a categoria \'configurado\'. * ** Aceito ** - Esses registros ferramentas foram aprovados; os returmas especificados no proxy ferramenta aparecerá na página de tipos de ferramenta externa com um estado inicial de &quot;pendentes&quot;. * ** Rejeitado ** - Esses registros ferramentas são aquelas que foram rejeitadas durante o processo de registro. Abrir e salvar as configurações para movê-lo de volta para a categoria \'configurado\' para que o processo de registro cna ser reiniciado.';
 $string['toolproxyregistration'] = 'Ferramenta de registro externo';
 $string['toolregistration'] = 'Ferramenta de registro externo';
 $string['tool_settings'] = 'Configurações da ferramenta';

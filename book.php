@@ -49,7 +49,7 @@ $string['eventchapterupdated'] = 'Capítulo atualizado';
 $string['eventchapterviewed'] = 'Capítulo visualizado';
 $string['hidechapter'] = 'Ocultar capítulo "{$a}"';
 $string['modulename'] = 'Livro';
-$string['modulename_help'] = 'O módulo livro permite que professores criem um recurso com diversas páginas em formato de livro, com capítulos e sub-capítulos. Livros podem conter arquivos de mídia bem como textos e são úteis para exibir grande quantidade de informação que pode ficar organizada em seções.
+$string['modulename_help'] = 'O módulo livro permite que professores criem um returma com diversas páginas em formato de livro, com capítulos e sub-capítulos. Livros podem conter arquivos de mídia bem como textos e são úteis para exibir grande quantidade de informação que pode ficar organizada em seções.
 
 Um livro pode ser usado
 

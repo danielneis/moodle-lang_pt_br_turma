@@ -47,8 +47,8 @@ $string['csstemplate_help'] = 'Permite incluir estilos CSS personalizados que vo
 $string['currentsection'] = 'Este tópico';
 $string['displaynavigation'] = 'Exibição da navegação';
 $string['displaynavigation_help'] = 'Indica onde exibir a navegação entre as seções e na posição onde é mostrado.';
-$string['displaynousedmod'] = 'Mostrar recursos não incluídos no modelo';
-$string['displaynousedmod_help'] = 'Sobre: Mostrar recursos não incluídos no modelo';
+$string['displaynousedmod'] = 'Mostrar returmas não incluídos no modelo';
+$string['displaynousedmod_help'] = 'Sobre: Mostrar returmas não incluídos no modelo';
 $string['editmenu'] = 'Editar menu';
 $string['end_editmenu'] = 'Encerrar edição do menu';
 $string['error_jsontree'] = 'Erro na estrutura de dados retornados como composição da árvore';
@@ -56,8 +56,8 @@ $string['hidefromothers'] = 'Ocultar tópico';
 $string['htmlcode'] = 'HTML';
 $string['htmltemplate_editmenu'] = 'Modelo HTML';
 $string['htmltemplate_editmenu_title'] = 'HTML';
-$string['icons_templatetopic'] = 'Mostrar ícones em nomes de recursos';
-$string['icons_templatetopic_help'] = 'Sobre: Mostrar ícones em nomes de recursos';
+$string['icons_templatetopic'] = 'Mostrar ícones em nomes de returmas';
+$string['icons_templatetopic_help'] = 'Sobre: Mostrar ícones em nomes de returmas';
 $string['jscode'] = 'Código';
 $string['jsdefault'] = 'Incluir JavaScript padrão';
 $string['jsdefault_help'] = 'Define se as funções de JavaScript que geram o menu estão incluídos. Desativa o javascript padrão pode ser útil se você quiser dar uma outra aparência para o menu usando o código Javascript que pode ser incluído no <b>&quot;modelo de Javascript&quot;.</b>';
@@ -106,7 +106,7 @@ $string['topic_sheet_sheetedit'] = 'Tópico de destino';
 $string['tree_editmenu'] = 'Árvore do menu';
 $string['tree_editmenu_title'] = 'Configuração do árvore do menu';
 $string['tree_struct'] = 'Estrutura da árvore';
-$string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore onde cada ramo ou folha de árvore pode ser associado a uma URL. O URL pode ser externa ou directamente ligada a uma secção da turma. Ao assinar a primeira vez para definir a árvore de secção, a plataforma sugere uma estrutura linear, sem ramificações, com uma quantidade de folhas de igual ao número de secções do curso. <P />
+$string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore onde cada ramo ou folha de árvore pode ser associado a uma URL. O URL pode ser externa ou directamente ligada a uma secção da turma. Ao assinar a primeira vez para definir a árvore de secção, a plataforma sugere uma estrutura linear, sem ramificações, com uma quantidade de folhas de igual ao número de secções do turma. <P />
 <p> Para alterar as propriedades de uma folha, clique em seu nome, e ela vai aparecer uma janela onde você pode: realizar algumas ações para mover as folhas, eliminar a folha selecionada, crie uma nova planilha ou atualizar os dados da folha de <. / p>
 <p> Entre as opções que você pode fazer sobre a folha são: </ p>
 <ul>

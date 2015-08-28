@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = 'Escolha uma variável ...';
-$string['clicktoopen'] = 'Clique o link {$a} para abrir o recurso';
+$string['clicktoopen'] = 'Clique o link {$a} para abrir o returma';
 $string['configdisplayoptions'] = 'Selecione todas as opções que devem estar disponíveis, configurações existentes não serão modificadas. Pressione a tecla CTRL para selecionar múltiplos campos.';
 $string['configframesize'] = 'Quando uma página web ou um arquivo enviado é exibido dentro de um frame, este valor será a altura (em pixeis) do frame do topo (que contém a navegação)';
 $string['configrolesinparams'] = 'Habilite caso deseje incluir nomes de papéis localizados na lista de parâmetros disponíveis.';
@@ -47,7 +47,7 @@ $string['displayselect_help'] = 'Esta definição, juntamente com o tipo de arqu
 * Nova janela - A URL é exibida em uma nova janela do navegador com menus e uma barra de endereços';
 $string['externalurl'] = 'URL externa';
 $string['framesize'] = 'Altura do frame';
-$string['invalidstoredurl'] = 'Impossível mostrar este recurso pois a URL é inválida.';
+$string['invalidstoredurl'] = 'Impossível mostrar este returma pois a URL é inválida.';
 $string['invalidurl'] = 'A URL inserida é inválida';
 $string['modulename'] = 'URL';
 $string['modulename_help'] = 'O módulo de URL permite que um professor para fornecer um link de web como um recursa turma. Tudo o que está online disponível gratuitamente, tais como documentos ou imagens, pode ser ligado a, a URL não tem que ser a home page de um site. A URL de uma página web em particular pode ser copiado e colado ou um professor pode usar o seletor de arquivo e escolha um link de um repositório, como Flickr, YouTube ou Wikipédia (dependendo de qual repositórios estão habilitados para o site). Há uma série de opções de exibição para a URL, como embutidos ou abrir em uma nova janela e opções avançadas de informação que passa, tal como o nome de um aluno, para a URL, se necessário.';
@@ -66,5 +66,5 @@ $string['printintro'] = 'Exibir descrição da URL';
 $string['printintroexplain'] = 'Exibe a descrição URL abaixo de conteúdo? Alguns tipos de exibição não podem exibir a descrição, mesmo se estiverem ativados';
 $string['rolesinparams'] = 'Incluir nomes de papéis nos parâmetros';
 $string['serverurl'] = 'URL do servidor';
-$string['url:addinstance'] = 'Adicionar novo recurso URL';
+$string['url:addinstance'] = 'Adicionar novo returma URL';
 $string['url:view'] = 'Visualizar URL';

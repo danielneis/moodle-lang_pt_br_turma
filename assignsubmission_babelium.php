@@ -42,6 +42,6 @@ $string['enabled_help'] = 'Se ativado, os alunos serão capazes de salvar vídeo
 $string['forcertmpt'] = 'Força RTMPT';
 $string['secretaccesskey'] = 'Chave de acesso secreta Babelium';
 $string['serverdomain'] = 'Domínio do servidor Babelium';
-$string['serverdomain_help'] = 'O domínio do servidor Babelium é onde os recursos vão ser armazenados';
+$string['serverdomain_help'] = 'O domínio do servidor Babelium é onde os returmas vão ser armazenados';
 $string['serverport'] = 'Porta do servidor Babelium';
 $string['serverport_help'] = 'Porta do servidor Babelium';

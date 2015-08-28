@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cursorinfo'] = 'Uma seta indica a posição que os novos elementos da biblioteca de elementos serão inseridos.';
+$string['turmarinfo'] = 'Uma seta indica a posição que os novos elementos da biblioteca de elementos serão inseridos.';
 $string['editequation'] = 'Edite a equação usando <a href="{$a}" target="_blank">TeX</a>';
 $string['librarygroup1'] = 'Operadores';
 $string['librarygroup1_desc'] = 'Comandos TeX listados na aba de operações';

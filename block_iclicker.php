@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['inst.courses.table.summary'] = 'Lista as turmas ministrados por este instrutor; título, link para a lista de estudantes';
 $string['inst.course.view.students'] = 'Visualizar Estudantes';
-$string['inst.no.courses'] = 'Nenhum curso';
+$string['inst.no.courses'] = 'Nenhum turma';
 $string['inst.sso.disabled'] = 'SSO não está habilitado, você não pode acessar ou gerar uma chave de segurança';
 $string['inst.sso.generated.new.key'] = 'Chave de segurança nova gerada';
 $string['inst.sso.generate.key'] = 'Gerar Nova Chave';

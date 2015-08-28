@@ -32,5 +32,5 @@ $string['confighideallcourseslink'] = 'Remover o link \'\'Todos as turmas" da li
 $string['course_list:addinstance'] = 'Adicionar um novo bloco de turmas';
 $string['course_list:myaddinstance'] = 'Adicionar um novo bloco de turmas ao Painel';
 $string['hideallcourseslink'] = 'Ocultar o link \'Todos as turmas\'';
-$string['owncourses'] = 'O administrador vê apenas os seus cursos';
+$string['owncourses'] = 'O administrador vê apenas os seus turmas';
 $string['pluginname'] = 'Cursos';

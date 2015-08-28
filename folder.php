@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['contentheader'] = 'Conteúdo';
 $string['display'] = 'Exibir o conteúdo da pasta';
-$string['display_help'] = 'Se você optar por exibir o conteúdo da pasta em uma página da turma, não haverá link para uma página separada eo título não será exibido. A descrição será exibida somente se &quot;Exibir descrição na página do curso&quot; está marcada. <br /> Observe também que as ações de participantes vista não podem ser registrados neste caso.';
+$string['display_help'] = 'Se você optar por exibir o conteúdo da pasta em uma página da turma, não haverá link para uma página separada eo título não será exibido. A descrição será exibida somente se &quot;Exibir descrição na página do turma&quot; está marcada. <br /> Observe também que as ações de participantes vista não podem ser registrados neste caso.';
 $string['displayinline'] = 'Embutida em uma página da turma';
 $string['displaypage'] = 'Em uma página separada';
 $string['dnduploadmakefolder'] = 'Descompactar arquivos e criar pasta';

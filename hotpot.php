@@ -299,7 +299,7 @@ $string['mediafilter_moodle'] = 'Filtro padrão de mídia do Moodle';
 $string['migratingfiles'] = 'Migrando arquivos de questionário do Hot Potatoes';
 $string['missingsourcetype'] = 'Tipo de fonte faltante no registro do HotPot';
 $string['modulename'] = 'Atividade Hot Potatoes';
-$string['modulename_help'] = 'O módulo HotPot permite aos professores distribuirem materiais de aprendizagem  interativos  aos seus alunos via Moodle e visualizar relatórios sobre as respostas e resultados obtidos pelo alunos . Uma atividade HotPot única consiste em uma página de entrada opcional, um exercício de aprendizagem único, e uma página de saída opcional. O exercício de aprendizagem pode ser uma página web estática ou uma página web interativa que oferece aos estudantes recursos de texto, áudio e visuais e registra suas respostas. O exercício de aprendizagem é criado no computador do professor, utilizando software de autoria e, em seguida, enviado para o Moodle. A atividade HotPot do Moodle, pode trabalhar com exercícios criados com os seguintes softwares de autoria:
+$string['modulename_help'] = 'O módulo HotPot permite aos professores distribuirem materiais de aprendizagem  interativos  aos seus alunos via Moodle e visualizar relatórios sobre as respostas e resultados obtidos pelo alunos . Uma atividade HotPot única consiste em uma página de entrada opcional, um exercício de aprendizagem único, e uma página de saída opcional. O exercício de aprendizagem pode ser uma página web estática ou uma página web interativa que oferece aos estudantes returmas de texto, áudio e visuais e registra suas respostas. O exercício de aprendizagem é criado no computador do professor, utilizando software de autoria e, em seguida, enviado para o Moodle. A atividade HotPot do Moodle, pode trabalhar com exercícios criados com os seguintes softwares de autoria:
 
 * Hot Potatoes (versão 6)
 * Qedoc
@@ -419,7 +419,7 @@ $string['selectattempts'] = 'Selecionar tentativas';
 $string['showerrormessage'] = 'Erros do HotPot: {$a}';
 $string['sourcefile'] = 'Nome do arquivo fonte';
 $string['sourcefile_help'] = 'Esta configuração especifica o arquivo que contém o conteúdo a ser mostrado para os alunos.
-Normalmente, o arquivo fonte é criado fora do Moodle, e em seguida enviado para a área de arquivos de um curso de Moodle. Pode ser um arquivo HTML, ou outro tipo de arquivo que foi criado com algum software de autoria, tais como o Hot Potatoes ou Qedoc.
+Normalmente, o arquivo fonte é criado fora do Moodle, e em seguida enviado para a área de arquivos de um turma de Moodle. Pode ser um arquivo HTML, ou outro tipo de arquivo que foi criado com algum software de autoria, tais como o Hot Potatoes ou Qedoc.
 
 O arquivo fonte deve ser especificado como uma pasta e seu caminho na área de arquivos da turma Moodle , ou pode ser uma url começando com http:// ou https://
 

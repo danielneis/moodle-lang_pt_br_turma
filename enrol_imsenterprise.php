@@ -31,17 +31,17 @@ $string['allowunenrol_desc'] = 'Se habilitado, inscrições na turma serão remo
 $string['basicsettings'] = 'Configuração básica';
 $string['coursesettings'] = 'Opções de dados da turma';
 $string['createnewcategories'] = 'Criar novas categorias de turmas (ocultas) se não forem encontradas no Moodle';
-$string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&gt; está presente na informação de entrada de um curso, seu conteúdo será usado para especificar uma categoria quando a turma for criado.</p>
+$string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&gt; está presente na informação de entrada de um turma, seu conteúdo será usado para especificar uma categoria quando a turma for criado.</p>
 
-<p>O plugin NÃO irá re-categorizar cursos existentes.</p>
+<p>O plugin NÃO irá re-categorizar turmas existentes.</p>
 
 <p>Se não existe uma categoria com o nome desejado, então uma categoria OCULTA será criada.</p>';
 $string['createnewcourses'] = 'Criar novas turmas (ocultos) se não forem encontrados no Moodle';
 $string['createnewcourses_desc'] = '<p>O plugin de inscrição IMS Enterprise pode criar novas turmas para qualquer um que ele encontrar nos dados do IMS, mas não no banco de dados do Moodle, se essa configuração estiver ativada</p>
 
-<p>Primeiro as turmas são pesquisados pelo seu número de id - um campo alfa-numérico na tabela de turmas do Moodle, que pode especificar o código usado para identificar a turma no Sistema de Informações do Estudante (por exemplo). Se isso não for encontrado, na tabela de cursos procura-se por "descrição curta", que no Moodle é o nome breve de cursos. (Em alguns sistemas esses dois campos podem ser idênticos). Apenas quando essa procura falhar, o plugin cria novos cursos.</p>
+<p>Primeiro as turmas são pesquisados pelo seu número de id - um campo alfa-numérico na tabela de turmas do Moodle, que pode especificar o código usado para identificar a turma no Sistema de Informações do Estudante (por exemplo). Se isso não for encontrado, na tabela de turmas procura-se por "descrição curta", que no Moodle é o nome breve de turmas. (Em alguns sistemas esses dois campos podem ser idênticos). Apenas quando essa procura falhar, o plugin cria novos turmas.</p>
 
-<p>Quaisquer cursos recém-gerados são OCULTOS quando criados. Isso para prevenir a possibilidade de estudantes vagando em cursos completamente vazios dos quais o professor possa não estar ciente.</p>';
+<p>Quaisquer turmas recém-gerados são OCULTOS quando criados. Isso para prevenir a possibilidade de estudantes vagando em turmas completamente vazios dos quais o professor possa não estar ciente.</p>';
 $string['createnewusers'] = 'Criar novas contas de usuários se ainda não forem registrados no Moodle';
 $string['createnewusers_desc'] = '<p>Os dados de inscrição do IMS Enterprise tipicamente descrevem um grupo de usuários. Se essa configuração for ativada, contas podem ser criadas para quaisquer usuários que não tenham sido encontrados no banco de dados do Moodle.</p>
 

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['availablecourseson'] = 'Cursos disponíveis em {$a}';
-$string['availablecoursesonnone'] = 'Host remoto <a href="{$a->hosturl}">{$a->hostname}</a> não ofoerece nenhum curso para nossos usuários.';
+$string['availablecoursesonnone'] = 'Host remoto <a href="{$a->hosturl}">{$a->hostname}</a> não ofoerece nenhum turma para nossos usuários.';
 $string['clientname'] = 'Cliente de inscrição remota';
 $string['clientname_help'] = 'Inscrição e desinscrição de usuários da sua instalação de Moodle em hospedeiros da rede de hospedeiros moodle que autorizam esta operação.';
 $string['editenrolments'] = 'Editar inscrições';
@@ -34,7 +34,7 @@ $string['hostappname'] = 'Aplicação';
 $string['hostname'] = 'Nome do host';
 $string['hosturl'] = 'URL de host remoto';
 $string['nopublishers'] = 'Nenhum par remoto disponíviel.';
-$string['noroamingusers'] = 'Usuários precisam da permissão \'{$a}\' no contexto do sistema para ser inscritas em cursos remotos, entretanto não há usuários com essa permissão. Cliquem em continuar para designar a permissão a um ou mais usuários.';
+$string['noroamingusers'] = 'Usuários precisam da permissão \'{$a}\' no contexto do sistema para ser inscritas em turmas remotos, entretanto não há usuários com essa permissão. Cliquem em continuar para designar a permissão a um ou mais usuários.';
 $string['otherenrolledusers'] = 'Outros usuários inscritos';
 $string['pluginname'] = 'Serviço de inscrição remota';
 $string['refetch'] = 'Buscar e atualizar estado dos hosts remotos';

@@ -49,7 +49,7 @@ onde:
 * operação  = add | del
 * função = estudante | professor | professor-editor
 * número de itendificação (usuário) = idnumber na tabela de usuário NB não Id
- * número de identificação (curso) = idnumber na tabela de turmas NB não Id
+ * número de identificação (turma) = idnumber na tabela de turmas NB não Id
 * horário de inicio =  hora de início (em segundos desde a época)
 * horário de encerramento =  tempo final (em segundos desde a epoca) - opcional </ pre>
 

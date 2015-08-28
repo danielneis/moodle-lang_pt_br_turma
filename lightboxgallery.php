@@ -100,9 +100,9 @@ $string['makepublic'] = 'Tornar público';
 $string['metadata'] = 'Metadados';
 $string['modulename'] = 'Galeria de imagens';
 $string['modulenameadd'] = 'Galeria de imagens';
-$string['modulename_help'] = 'O módulo de recurso Lightbox permite que os participantes visualizem uma galeria de imagens.
+$string['modulename_help'] = 'O módulo de returma Lightbox permite que os participantes visualizem uma galeria de imagens.
 
-Este recurso permite que você crie "Lightbox" habilitando galerias de imagens dentro de seu curso Moodle.
+Este returma permite que você crie "Lightbox" habilitando galerias de imagens dentro de seu turma Moodle.
 
 Como professor da turma, você é capaz de criar, editar e excluir galerias. Versões reduzidas das imagens serão geradas e serão utilizadas para a visualização de miniaturas da galeria. Ao clicar em qualquer uma das miniaturas traz a imagem em foco, e permite-lhe percorrer a galeria do seu jeito. Os scripts do Lightbox também criam efeitos de transição agradáveis ao carregar e percorrer as imagens.
 

@@ -57,7 +57,7 @@ $string['uploadpicture_usernotfound'] = 'Usuário com um \'{$a->userfield}\' com
 $string['uploadpicture_userskipped'] = 'Saltando usuário {$a} (já tem uma imagem)';
 $string['uploadpicture_userupdated'] = 'Imagem atualizada para o usuário {$a}';
 $string['uploadusers'] = 'Carregar lista de usuários';
-$string['uploadusers_help'] = 'Usuários podem ser enviados (e opcionalmente inscritos em cursos) via arquivos de texto. O formato deste arquivo deve ser o seguinte:
+$string['uploadusers_help'] = 'Usuários podem ser enviados (e opcionalmente inscritos em turmas) via arquivos de texto. O formato deste arquivo deve ser o seguinte:
 
 * Cada linha do arquivo contém um registro
 * cada registro é uma série de dados separados por vírgula (ou outros delimitadores)
