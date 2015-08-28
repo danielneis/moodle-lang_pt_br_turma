@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addoutcome'] = 'Adicionar um resultado da aprendizagem';
-$string['courseoutcomes'] = 'Resultados da aprendizagem no curso';
+$string['courseoutcomes'] = 'Resultados da aprendizagem na turma';
 $string['coursespecoutcome'] = 'Resultados da aprendizagem neste curso';
 $string['eventgradereportviewed'] = 'Relatório de outcomes visualizado';
 $string['outcomes:view'] = 'Visualizar relatório de resultados';

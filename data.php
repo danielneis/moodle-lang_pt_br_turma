@@ -265,7 +265,7 @@ $string['modulename_help'] = 'O módulo de atividade de banco de dados permite q
 
 O layout visual de informações ao listar, visualizar ou entradas de banco de dados edição pode ser controlado por modelos de banco de dados. Atividades de banco de dados podem ser compartilhados entre os cursos como presets e um professor pode também importar e entradas de banco de dados de exportação.
 
-Se o filtro de auto-linking banco de dados estiver ativado, nenhuma entrada em um banco de dados será vinculado automaticamente onde as palavras ou frases aparecem dentro do curso.
+Se o filtro de auto-linking banco de dados estiver ativado, nenhuma entrada em um banco de dados será vinculado automaticamente onde as palavras ou frases aparecem dentro da turma.
 
 Um professor pode permitir comentários sobre entradas. As entradas também podem ser avaliados por professores ou estudantes (avaliação pelos pares). As classificações podem ser agregados para formar uma nota final, que está registrado no livro de notas.
 

@@ -61,11 +61,11 @@ $string['filterfilesexplain'] = 'Selecione o tipo de filtragem de conteúdo do a
 $string['filtername'] = 'Link automático aos nomes dos recursos';
 $string['forcedownload'] = 'Forçar download';
 $string['framesize'] = 'Altura do Frame';
-$string['legacyfiles'] = 'Migração do arquivo antigo do curso';
+$string['legacyfiles'] = 'Migração do arquivo antigo da turma';
 $string['legacyfilesactive'] = 'Ativo';
 $string['legacyfilesdone'] = 'Terminado';
 $string['modulename'] = 'Arquivo';
-$string['modulename_help'] = 'O módulo de arquivo permite que um professor para fornecer um arquivo como um recurso curso. Sempre que possível, o arquivo será exibido na interface do curso, caso contrário, os alunos serão solicitados a fazer o download. O arquivo pode incluir arquivos de suporte, por exemplo uma página HTML pode ter incorporado imagens ou objectos Flash. Note-se que os alunos precisam ter o software adequado em seus computadores a fim de abrir o arquivo. Um arquivo pode ser usado * Para compartilhar apresentações em classe * Para incluir um mini website como um recurso curso * Para fornecer arquivos de projectos de determinados programas de software (por exemplo, Photoshop. Psd) para que os alunos podem editar e enviá-los para a avaliação';
+$string['modulename_help'] = 'O módulo de arquivo permite que um professor para fornecer um arquivo como um recursa turma. Sempre que possível, o arquivo será exibido na interface do curso, caso contrário, os alunos serão solicitados a fazer o download. O arquivo pode incluir arquivos de suporte, por exemplo uma página HTML pode ter incorporado imagens ou objectos Flash. Note-se que os alunos precisam ter o software adequado em seus computadores a fim de abrir o arquivo. Um arquivo pode ser usado * Para compartilhar apresentações em classe * Para incluir um mini website como um recurso curso * Para fornecer arquivos de projectos de determinados programas de software (por exemplo, Photoshop. Psd) para que os alunos podem editar e enviá-los para a avaliação';
 $string['modulenameplural'] = 'Arquivos';
 $string['notmigrated'] = 'Este tipo de recurso legado ({$a}) ainda não foi migrado, desculpe.';
 $string['optionsheader'] = 'Opções';
@@ -87,10 +87,10 @@ $string['resource:exportresource'] = 'Exportar recurso';
 $string['resource:view'] = 'Ver recurso';
 $string['selectmainfile'] = 'Por favor, selecione o arquivo principal, clicando no ícone ao lado do nome do arquivo.';
 $string['showsize'] = 'Mostrar tamanho';
-$string['showsize_desc'] = 'Mostrar tamanho do arquivo na página do curso?';
+$string['showsize_desc'] = 'Mostrar tamanho do arquivo na página da turma?';
 $string['showsize_help'] = 'Exibe o tamanho do arquivo, como \'3,1 MB \', ao lado de links para o arquivo. Se houver vários arquivos neste recurso, o tamanho total de todos os arquivos é exibido.';
 $string['showtype'] = 'Mostrar tipo';
-$string['showtype_desc'] = 'Exibir o tipo do arquivo (ex. \'Documento word\') na página do curso?';
+$string['showtype_desc'] = 'Exibir o tipo do arquivo (ex. \'Documento word\') na página da turma?';
 $string['showtype_help'] = 'Exibir o tipo do arquivo, como exemplo \'Documento Word\' ao lado do link ao arquivo.
 
 Caso haja múltiplos arquivos neste recurso, o tipo do arquivo é exibido.

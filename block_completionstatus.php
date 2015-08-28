@@ -29,6 +29,6 @@ $string['completionprogressdetails'] = 'Detalhes do andamento';
 $string['completionstatus:addinstance'] = 'Adicionar um novo bloco de status de conclusão de curso';
 $string['criteriagroup'] = 'Grupo de critérios';
 $string['firstofsecond'] = '{$a->first} de {$a->second}';
-$string['pluginname'] = 'Andamento do curso';
+$string['pluginname'] = 'Andamento da turma';
 $string['requirement'] = 'Requisito';
 $string['returntocourse'] = 'Retornar para curso';

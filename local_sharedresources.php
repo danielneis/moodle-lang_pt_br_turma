@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['backtocourse'] = 'Voltar para o curso';
+$string['backtocourse'] = 'Voltar para a turma';
 $string['forcedelete'] = 'Forçar exclusão (mesmo se utilizado)';
 $string['liked'] = 'Curtido: {$a}';
 $string['markliked'] = 'Eu curti isto!';

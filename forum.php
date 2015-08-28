@@ -56,7 +56,7 @@ $string['cannotadd'] = 'Não é possível adicionar uma discussão a este fórum
 $string['cannotadddiscussion'] = 'Apenas os participantes inscritos nos grupos podem escrever mensagens neste fórum';
 $string['cannotadddiscussionall'] = 'Você não tem permissão para abrir um novo tópico de discussão para todos os participantes.';
 $string['cannotaddsubscriber'] = 'Não foi possível adicionar o assinante com ID {$a} a este fórum!';
-$string['cannotaddteacherforumto'] = 'Não foi possível converter o exemplo do fórum de professore à secão 0 do curso';
+$string['cannotaddteacherforumto'] = 'Não foi possível converter o exemplo do fórum de professore à secão 0 da turma';
 $string['cannotcreatediscussion'] = 'Não foi possível criar uma nova discussão';
 $string['cannotcreateinstanceforteacher'] = 'Não foi possível criar um novo exemplo de módulo de curso para o fórum de professore';
 $string['cannotdeletepost'] = 'Você não pode excluir esta mensagem!';
@@ -327,8 +327,8 @@ Posts dos fóruns podem ser avaliados pelo professor ou pelos estudantes (avalia
 Fórum tem muitas utilizadades, como
 
 * Um espaço social para os estudantes se conhecerem
-* Anúncios sobre o curso (usando um fórum de notícias com assinatura forçada)
-* Para discutir conteúdos do curso ou os metariais para leitura
+* Anúncios sobre a turma (usando um fórum de notícias com assinatura forçada)
+* Para discutir conteúdos da turma ou os metariais para leitura
 * Para continuar online uma discussão iniciada em sala de aula
 * Para discussões entre os professores (utilize um fórum oculto)
 * Uma central de ajuda onde tutores e estudantes podem conseguir ajuda
@@ -505,7 +505,7 @@ $string['subscriptionmode_help'] = 'Quando um participante assina um fórum, ist
 * Assinatura automática - Todos são inicialmente assinantes mas podem escolher deixar de assinar a qualquer momento
 * Assinatura desabilitada - Assinaturas não são permitidas
 
-Note: qualquer mudança no modo de assinatura irá afetar os usuários que se inscreverem no curso após a mudança, usuários já inscritos não são alterados.';
+Note: qualquer mudança no modo de assinatura irá afetar os usuários que se inscreverem na turma após a mudança, usuários já inscritos não são alterados.';
 $string['subscriptionoptional'] = 'Assinatura opcional';
 $string['subscriptions'] = 'Assinaturas';
 $string['thisforumisthrottled'] = 'Neste fórum o número de mensagens que você pode publicar é limitado a {$a->blockafter} mensagens no período de {$a->blockperiod}';

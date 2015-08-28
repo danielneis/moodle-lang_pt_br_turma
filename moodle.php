@@ -32,7 +32,7 @@ $string['actions'] = 'Ações';
 $string['active'] = 'Ativo';
 $string['activeusers'] = 'Usuários ativos';
 $string['activities'] = 'Atividades';
-$string['activities_help'] = 'Atividades, como fóruns, questionários e wikis, permitem que conteúdo interativo seja adicionado ao curso.';
+$string['activities_help'] = 'Atividades, como fóruns, questionários e wikis, permitem que conteúdo interativo seja adicionado aa turma.';
 $string['activity'] = 'Atividade';
 $string['activityclipboard'] = 'Movendo esta atividade: {$a}';
 $string['activityiscurrentlyhidden'] = 'Desculpe, no momento esta atividade está oculta';
@@ -57,7 +57,7 @@ $string['addedrecip'] = 'Adicionado {$a} novo destinatário';
 $string['addedrecips'] = 'Adicionados {$a} novos destinatários';
 $string['addedtogroup'] = 'Adicionado ao grupo "{$a}"';
 $string['addedtogroupnot'] = 'Não adicionado ao grupo "{$a}"';
-$string['addedtogroupnotenrolled'] = 'Não adicionado ao grupo "{$a}" por que não está inscrito no curso';
+$string['addedtogroupnotenrolled'] = 'Não adicionado ao grupo "{$a}" por que não está inscrito na turma';
 $string['addfilehere'] = 'Adicionar arquivo(s) aqui';
 $string['addinganew'] = 'Adicionando um(a) novo(a) {$a}';
 $string['addinganewto'] = 'Adicionando um(a) novo(a) {$a->what} em {$a->to}';
@@ -65,7 +65,7 @@ $string['addingdatatoexisting'] = 'Adicionando dados a existente';
 $string['additionalnames'] = 'Nomes adicionais';
 $string['addlinkhere'] = 'Insira o link aqui';
 $string['addnewcategory'] = 'Adicionar uma nova categoria';
-$string['addnewcourse'] = 'Adicionar um novo curso';
+$string['addnewcourse'] = 'Adicionar um nova turma';
 $string['addnewuser'] = 'Adicionar novo usuário';
 $string['addnousersrecip'] = 'Acrescentar usuários que não acessaram este {$a} à lista de destinatários';
 $string['addpagehere'] = 'Adicionar texto aqui';
@@ -174,7 +174,7 @@ $string['backtoparticipants'] = 'Voltar à lista de participantes';
 $string['backup'] = 'Backup';
 $string['backupactivehelp'] = 'Escolher se fazer ou não backups automáticos';
 $string['backupcancelled'] = 'Backup cancelado';
-$string['backupcoursefileshelp'] = 'Se ativado então os arquivos do curso serão incluidos nos backups automáticos';
+$string['backupcoursefileshelp'] = 'Se ativado então os arquivos da turma serão incluidos nos backups automáticos';
 $string['backupdate'] = 'Data do backup';
 $string['backupdatenew'] = '  {$a->TAG} agora é {$a->weekday}, {$a->mday} {$a->month} {$a->year}<br />';
 $string['backupdateold'] = '{$a->TAG} era {$a->weekday}, {$a->mday} {$a->month} {$a->year}';
@@ -216,7 +216,7 @@ $string['blocksuccess'] = '{$a} tabelas foram configuradas';
 $string['brief'] = 'Resumo';
 $string['bulkactions'] = 'Ações em massa';
 $string['bulkactionselect'] = '{$a} ações em lote selecionadas';
-$string['bulkmovecoursessuccess'] = 'Movido com sucesso cursos {$a->courses} para {$a->category}';
+$string['bulkmovecoursessuccess'] = 'Movido com sucessa turmas {$a->courses} para {$a->category}';
 $string['bycourseorder'] = 'Por ordem dos cursos';
 $string['byname'] = 'por {$a}';
 $string['bypassed'] = 'Ignorado';
@@ -243,7 +243,7 @@ $string['changessaved'] = 'Mudanças gravadas';
 $string['check'] = 'Verificar';
 $string['checkall'] = 'Selecionar todos';
 $string['checkingbackup'] = 'Verificando o backup';
-$string['checkingcourse'] = 'Verificando o curso';
+$string['checkingcourse'] = 'Verificando a turma';
 $string['checkingforbbexport'] = 'Verificando exportação BlackBoard';
 $string['checkinginstances'] = 'Verificando exemplares';
 $string['checkingsections'] = 'Verificando seções';
@@ -299,7 +299,7 @@ $string['confirmed'] = 'A sua inscrição foi confirmada';
 $string['confirmednot'] = 'A sua inscrição ainda não foi confirmada!';
 $string['content'] = 'Conteúdo';
 $string['continue'] = 'Continuar';
-$string['continuetocourse'] = 'Clique aqui para entrar no curso';
+$string['continuetocourse'] = 'Clique aqui para entrar na turma';
 $string['convertingwikitomarkdown'] = 'Convertendo wiki para Markdown';
 $string['cookiesenabled'] = 'O uso de Cookies deve ser permitido no seu navegador';
 $string['cookiesenabled_help'] = 'Dois cookies são utilizados por este site:
@@ -310,8 +310,8 @@ O outro cookie é puramente por conveniência, geralmente chamado de algo como M
 $string['cookiesnotenabled'] = 'Infelizmente os Cookies não estão habilitados no seu navegador';
 $string['copy'] = 'copiar';
 $string['copyasnoun'] = 'copiar';
-$string['copyingcoursefiles'] = 'Copiando arquivos do curso';
-$string['copyingsitefiles'] = 'Copiando arquivos do site usados no curso';
+$string['copyingcoursefiles'] = 'Copiando arquivos da turma';
+$string['copyingsitefiles'] = 'Copiando arquivos do site usados na turma';
 $string['copyinguserfiles'] = 'Copiando arquivos de usuários';
 $string['copyingzipfile'] = 'Copiando arquivo zip';
 $string['copyrightnotice'] = 'Nota sobre os Direitos Autorais';
@@ -321,17 +321,17 @@ $string['costdefault'] = 'Custo padrão';
 $string['counteditems'] = '{$a->count} {$a->items}';
 $string['country'] = 'País';
 $string['course'] = 'Curso';
-$string['courseadministration'] = 'Administração do curso';
-$string['courseapprovedemail'] = 'O seu pedido de aceitação no curso {$a->name} foi aprovado e você foi designado como {$a->teacher}. Para acessar o seu curso vá à página {$a->url}';
-$string['courseapprovedemail2'] = 'Seu curso solicitado, {$a->name}, foi aprovado. Para acessar seu novo curso, vá para {$a->url}';
-$string['courseapprovedfailed'] = 'Não foi possível salvar o curso como aprovado!';
+$string['courseadministration'] = 'Administração da turma';
+$string['courseapprovedemail'] = 'O seu pedido de aceitação na turma {$a->name} foi aprovado e você foi designado como {$a->teacher}. Para acessar o seu curso vá à página {$a->url}';
+$string['courseapprovedemail2'] = 'Seu curso solicitado, {$a->name}, foi aprovado. Para acessar seu nova turma, vá para {$a->url}';
+$string['courseapprovedfailed'] = 'Não foi possível salvar a turma como aprovado!';
 $string['courseapprovedsubject'] = 'O seu curso foi aprovado!';
 $string['courseavailable'] = 'Este curso pode ser acessado pelos participantes';
 $string['courseavailablenot'] = 'Este curso não pode ser acessado pelos participantes';
-$string['coursebackup'] = 'Backup do curso';
+$string['coursebackup'] = 'Backup da turma';
 $string['coursebulkaction'] = 'Ações em lote para cursos selecionados';
 $string['coursecategories'] = 'Categorias de curso';
-$string['coursecategory'] = 'Categoria do curso';
+$string['coursecategory'] = 'Categoria da turma';
 $string['coursecategorydeleted'] = 'Apagada categoria de cursos {$a}';
 $string['coursecategory_help'] = '<p>Algumas categorias de curso devem ter sido definidas previamente pelo administrador do sistema.</p>
 
@@ -342,49 +342,49 @@ $string['coursecategory_help'] = '<p>Algumas categorias de curso devem ter sido 
    na lista de cursos para que os alunos o encontrem
    com facilidade.</p>';
 $string['coursecatmanagement'] = 'Gerenciamento de curso e categoria';
-$string['coursecompletion'] = 'Andamento do curso';
+$string['coursecompletion'] = 'Andamento da turma';
 $string['coursecompletions'] = 'Andamento dos cursos';
 $string['coursecreators'] = 'Criador de cursos';
 $string['coursecreatorsdescription'] = 'Criadores de cursos podem criar novos cursos e agir como professores';
-$string['coursedeleted'] = 'Apagado curso {$a}';
-$string['coursedetails'] = 'Detalhes do curso';
-$string['coursedisplay'] = 'Layout do curso';
-$string['coursedisplay_help'] = 'Esta definição determina se o curso inteiro é exibido em uma página ou dividida em várias páginas.';
+$string['coursedeleted'] = 'Apagada turma {$a}';
+$string['coursedetails'] = 'Detalhes da turma';
+$string['coursedisplay'] = 'Layout da turma';
+$string['coursedisplay_help'] = 'Esta definição determina se a turma inteiro é exibido em uma página ou dividida em várias páginas.';
 $string['coursedisplay_multi'] = 'Mostrar um tópico por página';
 $string['coursedisplay_single'] = 'Mostrar todos os tópicos em uma página';
 $string['courseextendednamedisplay'] = '{$a->shortname} {$a->fullname}';
 $string['coursefiles'] = 'Arquivos de curso legados';
 $string['coursefilesedit'] = 'Editar arquivos de cursos antigos';
 $string['coursefileswarning'] = 'Arquivos de curso estão obsoletos';
-$string['coursefileswarning_help'] = 'Arquivos do curso estão obsoletos a partir do Moodle 2.0, por favor utilize repositórios externos.';
-$string['courseformatdata'] = 'Informação sobre o formato do curso';
+$string['coursefileswarning_help'] = 'Arquivos da turma estão obsoletos a partir do Moodle 2.0, por favor utilize repositórios externos.';
+$string['courseformatdata'] = 'Informação sobre o formato da turma';
 $string['courseformatoptions'] = 'Opções de formatação para {$a}';
 $string['courseformats'] = 'Formatos de curso';
 $string['courseformatudpate'] = 'Atualizar formato';
 $string['coursegrades'] = 'Notas';
-$string['coursehelpcategory'] = 'Posicione o curso na listagem de cursos de forma que seja mais fácil para os estudantes encontrá-lo.';
-$string['coursehelpforce'] = 'Forçar o modo de grupo para cada atividade no curso.';
-$string['coursehelpformat'] = 'A página principal do curso será mostrada neste formato.';
-$string['coursehelphiddensections'] = 'Como as seções escondidas no curso serão mostradas aos estudantes.';
+$string['coursehelpcategory'] = 'Posicione a turma na listagem de cursos de forma que seja mais fácil para os estudantes encontrá-lo.';
+$string['coursehelpforce'] = 'Forçar o modo de grupo para cada atividade na turma.';
+$string['coursehelpformat'] = 'A página principal da turma será mostrada neste formato.';
+$string['coursehelphiddensections'] = 'Como as seções escondidas na turma serão mostradas aos estudantes.';
 $string['coursehelpmaximumupload'] = 'Define o tamanho máximo dos arquivos que podem ser enviados para este curso, limitado pela configuração do site.';
-$string['coursehelpnewsitemsnumber'] = 'Número de itens recentes do fórum de notícias que aparecerão no bloco últimas notícias na página do curso. Se definido como zero, as últimas notícias não serão mostradas.';
-$string['coursehelpnumberweeks'] = 'Número de seções no curso (aplica-se a apenas certos formatos de curso).';
+$string['coursehelpnewsitemsnumber'] = 'Número de itens recentes do fórum de notícias que aparecerão no bloco últimas notícias na página da turma. Se definido como zero, as últimas notícias não serão mostradas.';
+$string['coursehelpnumberweeks'] = 'Número de seções na turma (aplica-se a apenas certos formatos de curso).';
 $string['coursehelpshowgrades'] = 'Habilita a apresentação do livro de notas. Isto não evita que notas sejam mostradas indivualmente em cada atividade.';
 $string['coursehidden'] = 'Este curso está indisponível para estudantes';
-$string['courseinfo'] = 'Informações do curso';
+$string['courseinfo'] = 'Informações da turma';
 $string['courselegacyfiles'] = 'Arquivos de curso legados';
-$string['courselegacyfiles_help'] = 'A área de arquivos do curso oferece alguma compatibilidade com o Moodle 1.9 e versões anteriores. Todos os arquivos nesta área são acessíveis a todos os participantes do curso (se você fizer links para eles ou não) e não há maneira de saber onde qualquer um desses arquivos estão sendo usados no Moodle.
+$string['courselegacyfiles_help'] = 'A área de arquivos da turma oferece alguma compatibilidade com o Moodle 1.9 e versões anteriores. Todos os arquivos nesta área são acessíveis a todos os participantes do curso (se você fizer links para eles ou não) e não há maneira de saber onde qualquer um desses arquivos estão sendo usados no Moodle.
 
-Se você usar esse espaço para armazenar arquivos do curso, você pode se expor a uma série de riscos de privacidade e segurança, bem como tendo arquivos perdidos em backups e importações de curso e quaisquer conteúdos podem ser compartilhados ou reutilizados a qualquer momento. Por isso, é recomendável que você não use esta área a menos que você realmente saiba o que está fazendo.';
-$string['courselegacyfilesofcourse'] = 'Arquivos legados do curso: {$a}';
-$string['coursemessage'] = 'Mensagem para usuários do curso';
+Se você usar esse espaço para armazenar arquivos da turma, você pode se expor a uma série de riscos de privacidade e segurança, bem como tendo arquivos perdidos em backups e importações de curso e quaisquer conteúdos podem ser compartilhados ou reutilizados a qualquer momento. Por isso, é recomendável que você não use esta área a menos que você realmente saiba o que está fazendo.';
+$string['courselegacyfilesofcourse'] = 'Arquivos legados da turma: {$a}';
+$string['coursemessage'] = 'Mensagem para usuários da turma';
 $string['coursenotaccessible'] = 'Este curso não permite acesso público (usuários não inscritos)';
-$string['courseoverview'] = 'Descrição do curso';
-$string['courseoverviewfiles'] = 'Arquivos de resumo do curso';
-$string['courseoverviewfilesext'] = 'Arquivos de resumo de extensões do curso';
-$string['courseoverviewfiles_help'] = 'Arquivos de resumo do curso, tais como imagens, são exibidas na lista de cursos juntamente com o resumo.';
-$string['courseoverviewfileslimit'] = 'Arquivos de resumo do curso limitar';
-$string['courseoverviewgraph'] = 'Gráfico de visão geral do curso';
+$string['courseoverview'] = 'Descrição da turma';
+$string['courseoverviewfiles'] = 'Arquivos de resumo da turma';
+$string['courseoverviewfilesext'] = 'Arquivos de resumo de extensões da turma';
+$string['courseoverviewfiles_help'] = 'Arquivos de resumo da turma, tais como imagens, são exibidas na lista de cursos juntamente com o resumo.';
+$string['courseoverviewfileslimit'] = 'Arquivos de resumo da turma limitar';
+$string['courseoverviewgraph'] = 'Gráfico de visão geral da turma';
 $string['courseprofiles'] = 'Cursos inscritos';
 $string['coursereasonforrejecting'] = 'Seus motivos para rejeitar esta solicitação';
 $string['coursereasonforrejectingemail'] = 'Isto será enviado por email para o solicitante';
@@ -394,12 +394,12 @@ $string['courserejectemail'] = 'Infelizmente o seu pedido de abertura de curso n
 {$a}';
 $string['courserejectreason'] = 'Descreva as razões para rejeitar este curso<br />(uma cópia será mandada por email ao autor do pedido)';
 $string['courserejectsubject'] = 'O seu curso não foi aceito';
-$string['coursereport'] = 'Relatório do curso';
-$string['coursereports'] = 'Relatórios do curso';
+$string['coursereport'] = 'Relatório da turma';
+$string['coursereports'] = 'Relatórios da turma';
 $string['courserequest'] = 'Solicitação de curso';
-$string['courserequestdetails'] = 'Detalhes do curso solicitado';
+$string['courserequestdetails'] = 'Detalhes da turma solicitado';
 $string['courserequestfailed'] = 'Por alguma razão, sua solicitação de curso não pôde ser realizada.';
-$string['courserequestintro'] = 'Use este formulário para solicitar a criação de um novo curso.<br /> Forneça o maior número de informações possível<br />para que os administradores possam entender e aceitar o seu pedido.';
+$string['courserequestintro'] = 'Use este formulário para solicitar a criação de um nova turma.<br /> Forneça o maior número de informações possível<br />para que os administradores possam entender e aceitar o seu pedido.';
 $string['courserequestreason'] = 'Razões para abrir este curso';
 $string['courserequestsuccess'] = 'Sua solicitação de curso foi realizada com sucesso. Será enviado um email para você informando se sua solicitação foi aprovada.';
 $string['courserequestsupport'] = 'Informações adicionais para ajudar o administrador a avaliar esta solicitação';
@@ -410,19 +410,19 @@ $string['coursesectionsummaries'] = 'Sumários da seção de curso';
 $string['coursesectiontitle'] = 'Curso: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
 $string['coursesettings'] = 'Configurações padrão dos cursos';
 $string['coursesmovedout'] = 'Cursos movidos fora de {$a}';
-$string['coursespending'] = 'Aprovação do curso pendente';
-$string['coursestart'] = 'Início do curso';
-$string['coursesummary'] = 'Sumário do curso';
-$string['coursesummary_help'] = 'A descrição do curso é exibida na lista de cursos. A busca de cursos inclui também os textos da descrição, além dos nomes dos cursos.';
+$string['coursespending'] = 'Aprovação da turma pendente';
+$string['coursestart'] = 'Início da turma';
+$string['coursesummary'] = 'Sumário da turma';
+$string['coursesummary_help'] = 'A descrição da turma é exibida na lista de cursos. A busca de cursos inclui também os textos da descrição, além dos nomes dos cursos.';
 $string['coursetitle'] = 'Curso: {$a->course}';
-$string['courseupdates'] = 'Atualizações do curso';
+$string['courseupdates'] = 'Atualizações da turma';
 $string['create'] = 'Criar';
 $string['createaccount'] = 'Cadastrar este novo usuário';
 $string['createcategory'] = 'Criar categoria';
 $string['createfolder'] = 'Criar diretório em {$a}';
 $string['createnew'] = 'Criar novo';
 $string['createnewcategory'] = 'Criar nova categoria';
-$string['createnewcourse'] = 'Criar novo curso';
+$string['createnewcourse'] = 'Criar nova turma';
 $string['createnewsubcategory'] = 'Criar nova subcategoria';
 $string['createsubcategoryof'] = 'Criar subcategoria de {$a}';
 $string['createuser'] = 'Criar usuário';
@@ -432,7 +432,7 @@ $string['creatingblocks'] = 'Criando Bloco';
 $string['creatingblocksroles'] = 'Criando atribuições de papéis e sobreposições no nível de bloco';
 $string['creatingblogsinfo'] = 'Criando informação dos blogs';
 $string['creatingcategoriesandquestions'] = 'Criando categorias e questões';
-$string['creatingcoursemodules'] = 'Criando módulos do curso';
+$string['creatingcoursemodules'] = 'Criando módulos da turma';
 $string['creatingcourseroles'] = 'Criando atribuições de papéis e sobreposições no nível de curso';
 $string['creatingevents'] = 'Criando eventos';
 $string['creatinggradebook'] = 'Criando livro de notas';
@@ -442,7 +442,7 @@ $string['creatinggroups'] = 'Criando grupos';
 $string['creatinglogentries'] = 'Criando logs';
 $string['creatingmessagesinfo'] = 'Criando info das mensagens';
 $string['creatingmodroles'] = 'Criando atribuições de papéis e sobreposições no nível de módulo';
-$string['creatingnewcourse'] = 'Criando um novo curso';
+$string['creatingnewcourse'] = 'Criando um nova turma';
 $string['creatingrolesdefinitions'] = 'Criando definições de papéis';
 $string['creatingscales'] = 'Criando escalas';
 $string['creatingsections'] = 'Criando seções';
@@ -480,7 +480,7 @@ $string['default'] = 'Padrão';
 $string['defaultcoursestudent'] = 'Estudante';
 $string['defaultcoursestudentdescription'] = 'Estudantes geralmente tem menos privilégios em um curso.';
 $string['defaultcoursestudents'] = 'Estudantes';
-$string['defaultcoursesummary'] = 'Escreva um parágrafo conciso e interessante para descrever o curso';
+$string['defaultcoursesummary'] = 'Escreva um parágrafo conciso e interessante para descrever a turma';
 $string['defaultcourseteacher'] = 'Professor';
 $string['defaultcourseteacherdescription'] = 'Professores podem fazer tudo em um curso, alterar atividades e avaliar.';
 $string['defaultcourseteachers'] = 'Professores';
@@ -513,7 +513,7 @@ $string['deletesection'] = 'Excluir tópico';
 $string['deleteselected'] = 'Excluir selecionados';
 $string['deleteselectedkey'] = 'Excluir chave selecionada';
 $string['deletingcourse'] = 'Cancelando {$a}';
-$string['deletingexistingcoursedata'] = 'Cancelando dados do curso';
+$string['deletingexistingcoursedata'] = 'Cancelando dados da turma';
 $string['deletingolddata'] = 'Cancelando dados antigos';
 $string['department'] = 'Departamento';
 $string['desc'] = 'Decrescente';
@@ -534,13 +534,13 @@ $string['dndnotsupported'] = 'Upload arrastando e soltando não suportado';
 $string['dndnotsupported_help'] = 'Seu navegador não suporta upload arrastando e soltando . <br /> Este recurso está disponível em todas as versões recentes do Chrome, Firefox e Safari, bem como o Internet Explorer v10 e acima.';
 $string['dndnotsupported_insentence'] = 'Upload arrastando e soltando não suportado';
 $string['dnduploadwithoutcontent'] = 'Este envio não possui conteúdo';
-$string['dndworkingfile'] = 'Arraste e solte arquivos nas seções do curso para enviá-os';
-$string['dndworkingfilelink'] = 'Arraste e solte arquivos ou links nas seções do curso para enviá-los';
-$string['dndworkingfiletext'] = 'Arraste e solte arquivos ou texto nas seções do curso para enviá-los';
-$string['dndworkingfiletextlink'] = 'Arraste e solte arquivos, textos ou links nas seções do curso para enviá-los';
-$string['dndworkinglink'] = 'Arraste e solte links nas seções do curso para enviá-los';
-$string['dndworkingtext'] = 'Arraste e solte textos nas seções do curso para enviá-los';
-$string['dndworkingtextlink'] = 'Arraste e solte texto ou links nas seções do curso para enviá-los';
+$string['dndworkingfile'] = 'Arraste e solte arquivos nas seções da turma para enviá-os';
+$string['dndworkingfilelink'] = 'Arraste e solte arquivos ou links nas seções da turma para enviá-los';
+$string['dndworkingfiletext'] = 'Arraste e solte arquivos ou texto nas seções da turma para enviá-los';
+$string['dndworkingfiletextlink'] = 'Arraste e solte arquivos, textos ou links nas seções da turma para enviá-los';
+$string['dndworkinglink'] = 'Arraste e solte links nas seções da turma para enviá-los';
+$string['dndworkingtext'] = 'Arraste e solte textos nas seções da turma para enviá-los';
+$string['dndworkingtextlink'] = 'Arraste e solte texto ou links nas seções da turma para enviá-los';
 $string['documentation'] = 'Documentação do Moodle';
 $string['dontsortcategories'] = 'Não ordenar categorias';
 $string['dontsortcourses'] = 'Não ordenar cursos';
@@ -565,7 +565,7 @@ $string['edit'] = 'Editar';
 $string['edita'] = 'Editar {$a}';
 $string['editcategorysettings'] = 'Editar opções da categoria';
 $string['editcategorythis'] = 'Editar categoria';
-$string['editcoursesettings'] = 'Editar configurações do curso';
+$string['editcoursesettings'] = 'Editar configurações da turma';
 $string['editfiles'] = 'Editar arquivos';
 $string['editgroupprofile'] = 'Editar perfil do grupo';
 $string['editinga'] = 'Editando um {$a}';
@@ -626,7 +626,7 @@ $string['emaildigestsubjects'] = 'Assuntos (um email diário, apenas com os assu
 $string['emaildisable'] = 'Este endereço de email não está ativado';
 $string['emaildisableclick'] = 'Clique aqui para desabilitar o envio de emails para este endereço';
 $string['emaildisplay'] = 'Mostrar endereço de email';
-$string['emaildisplaycourse'] = 'Apenas os participantes do curso podem ver o meu endereço de email';
+$string['emaildisplaycourse'] = 'Apenas os participantes da turma podem ver o meu endereço de email';
 $string['emaildisplayhidden'] = 'Email oculto';
 $string['emaildisplayno'] = 'Esconder o meu endereço  de email completamente';
 $string['emaildisplayyes'] = 'Permitir que todos vejam o meu endereço de email';
@@ -718,20 +718,20 @@ $string['eventcontentviewed'] = 'Conteúdo visualizado';
 $string['eventcoursecategorycreated'] = 'Categoria criada';
 $string['eventcoursecategorydeleted'] = 'Categoria deletada';
 $string['eventcoursecategoryupdated'] = 'Categoria atualizada';
-$string['eventcoursecontentdeleted'] = 'Conteúdo do curso deletado';
+$string['eventcoursecontentdeleted'] = 'Conteúdo da turma deletado';
 $string['eventcoursecreated'] = 'Curso criado';
 $string['eventcoursedeleted'] = 'Curso deletado';
 $string['eventcoursemodulecreated'] = 'Módulo de curso criado';
 $string['eventcoursemoduledeleted'] = 'Módulo de curso excluído';
 $string['eventcoursemoduleinstancelistviewed'] = 'Lista de instâncias de módulos de cursos visualizados';
 $string['eventcoursemoduleupdated'] = 'Módulo de curso atualizado';
-$string['eventcoursemoduleviewed'] = 'Módulo do curso visualizado';
-$string['eventcourseresetended'] = 'Redefinição curso terminou';
-$string['eventcourseresetstarted'] = 'Redefinição curso começou';
+$string['eventcoursemoduleviewed'] = 'Módulo da turma visualizado';
+$string['eventcourseresetended'] = 'Redefiniçãa turma terminou';
+$string['eventcourseresetstarted'] = 'Redefiniçãa turma começou';
 $string['eventcourserestored'] = 'Curso restaurado';
 $string['eventcoursesectionupdated'] = 'Tópico de curso atualizado';
 $string['eventcourseupdated'] = 'Curso atualizado';
-$string['eventcourseuserreportviewed'] = 'Relatório de um utilizador do curso visualizado';
+$string['eventcourseuserreportviewed'] = 'Relatório de um utilizador da turma visualizado';
 $string['eventcourseviewed'] = 'Curso visto';
 $string['eventemailfailed'] = 'Falha ao enviar email';
 $string['eventname'] = 'Nome do evento';
@@ -799,12 +799,12 @@ $string['forgotten'] = 'Esqueceu o seu usuário ou senha?';
 $string['forgottenduplicate'] = 'Este endereço email é compartilhado por diversas contas, por favor insira o "usuário"';
 $string['forgotteninvalidurl'] = 'URL para reconfiguração de senha inválida';
 $string['format'] = 'Formato';
-$string['format_help'] = 'O formato de curso determina o layout da página do curso.
+$string['format_help'] = 'O formato de curso determina o layout da página da turma.
 
-* Formato de atividade única - Para mostrar apenas uma atividade ou recurso (como um Quiz ou um pacote SCORM) na página do curso
-* Formato social - Um fórum é mostrado na página do curso
-* Formato tópicos - A página do curso é organizada em seções de tópicos
-* Formato semanal - A página do curso é organizada em seções semanais, com a primeira semana começando na data de início do curso';
+* Formato de atividade única - Para mostrar apenas uma atividade ou recurso (como um Quiz ou um pacote SCORM) na página da turma
+* Formato social - Um fórum é mostrado na página da turma
+* Formato tópicos - A página da turma é organizada em seções de tópicos
+* Formato semanal - A página da turma é organizada em seções semanais, com a primeira semana começando na data de início do curso';
 $string['formathtml'] = 'Formato HTML';
 $string['formatmarkdown'] = 'Formato MARKDOWN';
 $string['formatplain'] = 'Formato TEXT';
@@ -816,7 +816,7 @@ $string['from'] = 'De';
 $string['frontpagecategorycombo'] = 'Menu Drop-down';
 $string['frontpagecategorynames'] = 'Lista de categorias';
 $string['frontpagecourselist'] = 'Lista de cursos';
-$string['frontpagecoursesearch'] = 'Caixa de pesquisa do curso';
+$string['frontpagecoursesearch'] = 'Caixa de pesquisa da turma';
 $string['frontpagedescription'] = 'Descrição da página inicial';
 $string['frontpagedescriptionhelp'] = 'Esta descrição pode ser mostrada na página principal utilizando o bloco descrição de curso/site.';
 $string['frontpageenrolledcourselist'] = 'Cursos de inscritos';
@@ -827,7 +827,7 @@ $string['frontpagesettings'] = 'Configurações da página inicial';
 $string['fulllistofcourses'] = 'Todos os cursos';
 $string['fullname'] = 'Nome completo';
 $string['fullnamecourse'] = 'Nome completo';
-$string['fullnamecourse_help'] = 'O nome completo do curso é apresentado no topo de cada página do curso e na lista de cursos.';
+$string['fullnamecourse_help'] = 'O nome completo da turma é apresentado no topo de cada página do curso e na lista de cursos.';
 $string['fullnamedisplay'] = '{$a->firstname} {$a->lastname}';
 $string['fullnameuser'] = 'Nome completo';
 $string['fullprofile'] = 'Perfil completo';
@@ -929,10 +929,10 @@ $string['htmlformat'] = 'Formato  HTML';
 $string['icon'] = 'Ícone';
 $string['icqnumber'] = 'Número de ICQ';
 $string['idnumber'] = 'Número de identificação';
-$string['idnumbercourse'] = 'Número de identificação do curso';
+$string['idnumbercourse'] = 'Número de identificação da turma';
 $string['idnumbercoursecategory'] = 'Número ID da categoria';
 $string['idnumbercoursecategory_help'] = 'O número ID de uma categoria de curso é utilizado apenas quando comparando a categoria com sistemas externos e não é exibido em nenhum local no site. Caso a categoria possua um código oficial isto pode ser inserido, caso contrário o campo pode ser deixado em branco.';
-$string['idnumbercourse_help'] = '<P>O ID de um curso é usado apenas nos processos de comunicação com sistemas externos - não é visualizado na interface do curso.  Se você tem um código oficial de identificação do curso, utilize-o para preencher este campo. Em caso contrário, deixe o campo vazio.
+$string['idnumbercourse_help'] = '<P>O ID de um curso é usado apenas nos processos de comunicação com sistemas externos - não é visualizado na interface da turma.  Se você tem um código oficial de identificação do curso, utilize-o para preencher este campo. Em caso contrário, deixe o campo vazio.
 </p>';
 $string['idnumbergroup'] = 'Número ID do grupo';
 $string['idnumbergroup_help'] = 'O número ID de um grupo é somente usado para buscar o grupo em sistemas externos e não é exibido em nenhum lugar no site. Se o grupo tem um nome código oficial ele pode ser digitado. Caso contrário o campo pode ser deixado em branco.';
@@ -946,9 +946,9 @@ O Número ID também pode ser definido na página de edição do cálculo das no
 $string['idnumbertaken'] = 'Este número de identificação já está sendo usado';
 $string['imagealt'] = 'Descrição da imagem';
 $string['import'] = 'Importar';
-$string['importdata'] = 'Importar dados do curso';
-$string['importdataexported'] = 'Os dados do curso de origem foram exportados com sucesso.<br />
-Continue com a importação dos dados no curso de destino.';
+$string['importdata'] = 'Importar dados da turma';
+$string['importdataexported'] = 'Os dados da turma de origem foram exportados com sucesso.<br />
+Continue com a importação dos dados na turma de destino.';
 $string['importdatafinished'] = 'Importação concluída! Siga para o seu curso';
 $string['importdatafrom'] = 'Buscar um curso para importar os seus dados:';
 $string['inactive'] = 'Inativo';
@@ -987,7 +987,7 @@ $string['language'] = 'Idioma';
 $string['languagegood'] = 'Os arquivos deste idioma estão atualizados!  : -)';
 $string['last'] = 'Último';
 $string['lastaccess'] = 'Último acesso';
-$string['lastcourseaccess'] = 'Último acesso ao curso';
+$string['lastcourseaccess'] = 'Último acesso aa turma';
 $string['lastedited'] = 'Última edição';
 $string['lastip'] = 'Último endereço de IP';
 $string['lastlogin'] = 'Último acesso';
@@ -1034,8 +1034,8 @@ Aqui estão os passos:
 <li>Uma mensagem de confirmação da inscrição será enviada imediatamente ao seu endereço de email. </li>
 <li>Visite o endereço web indicado na mensagem para confirmar o seu cadastramento automaticamente e começar a navegar.</li>
 <li>Acesse o seu curso clicando o nome correspondente na lista de cursos disponíveis.</li>
-<li>Se for pedido um código de inscrição use a senha que foi fornecida pelo administrador ou pelo professor. Esta senha é reservada aos usuários do site inscritos no curso e será necessária apenas na primeira vez que você entrar no curso.</li>
-<li>Quando você retornar ao site, para entrar no curso basta usar o seu nome de usuário e a sua senha nesta página de acesso.</li></ol>';
+<li>Se for pedido um código de inscrição use a senha que foi fornecida pelo administrador ou pelo professor. Esta senha é reservada aos usuários do site inscritos na turma e será necessária apenas na primeira vez que você entrar no curso.</li>
+<li>Quando você retornar ao site, para entrar na turma basta usar o seu nome de usuário e a sua senha nesta página de acesso.</li></ol>';
 $string['loginstepsnone'] = '<p>Olá!</p> <p>Para o acesso aos cursos você precisa ser cadastrado como usuário do site.</p><p>Para fazer isto, basta completar o formulário desta página escolhendo um usuário e uma senha que você queira usar.</p><p>Se alguém já tiver escolhido o mesmo usuário, você vai tentar novamente escolhendo um usuário diferente.</p>';
 $string['loginto'] = 'Acesso a {$a}';
 $string['logout'] = 'Sair';
@@ -1047,7 +1047,7 @@ $string['lookback'] = 'Ver últimos';
 $string['mailadmins'] = 'Informar administradores';
 $string['mailstudents'] = 'Informar estudantes';
 $string['mailteachers'] = 'Informar professores';
-$string['maincoursepage'] = 'Página principal do curso';
+$string['maincoursepage'] = 'Página principal da turma';
 $string['makeafolder'] = 'Criar diretório';
 $string['makeeditable'] = 'Se for permitido que \'{$a}\' seja editado pelo processo de servidor de rede (es. apache), será possível editar este arquivo usando esta página.';
 $string['makethismyhome'] = 'Tornar esta minha página inicial padrão';
@@ -1162,7 +1162,7 @@ $string['movecontent'] = 'Mover {$a}';
 $string['movecontentstoanothercategory'] = 'Mover conteúdos para outra categoria';
 $string['movecoursemodule'] = 'Mover recurso';
 $string['movecoursesection'] = 'Mover seção';
-$string['movecourseto'] = 'Mova o curso para:';
+$string['movecourseto'] = 'Mova a turma para:';
 $string['movedown'] = 'Mover para baixo';
 $string['movefilestohere'] = 'Mover os arquivos para cá';
 $string['movefull'] = 'Mover {$a} para este lugar';
@@ -1194,7 +1194,7 @@ $string['never'] = 'Nunca';
 $string['neverdeletelogs'] = 'Nunca apague os logs';
 $string['new'] = 'Novo';
 $string['newaccount'] = 'Cadastramento de novo usuário';
-$string['newcourse'] = 'Novo curso';
+$string['newcourse'] = 'Nova turma';
 $string['newpassword'] = 'Nova senha';
 $string['newpasswordfromlost'] = '<strong>AVISO:</strong> A sua <strong>senha atual</strong> será enviada no <strong>segundo</strong> dos dois emails emitidos neste processo de recuperação de senha. Certifique-se que você recebeu a senha substituta antes de continuar.';
 $string['newpassword_help'] = 'Deixar em branco para manter a senha atual';
@@ -1224,7 +1224,7 @@ $string['newsitemsnumber_help'] = '<P>"Últimas Notícias" é um fórum especial
    e receberão uma cópia dos avisos via email.</p>
 
 <P>Esta configuração define o número de notícias recentes que serão visualizadas na
-   página principal do curso, no bloco "Últimas Notícias".</p>
+   página principal da turma, no bloco "Últimas Notícias".</p>
 
 <P>Se você definir o valor como "0 itens" o bloco "Últimas Notícias"
    não será visualizado.</p>';
@@ -1265,7 +1265,7 @@ $string['nohelpforactivityorresource'] = 'Não há atualmente nenhuma ajuda asso
 $string['noimagesyet'] = 'Nenhuma imagem foi enviada ao seu curso ainda';
 $string['nologsfound'] = 'Não foi encontrado nenhum log';
 $string['nomatchingusers'] = 'Nenhum usuário encontrado \'{$a}\'';
-$string['nomorecourses'] = 'Não foi encontrado nenhum outro curso compatível';
+$string['nomorecourses'] = 'Não foi encontrado nenhum outra turma compatível';
 $string['nomoreidnumber'] = 'Não está usando um ID para evitar incompatibilidades';
 $string['none'] = 'Nenhum';
 $string['noneditingteacher'] = 'Moderador';
@@ -1286,7 +1286,7 @@ $string['noresetrecord'] = 'Não há nenhum registro de que foi realizado pedido
 $string['noresults'] = 'Nenhum resultado';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Busca normal';
-$string['nosite'] = 'Não foi encontrado o curso a nível de site';
+$string['nosite'] = 'Não foi encontrado a turma a nível de site';
 $string['nostudentsfound'] = 'Nenhum {$a} encontrado';
 $string['nostudentsingroup'] = 'Nenhum estudante neste grupo ainda';
 $string['nostudentsyet'] = 'Nenhum estudante inscrito neste curso ainda';
@@ -1297,7 +1297,7 @@ $string['noteachersyet'] = 'Este curso ainda não tem professores';
 $string['notenrolled'] = '{$a} não está inscrito neste curso';
 $string['notenrolledprofile'] = 'Este perfil não é disponível porque este usuário não está inscrito neste curso';
 $string['noteusercannotrolldatesoncontext'] = '<strong>Atenção:</strong> A habilidade de rolar datas quando restaurando backup foi desabilitada pois você não tem as permissões necessárias.';
-$string['noteuserschangednonetocourse'] = '<strong>Nota:</strong> É necessário fazer a restauração dos usuários do curso quando se faz a restauração dos dados do usuário (em atividades, arquivos ou mensagens). Esta configuração foi mudada para você.';
+$string['noteuserschangednonetocourse'] = '<strong>Nota:</strong> É necessário fazer a restauração dos usuários da turma quando se faz a restauração dos dados do usuário (em atividades, arquivos ou mensagens). Esta configuração foi mudada para você.';
 $string['nothingnew'] = 'Nenhuma atividade recente';
 $string['nothingtodisplay'] = 'Nada a ser mostrado';
 $string['notice'] = 'Notar';
@@ -1376,8 +1376,8 @@ $string['paymentinstant'] = 'Clique o botão abaixo para efetuar o pagamento e f
 $string['paymentpending'] = '(<small><b><u>{$a}</u></b> pendente</small>)';
 $string['paymentrequired'] = 'Este curso requer o pagamento da taxa de inscrição antes do acesso.';
 $string['payments'] = 'Pagamentos';
-$string['paymentsorry'] = 'Infelizmente o seu pagamento ainda está sendo processado e você ainda não pode acessar o curso "{$a->fullname}".
-Espere alguns minutos antes de tentar um novo acesso. Se você continuar a ter problemas para acessar o curso, contate {$a->teacher} ou o administrador do site.';
+$string['paymentsorry'] = 'Infelizmente o seu pagamento ainda está sendo processado e você ainda não pode acessar a turma "{$a->fullname}".
+Espere alguns minutos antes de tentar um novo acesso. Se você continuar a ter problemas para acessar a turma, contate {$a->teacher} ou o administrador do site.';
 $string['paymentthanks'] = 'Pagamento concluído! Agora você já está inscrito no seguinte curso:<br />"{$a}"';
 $string['pendingrequests'] = 'Solicitações pendentes';
 $string['periodending'] = 'Período termina em ({$a})';
@@ -1476,7 +1476,7 @@ $string['repositories'] = 'Repositórios';
 $string['requestcourse'] = 'Requerer a criação de um curso';
 $string['requestedby'] = 'Requerido por';
 $string['requestedcourses'] = 'Cursos solicitados';
-$string['requestreason'] = 'Razão para a criação do curso';
+$string['requestreason'] = 'Razão para a criação da turma';
 $string['required'] = 'Necessários';
 $string['requirespayment'] = 'O acesso a este curso só é possível após o pagamento da taxa de inscrição';
 $string['reset'] = 'Reconfigurar';
@@ -1502,7 +1502,7 @@ $string['resourcedisplaynew'] = 'Nova janela';
 $string['resourcedisplayopen'] = 'Abrir';
 $string['resourcedisplaypopup'] = 'Em uma janela pop-up';
 $string['resources'] = 'Recursos';
-$string['resources_help'] = 'Tipos de recursos permitem a inclusão de praticamente qualquer tipo de conteúdo web no curso.';
+$string['resources_help'] = 'Tipos de recursos permitem a inclusão de praticamente qualquer tipo de conteúdo web na turma.';
 $string['restore'] = 'Restaurar';
 $string['restorecancelled'] = 'Restauração cancelada';
 $string['restorecannotassignroles'] = 'A restauração precisa atribuir funções e você não tem permissão para fazê-lo';
@@ -1528,7 +1528,7 @@ $string['role'] = 'Papel';
 $string['roleassignments'] = 'Atribuições de papel';
 $string['rolemappings'] = 'Mapeamento de papéis';
 $string['rolerenaming'] = 'Renomear papel';
-$string['rolerenaming_help'] = 'Esta configuração permite alterar os nomes  dos papéis exibidos no curso. Apenas o nome exibido é alterado - permissões do papel não são afetadas. Novos nomes de papéis aparecerão na página de participantes do curso e em outros lugares dentro do curso. Se o papel renomeado é um que o administrador tenha selecionado como um papel de gerente de curso, o nome do novo papel também será exibido na listagem de cursos.';
+$string['rolerenaming_help'] = 'Esta configuração permite alterar os nomes  dos papéis exibidos na turma. Apenas o nome exibido é alterado - permissões do papel não são afetadas. Novos nomes de papéis aparecerão na página de participantes do curso e em outros lugares dentro do curso. Se o papel renomeado é um que o administrador tenha selecionado como um papel de gerente de curso, o nome do novo papel também será exibido na listagem de cursos.';
 $string['roles'] = 'Papéis';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Número de artigos recentes no RSS';
@@ -1542,13 +1542,13 @@ $string['saveandnext'] = 'Salvar e mostrar o próximo';
 $string['savechanges'] = 'Salvar mudanças';
 $string['savechangesanddisplay'] = 'Salvar e mostrar';
 $string['savechangesandreturn'] = 'Salvar e voltar';
-$string['savechangesandreturntocourse'] = 'Salvar e voltar ao curso';
+$string['savechangesandreturntocourse'] = 'Salvar e voltar aa turma';
 $string['savecomment'] = 'Salvar comentário';
 $string['savedat'] = 'Salvado em:';
 $string['savepreferences'] = 'Salvar preferências';
 $string['saveto'] = 'Salvar em';
 $string['scale'] = 'Escala';
-$string['scale_help'] = '<p>Os professores podem criar novas escalas e critérios de avaliação a serem utilizados nas atividades do curso.</p>
+$string['scale_help'] = '<p>Os professores podem criar novas escalas e critérios de avaliação a serem utilizados nas atividades da turma.</p>
 
 <p>O título de uma escala deve ser uma frase que a identifique com precisão porquê o título aparece como ítem do menú de seleção  do tipo de escala de avaliação. Este título também é usado como link à página de ajuda correspondente.</p>
 
@@ -1568,8 +1568,8 @@ $string['scalescustomno'] = 'Nenhuma escala personalizada';
 $string['scalesstandard'] = 'Escalas predefinidas';
 $string['scalestandard'] = 'Escala padrão';
 $string['scalestandard_help'] = '<p>Uma escala padrão fica disponível a nível do site, para todos os cursos.</p>';
-$string['scalestip'] = 'Para criar escalas personalizadas, use o botão "escalas" no painel de administração do curso';
-$string['scalestip2'] = 'Para criar escalas personalizadas, clique no link Notas no menu de administração do curso, depois escolha Editar, Escalas.';
+$string['scalestip'] = 'Para criar escalas personalizadas, use o botão "escalas" no painel de administração da turma';
+$string['scalestip2'] = 'Para criar escalas personalizadas, clique no link Notas no menu de administração da turma, depois escolha Editar, Escalas.';
 $string['schedule'] = 'Programação';
 $string['screenshot'] = 'Captura de tela';
 $string['search'] = 'Buscar';
@@ -1641,13 +1641,13 @@ $string['setpassword'] = 'Definir senha';
 $string['setpasswordinstructions'] = 'Por favor insira e repita a nova senha abaixo e clique em &quot;Definir senha&quot;. <br /> Sua nova senha será salva, e você irá acessar o sistema.';
 $string['settings'] = 'Configurações';
 $string['shortname'] = 'Nome breve';
-$string['shortnamecollisionwarning'] = '[*] = Este nome breve já é utilizado por outro curso e deverá ser mudado depois da aprovação';
-$string['shortnamecourse'] = 'Nome breve do curso';
+$string['shortnamecollisionwarning'] = '[*] = Este nome breve já é utilizado por outra turma e deverá ser mudado depois da aprovação';
+$string['shortnamecourse'] = 'Nome breve da turma';
 $string['shortnamecourse_help'] = '<P>Muitas instituições adotam um nome breve ou código para identificar um curso, algo como
    BP102 ou COMMS.  Se o seu curso não corresponde a um nome breve real, crie um. Este
    nome breve será usado em alguns lugares onde a utilização do nome completo não é apropriada
    (por exemplo: na descrição do assunto das mensagens de email).</P>';
-$string['shortnametaken'] = 'Este nome breve já é usado por um outro curso';
+$string['shortnametaken'] = 'Este nome breve já é usado por um outra turma';
 $string['shortnameuser'] = 'Nome breve do usuário';
 $string['shortsitename'] = 'Nome breve do site';
 $string['show'] = 'Mostrar';
@@ -1660,23 +1660,23 @@ $string['showblockcourse'] = 'Mostrar lista de cursos que contém o bloco';
 $string['showcategory'] = 'Mostrar {$a}';
 $string['showcomments'] = 'Mostrar/esconder comentários';
 $string['showcommentsnonjs'] = 'Mostrar comentários';
-$string['showdescription'] = 'Exibir descrição na página do curso';
-$string['showdescription_help'] = 'Caso ativada, a descrição acima será exibida na página do curso logo abaixo do link para a atividade ou recurso.';
+$string['showdescription'] = 'Exibir descrição na página da turma';
+$string['showdescription_help'] = 'Caso ativada, a descrição acima será exibida na página da turma logo abaixo do link para a atividade ou recurso.';
 $string['showgrades'] = 'Mostrar livro de notas aos estudantes';
 $string['showgrades_help'] = '<P>Muitas atividades podem ser avaliadas mediante atribuição de notas.</p>
 
-<p>Os resultados das avaliações são consultados pelos alunos na página de Relatório de Notas, cujo acesso se faz por um link predefinido na página principal do curso.</p>
+<p>Os resultados das avaliações são consultados pelos alunos na página de Relatório de Notas, cujo acesso se faz por um link predefinido na página principal da turma.</p>
 
-<p>Para restringir o acesso ao Relatório de Notas apenas aos professores, é necessário desabilitar a visualização no painel de configuração do curso. Este procedimento é útil também nos casos em que o curso não prevê o uso de atividades com avaliação correspondente. Isto não impede que atividades individuais utilizem ou atribuam notas, apenas desativa a exibição da página de relatório para os estudantes.</p>';
+<p>Para restringir o acesso ao Relatório de Notas apenas aos professores, é necessário desabilitar a visualização no painel de configuração da turma. Este procedimento é útil também nos casos em que o curso não prevê o uso de atividades com avaliação correspondente. Isto não impede que atividades individuais utilizem ou atribuam notas, apenas desativa a exibição da página de relatório para os estudantes.</p>';
 $string['showingacourses'] = 'Mostrando todos os {$a} cursos';
-$string['showingxofycourses'] = 'Mostrando cursos de {$a->start} até {$a->end} de um total de {$a->total} cursos';
+$string['showingxofycourses'] = 'Mostranda turmas de {$a->start} até {$a->end} de um total de {$a->total} cursos';
 $string['showlistofcourses'] = 'Mostrar  a lista dos cursos';
 $string['showmodulecourse'] = 'Mostrar lista de cursos que contém a atividade';
 $string['showonly'] = 'Mostrar só';
 $string['showperpage'] = 'Mostrar {$a} por página';
 $string['showrecent'] = 'Mostrar a atividade recente';
 $string['showreports'] = 'Mostrar relatório das atividades';
-$string['showreports_help'] = 'Relatórios de atividade estão disponíveis para cada participante, mostrando a sua atividade no curso, bem como listagens das suas contribuições, tais como mensagens do fórum ou submissões de tarefas. Esses relatórios também incluem logs de acesso. Esta configuração determina se um aluno pode ver os seus próprios relatórios de atividade através da sua página de perfil.';
+$string['showreports_help'] = 'Relatórios de atividade estão disponíveis para cada participante, mostrando a sua atividade na turma, bem como listagens das suas contribuições, tais como mensagens do fórum ou submissões de tarefas. Esses relatórios também incluem logs de acesso. Esta configuração determina se um aluno pode ver os seus próprios relatórios de atividade através da sua página de perfil.';
 $string['showsettings'] = 'Mostrar configurações';
 $string['showtheselogs'] = 'Mostrar estes logs';
 $string['showthishelpinlanguage'] = 'Mostrar esta ajuda no idioma: {$a}';
@@ -1707,7 +1707,7 @@ $string['sizekb'] = 'Kb';
 $string['sizemb'] = 'Mb';
 $string['skipped'] = 'Saltado';
 $string['skiptocategorylisting'] = 'Saltar para as listas de categorias';
-$string['skiptocoursedetails'] = 'Saltar para as informações detalhadas do curso';
+$string['skiptocoursedetails'] = 'Saltar para as informações detalhadas da turma';
 $string['skiptocourselisting'] = 'Saltar para a lista de cursos';
 $string['skypeid'] = 'ID Skype';
 $string['socialheadline'] = 'Forum social -  tópicos mais recentes';
@@ -1722,8 +1722,8 @@ $string['sourcerole'] = 'Papel fonte';
 $string['specifyname'] = 'É necessário especificar um nome';
 $string['standard'] = 'Padrão';
 $string['starpending'] = '([*] = aprovação de curso pendente)';
-$string['startdate'] = 'Data de início do curso';
-$string['startdate_help'] = 'Esta configuração determina o início da primeira semana para um curso em formato semanal. Também determina a data inicial em que os logs das atividades do curso estarão disponíveis. Se o curso é redefinido e a data de início do curso alterado, todas as datas do curso serão movidos em relação à nova data de início.';
+$string['startdate'] = 'Data de início da turma';
+$string['startdate_help'] = 'Esta configuração determina o início da primeira semana para um curso em formato semanal. Também determina a data inicial em que os logs das atividades da turma estarão disponíveis. Se o curso é redefinido e a data de início do curso alterado, todas as datas do curso serão movidos em relação à nova data de início.';
 $string['startingfrom'] = 'Iniciando em';
 $string['startsignup'] = 'Criar uma conta';
 $string['state'] = 'Estado';
@@ -1782,7 +1782,7 @@ $string['submit'] = 'Enviar';
 $string['success'] = 'Sucesso';
 $string['summary'] = 'Sumário';
 $string['summary_help'] = '<p>Um suário é um texto breve que apresenta aos alunos as atividades da tópico/semana.</p>
-<p>Cada sumário deve ser curto para que a página do curso não fique muito longa.</p>
+<p>Cada sumário deve ser curto para que a página da turma não fique muito longa.</p>
 <p>Se você achar necessário escrever um texto mais longo, adicione este texto ao Tópico como material (por exemplo: a primeira atividade poderia ser uma página web com o seguinte título: <b>Introdução ao Tópico</b>).</p>';
 $string['summaryof'] = 'Sumário de {$a}';
 $string['supplyinfo'] = 'Mais detalhes';
@@ -1812,7 +1812,7 @@ $string['thereareno'] = 'Não há {$a} neste curso';
 $string['thiscategory'] = 'Esta categoria';
 $string['thiscategorycontains'] = 'Esta categoria contém';
 $string['time'] = 'Hora';
-$string['timecreatedcourse'] = 'Momento de criação do curso criado';
+$string['timecreatedcourse'] = 'Momento de criação da turma criado';
 $string['timezone'] = 'Zona de fuso horário';
 $string['to'] = 'a';
 $string['tocontent'] = 'Para o item "{$a}"';
@@ -1920,7 +1920,7 @@ $string['userswithfiles'] = 'Usuários com arquivos';
 $string['useruploadtype'] = 'Tipo de upload de usuário: {$a}';
 $string['userzones'] = 'Zonas';
 $string['usetheme'] = 'Usar tema';
-$string['usingexistingcourse'] = 'Usando curso existente';
+$string['usingexistingcourse'] = 'Usanda turma existente';
 $string['valuealreadyused'] = 'Este valor já foi utilizado.';
 $string['version'] = 'Versão';
 $string['view'] = 'Ver';
@@ -1933,13 +1933,13 @@ $string['viewmore'] = 'Ver mais';
 $string['viewprofile'] = 'Ver perfil';
 $string['views'] = 'Visualizações';
 $string['viewsolution'] = 'ver solução';
-$string['virusfound'] = 'Atenção administrador! Clam AV encontrou um vírus em um arquivo enviado por {$a->user} do curso {$a->course}. Eis o output de Clamscan:';
-$string['virusfoundlater'] = 'Um arquivo enviado ao servidor em {$a->date} com o nome de {$a->filename} no curso {$a->course} foi identificado como portador de vírus. Veja abaixo o que aconteceu com o arquivo indicado:
+$string['virusfound'] = 'Atenção administrador! Clam AV encontrou um vírus em um arquivo enviado por {$a->user} da turma {$a->course}. Eis o output de Clamscan:';
+$string['virusfoundlater'] = 'Um arquivo enviado ao servidor em {$a->date} com o nome de {$a->filename} na turma {$a->course} foi identificado como portador de vírus. Veja abaixo o que aconteceu com o arquivo indicado:
 
 {$a->action}
 
 Se arquivo era um trabalho sujeito a avaliação, envie uma nova versão.';
-$string['virusfoundlateradmin'] = 'Atenção administrador! Um arquivo carregado em {$a->date} com o nome de {$a->filename} no curso {$a->course} pelo usuário {$a->user} provavelmente contém um vírus. Leia o relatório que se refere a este arquivo:
+$string['virusfoundlateradmin'] = 'Atenção administrador! Um arquivo carregado em {$a->date} com o nome de {$a->filename} na turma {$a->course} pelo usuário {$a->user} provavelmente contém um vírus. Leia o relatório que se refere a este arquivo:
 
 {$a->action}
 
@@ -1953,7 +1953,7 @@ $string['virusfoundsubject'] = '{$a}: Vírus encontrado!';
 $string['virusfounduser'] = 'Foi diagnosticado um vírus no arquivo que você tentou enviar ao servidor, {$a->filename} . O arquivo NÃO foi enviado.';
 $string['virusplaceholder'] = 'O arquivo enviado contém um vírus e foi movido ou excluído e o usuário foi notificado.';
 $string['visible'] = 'Visível';
-$string['visible_help'] = 'Esta configuração determina se o curso aparece na lista de cursos. Além de professores e administradores, os demais usuários não têm permissão para entrar no curso.';
+$string['visible_help'] = 'Esta configuração determina se a turma aparece na lista de cursos. Além de professores e administradores, os demais usuários não têm permissão para entrar no curso.';
 $string['visibletostudents'] = 'Visível a {$a}';
 $string['warning'] = 'Aviso';
 $string['warningdeleteresource'] = 'Atenção: {$a} é citado em um recurso. Você quer atualizar este recurso?';
@@ -1963,8 +1963,8 @@ $string['weekhide'] = 'Esconda esta semana de {$a}';
 $string['weeklyoutline'] = 'Agenda do Curso';
 $string['weeks'] = 'semanas';
 $string['weekshow'] = 'Mostre esta semana a {$a}';
-$string['welcometocourse'] = 'Bem-vindo ao curso {$a}';
-$string['welcometocoursetext'] = 'Bem vindo ao curso {$a->coursename}!
+$string['welcometocourse'] = 'Bem-vindo aa turma {$a}';
+$string['welcometocoursetext'] = 'Bem vindo aa turma {$a->coursename}!
 
 Se você ainda não fez, você deve editar o seu Perfil de Usuário para que possamos conhecer você melhor:
 
@@ -1992,7 +1992,7 @@ $string['wordforteachers'] = 'Sua palavra para os Professores';
 $string['wordforteacherseg'] = 'ex Professores, Tutores, Facilitadores etc';
 $string['writingblogsinfo'] = 'Escrevendo informações sobre os blogs';
 $string['writingcategoriesandquestions'] = 'Escrevendo categorias e questões';
-$string['writingcoursedata'] = 'Escrevendo dados do curso';
+$string['writingcoursedata'] = 'Escrevendo dados da turma';
 $string['writingeventsinfo'] = 'Escrevendo informações dos eventos';
 $string['writinggeneralinfo'] = 'Escrevendo informações gerais';
 $string['writinggradebookinfo'] = 'Escrevendo informações do livro de notas';

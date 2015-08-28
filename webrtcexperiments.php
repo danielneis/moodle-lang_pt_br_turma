@@ -35,4 +35,4 @@ $string['signalingserver'] = 'Servidor de sinalização';
 $string['signalingserver_help'] = 'Estes são o endereço e a porta do servidor de sinalização. Se você não sabe o que isso significa, deixa o valor padrão.';
 $string['webrtc'] = 'WebRTC';
 $string['webrtcname'] = 'Name';
-$string['webrtcname_help'] = 'Nome da atividade que será exibido na página do curso.';
+$string['webrtcname_help'] = 'Nome da atividade que será exibido na página da turma.';

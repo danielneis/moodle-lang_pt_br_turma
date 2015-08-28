@@ -114,7 +114,7 @@ $string['attemptsunlimited'] = 'Tentativas ilimitadas';
 $string['autosaveperiod'] = 'Período de salvamento automático';
 $string['autosaveperiod_desc'] = 'As respostas dos alunos podem ser salvas automaticamente a cada minuto, durante as tentativas do quiz. Trata-se de um trade-off: salvar as respostas aumenta a carga do servidor, mas reduz a chance dos alunos perdem o seu trabalho.';
 $string['back'] = 'Voltar à visualização prévia da questão';
-$string['backtocourse'] = 'Voltar ao curso';
+$string['backtocourse'] = 'Voltar aa turma';
 $string['backtoquestionlist'] = 'Voltar à Lista de Questões';
 $string['backtoquiz'] = 'Voltar para edição do questionário';
 $string['basicideasofquiz'] = 'As ideias básicas da construção do questionário';
@@ -269,7 +269,7 @@ $string['disabled'] = 'Desativado';
 $string['displayoptions'] = 'Opções de Visualização';
 $string['donotuseautosave'] = 'Não use auto-save';
 $string['download'] = 'Clique para baixar o arquivo de categoria exportado';
-$string['downloadextra'] = '(o arquivo pode ser encontrado também na pasta /quiz da seção arquivos do curso)';
+$string['downloadextra'] = '(o arquivo pode ser encontrado também na pasta /quiz da seção arquivos da turma)';
 $string['dragtoafter'] = 'Após {$a}';
 $string['dragtostart'] = 'Para o início';
 $string['duplicateresponse'] = 'Esta tentativa foi ignorada porque você já deu uma resposta idêntica em data anterior.';
@@ -300,7 +300,7 @@ $string['editquizquestions'] = 'Editar questões do Quiz';
 $string['emailconfirmbody'] = 'Prezado(a) {$a->username},
 
 obrigada pelo envio das suas respostas ao questionário \'{$a->quizname}\'
-no curso \'{$a->coursename}\'
+na turma \'{$a->coursename}\'
 em {$a->submissiontime}.
 
 Esta mensagem confirma o recebimento das suas respostas.
@@ -312,14 +312,14 @@ $string['emailnotifybody'] = 'Prezado(a) {$a->username},
 
 {$a->studentname} completou o questionário
 \'{$a->quizname}\' ({$a->quizurl})
-do curso \'{$a->coursename}\'
+da turma \'{$a->coursename}\'
 
 Para rever a tentativa acesse {$a->quizreviewurl}.';
 $string['emailnotifysmall'] = '{$a->studentname} completou {$a->quizname}. Veja {$a->quizreviewurl}';
 $string['emailnotifysubject'] = '{$a->studentname} concluiu o questionário {$a->quizname}';
 $string['emailoverduebody'] = 'Prezado {$a->studentname},
 
-Você iniciou uma tentativa no queziontário \'{$a->quizname}\' no curso \'{$a->coursename}\' mas não finalizou a tentativa.
+Você iniciou uma tentativa no queziontário \'{$a->quizname}\' na turma \'{$a->coursename}\' mas não finalizou a tentativa.
 
 Se você pretende ainda finalizar essa tentativa, por favor retorne para {$a->attemptsummaryurl} e clique no botão de envio. Você precisa fazer isso antes de {$a->attemptgraceend}, caso contrário sua tentativa não será levada em conta.';
 $string['emailoverduesmall'] = 'Você não finalizou sua tentativa em {$a->quizname}. Por favor vá para {$a->attemptsummaryurl} antes de {$a->attemptgraceend} se você pretende finalizá-la.';
@@ -443,7 +443,7 @@ $string['howquestionsbehave_desc'] = 'Configuração padrão para comportamento 
 $string['imagedisplay'] = 'Imagem a ser mostrada';
 $string['importcategory'] = 'importar categoria';
 $string['importerror'] = 'Erro durante a importação';
-$string['importfilearea'] = 'Importação do arquivo já presente no curso...';
+$string['importfilearea'] = 'Importação do arquivo já presente na turma...';
 $string['importfileupload'] = 'Importação de arquivo carregado...';
 $string['importfromthisfile'] = 'Importar deste arquivo';
 $string['import_help'] = 'Esta função permite que você importe perguntas de arquivos externos de texto.

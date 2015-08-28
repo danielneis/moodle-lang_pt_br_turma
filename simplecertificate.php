@@ -33,7 +33,7 @@ $string['bulkaction'] = 'Escolha a operação em lote';
 $string['bulkbuttonlabel'] = 'Enviar';
 $string['bulkview'] = 'Operações em lote';
 $string['cantdeleteissue'] = 'Ocorreu um erro ao remover os certificados emitidos';
-$string['cantissue'] = 'O certificado não pode ser emitido pois o usuário não atigiu a meta do curso';
+$string['cantissue'] = 'O certificado não pode ser emitido pois o usuário não atigiu a meta da turma';
 $string['certificatecopy'] = 'CÓPIA';
 $string['certificateimage'] = 'Arquivo de Imagem do certificado';
 $string['certificateimage_help'] = 'Esta é a imagem que será utilizada no certificado';
@@ -46,7 +46,7 @@ Os marcadores são:
 
 <ul>
 <li>{USERNAME} -> Nome completo do aluno</li>
-<li>{COURSENAME} -> Nome completo do curso (ou o que estiver definido em "Nome Alternativo do Curso")</li>
+<li>{COURSENAME} -> Nome completo da turma (ou o que estiver definido em "Nome Alternativo do Curso")</li>
 <li>{GRADE} -> Nota formatada</li>
 <li>{DATE} -> Data formatada</li>
 <li>{OUTCOME} -> Resultados (Outcomes)</li>
@@ -85,11 +85,11 @@ $string['codex'] = 'Posição Horizontal do QR Code do Certificado';
 $string['codey'] = 'Posição Vertical do QR Code do Certificado';
 $string['completedusers'] = 'Usuários que atingiram os objetivos definidos';
 $string['completiondate'] = 'Conclusão de Curso';
-$string['coursegrade'] = 'Nota do curso';
+$string['coursegrade'] = 'Nota da turma';
 $string['coursename'] = 'Nome alternativo do Curso';
 $string['coursename_help'] = 'Nome alternativo do Curso';
 $string['coursenotfound'] = 'Curso não encontrado';
-$string['coursetimereq'] = 'Minutos mínimos de participação no curso';
+$string['coursetimereq'] = 'Minutos mínimos de participação na turma';
 $string['coursetimereq_help'] = 'Coloque o tempo mínimo de participação (em minutos) que um aluno deve ter para conseguir obter o certificado';
 $string['datefmt'] = 'Formato da data';
 $string['datefmt_help'] = 'Coloque um formato de data válido aceito pelo PHP (http://www.php.net/manual/pt_BR/function.strftime.php). ou deixe-o em branco para usar o valor de formatação padrão definido pela a configuração de idioma do usuário.';
@@ -118,21 +118,21 @@ $string['emailfrom_help'] = 'Nome a ser usado como remetente dos email enviados'
 $string['emailothers'] = 'Enviar email para outros';
 $string['emailothers_help'] = 'Digite os endereços de emails que vão receber o alerta de emissão de certificado';
 $string['emailsent'] = 'Os emails foram enviados';
-$string['emailstudentsubject'] = 'Seu certificado do curso {$a->course}';
+$string['emailstudentsubject'] = 'Seu certificado da turma {$a->course}';
 $string['emailstudenttext'] = 'Olá {$a->username},
 
-	Segue em anexo o certificado do curso: {$a->course}.
+	Segue em anexo o certificado da turma: {$a->course}.
 
 
 ESTA É UMA MENSAGEM AUTOMÁTICA, NÃO RESPONDA POR FAVOR';
-$string['emailteachermail'] = '{$a->student} recebeu o certificado: \'{$a->certificate}\' para o curso
+$string['emailteachermail'] = '{$a->student} recebeu o certificado: \'{$a->certificate}\' para a turma
 {$a->course}.
 
 Você pode vê-lo aqui:
 
     {$a->url}';
 $string['emailteachermailhtml'] = '{$a->student} recebeu o certificado: \'<i>{$a->certificate}</i>\'
-para o curso {$a->course}.
+para a turma {$a->course}.
 
 Você pode vê-lo aqui:
 
@@ -180,10 +180,10 @@ $string['openwindow'] = 'Pressione o botão abaixo para visualizar o seu certifi
 $string['pluginadministration'] = 'Administração de Certificado';
 $string['pluginname'] = 'Certificado Simples';
 $string['printdate'] = 'Tipo de data do certificado';
-$string['printdate_help'] = 'Esta é a data que será impressa, você pose escolher entre a data que o aluno completou o curso, ou a data de emissão do certificado.
+$string['printdate_help'] = 'Esta é a data que será impressa, você pose escolher entre a data que o aluno completou a turma, ou a data de emissão do certificado.
 Também pode-se escolher a data que uma certa atividade foi corrigida, se em algum dos casos o aluno não tiver a data, então a data de emissão será usada.';
 $string['printgrade'] = 'Tipo de nota do certificado';
-$string['printgrade_help'] = 'Pode-se escolher a nota que será impressa no certificado, esta pode ser a nota final do curso ou a nota em uma atividade.';
+$string['printgrade_help'] = 'Pode-se escolher a nota que será impressa no certificado, esta pode ser a nota final da turma ou a nota em uma atividade.';
 $string['printoutcome'] = 'Imprimir resultado (Outcome)';
 $string['printoutcome_help'] = 'Você pode escolher qualquer resultado (outcome) definido neste curso. Será impresso o nome do resultado e o resultado recebido  pelo usuário. Um exemplo poderia ser: Resultado: Proficiente.';
 $string['printqrcode'] = 'Imprimir o QR Code do certificado';

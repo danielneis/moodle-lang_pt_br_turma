@@ -44,7 +44,7 @@ $string['modulename_help'] = 'O módulo de atividade certificados Accredible lhe
 Adicionar a atividade onde você queira que os alunos vejam o seu certificado.';
 $string['modulenameplural'] = 'Certificados Accredible';
 $string['nocertificates'] = 'Não há certificados';
-$string['passinggrade'] = 'Nota percentual necessário para passar no curso (%)';
+$string['passinggrade'] = 'Nota percentual necessário para passar na turma (%)';
 $string['pluginadministration'] = 'Administração de certificados Accredible';
 $string['pluginname'] = 'Certificados Accredible';
 $string['viewheader'] = 'Certificados para {$a}';

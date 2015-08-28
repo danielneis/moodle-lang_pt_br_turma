@@ -76,7 +76,7 @@ $string['attls9'] = 'Freqüentemente discordo de autores de livros que leio, e p
 $string['attls9short'] = 'discorda do autor';
 $string['attlsintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
-O objetivo deste questionário é fazer uma pesquisa sobre as posturas dos participantes do curso perante a aprendizagem e a reflexão crítica.
+O objetivo deste questionário é fazer uma pesquisa sobre as posturas dos participantes da turma perante a aprendizagem e a reflexão crítica.
 
 Cada ítem abaixo consiste em uma declaração que descreve posturas e atitudes que você pode assumir ao longo deste curso.
 
@@ -151,7 +151,7 @@ $string['colles6'] = 'Faço reflexões críticas sobre as minhas próprias idéi
 $string['colles6short'] = 'eu critico as minhas próprias idéias';
 $string['colles7'] = 'Faço reflexões críticas sobre as idéias dos outros participantes.';
 $string['colles7short'] = 'eu critico os outros participantes';
-$string['colles8'] = 'Faço reflexões críticas sobre os conteúdos do curso';
+$string['colles8'] = 'Faço reflexões críticas sobre os conteúdos da turma';
 $string['colles8short'] = 'eu critico os conteúdos';
 $string['colles9'] = 'Eu explico as minhas idéias aos outros participantes.';
 $string['colles9short'] = 'eu explico as minhas idéias';

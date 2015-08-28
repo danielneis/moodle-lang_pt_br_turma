@@ -41,7 +41,7 @@ $string['attendance:changeattendances'] = 'Alterando Presenças';
 $string['attendance:changepreferences'] = 'Alterando Preferências';
 $string['attendancedata'] = 'Dados de presença';
 $string['attendance:export'] = 'Exportar Relatórios';
-$string['attendanceforthecourse'] = 'Presença para o curso';
+$string['attendanceforthecourse'] = 'Presença para a turma';
 $string['attendancegrade'] = 'Nota de presença';
 $string['attendance:manageattendances'] = 'Gerenciar Presenças';
 $string['attendancenotset'] = 'Você precisa selecionar uma opção para a presença';
@@ -73,11 +73,11 @@ $string['countofselected'] = 'Contagem da seleção';
 $string['createmultiplesessions'] = 'Criar várias sessões';
 $string['createmultiplesessions_help'] = 'Esta função possibilita a criação de várias sessões num único passo.
 
- * <strong>Data de início da sessão</strong>: Selecione a data de início do curso (o primeiro dia de aulas)
+ * <strong>Data de início da sessão</strong>: Selecione a data de início da turma (o primeiro dia de aulas)
  * <strong>Data de término da sessão</strong>: Selecione o último dia de aulas (o último dia que você deseja registrar presenças).
  * <strong>Dias da sessão</strong>: Selecione os dias da semana no qual haverá aula (por exemplo, Segunda/Quarta/Sexta).
  * <strong>Frequência</strong>: Se há aulas todas as semanas, selecione 1; a cada duas semanas, selecione 2; e assim por diante.';
-$string['createonesession'] = 'Criar uma sessão para o curso';
+$string['createonesession'] = 'Criar uma sessão para a turma';
 $string['days'] = 'Dia';
 $string['defaultdisplaymode'] = 'Modo de visualização padrão';
 $string['defaults'] = 'Padrões';
@@ -86,8 +86,8 @@ $string['deletelogs'] = 'Apagar registros de presença';
 $string['deleteselected'] = 'Apagar selecionado';
 $string['deletesession'] = 'Apagar sessão';
 $string['deletesessions'] = 'Apagar todas as sessões';
-$string['deletingsession'] = 'Apagando sessão para o curso';
-$string['deletingstatus'] = 'Apagando status para o curso';
+$string['deletingsession'] = 'Apagando sessão para a turma';
+$string['deletingstatus'] = 'Apagando status para a turma';
 $string['description'] = 'Descrição';
 $string['display'] = 'Exibir';
 $string['displaymode'] = 'Modo de exibição';
@@ -118,13 +118,13 @@ $string['eventtaken'] = 'Presença registrada';
 $string['eventtakenbystudent'] = 'Presença registrada por estudante';
 $string['export'] = 'Exportar';
 $string['gradebookexplanation'] = 'Nota no livro de notas';
-$string['gradebookexplanation_help'] = 'O módulo de Presença mostra sua nota de presença atual baseada no número de pontos que você ganhou e o número total de pontos que poderiam ter sido ganhos até agora; ele não inclui aulas futuras. No livro de notas, sua nota de presença é baseada na percentagem da sua presença atual e o número de pontos que poderiam ser ganhos ao longo de todo o período do curso, incluindo aulas futuras. Deste modo, suas notas de presença mostradas no módulo de Presença e no livro de notas podem não ser o mesmo número de pontos, mas eles são a mesma percentagem.
+$string['gradebookexplanation_help'] = 'O módulo de Presença mostra sua nota de presença atual baseada no número de pontos que você ganhou e o número total de pontos que poderiam ter sido ganhos até agora; ele não inclui aulas futuras. No livro de notas, sua nota de presença é baseada na percentagem da sua presença atual e o número de pontos que poderiam ser ganhos ao longo de todo o período da turma, incluindo aulas futuras. Deste modo, suas notas de presença mostradas no módulo de Presença e no livro de notas podem não ser o mesmo número de pontos, mas eles são a mesma percentagem.
 
-Por exemplo, se você ganhou 8 de 10 pontos até agora (80% de presença) e a presença para todo o curso é de 50 pontos, o módulo de Presença mostrará 8/10 e o livro de notas mostrará 40/50. Você ainda não ganhou 40 pontos, mas 40 é o valor equivalente de pontos para a sua percentagem atual de presença de 80%. Os pontos que você ganhou no módulo de Presença nunca podem diminuir, pois ela é baseada apenas na presença registrada até o momento; no entanto, os pontos de presença mostrados no livro de notas podem aumentar ou diminuir baseada na sua futura frequência, pois ela é calculada tomando em conta toda a duração do curso.';
+Por exemplo, se você ganhou 8 de 10 pontos até agora (80% de presença) e a presença para todo a turma é de 50 pontos, o módulo de Presença mostrará 8/10 e o livro de notas mostrará 40/50. Você ainda não ganhou 40 pontos, mas 40 é o valor equivalente de pontos para a sua percentagem atual de presença de 80%. Os pontos que você ganhou no módulo de Presença nunca podem diminuir, pois ela é baseada apenas na presença registrada até o momento; no entanto, os pontos de presença mostrados no livro de notas podem aumentar ou diminuir baseada na sua futura frequência, pois ela é calculada tomando em conta toda a duração do curso.';
 $string['gridcolumns'] = 'Colunas da grade';
 $string['groupsession'] = 'Grupo';
 $string['hiddensessions'] = 'Sessões ocultas';
-$string['hiddensessions_help'] = 'Sessões deixam de ser visíveis se sua data é anterior à data de início do curso. Altere a data de início do curso e as sessões ocultas serão apresentadas.
+$string['hiddensessions_help'] = 'Sessões deixam de ser visíveis se sua data é anterior à data de início da turma. Altere a data de início do curso e as sessões ocultas serão apresentadas.
 
 Você pode usar esta facilidade para ocultar sessões antigas em vez de excluí-las. Note que somente sessões visíveis são usadas no Livro de Notas.';
 $string['identifyby'] = 'Identificar estudante por';
@@ -151,7 +151,7 @@ $string['newdate'] = 'Nova data';
 $string['newduration'] = 'Nova duração';
 $string['noattforuser'] = 'Não existem registros de presença para o usuário';
 $string['nodescription'] = 'Sessão de aula regular';
-$string['nogroups'] = 'Você não pode adicionar sessões de grupo. Nenhum grupo existe no curso.';
+$string['nogroups'] = 'Você não pode adicionar sessões de grupo. Nenhum grupo existe na turma.';
 $string['noguest'] = 'Visitantes não podem ver presença';
 $string['noofdaysabsent'] = 'Nº de dias ausente';
 $string['noofdaysexcused'] = 'Nº de dias dispensado';
@@ -160,7 +160,7 @@ $string['noofdayspresent'] = 'Nº de dias presente';
 $string['nosessiondayselected'] = 'Nenhum dia de sessão selecionado';
 $string['nosessionexists'] = 'Nenhuma sessão existe para este curso';
 $string['nosessionsselected'] = 'Nenhuma sessão selecionada';
-$string['notfound'] = 'Atividade de presença não encontrada para o curso!';
+$string['notfound'] = 'Atividade de presença não encontrada para a turma!';
 $string['noupgradefromthisversion'] = 'O módulo attendance não pode ser atualizado a partir da versão do attforblock instalado. Por favor, remova o attforblock ou atualize-o para a última versão antes de instalar o novo módulo attendance.';
 $string['olddate'] = 'Antiga data';
 $string['Pacronym'] = 'Pr';
@@ -172,7 +172,7 @@ $string['remark'] = 'Observação para: {$a}';
 $string['remarks'] = 'Observações';
 $string['report'] = 'Relatório';
 $string['required'] = 'Obrigatório*';
-$string['resetdescription'] = 'Lembre-se que apagar os dados de presença irá apagar a informação do banco de dados. Você pode apenas esconder antigas sessões que tiveram a data de início do curso alteradas.';
+$string['resetdescription'] = 'Lembre-se que apagar os dados de presença irá apagar a informação do banco de dados. Você pode apenas esconder antigas sessões que tiveram a data de início da turma alteradas.';
 $string['resetstatuses'] = 'Redefinir status padrão';
 $string['restoredefaults'] = 'Restaurar padrões';
 $string['resultsperpage'] = 'Resultados por página';

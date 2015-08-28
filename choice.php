@@ -79,7 +79,7 @@ Uma atividade de escolha pode ser usada
 
 * Como uma pesquisa rápida para estimular reflexão sobre um tópico
 * Para testar rapidamente o compreensão dos alunos
-* Para facilitar a tomada de decisões do aluno, por exemplo, permitindo os alunos votarem em uma direção para o curso';
+* Para facilitar a tomada de decisões do aluno, por exemplo, permitindo os alunos votarem em uma direção para a turma';
 $string['modulenameplural'] = 'Escolhas';
 $string['moveselectedusersto'] = 'Mova os usuários selecionados para...';
 $string['multiplenotallowederror'] = 'Múltiplas respostas não são permitidos nesta escolha';

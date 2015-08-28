@@ -148,7 +148,7 @@ $string['customscoring_help'] = '<p>Isto permitirá que você coloque um valor d
 1 ponto para respostas corretas e 0 para incorretas, embora você possa mudar isto
 após a importação.</p>';
 $string['deadline'] = 'Prazo final';
-$string['defaultessayresponse'] = 'O seu trabalho vai ser avaliado pelo docente do curso.';
+$string['defaultessayresponse'] = 'O seu trabalho vai ser avaliado pelo docente da turma.';
 $string['deleteallattempts'] = 'Excluir todas as tentativas da lição';
 $string['deletedefaults'] = 'Excluir {$a} x padrão';
 $string['deletedpage'] = 'Página excluída';
@@ -157,7 +157,7 @@ $string['deleting'] = 'Excluindo';
 $string['deletingpage'] = 'Excluindo página: {$a}';
 $string['dependencyon'] = 'Dependente de';
 $string['dependencyon_help'] = '<p>Este parâmetro possibilita que esta lição dependa do desempenho do aluno em outra
-lição do mesmo curso. Se as exigências de desempenho não forem atingidas, o aluno
+lição do mesma turma. Se as exigências de desempenho não forem atingidas, o aluno
 não terá acesso a esta lição.</p>
 
 <p>As condições para a dependência incluem:
@@ -571,7 +571,7 @@ $string['retakesallowed_help'] = '<p>Esta configuração determina se os estudan
 
 <p>O valor padrão desta opção é <b>Não</b>, significando que estudantes não tem permissão para refazer a lição. É esperado que sómente em circunstancias excepcionais esta opção seja configurada para o valor <b>Sim</b>.</p>';
 $string['returnto'] = 'Voltar para {$a}';
-$string['returntocourse'] = 'Voltar ao curso';
+$string['returntocourse'] = 'Voltar aa turma';
 $string['reverttodefaults'] = 'Reverter para os padrões da lição';
 $string['review'] = 'Revisão';
 $string['reviewlesson'] = 'Rever Lição';

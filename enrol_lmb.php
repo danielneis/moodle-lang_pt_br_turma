@@ -48,7 +48,7 @@ $string['categorytypehelp'] = 'Isso permite que você selecione em quais categor
 <li> Códigos de departamento:  Usa o código de departamento ao invés do nome completo.</li>
 <li>  Períodos depois departamento? Esta configuração fará com que os cursos sejam colocados nas categorias com o nome do departamento que os hospeda, que está contido em um termo período com o nome dado para o período/semestre.</li>
 <li> Períodos depois Código de departamento: O mesmo que Períodos depois Avaliação, só que usa a abreviatura do departamento ao invés do nome completo.</li>
-<li> Selecionado: Com esta configuração, selecione a categoria existente onde você gostaria que o curso fosse colocado, a partir do segundo menu drop down.</li>
+<li> Selecionado: Com esta configuração, selecione a categoria existente onde você gostaria que a turma fosse colocado, a partir do segundo menu drop down.</li>
 </ul>';
 $string['cathidden'] = 'Criar novas categorias como ocultas';
 $string['cathiddenhelp'] = 'Criar novas categorias como ocultas.';
@@ -62,9 +62,9 @@ $string['coursehidden'] = 'Criar novos cursos como ocultos';
 $string['coursehiddenalways'] = 'Sempre';
 $string['coursehiddencron'] = 'Baseado na configuração do cron';
 $string['coursehiddennever'] = 'Nunca';
-$string['courseshorttitle'] = 'Nome curto do curso';
-$string['courseshorttitlehelp'] = 'Isso contém o template para criar o nome curto do curso. Veja acima os tags disponíveis.';
-$string['coursetitle'] = 'Nome completo do curso';
+$string['courseshorttitle'] = 'Nome curto da turma';
+$string['courseshorttitlehelp'] = 'Isso contém o template para criar o nome curto da turma. Veja acima os tags disponíveis.';
+$string['coursetitle'] = 'Nome completo da turma';
 $string['createnewusers'] = 'Criar contas de usuários ainda não registrados no moodle';
 $string['createnewusershelp'] = 'Esta configuração permitirá que o módulo LMB crie novos usuários no Moodle como direcionado pelo Banner / LMB';
 $string['createusersemaildomain'] = 'Só crie usuários com e-mail deste domínio';

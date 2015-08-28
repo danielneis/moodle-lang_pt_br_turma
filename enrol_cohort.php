@@ -33,5 +33,5 @@ $string['creategroup'] = 'Criar novo grupo';
 $string['defaultgroupnametext'] = '{$a->name} coorte {$a->increment}';
 $string['instanceexists'] = 'O coorte já está sincronizado como o papel selecionado';
 $string['pluginname'] = 'Sincronização de coorte';
-$string['pluginname_desc'] = 'O plugin de Inscrição Coorte sincroniza membros de coorte com participantes do curso.';
+$string['pluginname_desc'] = 'O plugin de Inscrição Coorte sincroniza membros de coorte com participantes da turma.';
 $string['status'] = 'Ativo';

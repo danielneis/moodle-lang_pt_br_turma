@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['coursesummary'] = 'Resumo do curso';
-$string['course_summary:addinstance'] = 'Adicionar um novo bloco de resumo do curso ou site';
-$string['pluginname'] = 'Resumo do curso ou site';
+$string['coursesummary'] = 'Resumo da turma';
+$string['course_summary:addinstance'] = 'Adicionar um novo bloco de resumo da turma ou site';
+$string['pluginname'] = 'Resumo da turma ou site';

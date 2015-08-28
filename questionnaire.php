@@ -197,8 +197,8 @@ $string['horizontal'] = 'Horizontal';
 $string['id'] = 'ID';
 $string['includechoicecodes'] = 'Incluir códigos de escolhas';
 $string['includechoicetext'] = 'Incluir textos de escolhas';
-$string['incorrectcourseid'] = 'ID do curso é incorreto';
-$string['incorrectmodule'] = 'ID do módulo do curso é incorreto';
+$string['incorrectcourseid'] = 'ID da turma é incorreto';
+$string['incorrectmodule'] = 'ID do módulo da turma é incorreto';
 $string['incorrectquestionnaire'] = 'Enquete é incorreta';
 $string['invalidresponse'] = 'Foi especificada uma resposta inválida.';
 $string['invalidresponserecord'] = 'Foi especificado um registro de resposta inválido.';
@@ -358,7 +358,7 @@ $string['ratescale'] = 'Avaliação/Escala';
 $string['ratescale_help'] = 'Verifique a documentação Moodle abaixo';
 $string['realm'] = 'Tipo de Enquete';
 $string['realm_help'] = '* ** Há três tipos de questionários: **
-* Privada  - pertence ao curso é definido em apenas.
+* Privada  - pertence aa turma é definido em apenas.
 * Modelo  - pode ser copiado e editado.
 * Pública  - pode ser compartilhado entre os cursos.';
 $string['redirecturl'] = 'A URL para a qual o usuário é redirecionado após completar esta enquete.';
@@ -437,7 +437,7 @@ $string['template'] = 'Modelo';
 $string['templatenotviewable'] = 'Enquetes modelo não são visualizáveis.';
 $string['text'] = 'Texto da Questão';
 $string['textareacolumns'] = 'Colunas da caixa de texto';
-$string['textareacolumns_help'] = 'sta questão irá exibir uma caixa de texto simples, com ** x *** Textarea colunas * (área ou * largura *) e ** y *** Textarea linhas * (número de linhas de texto * *). Se você deixar ambos x e y ao padrão ** 0 ** valor (ou, se você configurá-lo para ** 0 **), então editor de HTML será exibido com altura padrão e largura (se disponível no contexto do curso / usuário e perfil do usuário).';
+$string['textareacolumns_help'] = 'sta questão irá exibir uma caixa de texto simples, com ** x *** Textarea colunas * (área ou * largura *) e ** y *** Textarea linhas * (número de linhas de texto * *). Se você deixar ambos x e y ao padrão ** 0 ** valor (ou, se você configurá-lo para ** 0 **), então editor de HTML será exibido com altura padrão e largura (se disponível no contexto da turma / usuário e perfil do usuário).';
 $string['textarearows'] = 'Linhas da caixa de texto';
 $string['textbox'] = 'Caixa de Texto';
 $string['textbox_help'] = 'Para o tipo de questão Caixa de Texto, introduza o comprimento caixa de entrada e o comprimento do texto máximo de texto a ser digitado pelo entrevistado. Os valores padrão são 20 caracteres para a largura da caixa de entrada e 25 caracteres para o comprimento máximo do texto digitado.';
@@ -464,7 +464,7 @@ $string['vertical'] = 'Vertical';
 $string['view'] = 'Visualizar';
 $string['viewallresponses'] = 'Visualizar Todas as Respostas';
 $string['viewallresponses_help'] = 'Se o questionário está definido para o  ** modo de grupo**: *Grupos visíveis* , ou está definido para  *Grupos separados * e o usuário atual
-  tem o *moodle / site: accessallgroups* capacidade (no contexto atual), e os grupos foram definidos no curso atual,  em seguida, o usuário tem acesso a uma lista suspensa de grupos. Esta lista suspensa permite que o usuário "filtrar" as respostas ao questionário por parte de grupos.  Se a definição for ** Modo Grupo **: *Grupos separados* , os usuários que não têm o *moodle / site: accessallgroups* capacidade (normalmente estudantes ou professores não-edição, etc.) só vai ser capaz de ver as respostas do grupo (s) a que pertencem.';
+  tem o *moodle / site: accessallgroups* capacidade (no contexto atual), e os grupos foram definidos na turma atual,  em seguida, o usuário tem acesso a uma lista suspensa de grupos. Esta lista suspensa permite que o usuário "filtrar" as respostas ao questionário por parte de grupos.  Se a definição for ** Modo Grupo **: *Grupos separados* , os usuários que não têm o *moodle / site: accessallgroups* capacidade (normalmente estudantes ou professores não-edição, etc.) só vai ser capaz de ver as respostas do grupo (s) a que pertencem.';
 $string['viewbyresponse'] = 'Lista de respostas';
 $string['viewindividualresponse'] = 'Respostas individuais';
 $string['viewindividualresponse_help'] = 'Clique sobre os nomes dos respondentes na lista abaixo para visualizar as respostas individuais.';

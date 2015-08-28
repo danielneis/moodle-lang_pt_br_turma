@@ -104,7 +104,7 @@ $string['modulename_help'] = 'O módulo de recurso Lightbox permite que os parti
 
 Este recurso permite que você crie "Lightbox" habilitando galerias de imagens dentro de seu curso Moodle.
 
-Como professor do curso, você é capaz de criar, editar e excluir galerias. Versões reduzidas das imagens serão geradas e serão utilizadas para a visualização de miniaturas da galeria. Ao clicar em qualquer uma das miniaturas traz a imagem em foco, e permite-lhe percorrer a galeria do seu jeito. Os scripts do Lightbox também criam efeitos de transição agradáveis ao carregar e percorrer as imagens.
+Como professor da turma, você é capaz de criar, editar e excluir galerias. Versões reduzidas das imagens serão geradas e serão utilizadas para a visualização de miniaturas da galeria. Ao clicar em qualquer uma das miniaturas traz a imagem em foco, e permite-lhe percorrer a galeria do seu jeito. Os scripts do Lightbox também criam efeitos de transição agradáveis ao carregar e percorrer as imagens.
 
 Se habilitado, os usuários são capazes de deixar comentários em sua galeria.';
 $string['modulenameplural'] = 'Galeria de imagens';

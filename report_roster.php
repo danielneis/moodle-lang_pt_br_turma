@@ -32,5 +32,5 @@ $string['learningmodeon'] = 'Modo de aprendizagem ligado';
 $string['pluginname'] = 'Lista';
 $string['printmode'] = 'Para imprimir';
 $string['roster'] = 'Lista';
-$string['roster:view'] = 'Visualizar relatório da lista do curso';
+$string['roster:view'] = 'Visualizar relatório da lista da turma';
 $string['webmode'] = 'Relatório Web';

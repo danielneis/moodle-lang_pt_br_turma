@@ -71,7 +71,7 @@ $string['mandatoryofflinespecifycourse'] = 'Seleção do Curso obrigatório';
 $string['mandatoryofflinespecifycourse_help'] = 'A especificação de uma curso nas sessões offline será obrigatória.';
 $string['maynotaddselfcertforother'] = 'Você não pode adicionar um sessões offline para outros usuários.';
 $string['modulename'] = 'Registro de presença';
-$string['modulename_help'] = 'Registro de Presença calcula o tempo que os usuários passam trabalhando em cursos online. <br /> Opcionalmente permite o registro atividades offline do usuário. <br /> Dependendo do modo de rastreamento, o registro pode rastrear as atividades em um único curso, em todos os cursos da mesma categoria ou em todos os cursos "Meta ligados" no Curso que Registro de Presença esteja incluído <br />Sessões de trabalho online são calculadas com os registros de log gravados pelo Moodle. <br /> <b>Novas sessões on-line são adicionados com algum atraso pelo cron, após o logout do usuário.</b>';
+$string['modulename_help'] = 'Registro de Presença calcula o tempo que os usuários passam trabalhando em cursos online. <br /> Opcionalmente permite o registro atividades offline do usuário. <br /> Dependendo do modo de rastreamento, o registro pode rastrear as atividades em um única turma, em todos os cursos da mesma categoria ou em todos os cursos "Meta ligados" no Curso que Registro de Presença esteja incluído <br />Sessões de trabalho online são calculadas com os registros de log gravados pelo Moodle. <br /> <b>Novas sessões on-line são adicionados com algum atraso pelo cron, após o logout do usuário.</b>';
 $string['modulenameplural'] = 'Registros de presença';
 $string['never'] = '(Nunca)';
 $string['no_refcourse'] = '(Sem Curso especificado)';
@@ -88,7 +88,7 @@ $string['offline_session_comments_help'] = 'Descreva o tema da sessão de trabal
 $string['offline_session_deleted'] = 'Sessão offline excluída';
 $string['offline_session_end'] = 'Fim';
 $string['offline_session_ref_course'] = 'Ref.Curso';
-$string['offline_session_ref_course_help'] = 'Selecione o curso no qual o trabalho offline foi realizado ou o tópico do curso abordado no trabalho.';
+$string['offline_session_ref_course_help'] = 'Selecione a turma no qual o trabalho offline foi realizado ou o tópico do curso abordado no trabalho.';
 $string['offline_session_saved'] = 'Sessão offline nova salva';
 $string['offline_sessions_certification'] = 'Sessões de trabalho offline';
 $string['offline_sessions_certification_help'] = 'Permitir aos usuários inserir sessões offline de trabalho. <br /> Este é um tipo de <i>auto-certificação</i> do trabalho realizado. <br />';
@@ -96,7 +96,7 @@ $string['offline_session_start'] = 'Iniciar';
 $string['offline_session_start_help'] = 'Selecione data e hora de início e fim da trabalho da sessão offline que você quer enviar. <br /> A sessão offline não pode sobrepor qualquer sessão previamente gravada, online ou offline, nem a sessão online atual.';
 $string['offline_sessions_total_duration'] = 'Tempo total offline';
 $string['offlinespecifycourse'] = 'Especifique Curso de Sessões offline';
-$string['offlinespecifycourse_help'] = 'Permitir que o usuário selecione o curso da sessão offline relacionada. <br /> Esta opção só tem sentido se registro de presença estiver no modo de rastreamento para mais de um curso(Por exemplo: mode de rastreamento "Categoria" ou "Meta-ligado")';
+$string['offlinespecifycourse_help'] = 'Permitir que o usuário selecione a turma da sessão offline relacionada. <br /> Esta opção só tem sentido se registro de presença estiver no modo de rastreamento para mais de um curso(Por exemplo: mode de rastreamento "Categoria" ou "Meta-ligado")';
 $string['online'] = 'Online';
 $string['online_offline'] = 'Online/Offline';
 $string['online_sessions_total_duration'] = 'Tempo Total das Sessões Online';
@@ -117,8 +117,8 @@ $string['ref_course'] = 'Ref.Curso';
 $string['registername'] = 'Nome do registro de frequência';
 $string['registertype'] = 'Modo de rastreamento do registro de presença';
 $string['registertype_help'] = 'Modos de rastreamento do registro de presença determina como será realizado o rastreamento(Por exemplo onde a atividade do usuário será rastreada):
-* _Somente este Curso_: somente no curso onde a instância do registro de presença foi configurada.
-* _Todos os cursos na mesma categoria_: a atividade será monitorada em todos os outros cursos na mesma categoria do curso onde a instância do registro de presença foi configurada.
+* _Somente este Curso_: somente na turma onde a instância do registro de presença foi configurada.
+* _Todos os cursos na mesma categoria_: a atividade será monitorada em todos os outros cursos na mesma categoria da turma onde a instância do registro de presença foi configurada.
 * _Todos os cursos ligados por um curso meta link_: a atividade será monitorada neste curso em todos os outros cursos ligados por ligação meta curso.';
 $string['schedule_reclalc_all_session'] = 'Agendar o recálculo das sessões';
 $string['select_a_course'] = '- Selecione um curso -';

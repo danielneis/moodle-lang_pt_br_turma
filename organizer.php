@@ -40,12 +40,12 @@ $string['appointmentcomments_help'] = 'Informação adicional sobre os compromis
 $string['appointmentdatetime'] = 'Data & hora';
 $string['appointment_reminder:student:fullmessage'] = 'Olá {$a->receivername}!
 
-Como parte do curso {$a->courseid} {$a->coursefullname}, você tem um compromisso com {$a->sendername} em {$a->date} às {$a->time} em {$a->location}.
+Como parte da turma {$a->courseid} {$a->coursefullname}, você tem um compromisso com {$a->sendername} em {$a->date} às {$a->time} em {$a->location}.
 
 TUWEL Messaging System';
 $string['appointment_reminder:student:group:fullmessage'] = 'Olá {$a->receivername}!
 
-Como parte do curso {$a->courseid} {$a->coursefullname}, você tem um compromisso de grupo com {$a->sendername} em {$a->date} às {$a->time} em {$a->location}.
+Como parte da turma {$a->courseid} {$a->coursefullname}, você tem um compromisso de grupo com {$a->sendername} em {$a->date} às {$a->time} em {$a->location}.
 
 TUWEL Messaging System';
 $string['appointment_reminder:student:group:smallmessage'] = 'Você tem um compromisso de grupo com {$a->sendername} em {$a->date} às {$a->time} em {$a->location}.';
@@ -63,7 +63,7 @@ $string['appointment_reminder:teacher:digest:smallmessage'] = 'Você recebeu uma
 $string['appointment_reminder:teacher:digest:subject'] = 'Resumo de compromisso';
 $string['appointment_reminder:teacher:fullmessage'] = 'Olá {$a->receivername}!
 
-Como parte do curso {$a->courseid} {$a->coursefullname}, você tem um compromisso com alunos em {$a->date} às {$a->time} em {$a->location}.
+Como parte da turma {$a->courseid} {$a->coursefullname}, você tem um compromisso com alunos em {$a->date} às {$a->time} em {$a->location}.
 
 TUWEL Messaging System';
 $string['appointment_reminder:teacher:group:digest:fullmessage'] = 'Olá {$a->receivername}!

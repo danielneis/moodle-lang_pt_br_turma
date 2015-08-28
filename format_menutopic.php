@@ -43,7 +43,7 @@ $string['cssdefault_help'] = 'Define se estilos CSS são incluídos por padrão 
 $string['csstemplate'] = 'Sobre: estilos CSS';
 $string['csstemplate_editmenu'] = 'Estilos de modelos (CSS)';
 $string['csstemplate_editmenu_title'] = 'Estilos CSS';
-$string['csstemplate_help'] = 'Permite incluir estilos CSS personalizados que você pode definir uma aparência personalizada gráfico para o menu <p> Um exercício simples de usar o modelo de estilos será: </p><div style=" white-space:nowrap; font-size: 12px; border: 1px solid #666; padding: 5px; background-color: #CCC"> # Id_menu_box {margin-bottom: 10px;} </div><p> Com o código anterior, o menu é separada 10px partir do fundo, de acordo com a posição definida para o menu. </p><p> <strong>Nota:</strong> <ul><li> O identificador (ID) da camada (div) que o menu contém é <strong>id_menu_box.</strong> Estes dados podem ser úteis para manipular os estilos de menu sem afectar os outros componentes da página. </li><li> É possível que, para fazer alterações nos estilos, eles não conseguem visualizar imediatamente no curso. Se assim for, ele deve atualizar a página. Em muitos navegadores, você pode fazê-lo pressionando a combinação de teclas Ctrl + F5. </li></ul></p>';
+$string['csstemplate_help'] = 'Permite incluir estilos CSS personalizados que você pode definir uma aparência personalizada gráfico para o menu <p> Um exercício simples de usar o modelo de estilos será: </p><div style=" white-space:nowrap; font-size: 12px; border: 1px solid #666; padding: 5px; background-color: #CCC"> # Id_menu_box {margin-bottom: 10px;} </div><p> Com o código anterior, o menu é separada 10px partir do fundo, de acordo com a posição definida para o menu. </p><p> <strong>Nota:</strong> <ul><li> O identificador (ID) da camada (div) que o menu contém é <strong>id_menu_box.</strong> Estes dados podem ser úteis para manipular os estilos de menu sem afectar os outros componentes da página. </li><li> É possível que, para fazer alterações nos estilos, eles não conseguem visualizar imediatamente na turma. Se assim for, ele deve atualizar a página. Em muitos navegadores, você pode fazê-lo pressionando a combinação de teclas Ctrl + F5. </li></ul></p>';
 $string['currentsection'] = 'Este tópico';
 $string['displaynavigation'] = 'Exibição da navegação';
 $string['displaynavigation_help'] = 'Indica onde exibir a navegação entre as seções e na posição onde é mostrado.';
@@ -64,7 +64,7 @@ $string['jsdefault_help'] = 'Define se as funções de JavaScript que geram o me
 $string['jstemplate'] = 'Código JavaScript';
 $string['jstemplate_editmenu'] = 'Modelo de Javascript';
 $string['jstemplate_editmenu_title'] = 'Código JavaScript';
-$string['jstemplate_help'] = 'Permite definir o código JavaScript que irá trabalhar sobre o menu ou a página. Ele pode ser útil para definir comportamentos adicionais para o menu, ou mesmo a estrutura de um menu diferente do padrão. <p> <b>Notas:</b> <ul><li> O <b>id_menu_box</b> nome corresponde ao identificador div que contém o menu em HTML criado como aninhar listas, geralmente com as tags HTML: ul li y. </li><li> É possível que, para fazer alterações no JavaScript, eles não conseguem visualizar imediatamente no curso. Se assim for, ele deve atualizar a página. Em muitos navegadores, você pode fazê-lo pressionando a combinação de teclas Ctrl + F5. </li></ul></p>';
+$string['jstemplate_help'] = 'Permite definir o código JavaScript que irá trabalhar sobre o menu ou a página. Ele pode ser útil para definir comportamentos adicionais para o menu, ou mesmo a estrutura de um menu diferente do padrão. <p> <b>Notas:</b> <ul><li> O <b>id_menu_box</b> nome corresponde ao identificador div que contém o menu em HTML criado como aninhar listas, geralmente com as tags HTML: ul li y. </li><li> É possível que, para fazer alterações no JavaScript, eles não conseguem visualizar imediatamente na turma. Se assim for, ele deve atualizar a página. Em muitos navegadores, você pode fazê-lo pressionando a combinação de teclas Ctrl + F5. </li></ul></p>';
 $string['linkinparent'] = 'Linkar raiz de submenu';
 $string['linkinparent_help'] = '<p> Define o comportamento das opções de menu que atuam como raízes ou pais de um submenu. </p><p> Se for estabelecido em <b>Sim,</b> o item de menu funciona como um link para clicar sobre ele e abrir o URL que está definido na <b>&quot;árvore Menu&quot;.</b> Se for estabelecido em <b>Não,</b> o item de menu implanta os links filho a clicar sobre ele </p>';
 $string['menuposition'] = 'Posição do menu';
@@ -88,8 +88,8 @@ $string['next_topic'] = 'Próximo';
 $string['nodesnavigation'] = 'Nós de navegação';
 $string['nodesnavigation_help'] = '<p> Números de seção, separados por vírgulas <b>Exemplo:</b> 1,2,8,10,3. </p> . Se vazio, navegação padrão é usado. <p> Os números de seção não pode ser repetido, porque eles vão mostrar navegação a partir da primeira entrada coincidente. </p>';
 $string['notsaved'] = 'Informação não pôde ser salva';
-$string['page-course-view-topics'] = 'Qualquer página do curso principal em formato menutopic';
-$string['page-course-view-topics-x'] = 'Qualquer página do curso no formato de menutopic';
+$string['page-course-view-topics'] = 'Qualquer página da turma principal em formato menutopic';
+$string['page-course-view-topics-x'] = 'Qualquer página da turma no formato de menutopic';
 $string['pluginname'] = 'Formato Menutopic';
 $string['previous_topic'] = 'Anterior';
 $string['savecorrect'] = 'As informações foram salvas com sucesso';
@@ -106,7 +106,7 @@ $string['topic_sheet_sheetedit'] = 'Tópico de destino';
 $string['tree_editmenu'] = 'Árvore do menu';
 $string['tree_editmenu_title'] = 'Configuração do árvore do menu';
 $string['tree_struct'] = 'Estrutura da árvore';
-$string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore onde cada ramo ou folha de árvore pode ser associado a uma URL. O URL pode ser externa ou directamente ligada a uma secção do curso. Ao assinar a primeira vez para definir a árvore de secção, a plataforma sugere uma estrutura linear, sem ramificações, com uma quantidade de folhas de igual ao número de secções do curso. <P />
+$string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore onde cada ramo ou folha de árvore pode ser associado a uma URL. O URL pode ser externa ou directamente ligada a uma secção da turma. Ao assinar a primeira vez para definir a árvore de secção, a plataforma sugere uma estrutura linear, sem ramificações, com uma quantidade de folhas de igual ao número de secções do curso. <P />
 <p> Para alterar as propriedades de uma folha, clique em seu nome, e ela vai aparecer uma janela onde você pode: realizar algumas ações para mover as folhas, eliminar a folha selecionada, crie uma nova planilha ou atualizar os dados da folha de <. / p>
 <p> Entre as opções que você pode fazer sobre a folha são: </ p>
 <ul>

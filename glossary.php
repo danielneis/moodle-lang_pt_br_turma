@@ -189,7 +189,7 @@ $string['entryleveldefaultsettings'] = 'Configurações predefinidas';
 $string['entrysaved'] = 'Este item foi salvo';
 $string['entryupdated'] = 'Este item foi atualizado';
 $string['entryusedynalink'] = 'Link automático';
-$string['entryusedynalink_help'] = 'Se os links automáticos no nível do site estiverem habilitados e esta checkbox for marcada, a entrada será automaticamente linkada em qualquer lugar que as palavras e frases deste conceito aparecerem durante o restante do curso.';
+$string['entryusedynalink_help'] = 'Se os links automáticos no nível do site estiverem habilitados e esta checkbox for marcada, a entrada será automaticamente linkada em qualquer lugar que as palavras e frases deste conceito aparecerem durante o restante da turma.';
 $string['errcannoteditothers'] = 'Você não pode editar itens criados por outras pessoas.';
 $string['errconceptalreadyexists'] = 'Este conceito já existe. Não é permitida a criação de outras versões.';
 $string['errdeltimeexpired'] = 'Você não pode excluir isto. Tempo expirou!';
@@ -207,7 +207,7 @@ $string['evententryviewed'] = 'Entrada foi visualizada';
 $string['explainaddentry'] = 'Adicionar um novo item.<br />Conceito e definição são campos obrigatórios.';
 $string['explainall'] = 'Mostrar todos os itens em uma página';
 $string['explainalphabet'] = 'Navegar usando este índice';
-$string['explainexport'] = 'Foi criado um novo arquivo.<br /> Baixe o arquivo em um espaço seguro. Você pode importar este arquivo neste curso ou em um outro curso quando você quiser.';
+$string['explainexport'] = 'Foi criado um novo arquivo.<br /> Baixe o arquivo em um espaço seguro. Você pode importar este arquivo neste curso ou em um outra turma quando você quiser.';
 $string['explainimport'] = 'Você deve definir o arquivo a ser importado e os critérios de importação.<br /> Faça o envio e controle os resultados.';
 $string['explainspecial'] = 'Mostrar itens que não iniciam com letras';
 $string['exportedentry'] = 'Exportar item';
@@ -237,7 +237,7 @@ $string['glossary:managecomments'] = 'Gerenciar comentários';
 $string['glossary:manageentries'] = 'Gerenciar itens';
 $string['glossary:rate'] = 'Avaliar itens';
 $string['glossarytype'] = 'Tipo de glossário';
-$string['glossarytype_help'] = 'Um glossário principal é um glossário no qual as entradas de glossários secundários podem ser importadas. Só pode existir um glossário principal no curso. Se a importação de entradas de glossários não for necessária, todos os glossários no curso podem ser glossários secundários.';
+$string['glossarytype_help'] = 'Um glossário principal é um glossário no qual as entradas de glossários secundários podem ser importadas. Só pode existir um glossário principal na turma. Se a importação de entradas de glossários não for necessária, todos os glossários no curso podem ser glossários secundários.';
 $string['glossary:view'] = 'Ver glossário';
 $string['glossary:viewallratings'] = 'Visualizar todas as avaliações enviadas por indivíduos';
 $string['glossary:viewanyrating'] = 'Ver avaliação total que todos receberam';
@@ -255,7 +255,7 @@ $string['isglobal_help'] = '<p>Apenas os Administradores e usuários com capacid
 
 <p>Estes glossários podem ser utilizados em todos os cursos.</p>
 
-<p>Os links automáticos criados a partir dos itens de um glossário global incluem todas as páginas do site enquanto os links automáticos criados a partir de um glossário normal são presentes apenas nas páginas do curso específico associado àquele glossário</p>';
+<p>Os links automáticos criados a partir dos itens de um glossário global incluem todas as páginas do site enquanto os links automáticos criados a partir de um glossário normal são presentes apenas nas páginas da turma específico associado àquele glossário</p>';
 $string['letter'] = 'letra';
 $string['linkcategory'] = 'Fazer o link automático desta categoria';
 $string['linkcategory_help'] = '<P>Você pode definir se os nomes das categorias, como os itens, geram links automaticamente ou não.</p>
@@ -270,7 +270,7 @@ $string['modulename_help'] = 'O módulo glossário permite que os membros do fó
 Um professor pode permitir que arquivos sejam anexados as entradas no glossário. Imagens anexas são exibidas na entrada. Entradas podem ser pesquisadas ou navegadas alfabeticamente ou por categoria, data ou autor. Entradas podem ser aprovadaspor padrão ou necessário aprovação por um professor antes que sejam visualizadas por alguém.
 
 Caso o filtro auto-link, do glossário,  esteja habilitado
-As entradas no glossário serão linkadas ao conceito ou frase no local onde elas aparecem no curso.
+As entradas no glossário serão linkadas ao conceito ou frase no local onde elas aparecem na turma.
 
 Um professor pode permitir comentários ou entradas. Entradas podem também ser avaliadas por professores ou estudantes (avaliação por pares). Avaliações podem também ser agregadas para formar a nota final que será registrada no livro de notas.
 
@@ -367,7 +367,7 @@ $string['studentcanpost'] = 'Estudantes podem adicionar itens';
 $string['totalentries'] = 'Total de itens';
 $string['usedynalink'] = 'Fazer o link automático dos itens';
 $string['usedynalink_help'] = '<P>Esta opção habilita a criação automática de links que levam aos itens do glossário sempre que
-   as palavras ou frases definidas como itens estiverem presentes nos textos do curso. Isto inclui as mensagens do fórum, materiais do curso, sumários das semanas, diários, etc.</p>
+   as palavras ou frases definidas como itens estiverem presentes nos textos da turma. Isto inclui as mensagens do fórum, materiais do curso, sumários das semanas, diários, etc.</p>
 
 <p>Se você não quiser que um texto tenha links, você deve adicionar os tags  &lt;nolink> e &lt;/nolink> ao redor do texto.</p>
 

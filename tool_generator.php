@@ -36,7 +36,7 @@ $string['coursesize_5'] = 'XXL (~ 20GB; criar em ~ 8 horas)';
 $string['coursewithoutusers'] = 'O curso selecionado não tem usuários';
 $string['createcourse'] = 'Criar curso';
 $string['createtestplan'] = 'Criar plano de teste';
-$string['creating'] = 'Criando curso';
+$string['creating'] = 'Crianda turma';
 $string['done'] = 'feito ({$a}s)';
 $string['downloadtestplan'] = 'Baixar o plano de teste';
 $string['downloadusersfile'] = 'Baixar arquivos de usuários';
@@ -58,11 +58,11 @@ $string['progress_coursecompleted'] = 'Curso concluído ({$a}s)';
 $string['progress_createaccounts'] = 'Criando contas de usuário ({$a->from} - {$a->to})';
 $string['progress_createassignments'] = 'Criando atribuições ({$a})';
 $string['progress_createbigfiles'] = 'Criando arquivos grandes ({$a})';
-$string['progress_createcourse'] = 'Criando curso {$a}';
+$string['progress_createcourse'] = 'Crianda turma {$a}';
 $string['progress_createforum'] = 'Criando fórum ({$a} posts)';
 $string['progress_createpages'] = 'Criando páginas ({$a})';
 $string['progress_createsmallfiles'] = 'Criando pequenos arquivos({$a})';
-$string['progress_enrol'] = 'Inscrevendo usuários no curso ({$a})';
+$string['progress_enrol'] = 'Inscrevendo usuários na turma ({$a})';
 $string['progress_sitecompleted'] = 'Site concluído ({$a}s)';
 $string['shortsize_0'] = 'XS';
 $string['shortsize_1'] = 'S';
@@ -71,19 +71,19 @@ $string['shortsize_3'] = 'L';
 $string['shortsize_4'] = 'XL';
 $string['shortsize_5'] = 'XXL';
 $string['sitesize_0'] = 'XS (~ 10MB; três cursos, criado em ~ 30 segundos)';
-$string['sitesize_1'] = 'S (~ 50MB; oito cursos, criados em aproximadamente 2 minutos)';
+$string['sitesize_1'] = 'S (~ 50MB; oita turmas, criados em aproximadamente 2 minutos)';
 $string['sitesize_2'] = 'M (~ 200MB; 73 cursos, criado em ~ 10 minutos)';
 $string['sitesize_3'] = 'L (~ 1\'5GB; 277 cursos, criado em ~ 1\'5 horas)';
 $string['sitesize_4'] = 'XL (~ 10GB; 1065 cursos, criados em ~ 5 horas)';
 $string['sitesize_5'] = 'XXL (~ 20GB; 4177 cursos, criados em ~ 10 horas)';
-$string['size'] = 'Tamanho do curso';
+$string['size'] = 'Tamanho da turma';
 $string['smallfiles'] = 'Arquivos pequenos';
-$string['targetcourse'] = 'Testar objetivo do curso';
+$string['targetcourse'] = 'Testar objetivo da turma';
 $string['testplanexplanation'] = 'Esta ferramenta cria um arquivo de plano de teste JMeter junto com o arquivo de credenciais do usuário.
 
 Este plano de teste é projetado para trabalhar junto com {$a}, o que torna mais fácil para executar o plano de teste em um ambiente específico Moodle, reúne informações sobre as corridas e compara os resultados, assim você terá que baixá-lo e usá-lo no test_runner.sh script ou siga as instruções de instalação e uso.
 
-Você precisa definir uma senha para os usuários do curso em config.php (por exemplo $CFG->tool_generator_users_password \'moodle\';). Não há valor padrão para esta senha para evitar usos não-intencionais da ferramenta. Você precisa usar a opção de atualização de senhas no caso dos usuários de seus cursos terem outras senhas ou elas forem geradas por tool_generator mas sem definir uma $CFG->tool_generator_users_password valor.
+Você precisa definir uma senha para os usuários da turma em config.php (por exemplo $CFG->tool_generator_users_password \'moodle\';). Não há valor padrão para esta senha para evitar usos não-intencionais da ferramenta. Você precisa usar a opção de atualização de senhas no caso dos usuários de seus cursos terem outras senhas ou elas forem geradas por tool_generator mas sem definir uma $CFG->tool_generator_users_password valor.
 
 É parte do tool_generator por isso funciona bem com os cursos gerados pelos cursos e os geradores de site, ele também pode ser usado com qualquer curso que contenha, pelo menos:
 
@@ -100,5 +100,5 @@ $string['testplansize_2'] = 'M ({$a->users} usuários, {$a->loops} loops e {$a->
 $string['testplansize_3'] = 'L ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
 $string['testplansize_4'] = 'XL ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
 $string['testplansize_5'] = 'XXL ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
-$string['updateuserspassword'] = 'Atualizar senha dos usuários do curso';
-$string['updateuserspassword_help'] = 'JMeter precisa fazer login como os usuários do curso, você pode definir a senha de usuários usando $CFG->tool_generator_users_password em config.php; essa configuração atualiza a senha do usuário de acordo com o curso $CFG->tool_generator_users_password. Ele pode ser útil no caso de você estiver usando um curso não gerada por tool_generator ou $CFG->tool_generator_users_password não foi definido quando criou os cursos de teste.';
+$string['updateuserspassword'] = 'Atualizar senha dos usuários da turma';
+$string['updateuserspassword_help'] = 'JMeter precisa fazer login como os usuários da turma, você pode definir a senha de usuários usando $CFG->tool_generator_users_password em config.php; essa configuração atualiza a senha do usuário de acordo com o curso $CFG->tool_generator_users_password. Ele pode ser útil no caso de você estiver usando um curso não gerada por tool_generator ou $CFG->tool_generator_users_password não foi definido quando criou os cursos de teste.';

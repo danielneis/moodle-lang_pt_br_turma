@@ -81,7 +81,7 @@ $string['categorymove'] = 'A categoria \'{$a->name}\' contém {$a->count} pergun
 $string['categorymoveto'] = 'Gravar na categoria';
 $string['categorynamecantbeblank'] = 'O nome da categoria não pode ser deixado em branco.';
 $string['changeoptions'] = 'Alterar opções';
-$string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> no curso "{$a->coursename}" terá seu status de compartilhamento trocado de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
+$string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> na turma "{$a->coursename}" terá seu status de compartilhamento trocado de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
 $string['check'] = 'Verificar';
 $string['chooseqtypetoadd'] = 'Escolha um tipo de questão para adicionar';
 $string['clearwrongparts'] = 'Limpar repostas incorretas';
@@ -130,7 +130,7 @@ $string['editcategories_help'] = 'Em vez de manter todas as questões em uma lis
 Cada categoria possui um contexto que determina onde a questão pode ser usada:
 
 *Contexto da atividade - Questões somente disponíveis no módulo da atividade
-*Contexto do curso - Questões disponíveis em todos os módulos de atividade daquele curso
+*Contexto da turma - Questões disponíveis em todos os módulos de atividade daquele curso
 *Contexto da categoria de curso - Questões disponíveis em todos os módulos de atividade de todos os cursos daquela categoria
 
 Categorias também são utilizadas em questionários com questões randômicas que são selecionadas de uma categoria particular.';
@@ -178,7 +178,7 @@ $string['feedback'] = 'Feedback';
 $string['filecantmovefrom'] = 'Os arquivos de perguntas não podem ser movidos porque você não tem permissão para remover arquivos do local que você está trazendo as questões.';
 $string['filecantmoveto'] = 'Os arquivos de perguntas não podem ser movidos ou copiados porque você não tem permissão para adicionar arquivos no local para onde está levando as questões.';
 $string['fileformat'] = 'Formato de aquivo';
-$string['filesareacourse'] = 'a área de arquivos do curso';
+$string['filesareacourse'] = 'a área de arquivos da turma';
 $string['filesareasite'] = 'a área de arquivos do site';
 $string['filestomove'] = 'Mover / copiar arquivos para {$a}?';
 $string['fillincorrect'] = 'Preencher com respostas corretas';
@@ -377,7 +377,7 @@ $string['permissionto'] = 'Você tem permissão para:';
 $string['previewquestion'] = 'Pré-visualizar questão: {$a}';
 $string['published'] = 'compartilhado';
 $string['qtypeveryshort'] = 'T';
-$string['questionaffected'] = '<a href="{$a->qurl}">Questão "{$a->name}" ({$a->qtype})</a> está nesta categoria de questão mas também está na <a href="{$a->qurl}">questão "{$a->quizname}"</a> no curso "{$a->coursename}".';
+$string['questionaffected'] = '<a href="{$a->qurl}">Questão "{$a->name}" ({$a->qtype})</a> está nesta categoria de questão mas também está na <a href="{$a->qurl}">questão "{$a->quizname}"</a> na turma "{$a->coursename}".';
 $string['questionbank'] = 'Banco de questões';
 $string['questionbehaviouradminsetting'] = 'Configurações de comportamento de questão';
 $string['questionbehavioursdisabled'] = 'Comportamentos de questão para desabilitar';
@@ -461,7 +461,7 @@ $string['unknownquestioncatregory'] = 'Categoria de questão desconhecida: {$a}'
 $string['unknownquestiontype'] = 'Tipo de questão desconhecido: {$a}.';
 $string['unknowntolerance'] = 'Tipo de tolerância desconhecido {$a}';
 $string['unpublished'] = 'Não-compartilhado';
-$string['unusedcategorydeleted'] = 'Esta categoria foi cancelada porque depois do cancelamento do curso as questões não foram mais usadas.';
+$string['unusedcategorydeleted'] = 'Esta categoria foi cancelada porque depois do cancelamento da turma as questões não foram mais usadas.';
 $string['updatedisplayoptions'] = 'Atualizar opções de exibição';
 $string['upgradeproblemcategoryloop'] = 'Problema atualizando categorias de questões. Loop na árvore de categorias. O id da categoria com problemas é {$a}.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível modificar a categoria {$a->name} ({$a->id}).';

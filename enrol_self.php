@@ -43,14 +43,14 @@ $string['enrolperiod_help'] = 'Intervalo de tempo no qual a inscrição é váli
 $string['enrolstartdate'] = 'Data de início';
 $string['enrolstartdate_help'] = 'Se habilitado, os usuários só podem inscrever-se apenas a partir desta data.';
 $string['expiredaction'] = 'Ação de expiração de Inscrição';
-$string['expiredaction_help'] = 'Escolha que determina quando a matrícula do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição no curso.';
+$string['expiredaction_help'] = 'Escolha que determina quando a matrícula do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição na turma.';
 $string['expirymessageenrolledbody'] = 'Caro {$a->user},
 
-Esta é uma notificação de que sua inscrição no curso &quot;{$a->course}&quot; expira em {$a->timeend}.
+Esta é uma notificação de que sua inscrição na turma &quot;{$a->course}&quot; expira em {$a->timeend}.
 
 Se precisar de ajuda, entre em contato {$a->enroller}.';
 $string['expirymessageenrolledsubject'] = 'Notificação de expiração de auto-inscrição';
-$string['expirymessageenrollerbody'] = 'Auto-inscrição no curso \'{$a->course} &quot; irá expirar en {$a->threshold} para os seguintes usuários:
+$string['expirymessageenrollerbody'] = 'Auto-inscrição na turma \'{$a->course} &quot; irá expirar en {$a->threshold} para os seguintes usuários:
 
 {$a->users}
 
@@ -58,9 +58,9 @@ Para estender a sua inscrição, acesse {$a->extendurl}';
 $string['expirymessageenrollersubject'] = 'Notificação de vencimento de auto-inscrição';
 $string['groupkey'] = 'Usar chaves de inscrição de grupo';
 $string['groupkey_desc'] = 'Usar chaves de inscrição de grupo por padrão.';
-$string['groupkey_help'] = 'Além de restringir acesso ao curso apenas para aqueles que conhecem a chave, o uso de uma chave de inscrição de grupo faz com que os usuários sejam automaticamente incluídos ao grupo quando eles se inscrevem no curso.
+$string['groupkey_help'] = 'Além de restringir acesso aa turma apenas para aqueles que conhecem a chave, o uso de uma chave de inscrição de grupo faz com que os usuários sejam automaticamente incluídos ao grupo quando eles se inscrevem no curso.
 
-Nota: Uma chave de inscrição para o curso deve ser especificada nas definições de auto de inscrição, bem como chaves de inscrição em grupo as configurações do grupo.';
+Nota: Uma chave de inscrição para a turma deve ser especificada nas definições de auto de inscrição, bem como chaves de inscrição em grupo as configurações do grupo.';
 $string['keyholder'] = 'Você deve ter recebido esta chave de inscrição a partir de:';
 $string['longtimenosee'] = 'Cancelar inscrição de usuário inativo';
 $string['longtimenosee_help'] = 'Caso um usuário não tenha acessado um curso por um longo período de tempo, então eles terão sua inscrição automaticamente cancelada. Este parâmetro especifica o limite de tempo';
@@ -73,24 +73,24 @@ $string['newenrols_desc'] = 'Permitir que os usuários se inscrevam em novos cur
 $string['newenrols_help'] = 'Esta definição determina se o usuário pode se inscrever em curso.';
 $string['nopassword'] = 'Nenhuma chave de inscrição é necessária.';
 $string['password'] = 'Chave de inscrição';
-$string['password_help'] = 'Uma chave de inscrição habilita para que o acesso ao curso seja restrito apenas para quem possua a chave.
+$string['password_help'] = 'Uma chave de inscrição habilita para que o acesso aa turma seja restrito apenas para quem possua a chave.
 
-Caso este campo esteja vazio, qualquer usuário poderá se inscrever no curso.
+Caso este campo esteja vazio, qualquer usuário poderá se inscrever na turma.
 
 Caso uma chave de inscrição seja especificada, em qualquer tentativa de inscrição será solicitada a informação da chave. Note que o usuário apenas precisa informar a chave de inscrição apenas UMA VEZ, no momento em qyue realizam a inscrição.';
 $string['passwordinvalid'] = 'Chave de inscrição incorreta, por favor tente novamente';
 $string['passwordinvalidhint'] = 'Código de inscrição errado, por favor tente novamente<br /> (uma dica - começa com \'{$a}\')';
 $string['pluginname'] = 'Autoinscrição';
-$string['pluginname_desc'] = 'O plugin de auto inscrição permite que usuários escolham em quais cursos queiram participar. Os cursos devem ser protegidos por umachave de inscrição. Internamente a inscrição é realizada através do plugin de inscrição manual o qual deve ser habilitado no mesmo curso.';
+$string['pluginname_desc'] = 'O plugin de auto inscrição permite que usuários escolham em quais cursos queiram participar. Os cursos devem ser protegidos por umachave de inscrição. Internamente a inscrição é realizada através do plugin de inscrição manual o qual deve ser habilitado no mesma turma.';
 $string['requirepassword'] = 'Exigir chave de inscrição';
 $string['requirepassword_desc'] = 'Requer chave de inscrição em novos cursos e previne remoção de chaves de inscrição de cursos existentes.';
 $string['role'] = 'Papel atribuído por padrão';
 $string['self:config'] = 'Configurar instâncias de auto-inscrição';
 $string['self:holdkey'] = 'Aparecer como titular da chave de auto-inscrição';
 $string['self:manage'] = 'Gerenciar usuários inscritos';
-$string['self:unenrol'] = 'Desinscrever usuários do curso';
-$string['self:unenrolself'] = 'Desinscrever-se do curso';
-$string['sendcoursewelcomemessage'] = 'Enviar mensagem de bem-vindos ao curso';
+$string['self:unenrol'] = 'Desinscrever usuários da turma';
+$string['self:unenrolself'] = 'Desinscrever-se da turma';
+$string['sendcoursewelcomemessage'] = 'Enviar mensagem de bem-vindos aa turma';
 $string['sendcoursewelcomemessage_help'] = 'Se habilitato os usuários recebem uma mensagem de boas vindas por email quando fazem a inscrição em um curso.';
 $string['showhint'] = 'Exibir dica';
 $string['showhint_desc'] = 'Exibir primeira letra da chave de acesso de visitantes.';
@@ -98,13 +98,13 @@ $string['status'] = 'Ativar matrículas existentes';
 $string['status_desc'] = 'Ativar método de auto-inscrição em novos cursos';
 $string['status_help'] = 'Se desativado, todas as auto-inscrições existentes são suspensas e novos usuários não podem se inscrever.';
 $string['unenrol'] = 'Cancelar inscrição do usuário';
-$string['unenrolselfconfirm'] = 'Você deseja realmente retirar sua matrícula do curso "{$a}"?';
-$string['unenroluser'] = 'Deseja mesmo retirar a inscrição de "{$a->user}" do curso "{$a->course}" ?';
+$string['unenrolselfconfirm'] = 'Você deseja realmente retirar sua matrícula da turma "{$a}"?';
+$string['unenroluser'] = 'Deseja mesmo retirar a inscrição de "{$a->user}" da turma "{$a->course}" ?';
 $string['usepasswordpolicy'] = 'Usar política de senha';
 $string['usepasswordpolicy_desc'] = 'Utilizar política padrão para chaves de inscrição';
-$string['welcometocourse'] = 'Bem-vindo ao curso {$a}';
-$string['welcometocoursetext'] = 'Bem vindo ao curso {$a->coursename}!
+$string['welcometocourse'] = 'Bem-vindo aa turma {$a}';
+$string['welcometocoursetext'] = 'Bem vindo aa turma {$a->coursename}!
 
-A primeira coisa a fazer é editar o seu Perfil de Usuário do curso para que possamos saber mais sobre você:
+A primeira coisa a fazer é editar o seu Perfil de Usuário da turma para que possamos saber mais sobre você:
 
 {$a->profileurl}';

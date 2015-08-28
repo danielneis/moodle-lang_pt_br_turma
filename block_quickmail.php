@@ -31,11 +31,11 @@ $string['add_button'] = 'Adicionar';
 $string['additional_emails'] = 'Adicionar e-mails';
 $string['additional_emails_help'] = 'Outros endereços de e-mail que você gostaria de adicionar a uma mesma mensagem, devem ser separados por "vírgula" ou "ponto e vírgula". Exemplo: email1@exemplo.com.br,email2@exemplo.com.br ou email1@exemplo.com.br;email2@exemplo.com.br';
 $string['allowstudents'] = 'Permitir que os estudantes usem o Correio Eletrônico';
-$string['allowstudentsdesc'] = 'Permitir que os alunos usem o coreiro eletrônico. Se você escolher "NUNCA", o bloco não pode ser configurado para permitir que os alunos tenham acesso ao nível do curso.';
+$string['allowstudentsdesc'] = 'Permitir que os alunos usem o coreiro eletrônico. Se você escolher "NUNCA", o bloco não pode ser configurado para permitir que os alunos tenham acesso ao nível da turma.';
 $string['all_sections'] = 'Todos os grupos';
 $string['alternate'] = 'E-mails alternativos';
 $string['alternate_body'] = '<p>
-{$a->fullname} adicionou o endereço {$a->address} como um endereço alternativo para o curso {$a->course}.
+{$a->fullname} adicionou o endereço {$a->address} como um endereço alternativo para a turma {$a->course}.
 </p>
 
 <p>
@@ -65,7 +65,7 @@ $string['body'] = 'Mensagem';
 $string['composenew'] = 'Escrever e-mail';
 $string['config'] = 'Configuração';
 $string['courseferpa'] = 'Respeitar a configuração de grupos';
-$string['courselayout'] = 'Layout do curso';
+$string['courselayout'] = 'Layout da turma';
 $string['courselayout_desc'] = 'Utilizar o layout _Course_ quando desenhar as páginas do bloco Correio Eletrônico. Habilite esta configuração se você utiliza formulários de largura fixa.';
 $string['default_flag'] = 'Padrão';
 $string['delete_confirm'] = 'Você tem certeza que deseja apagar a mensagem com as seguintes informações: {$a}';
@@ -76,14 +76,14 @@ $string['draftssuccess'] = 'Rascunho';
 $string['email'] = 'E-mail';
 $string['email_error'] = 'Não é possível enviar e-mail: {$a->firstname} {$a->lastname} ({$a->email})';
 $string['email_error_field'] = 'O campo {$a} é de preenchimento obrigatório.';
-$string['entry_activated'] = 'O e-mail alternativo {$a->address} agora pode ser utilizado no curso {$a->course}.';
+$string['entry_activated'] = 'O e-mail alternativo {$a->address} agora pode ser utilizado na turma {$a->course}.';
 $string['entry_failure'] = 'Um e-mail não pode ser enviado para {$a->address}. Por favor, verifique se o endereço {$a->address} existe e tente novamente.';
 $string['entry_key_not_valid'] = 'Seu link de ativação não é mais válido para {$a->address}. Continue para reenviar o link de ativação.';
 $string['entry_saved'] = 'O endereço alternativo {$a->address} foi salvo.';
 $string['entry_success'] = 'Um e-mail de validação de endereço foi enviado para {$a->address}. As intruções para a ativação do endereço estão descritas no corpo da mensagem enviada.';
 $string['failed_to_send_to'] = 'falhou ao enviar para';
 $string['ferpa'] = 'FERPA(Group) Mode';
-$string['ferpa_desc'] = 'Permite ao sistema ajustar-se de acordo com as configurações de grupo do curso, ignorando as configurações de grupo mas separando os grupos ou ignorando os grupos completamente.';
+$string['ferpa_desc'] = 'Permite ao sistema ajustar-se de acordo com as configurações de grupo da turma, ignorando as configurações de grupo mas separando os grupos ou ignorando os grupos completamente.';
 $string['from'] = 'Para';
 $string['history'] = 'Histórico';
 $string['log'] = 'Ver histórico';
@@ -118,11 +118,11 @@ $string['overwrite_history'] = 'Sobrescrever histórico de mensagens';
 $string['pluginname'] = 'Correio eletrônico';
 $string['potential_sections'] = 'Potenciais Grupos';
 $string['potential_users'] = 'Potenciais Destinatários';
-$string['prepend_class'] = 'Adicionar nome do curso como prefixo';
-$string['prepend_class_desc'] = 'Adicionar o nome curto do curso como prefixo no assunto do e-mail.';
+$string['prepend_class'] = 'Adicionar nome da turma como prefixo';
+$string['prepend_class_desc'] = 'Adicionar o nome curto da turma como prefixo no assunto do e-mail.';
 $string['qm_contents'] = 'Baixar o conteúdo do arquivo';
 $string['quickmail:addinstance'] = 'Adicionar um novo bloco Correio Eletrônico';
-$string['quickmail:allowalternate'] = 'Permite aos usuários adicionar e-mails alternativos (externos ao curso) no formulário de envio de e-mails.';
+$string['quickmail:allowalternate'] = 'Permite aos usuários adicionar e-mails alternativos (externos aa turma) no formulário de envio de e-mails.';
 $string['quickmail:canconfig'] = 'Permite os usuários configurar a instância do Correio Eletrônico.';
 $string['quickmail:candelete'] = 'Permite os usuários apagar o histórico de e-mails.';
 $string['quickmail:canimpersonate'] = 'Permite acessar como outros usuários e visualizar o histórico.';

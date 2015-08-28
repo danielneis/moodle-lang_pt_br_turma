@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configexplanation'] = 'Página de explicação';
-$string['configexplanationdescription'] = 'O conteúdo da página com a explicação da natureza do teste será mostrado aos usuários após clicar no botão QuickTest no bloco do curso.';
+$string['configexplanationdescription'] = 'O conteúdo da página com a explicação da natureza do teste será mostrado aos usuários após clicar no botão QuickTest no bloco da turma.';
 $string['configfooter'] = 'Bloco de rodapé';
 $string['configurldescription'] = 'URL para o serviço QuickScan, entre em contato com Pico para mais detalhes.';
 $string['quickscan:addinstance'] = 'Adicionar uma nova instância QuickScan';

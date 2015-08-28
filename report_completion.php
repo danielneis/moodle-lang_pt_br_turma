@@ -27,13 +27,13 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['clicktomarkusercomplete'] = 'Clique para marcar usuário completamente';
 $string['completiondate'] = 'Data de conclusão';
-$string['completion:view'] = 'Ver o relatório de conclusão do curso';
+$string['completion:view'] = 'Ver o relatório de conclusão da turma';
 $string['eventreportviewed'] = 'Relatório de conclusão visualizado';
 $string['eventuserreportviewed'] = 'Relatório de realizações do usuário visualizado';
 $string['id'] = 'ID';
 $string['name'] = 'Nome';
 $string['nocapability'] = 'Não é possível acessar o relatório de conclusão do usuário';
-$string['page-report-completion-index'] = 'Relatório de finalização do curso';
+$string['page-report-completion-index'] = 'Relatório de finalização da turma';
 $string['page-report-completion-user'] = 'Relatório de finalização para usuário de curso';
-$string['page-report-completion-x'] = 'Qualquer relatório de finalização do curso';
-$string['pluginname'] = 'Andamento do curso';
+$string['page-report-completion-x'] = 'Qualquer relatório de finalização da turma';
+$string['pluginname'] = 'Andamento da turma';

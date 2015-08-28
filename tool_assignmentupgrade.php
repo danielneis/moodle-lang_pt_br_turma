@@ -60,4 +60,4 @@ $string['upgradeprogress'] = 'Atualizar tarefa {$a->current} of {$a->total}';
 $string['upgradeselected'] = 'Atualizar tarefas selecionadas';
 $string['upgradeselectedcount'] = 'Atualizar {$a} tarefas selecionadas?';
 $string['upgradesingle'] = 'Atualizar tarefa individualmente';
-$string['viewcourse'] = 'Ver o curso com a tarefa convertida';
+$string['viewcourse'] = 'Ver a turma com a tarefa convertida';

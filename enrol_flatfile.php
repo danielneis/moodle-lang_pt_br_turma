@@ -27,11 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['encoding'] = 'Codificação de arquivo';
 $string['expiredaction'] = 'Ação de vencimento de Inscrição';
-$string['expiredaction_help'] = 'Escolha a acção para levar a cabo quando a matrícula do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição no curso.';
+$string['expiredaction_help'] = 'Escolha a acção para levar a cabo quando a matrícula do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição na turma.';
 $string['filelockedmail'] = 'O arquivo de texto que você está utilizando para fazer as inscrições ({$a}) não pôde ser cancelado pelo processo cron. Isto normalmente significa que a configuração das permissões do arquivo não é compatível. Por favor corrija as permissões para que o sistema possa cancelar o arquivo e impedir que o mesmo seja processado diversas vezes.';
 $string['filelockedmailsubject'] = 'Erro importante: Arquivo de inscrição';
 $string['flatfile:manage'] = 'Gerenciar inscrição de usuário manualmente';
-$string['flatfile:unenrol'] = 'Desinscrever usuários do curso manualmente';
+$string['flatfile:unenrol'] = 'Desinscrever usuários da turma manualmente';
 $string['location'] = 'Localização do arquivo';
 $string['location_desc'] = 'Especifique o caminho completo para o arquivo de registro. O arquivo é automaticamente excluído após o processamento.';
 $string['mapping'] = 'Mapeamento de arquivo plano';
@@ -42,7 +42,7 @@ $string['notifyenroller'] = 'Notificar o usuário responsável por matrículas';
 $string['pluginname'] = 'Arquivo plano (CSV)';
 $string['pluginname_desc'] = 'Este método irá verificar repetidamente e processar um arquivo de texto especialmente formatado no local que você especificar. O arquivo é do tipo separado por vírgula e deverá ter quatro ou seis campos por linha:
 
-operação, nome curto do papel, idnumber do usuário, idnumber do curso  [, horário de inicio, horário de encerramento]
+operação, nome curto do papel, idnumber do usuário, idnumber da turma  [, horário de inicio, horário de encerramento]
 
 onde:
 

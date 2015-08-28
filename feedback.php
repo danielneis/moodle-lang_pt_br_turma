@@ -41,7 +41,7 @@ $string['autonumbering_help'] = 'Habilita ou desabilita os números automáticos
 $string['average'] = 'Média';
 $string['bold'] = 'Negrito';
 $string['cancel_moving'] = 'Cancelar movimento';
-$string['cannotmapfeedback'] = 'Problema no banco de dados, incapaz de mapear o gabarito para o curso';
+$string['cannotmapfeedback'] = 'Problema no banco de dados, incapaz de mapear o gabarito para a turma';
 $string['cannotsavetempl'] = 'Não é permitido salvar modelos';
 $string['cannotunmap'] = 'Problema da base de dados. Não é possível desmapear.';
 $string['captcha'] = 'Captcha';
@@ -62,7 +62,7 @@ $string['confirmdeletetemplate'] = 'Você tem certeza que deseja excluir este te
 $string['confirmusetemplate'] = 'Você tem certeza que deseja utilizar este template?';
 $string['continue_the_form'] = 'Continue o formulário';
 $string['count_of_nums'] = 'Contagem de números';
-$string['courseid'] = 'ID do curso';
+$string['courseid'] = 'ID da turma';
 $string['creating_templates'] = 'Salvar estas perguntas em um novo template';
 $string['delete_entry'] = 'Excluir entrada';
 $string['delete_item'] = 'Excluir questão';
@@ -151,7 +151,7 @@ $string['label'] = 'Rótulo';
 $string['line_values'] = 'Avaliação';
 $string['mapcourse'] = 'Mapear pesquisas para os cursos';
 $string['mapcourse_help'] = 'Por padrão, os formulários de pesquisa criados em sua página inicial estão disponíveis em todo o site e estarão disponíveis em todos os cursos usando o bloco de comentários. Você pode forçar a disponibilização do formulário de pesquisa, tornando-a um bloco aderente ou limitar os cursos em que um formulário será exibido pelo mapeamento para cursos específicos.';
-$string['mapcourseinfo'] = 'Esta é uma pesquisa no nível do site que está disponível para todos os cursos usando o bloco de comentários. No entanto,você pode mapear os cursos disponíveis para mapeá-los. Localize o curso e mapei-o para esta pesquisa.';
+$string['mapcourseinfo'] = 'Esta é uma pesquisa no nível do site que está disponível para todos os cursos usando o bloco de comentários. No entanto,você pode mapear os cursos disponíveis para mapeá-los. Localize a turma e mapei-o para esta pesquisa.';
 $string['mapcoursenone'] = 'Nenhum curso foi mapeado. A pesquisa estará disponível a todos os cursos.';
 $string['mapcourses'] = 'Mapear pesquisa para os cursos';
 $string['mapcourses_help'] = 'Após ter selecionado o(s) curso(s) relevante(s) para a pesquisa, você pode associá-lo(s) com usando este mapa de curso(s). Vários cursos podem ser selecionados mantendo pressionada a tecla Ctrl (ou Apple, no Mac) e clicando nos nomes dos cursos. Um curso pode ser dissociada de uma pesquisa a qualquer momento.';
@@ -168,7 +168,7 @@ Respostas de feedback pode ser anônimo, se desejar, e os resultados podem ser m
 
 Actividades de feedback pode ser usado
 
-* Para avaliações do curso, contribuindo para melhorar o conteúdo para os participantes posteriores
+* Para avaliações da turma, contribuindo para melhorar o conteúdo para os participantes posteriores
 * Para capacitar os participantes para se inscrever para módulos de cursos, eventos etc.
 * Para levantamentos de hóspedes de opções de cursos, políticas escolares etc.
 * Para inquéritos anti-bullying nas quais os alunos podem relatar incidentes de forma anônima';
@@ -281,7 +281,7 @@ $string['this_feedback_is_already_submitted'] = 'Você já terminou esta ativida
 $string['typemissing'] = 'valor \'tipo\' perdido';
 $string['update_item'] = 'Gravar modificações da pergunta';
 $string['url_for_continue'] = 'Link para a próxima atividade';
-$string['url_for_continue_help'] = 'Após enviar o feedback, um botão de continuar é exibida, que liga à página do curso. Alternativamente, pode ligar para a próxima atividade, se o URL da atividade é adicionado aqui.';
+$string['url_for_continue_help'] = 'Após enviar o feedback, um botão de continuar é exibida, que liga à página da turma. Alternativamente, pode ligar para a próxima atividade, se o URL da atividade é adicionado aqui.';
 $string['use_one_line_for_each_value'] = '<br/>Use uma linha para cada resposta!';
 $string['use_this_template'] = 'Utilizar este template';
 $string['using_templates'] = 'Utilizar um template';

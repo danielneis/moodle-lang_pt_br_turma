@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['acceptInvitation'] = 'Aceitar convite';
-$string['backToCourse'] = 'Retornar para o curso';
+$string['backToCourse'] = 'Retornar para a turma';
 $string['block_title'] = 'EJSApp Collab Session';
 $string['cantJoinSessionErr1'] = 'Erro: Você já está participando de uma sessão colaborativa. Feche a sessão de colaboração ativa antes de criar um novo.';
 $string['cantJoinSessionErr2'] = 'Erro: No momento você não tem convites ativos para qualquer sessão colaborativa.';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['course_search:addinstance'] = 'Adicionar um novo bloco de pesquisa de curso';
-$string['pagetitle'] = 'Resultados da pesquisa do curso';
+$string['pagetitle'] = 'Resultados da pesquisa da turma';
 $string['pluginname'] = 'Pesquisar curso';
 $string['results'] = 'Resultados para a sua pesquisa com a(s) palavra-chave(s):';
 $string['return_course'] = 'Retornar para curso';

@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['courseoverview:view'] = 'Ver o relatório geral do curso';
-$string['pluginname'] = 'Visão geral do curso';
+$string['courseoverview:view'] = 'Ver o relatório geral da turma';
+$string['pluginname'] = 'Visão geral da turma';

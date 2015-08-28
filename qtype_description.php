@@ -29,7 +29,7 @@ $string['informationtext'] = 'Texto informativo';
 $string['pluginname'] = 'Descrição';
 $string['pluginnameadding'] = 'Adicionando uma descrição';
 $string['pluginnameediting'] = 'Editando uma Descrição';
-$string['pluginname_help'] = 'A descrição não é realmente um tipo de pergunta. Ele simplesmente propicia texto a ser exibido sem a necessidade de respostas, semelhante a um  rótulo nas páginas do curso.
+$string['pluginname_help'] = 'A descrição não é realmente um tipo de pergunta. Ele simplesmente propicia texto a ser exibido sem a necessidade de respostas, semelhante a um  rótulo nas páginas da turma.
 
 O texto da pergunta é apresentado, tanto durante a tentativa e na página de revisão. Qualquer comentário geral é exibido na página de revisão somente.';
-$string['pluginnamesummary'] = 'Esta não é realmente uma pergunta. Trata-se uma forma de adicionar algumas instruções, rubrica ou outros conteúdos para o teste. É semelhante à maneira como os rótulos são utilizados para adicionar conteúdo à página do curso.';
+$string['pluginnamesummary'] = 'Esta não é realmente uma pergunta. Trata-se uma forma de adicionar algumas instruções, rubrica ou outros conteúdos para o teste. É semelhante à maneira como os rótulos são utilizados para adicionar conteúdo à página da turma.';

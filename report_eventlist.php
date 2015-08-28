@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['abstractclass'] = 'Resumo do curso';
+$string['abstractclass'] = 'Resumo da turma';
 $string['action'] = 'Ação';
 $string['affectedtable'] = 'Tabela afetada';
 $string['all'] = 'Todos';

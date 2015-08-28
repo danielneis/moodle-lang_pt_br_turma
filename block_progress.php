@@ -77,8 +77,8 @@ $string['how_ordering_works_help'] = '<p> Há duas maneiras os itens na barra de
      <li> <em> "Espera-se por" data-hora </ em> (default) <br />
      As datas de vencimento ou definir manualmente datas das atividades / recursos são utilizados para ordenar os itens mostrados na barra de progresso.
      </li>
-     <li> <em> pedindo no curso </ em> <br />
-     Atividades / recursos são apresentados na mesma ordem em que estão na página do curso. Quando esta opção for usada, os aspectos relacionados com o tempo são desativados.
+     <li> <em> pedindo na turma </ em> <br />
+     Atividades / recursos são apresentados na mesma ordem em que estão na página da turma. Quando esta opção for usada, os aspectos relacionados com o tempo são desativados.
      </ li>
 </ul>';
 $string['hsuforum'] = 'Fórum avançado';
@@ -106,7 +106,7 @@ $string['progress'] = 'Progresso';
 $string['progress:addinstance'] = 'Adicionar um novo bloco Barra de Progresso';
 $string['progressbar'] = 'Barra de Progresso';
 $string['progress:myaddinstance'] = 'Adicione um bloco Barra de Progresso para home page My';
-$string['progress:overview'] = 'Visão geral do progresso de todos os alunos do curso';
+$string['progress:overview'] = 'Visão geral do progresso de todos os alunos da turma';
 $string['questionnaire'] = 'Enquete';
 $string['quiz'] = 'Questionário';
 $string['recordingsbn'] = 'Gravações de BBB';

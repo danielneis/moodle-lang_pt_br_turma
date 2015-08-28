@@ -40,7 +40,7 @@ Momento do comentário: Comentários são organizados pela ordem que foram posta
 
 Momento do comentário invertido: Os comentários são organizados pela ordem que foram postados, com os mais novos no alto e os mais antigos em baixo.';
 $string['configtitle'] = 'Título do bloco';
-$string['coursepage'] = 'Conteúdos para o curso';
+$string['coursepage'] = 'Conteúdos para a turma';
 $string['darkcolor'] = 'Tema de cor escura';
 $string['enablecomment'] = 'Ativar comentários';
 $string['enablelike'] = 'Habilitar o botão like';

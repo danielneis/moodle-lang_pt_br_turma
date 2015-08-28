@@ -27,13 +27,13 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['completed_courses'] = 'Cursos concluídos';
 $string['course'] = 'Curso';
-$string['course_comp_date'] = 'Data de conclusão do curso';
+$string['course_comp_date'] = 'Data de conclusão da turma';
 $string['coursecompletion_setting'] = 'Conclusão de curso não foi habilitada';
-$string['course_name'] = 'Nome do curso';
+$string['course_name'] = 'Nome da turma';
 $string['course_status'] = 'Acompanhamento de status de curso';
 $string['course_status_tracker'] = 'Acompanhamento de status de curso';
 $string['course_status_tracker:addinstance'] = 'Adicionar instância';
-$string['course_status_tracker:view'] = 'Visualizar status do curso';
+$string['course_status_tracker:view'] = 'Visualizar status da turma';
 $string['department'] = 'Departamento';
 $string['enrolled_courses'] = 'Cursos inscritos';
 $string['grade'] = 'Nota';

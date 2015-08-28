@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Análise de engajamento';
 $string['subheading'] = 'Nome e o nível de risco';
-$string['viewcoursereport'] = 'Ver relatório do curso';
+$string['viewcoursereport'] = 'Ver relatório da turma';

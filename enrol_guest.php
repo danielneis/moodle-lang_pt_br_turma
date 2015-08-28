@@ -30,7 +30,7 @@ $string['guestaccess_withoutpassword'] = 'Acesso como visitante';
 $string['guestaccess_withpassword'] = 'Acesso como visitante';
 $string['guest:config'] = 'Configurar instâncias do acesso como visitante';
 $string['password'] = 'Senha';
-$string['password_help'] = 'Uma senha permite que o acesso de visitantes ao curso seja restrito apenas àqueles que sabem a senha. Os visitantes serão obrigadas a fornecer a senha cada vez que acessarem o curso.';
+$string['password_help'] = 'Uma senha permite que o acesso de visitantes aa turma seja restrito apenas àqueles que sabem a senha. Os visitantes serão obrigadas a fornecer a senha cada vez que acessarem o curso.';
 $string['passwordinvalid'] = 'Senha de acesso incorreta, por favor tente novamente';
 $string['passwordinvalidhint'] = 'Essa senha de acesso estava incorreta, por favor, tente novamente<br />
 (Aqui vai uma dica - começa com \'{$a}\')';
@@ -42,6 +42,6 @@ $string['showhint'] = 'Mostrar dica';
 $string['showhint_desc'] = 'Mostrar primeira letra da senha de acesso como visitante.';
 $string['status'] = 'Permitir o acesso de visitantes';
 $string['status_desc'] = 'Permitir acesso temporário como visitante por padrão.';
-$string['status_help'] = 'Esta configuração determina se um usuário pode acessar o curso como um visitante, sem ser obrigado a se inscrever.';
+$string['status_help'] = 'Esta configuração determina se um usuário pode acessar a turma como um visitante, sem ser obrigado a se inscrever.';
 $string['usepasswordpolicy'] = 'Utilizar política de senha';
 $string['usepasswordpolicy_desc'] = 'Utilizar a política de senha padrão para senhas de acesso do visitante.';

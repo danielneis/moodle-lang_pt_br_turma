@@ -37,10 +37,10 @@ $string['defaultperiod_desc'] = 'Intervalo padrão de tempo no qual a inscriçã
 $string['defaultperiod_help'] = 'Duração padrão de tempo que a inscrição é válida, iniciando no momento que o usuário é inscrito. Caso desabilitado, a duração da inscrição será ilimitada por padrão.';
 $string['deleteselectedusers'] = 'Excluir as inscrições de usuários selecionados';
 $string['editselectedusers'] = 'Editar as inscrições de usuários selecionados';
-$string['enrolledincourserole'] = 'Inscrito no curso "{$a->course}" como "{$a->role}"';
+$string['enrolledincourserole'] = 'Inscrito na turma "{$a->course}" como "{$a->role}"';
 $string['enrolusers'] = 'Inscrever usuários';
 $string['expiredaction'] = 'Ação de vencimento de Inscrição';
-$string['expiredaction_help'] = 'Escolha a acção que determina quando a inscrição do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição no curso.';
+$string['expiredaction_help'] = 'Escolha a acção que determina quando a inscrição do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição na turma.';
 $string['expirymessageenrolledbody'] = 'Caro {$a->user},
 
 Esta é uma notificação de que sua inscrição em &quot;{$a->course}&quot; expira em {$a->timeend}.
@@ -57,21 +57,21 @@ $string['manual:config'] = 'Configurar instâncias de inscrição manual';
 $string['manual:enrol'] = 'Inscrever usuários';
 $string['manual:manage'] = 'Gerenciar inscrições de usuário';
 $string['manualpluginnotinstalled'] = 'O plug-in "Manual" ainda não foi instalado';
-$string['manual:unenrol'] = 'Desinscrever usuários do curso';
-$string['manual:unenrolself'] = 'Cancelar a própria inscrição no curso';
+$string['manual:unenrol'] = 'Desinscrever usuários da turma';
+$string['manual:unenrolself'] = 'Cancelar a própria inscrição na turma';
 $string['messageprovider:expiry_notification'] = 'Notificações de expiração de inscrição manual';
 $string['pluginname'] = 'Inscrições manuais';
-$string['pluginname_desc'] = 'O plugin de matrículas manuais permite que os usuários sejam inscritos manualmente através de um link nas configurações de administração do curso, por um usuário com permissões adequadas, como um professor. O plugin deve estar habilitado normalmente, uma vez que certos plugins de inscrição, tais como a auto-inscrição, dependem dele.';
+$string['pluginname_desc'] = 'O plugin de matrículas manuais permite que os usuários sejam inscritos manualmente através de um link nas configurações de administração da turma, por um usuário com permissões adequadas, como um professor. O plugin deve estar habilitado normalmente, uma vez que certos plugins de inscrição, tais como a auto-inscrição, dependem dele.';
 $string['status'] = 'Habilitar inscrições manuais';
-$string['status_desc'] = 'Permitir acesso ao curso por usuários inscritos internamente. Isto deve ser mantido habilitado na maioria dos casos.';
+$string['status_desc'] = 'Permitir acesso aa turma por usuários inscritos internamente. Isto deve ser mantido habilitado na maioria dos casos.';
 $string['statusdisabled'] = 'Desabilitado';
 $string['statusenabled'] = 'Habilitado';
 $string['status_help'] = 'Esta configuração determina se usuários podem ser inscritos manualmente, através de um link na configuração da administração de cursos, através de um usuário com permissões apropriadas como um professor.';
 $string['unenrol'] = 'Desinscrever usuário';
 $string['unenrolselectedusers'] = 'Desinscrever usuários selecionados';
-$string['unenrolselfconfirm'] = 'Você deseja realmente cancelar sua inscrição no curso "{$a}"?';
-$string['unenroluser'] = 'Você tem certeza que deseja desinscrever "{$a->user}" do curso "{$a->course}"?';
+$string['unenrolselfconfirm'] = 'Você deseja realmente cancelar sua inscrição na turma "{$a}"?';
+$string['unenroluser'] = 'Você tem certeza que deseja desinscrever "{$a->user}" da turma "{$a->course}"?';
 $string['unenrolusers'] = 'Desinscrever usuários';
-$string['wscannotenrol'] = 'A instância do Plugin não permite a inscrição manual de um usuário no curso  id = {$a->courseid}';
-$string['wsnoinstance'] = 'A instância do Plugin para inscrição manual não existe ou foi desativada para o curso (id = {$a->courseid})';
+$string['wscannotenrol'] = 'A instância do Plugin não permite a inscrição manual de um usuário na turma  id = {$a->courseid}';
+$string['wsnoinstance'] = 'A instância do Plugin para inscrição manual não existe ou foi desativada para a turma (id = {$a->courseid})';
 $string['wsusercannotassign'] = 'Você não tem permissão para atribuir este papel  ({$a->roleid}) para este usuário  ({$a->userid}) neste curso ({$a->courseid}).';

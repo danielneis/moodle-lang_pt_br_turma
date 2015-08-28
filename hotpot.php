@@ -34,14 +34,14 @@ $string['addquizchain'] = 'Acrescentar série de atividades';
 $string['addquizchain_help'] = 'Todas as questões em um conjunto ou cadeia de questões/testes devem ser adicionados?
 
 **Não**
-: Apenas uma questão será adicionada ao curso
+: Apenas uma questão será adicionada aa turma
 
 **Sim**
-: Se o arquivo-fonte é um arquivo de **Questões**, ele é tratado como o início de uma conjunto de questões e todos as questões da cadeia serão adicionadas ao curso com configurações idênticas. Cada questão deve ter um link para o arquivo seguinte na cadeia.
+: Se o arquivo-fonte é um arquivo de **Questões**, ele é tratado como o início de uma conjunto de questões e todos as questões da cadeia serão adicionadas aa turma com configurações idênticas. Cada questão deve ter um link para o arquivo seguinte na cadeia.
 
-Se o arquivo de origem é uma **pasta**, todas as questões reconhecíveis na pasta serão adicionadas ao curso para formar uma cadeia de questões com especificações idênticas.
+Se o arquivo de origem é uma **pasta**, todas as questões reconhecíveis na pasta serão adicionadas aa turma para formar uma cadeia de questões com especificações idênticas.
 
-Se o arquivo de origem é um **arquivo unitário**, como um arquivo externo de Hot Potatoes ou index.html, questões contidas no arquivo serão adicionadas ao curso como uma cadeia de questões com configurações idênticas.';
+Se o arquivo de origem é um **arquivo unitário**, como um arquivo externo de Hot Potatoes ou index.html, questões contidas no arquivo serão adicionadas aa turma como uma cadeia de questões com configurações idênticas.';
 $string['allowreview'] = 'Permitir revisão';
 $string['allowreview_help'] = 'Se habilitado, os alunos poderão revisar suas tentativas de quiz depois do quiz estar fechado.';
 $string['analysisreport'] = 'Análise do item';
@@ -81,7 +81,7 @@ $string['configfile'] = 'Arquivo de configuração';
 $string['configframeheight'] = 'Quando um teste é exibido dentro de um frame, este valor é a altura (em pixels) do quadro superior, que contém a barra de navegação do Moodle .';
 $string['configlocation'] = 'Localização do arquivo de configuração';
 $string['configlockframe'] = 'Caso esta configuração esteja habilitada, então o frame de navegação, caso utilizado, será bloqueado impedindo a utilização da barra de rolagem, redimensionando e não terá borda.';
-$string['configmaxeventlength'] = 'Se um HotPot tem uma data especificada  tanto para ser aberto quanto para ser fechado, e a diferença entre as duas datas  é maior do que o número de dias aqui especificado, então serão adicionados dois eventos separados ao calendário do curso. Para períodos mais curtos, ou quando apenas um momento for especificado, apenas um evento do calendário será adicionado. Se não houver qualquer especificação de tempo, nenhum evento será adicionado ao calendário.';
+$string['configmaxeventlength'] = 'Se um HotPot tem uma data especificada  tanto para ser aberto quanto para ser fechado, e a diferença entre as duas datas  é maior do que o número de dias aqui especificado, então serão adicionados dois eventos separados ao calendário da turma. Para períodos mais curtos, ou quando apenas um momento for especificado, apenas um evento do calendário será adicionado. Se não houver qualquer especificação de tempo, nenhum evento será adicionado ao calendário.';
 $string['configstoredetails'] = 'Se essa configuração estiver ativada, então o código XML  dos detalhes  de tentativas feitas nos questionários de HotPot serão armazenados na tabela hotpot_details. Isto permite que as tentativas dos questionários sejam reclassificadas no futuro para refletir as mudanças no sistema de pontuação do questionário HotPot. No entanto, ativar esta opção em um ambiente muito utilizado fará com que a tabela hotpot_details cresça muito rapidamente.';
 $string['confirmdeleteattempts'] = 'Deseja realmente excluir estas tentativas?';
 $string['confirmstop'] = 'Tem certeza que deseja navegar para fora desta página?';
@@ -186,7 +186,7 @@ O professor pode selecionar uma atividade específica, ou uma das seguintes conf
 Se outras opções de saída de página estiverem desativadas, o aluno irá direto para a próxima atividade. Caso contrário, será mostrado ao aluno um link para levá-lo para a atividade seguinte, quando ele estiver pronto.';
 $string['exitcmsection'] = 'Próxima atividade nesta seção de curso';
 $string['exit_course'] = 'Curso';
-$string['exit_course_text'] = 'Retornar à página principal do curso';
+$string['exit_course_text'] = 'Retornar à página principal da turma';
 $string['exit_encouragement'] = 'encorajamento';
 $string['exit_excellent'] = 'Excelente!';
 $string['exit_feedback'] = 'Sair da página de feedback';
@@ -230,7 +230,7 @@ $string['exit_links_help'] = 'Estas opções ativam e desativam a exibição de 
 
  ** Índice ** : Se marcado, um link para a página de índice do HotPot será exibido.
 
- ** Curso ** : Se marcado, um link para a página do curso do Moodle será exibido.
+ ** Curso ** : Se marcado, um link para a página da turma do Moodle será exibido.
 
  ** Notas **  : Se marcado, um link para o livro de notas do Moodle será exibido.';
 $string['exit_next'] = 'Próximo';
@@ -242,7 +242,7 @@ $string['exitpagehdr'] = 'Página de saída';
 $string['exitpage_help'] = 'Deverá ser exibida uma página de saída após o teste HotPot ser concluído?
 
 ** Sim ** : Os alunos receberão uma página de saída quando o HotPot for concluído. O conteúdo da página de saída será determinado pelas configurações de retorno e links da página de saída do HotPot.
-** Não ** : Não será exibida uma página de saída para os alunos. Em vez disso, eles poderão seguir imediatamente para a próxima atividade ou retornar à página do curso Moodle.';
+** Não ** : Não será exibida uma página de saída para os alunos. Em vez disso, eles poderão seguir imediatamente para a próxima atividade ou retornar à página da turma Moodle.';
 $string['exit_retry'] = 'Tentar novamente';
 $string['exit_retry_text'] = 'Tentar novamente esta atividade';
 $string['exittext'] = 'Texto de saída da página';
@@ -341,7 +341,7 @@ $string['navigation_help'] = 'Esta configuração especifica a navegação utili
 : As questões serão exibidas com um simples botão "Give Up" no topo da página
 
 **Nenhum**
-:As questões serão exibidas sem nenhuma ajuda de navegação todas as questões serão respondidas corretamente, dependendo da configuração "Exibir nova questão", Moodle irá retornar a página do curso ou a próxima questão.';
+:As questões serão exibidas sem nenhuma ajuda de navegação todas as questões serão respondidas corretamente, dependendo da configuração "Exibir nova questão", Moodle irá retornar a página da turma ou a próxima questão.';
 $string['navigation_moodle'] = 'Barra de navegação Moodle padrão (topo e lateral)';
 $string['navigation_none'] = 'Nenhum';
 $string['navigation_original'] = 'Ajudas de navegação originais';
@@ -421,7 +421,7 @@ $string['sourcefile'] = 'Nome do arquivo fonte';
 $string['sourcefile_help'] = 'Esta configuração especifica o arquivo que contém o conteúdo a ser mostrado para os alunos.
 Normalmente, o arquivo fonte é criado fora do Moodle, e em seguida enviado para a área de arquivos de um curso de Moodle. Pode ser um arquivo HTML, ou outro tipo de arquivo que foi criado com algum software de autoria, tais como o Hot Potatoes ou Qedoc.
 
-O arquivo fonte deve ser especificado como uma pasta e seu caminho na área de arquivos do curso Moodle , ou pode ser uma url começando com http:// ou https://
+O arquivo fonte deve ser especificado como uma pasta e seu caminho na área de arquivos da turma Moodle , ou pode ser uma url começando com http:// ou https://
 
 Para materiais Qedoc, o arquivo fonte deve ser a url de um módulo Qedoc que foi carregado para o servidor Qedoc.
 * Por exemplo, http://www.qedoc.net/library/ABCDE_123.zip
@@ -446,9 +446,9 @@ A janela de feedback permite aos estudantes para discutirem este teste com seu p
 
 **Formulário de feedback ** : Requer URL do script do formulário, por exemplo http://myserver.com/cgi-bin/formmail.pl
 
-**Fórum Moodle ** : O índice do fórum para o curso será exibido
+**Fórum Moodle ** : O índice do fórum para a turma será exibido
 
-**Mensagens Moodle ** : A janela de mensagens instantâneas do Moodle será exibida. Se o curso tiver vários professores, o aluno deverá selecionar um professor antes da janela de mensagens ser exibida.';
+**Mensagens Moodle ** : A janela de mensagens instantâneas do Moodle será exibida. Se a turma tiver vários professores, o aluno deverá selecionar um professor antes da janela de mensagens ser exibida.';
 $string['submits'] = 'Envios';
 $string['subplugintype_hotpotattempt'] = 'Formato de saída';
 $string['subplugintype_hotpotattempt_plural'] = 'Formatos de saída';

@@ -42,7 +42,7 @@ $string['displayselect_help'] = 'Essa configuração determina como o arquivo PD
 * Nova janela - O PDF é exibido em uma nova janela do navegador com menus e uma barra de endereços';
 $string['framesize'] = 'Altura do quadro';
 $string['modulename'] = 'Partes do PDF';
-$string['modulename_help'] = 'O módulo de Partes do PDF habilita que um professor forneça um conjunto de páginas selecionadas livremente de um arquivo PDF como um recurso do curso.';
+$string['modulename_help'] = 'O módulo de Partes do PDF habilita que um professor forneça um conjunto de páginas selecionadas livremente de um arquivo PDF como um recurso da turma.';
 $string['modulenameplural'] = 'Partes do PDF';
 $string['name'] = 'Nome';
 $string['pages'] = 'Páginas';

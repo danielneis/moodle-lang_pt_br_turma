@@ -30,7 +30,7 @@ $string['confirmdelete'] = 'Você tem certeza que deseja excluir este curso da l
 $string['courseid'] = 'Curso';
 $string['delete_featuredcourse'] = 'Excluir curso em destaque';
 $string['deletelink'] = '<a href="{$a}">Excluir</a>';
-$string['doadd'] = 'Marque para adicionar um novo curso em destaque';
+$string['doadd'] = 'Marque para adicionar um nova turma em destaque';
 $string['editlink'] = '<a href="{$a}">Clique aqui para editar ou adicionar cursos em destaque</a>';
 $string['editpagedesc'] = 'Editando lista de cursos em destaque';
 $string['editpagetitle'] = 'Cursos em destaque - editando';

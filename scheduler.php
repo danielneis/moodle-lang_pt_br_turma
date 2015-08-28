@@ -120,20 +120,20 @@ $string['downloads'] = 'Exporta';
 $string['duration'] = 'Duração';
 $string['durationrange'] = 'Duração de slot deve estar entre {$a->min} e {$a->max} minutos.';
 $string['email_applied_html'] = '<p>Um compromisso foi aplicado em {$a->date} às {$a->time},<br/>
-pelo aluno <a href="{$a->attendee_url}">{$a->attendee}</a> para o curso:
+pelo aluno <a href="{$a->attendee_url}">{$a->attendee}</a> para a turma:
 
 <p>{$a->course_short}: <a href="{$a->course_url}">{$a->course}</a></p>
 
 <p>usando o organizador intitulado "<em>{$a->module}</em>" no website: <a href="{$a->site_url}">{$a->site}</a>.</p>';
 $string['email_applied_plain'] = 'Um compromisso foi aplicado em {$a->date} às {$a->time},
-pelo aluno {$a->attendee} para o curso:
+pelo aluno {$a->attendee} para a turma:
 
 {$a->course_short}: {$a->course}
 
 usando o organizador intitulado "{$a->module}" no website: {$a->site}.';
 $string['email_applied_subject'] = '{$a->course_short}: Novo compromisso';
 $string['email_cancelled_html'] = '<p>Seu compromisso em <strong>{$a->date}</strong> às <strong>{$a->time}</strong>,<br/>
-com o aluno <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> para o curso:</p>
+com o aluno <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> para a turma:</p>
 
 <p><strong>{$a->course_short} : <a href="{$a->course_url}">{$a->course}</a></strong></p>
 
@@ -141,7 +141,7 @@ com o aluno <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> par
 
 <p><strong><span class="error">foi cancelado ou removido</span></strong>.</p>';
 $string['email_cancelled_plain'] = 'Seu compromisso em  {$a->date} às {$a->time},
-com o aluno {$a->attendee} para o curso:
+com o aluno {$a->attendee} para a turma:
 
 {$a->course_short} : {$a->course}
 
@@ -163,7 +163,7 @@ com {$a->attendant}.
 Local: {$a->location}';
 $string['email_reminder_subject'] = '{$a->course_short}: Lembrete de compromisso';
 $string['email_teachercancelled_html'] = '<p>Seu compromisso em <strong>{$a->date}</strong> às <strong>{$a->time} </strong>,<br/>
-com o {$a->staffrole} <strong><a href="{$a->attendant_url}">{$a->attendant}</a></strong> para o curso:</p>
+com o {$a->staffrole} <strong><a href="{$a->attendant_url}">{$a->attendant}</a></strong> para a turma:</p>
 
 <p><strong>{$a->course_short}: <a href="{$a->course_url}">{$a->course}</a></strong></p>
 
@@ -171,7 +171,7 @@ com o {$a->staffrole} <strong><a href="{$a->attendant_url}">{$a->attendant}</a><
 
 <p><strong><span class="error">foi cancelado</span></strong>. Por favor, solicite por um novo slot.</p>';
 $string['email_teachercancelled_plain'] = 'Seu compromisso em {$a->date} às {$a->time},
-com o {$a->staffrole} {$a->attendant} para o curso:
+com o {$a->staffrole} {$a->attendant} para a turma:
 
 {$a->course_short}: {$a->course}
 

@@ -27,8 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['contentheader'] = 'Conteúdo';
 $string['display'] = 'Exibir o conteúdo da pasta';
-$string['display_help'] = 'Se você optar por exibir o conteúdo da pasta em uma página do curso, não haverá link para uma página separada eo título não será exibido. A descrição será exibida somente se &quot;Exibir descrição na página do curso&quot; está marcada. <br /> Observe também que as ações de participantes vista não podem ser registrados neste caso.';
-$string['displayinline'] = 'Embutida em uma página do curso';
+$string['display_help'] = 'Se você optar por exibir o conteúdo da pasta em uma página da turma, não haverá link para uma página separada eo título não será exibido. A descrição será exibida somente se &quot;Exibir descrição na página do curso&quot; está marcada. <br /> Observe também que as ações de participantes vista não podem ser registrados neste caso.';
+$string['displayinline'] = 'Embutida em uma página da turma';
 $string['displaypage'] = 'Em uma página separada';
 $string['dnduploadmakefolder'] = 'Descompactar arquivos e criar pasta';
 $string['eventfolderupdated'] = 'Pasta atualizada';
@@ -37,13 +37,13 @@ $string['foldercontent'] = 'Arquivos e subpastas';
 $string['folder:managefiles'] = 'Gerenciar arquivos na pasta do módulo';
 $string['folder:view'] = 'Exibir o conteúdo da pasta';
 $string['modulename'] = 'Pasta';
-$string['modulename_help'] = 'O módulo pasta permite ao professor exibir um número de arquivos relacionados dentro de uma pasta única, reduzindo a rolagem na página do curso. A pasta zipada pode ser carregado e descompactada para exibição, ou uma pasta vazia criada e arquivos enviados para ela.
+$string['modulename_help'] = 'O módulo pasta permite ao professor exibir um número de arquivos relacionados dentro de uma pasta única, reduzindo a rolagem na página da turma. A pasta zipada pode ser carregado e descompactada para exibição, ou uma pasta vazia criada e arquivos enviados para ela.
 
 A pasta pode ser usado:
 
 Para uma série de arquivos em um tópico, por exemplo, um conjunto de documentos de exame passados em formato pdf.
 
-Para prover um espaço compartilhado de upload para professores na página do curso (mantendo a pasta oculta para que só os professores possam vê-la)';
+Para prover um espaço compartilhado de upload para professores na página da turma (mantendo a pasta oculta para que só os professores possam vê-la)';
 $string['modulenameplural'] = 'Pastas';
 $string['noautocompletioninline'] = 'Preenchimento automático de visualização de atividade não pode ser selecionado, juntamente com a opção "Mostrar em linha"';
 $string['page-mod-folder-view'] = 'Página principal do módulo diretório';

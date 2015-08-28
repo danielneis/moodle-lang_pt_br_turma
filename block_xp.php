@@ -37,11 +37,11 @@ $string['configheader'] = 'Configuração';
 $string['configtitle'] = 'Título';
 $string['congratulationsyouleveledup'] = 'Parabéns!';
 $string['coolthanks'] = 'Muito bom, obrigado!';
-$string['courselog'] = 'Log do curso';
-$string['coursereport'] = 'Relatório do curso';
-$string['courserules'] = 'Regras do curso';
-$string['coursesettings'] = 'Configurações do curso';
-$string['coursevisuals'] = 'Visuais do curso';
+$string['courselog'] = 'Log da turma';
+$string['coursereport'] = 'Relatório da turma';
+$string['courserules'] = 'Regras da turma';
+$string['coursesettings'] = 'Configurações da turma';
+$string['coursevisuals'] = 'Visuais da turma';
 $string['createnewrulefromthisevent'] = 'Criar uma nova regra para esse evento';
 $string['customizelevels'] = 'Customizar os níveis';
 $string['defaultrulesformhelp'] = 'Essas são as regras padrão fornecidas pelo plugin, elas dão pontos de experiência automaticamente e ignoram alguns eventos redundantes. Regras personalizadas têm precedência sobre elas.';
@@ -54,7 +54,7 @@ $string['enablelevelupnotif'] = 'Habilitar notifições de ganho de nível';
 $string['enablelevelupnotif_help'] = 'Quando setado para \'Sim\', estudantes verão um popup de felicitação pelo novo nível alcançado.';
 $string['enablelogging'] = 'Habilitar logging';
 $string['enablexpgain'] = 'Habilitar ganho de XP';
-$string['enablexpgain_help'] = 'Quando setado para \'Não\', ninguém ganhará pontos de experiência no curso. Isso é útil para congelar a experiência ganha, ou para habilitar isso por um certo período de tempo.
+$string['enablexpgain_help'] = 'Quando setado para \'Não\', ninguém ganhará pontos de experiência na turma. Isso é útil para congelar a experiência ganha, ou para habilitar isso por um certo período de tempo.
 
 Por favor, note que isto pode ser controlado de forma mais granulada usando a capacidade \'block/xp:earnxp\'.';
 $string['errorformvalues'] = 'Existem alguns erros nos valores do formulário, por favor, resolva-os.';
@@ -96,7 +96,7 @@ $string['navreport'] = 'Relatório';
 $string['navrules'] = 'Regras';
 $string['navsettings'] = 'Configurações';
 $string['navvisuals'] = 'Visuais';
-$string['participatetolevelup'] = 'Participe do curso para ganhar pontos de experiência e passar de nível!';
+$string['participatetolevelup'] = 'Participe da turma para ganhar pontos de experiência e passar de nível!';
 $string['pluginname'] = 'Level up!';
 $string['progress'] = 'Progresso';
 $string['property:action'] = 'Ação do evento';
@@ -106,7 +106,7 @@ $string['property:eventname'] = 'Nome do evento';
 $string['property:target'] = 'Alvo do evento';
 $string['rank'] = 'Posição';
 $string['reallyresetdata'] = 'Deseja realmente resetar os níveis e pontos de experiência de todos neste curso?';
-$string['resetcoursedata'] = 'Resetar os dados do curso';
+$string['resetcoursedata'] = 'Resetar os dados da turma';
 $string['rule'] = 'Regra';
 $string['rule:contains'] = 'contêm';
 $string['rule:eq'] = 'é igual a';
@@ -117,7 +117,7 @@ $string['rule:lt'] = 'é menor que';
 $string['rule:lte'] = 'é menor ou igual a';
 $string['rule:regex'] = 'matches the regex';
 $string['rulesformhelp'] = '<p>Este plugin é feito usando os eventos para atribuir pontos de experiência por ações executadas pelos estudantes. Você pode usar o formulário abaixo para adicionar suas próprias regras e visualizar as padrões.</p>
-<p>É aconselhável verificar o <a href="{$a->log}">log</a> do plugin para identificar quais eventos são disparados conforme você executa ações no curso, e também ler mais sobre esses eventos: <a href="{$a->list}">lista de todos os eventos</a>, <a href="{$a->doc}">documentação para desenvolvedores</a>.</p>
+<p>É aconselhável verificar o <a href="{$a->log}">log</a> do plugin para identificar quais eventos são disparados conforme você executa ações na turma, e também ler mais sobre esses eventos: <a href="{$a->list}">lista de todos os eventos</a>, <a href="{$a->doc}">documentação para desenvolvedores</a>.</p>
 <p>Finalmente, por favor, note que o plugin sempre ignora:
 <ul>
     <li>Ações executadas por administradores, visitantes ou usuários não logados.</li>

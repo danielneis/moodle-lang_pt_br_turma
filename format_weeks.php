@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['currentsection'] = 'Semana atual';
 $string['deletesection'] = 'Excluir semana';
 $string['hidefromothers'] = 'Esconder semana';
-$string['page-course-view-weeks'] = 'Qualquer página principal do curso em formato semanal';
+$string['page-course-view-weeks'] = 'Qualquer página principal da turma em formato semanal';
 $string['page-course-view-weeks-x'] = 'Qualquer página de curso no formato semanal';
 $string['pluginname'] = 'Formato Semanal';
 $string['section0name'] = 'Geral';

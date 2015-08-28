@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['currentsection'] = 'Tópico atual';
 $string['deletesection'] = 'Excluir Tópico';
 $string['hidefromothers'] = 'Esconder tópico';
-$string['page-course-view-topics'] = 'Qualquer página principal do curso em formato de tópicos';
+$string['page-course-view-topics'] = 'Qualquer página principal da turma em formato de tópicos';
 $string['page-course-view-topics-x'] = 'Qualquer página de curso no formato tópicos';
 $string['pluginname'] = 'Formato Tópicos';
 $string['section0name'] = 'Geral';
