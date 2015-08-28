@@ -358,7 +358,7 @@ $string['ratescale'] = 'Avaliação/Escala';
 $string['ratescale_help'] = 'Verifique a documentação Moodle abaixo';
 $string['realm'] = 'Tipo de Enquete';
 $string['realm_help'] = '* ** Há três tipos de questionários: **
-* Privada  - pertence aa turma é definido em apenas.
+* Privada  - pertence à turma é definido em apenas.
 * Modelo  - pode ser copiado e editado.
 * Pública  - pode ser compartilhado entre os cursos.';
 $string['redirecturl'] = 'A URL para a qual o usuário é redirecionado após completar esta enquete.';

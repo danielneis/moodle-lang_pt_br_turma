@@ -32,7 +32,7 @@ $string['actions'] = 'Ações';
 $string['active'] = 'Ativo';
 $string['activeusers'] = 'Usuários ativos';
 $string['activities'] = 'Atividades';
-$string['activities_help'] = 'Atividades, como fóruns, questionários e wikis, permitem que conteúdo interativo seja adicionado aa turma.';
+$string['activities_help'] = 'Atividades, como fóruns, questionários e wikis, permitem que conteúdo interativo seja adicionado à turma.';
 $string['activity'] = 'Atividade';
 $string['activityclipboard'] = 'Movendo esta atividade: {$a}';
 $string['activityiscurrentlyhidden'] = 'Desculpe, no momento esta atividade está oculta';
@@ -987,7 +987,7 @@ $string['language'] = 'Idioma';
 $string['languagegood'] = 'Os arquivos deste idioma estão atualizados!  : -)';
 $string['last'] = 'Último';
 $string['lastaccess'] = 'Último acesso';
-$string['lastcourseaccess'] = 'Último acesso aa turma';
+$string['lastcourseaccess'] = 'Último acesso à turma';
 $string['lastedited'] = 'Última edição';
 $string['lastip'] = 'Último endereço de IP';
 $string['lastlogin'] = 'Último acesso';
@@ -1542,7 +1542,7 @@ $string['saveandnext'] = 'Salvar e mostrar o próximo';
 $string['savechanges'] = 'Salvar mudanças';
 $string['savechangesanddisplay'] = 'Salvar e mostrar';
 $string['savechangesandreturn'] = 'Salvar e voltar';
-$string['savechangesandreturntocourse'] = 'Salvar e voltar aa turma';
+$string['savechangesandreturntocourse'] = 'Salvar e voltar à turma';
 $string['savecomment'] = 'Salvar comentário';
 $string['savedat'] = 'Salvado em:';
 $string['savepreferences'] = 'Salvar preferências';
@@ -1963,8 +1963,8 @@ $string['weekhide'] = 'Esconda esta semana de {$a}';
 $string['weeklyoutline'] = 'Agenda do Curso';
 $string['weeks'] = 'semanas';
 $string['weekshow'] = 'Mostre esta semana a {$a}';
-$string['welcometocourse'] = 'Bem-vindo aa turma {$a}';
-$string['welcometocoursetext'] = 'Bem vindo aa turma {$a->coursename}!
+$string['welcometocourse'] = 'Bem-vindo à turma {$a}';
+$string['welcometocoursetext'] = 'Bem vindo à turma {$a->coursename}!
 
 Se você ainda não fez, você deve editar o seu Perfil de Usuário para que possamos conhecer você melhor:
 

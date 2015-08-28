@@ -34,14 +34,14 @@ $string['addquizchain'] = 'Acrescentar série de atividades';
 $string['addquizchain_help'] = 'Todas as questões em um conjunto ou cadeia de questões/testes devem ser adicionados?
 
 **Não**
-: Apenas uma questão será adicionada aa turma
+: Apenas uma questão será adicionada à turma
 
 **Sim**
-: Se o arquivo-fonte é um arquivo de **Questões**, ele é tratado como o início de uma conjunto de questões e todos as questões da cadeia serão adicionadas aa turma com configurações idênticas. Cada questão deve ter um link para o arquivo seguinte na cadeia.
+: Se o arquivo-fonte é um arquivo de **Questões**, ele é tratado como o início de uma conjunto de questões e todos as questões da cadeia serão adicionadas à turma com configurações idênticas. Cada questão deve ter um link para o arquivo seguinte na cadeia.
 
-Se o arquivo de origem é uma **pasta**, todas as questões reconhecíveis na pasta serão adicionadas aa turma para formar uma cadeia de questões com especificações idênticas.
+Se o arquivo de origem é uma **pasta**, todas as questões reconhecíveis na pasta serão adicionadas à turma para formar uma cadeia de questões com especificações idênticas.
 
-Se o arquivo de origem é um **arquivo unitário**, como um arquivo externo de Hot Potatoes ou index.html, questões contidas no arquivo serão adicionadas aa turma como uma cadeia de questões com configurações idênticas.';
+Se o arquivo de origem é um **arquivo unitário**, como um arquivo externo de Hot Potatoes ou index.html, questões contidas no arquivo serão adicionadas à turma como uma cadeia de questões com configurações idênticas.';
 $string['allowreview'] = 'Permitir revisão';
 $string['allowreview_help'] = 'Se habilitado, os alunos poderão revisar suas tentativas de quiz depois do quiz estar fechado.';
 $string['analysisreport'] = 'Análise do item';

@@ -30,7 +30,7 @@ $string['guestaccess_withoutpassword'] = 'Acesso como visitante';
 $string['guestaccess_withpassword'] = 'Acesso como visitante';
 $string['guest:config'] = 'Configurar instâncias do acesso como visitante';
 $string['password'] = 'Senha';
-$string['password_help'] = 'Uma senha permite que o acesso de visitantes aa turma seja restrito apenas àqueles que sabem a senha. Os visitantes serão obrigadas a fornecer a senha cada vez que acessarem o curso.';
+$string['password_help'] = 'Uma senha permite que o acesso de visitantes à turma seja restrito apenas àqueles que sabem a senha. Os visitantes serão obrigadas a fornecer a senha cada vez que acessarem o curso.';
 $string['passwordinvalid'] = 'Senha de acesso incorreta, por favor tente novamente';
 $string['passwordinvalidhint'] = 'Essa senha de acesso estava incorreta, por favor, tente novamente<br />
 (Aqui vai uma dica - começa com \'{$a}\')';

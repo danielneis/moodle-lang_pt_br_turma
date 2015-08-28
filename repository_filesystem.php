@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['blockedpath'] = 'Caminho raiz bloqueado';
 $string['configplugin'] = 'Configuração do repositório no sistema arquivos';
 $string['donotusesysdir'] = 'Não use diretório do sistema como repositório, incluindo';
-$string['enablecourseinstances'] = 'Permitir aos usuários que incluam uma instância de repositório aa turma (só pode ser configurado por administradores)';
+$string['enablecourseinstances'] = 'Permitir aos usuários que incluam uma instância de repositório à turma (só pode ser configurado por administradores)';
 $string['enableuserinstances'] = 'Permitir aos usuários que incluam uma instância de repositório ao contexto de usuário (só pode ser configurado por administradores)';
 $string['filesystem:view'] = 'Visualizar repositório do sistema de arquivos';
 $string['information'] = 'Essas pastas estão dentro do diretório <b>{$a}</b>.';

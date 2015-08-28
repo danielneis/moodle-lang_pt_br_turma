@@ -58,7 +58,7 @@ Para estender a sua inscrição, acesse {$a->extendurl}';
 $string['expirymessageenrollersubject'] = 'Notificação de vencimento de auto-inscrição';
 $string['groupkey'] = 'Usar chaves de inscrição de grupo';
 $string['groupkey_desc'] = 'Usar chaves de inscrição de grupo por padrão.';
-$string['groupkey_help'] = 'Além de restringir acesso aa turma apenas para aqueles que conhecem a chave, o uso de uma chave de inscrição de grupo faz com que os usuários sejam automaticamente incluídos ao grupo quando eles se inscrevem no curso.
+$string['groupkey_help'] = 'Além de restringir acesso à turma apenas para aqueles que conhecem a chave, o uso de uma chave de inscrição de grupo faz com que os usuários sejam automaticamente incluídos ao grupo quando eles se inscrevem no curso.
 
 Nota: Uma chave de inscrição para a turma deve ser especificada nas definições de auto de inscrição, bem como chaves de inscrição em grupo as configurações do grupo.';
 $string['keyholder'] = 'Você deve ter recebido esta chave de inscrição a partir de:';
@@ -73,7 +73,7 @@ $string['newenrols_desc'] = 'Permitir que os usuários se inscrevam em novos cur
 $string['newenrols_help'] = 'Esta definição determina se o usuário pode se inscrever em curso.';
 $string['nopassword'] = 'Nenhuma chave de inscrição é necessária.';
 $string['password'] = 'Chave de inscrição';
-$string['password_help'] = 'Uma chave de inscrição habilita para que o acesso aa turma seja restrito apenas para quem possua a chave.
+$string['password_help'] = 'Uma chave de inscrição habilita para que o acesso à turma seja restrito apenas para quem possua a chave.
 
 Caso este campo esteja vazio, qualquer usuário poderá se inscrever na turma.
 
@@ -90,7 +90,7 @@ $string['self:holdkey'] = 'Aparecer como titular da chave de auto-inscrição';
 $string['self:manage'] = 'Gerenciar usuários inscritos';
 $string['self:unenrol'] = 'Desinscrever usuários da turma';
 $string['self:unenrolself'] = 'Desinscrever-se da turma';
-$string['sendcoursewelcomemessage'] = 'Enviar mensagem de bem-vindos aa turma';
+$string['sendcoursewelcomemessage'] = 'Enviar mensagem de bem-vindos à turma';
 $string['sendcoursewelcomemessage_help'] = 'Se habilitato os usuários recebem uma mensagem de boas vindas por email quando fazem a inscrição em um curso.';
 $string['showhint'] = 'Exibir dica';
 $string['showhint_desc'] = 'Exibir primeira letra da chave de acesso de visitantes.';
@@ -102,8 +102,8 @@ $string['unenrolselfconfirm'] = 'Você deseja realmente retirar sua matrícula d
 $string['unenroluser'] = 'Deseja mesmo retirar a inscrição de "{$a->user}" da turma "{$a->course}" ?';
 $string['usepasswordpolicy'] = 'Usar política de senha';
 $string['usepasswordpolicy_desc'] = 'Utilizar política padrão para chaves de inscrição';
-$string['welcometocourse'] = 'Bem-vindo aa turma {$a}';
-$string['welcometocoursetext'] = 'Bem vindo aa turma {$a->coursename}!
+$string['welcometocourse'] = 'Bem-vindo à turma {$a}';
+$string['welcometocoursetext'] = 'Bem vindo à turma {$a->coursename}!
 
 A primeira coisa a fazer é editar o seu Perfil de Usuário da turma para que possamos saber mais sobre você:
 

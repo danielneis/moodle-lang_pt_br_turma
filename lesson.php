@@ -571,7 +571,7 @@ $string['retakesallowed_help'] = '<p>Esta configuração determina se os estudan
 
 <p>O valor padrão desta opção é <b>Não</b>, significando que estudantes não tem permissão para refazer a lição. É esperado que sómente em circunstancias excepcionais esta opção seja configurada para o valor <b>Sim</b>.</p>';
 $string['returnto'] = 'Voltar para {$a}';
-$string['returntocourse'] = 'Voltar aa turma';
+$string['returntocourse'] = 'Voltar à turma';
 $string['reverttodefaults'] = 'Reverter para os padrões da lição';
 $string['review'] = 'Revisão';
 $string['reviewlesson'] = 'Rever Lição';
