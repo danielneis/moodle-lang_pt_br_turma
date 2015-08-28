@@ -299,7 +299,7 @@ $string['share_roster_help'] = 'Especifica caso uma ferramentapossa acessara lis
 
 Note que esta configuração pode ser sobreescrita na ferramenta de configuração.';
 $string['show_in_course'] = 'Exibir tipo de ferramenta quando criando instâncias';
-$string['show_in_course_help'] = 'Se selecionada, esta ferramenta de configuração irá aparecer no &quot;tipo de ferramenta externa&quot; suspensa quando os professores configurar as ferramentas externas dentro dos cursos. Na maioria dos casos, essa opção não precisa ser selecionado. Os professores podem utilizar esta ferramenta de configuração baseada na URL lançamento correspondente a URL base da ferramenta, que é o método preferido. O único caso em que esta opção deve ser selecionada é se a ferramenta de configuração é apenas destinado para uma única assinatura. Por exemplo, se todos os lançamentos para o provedor de ferramenta apenas levar o usuário para uma página de destino, em vez de a um recurso específico.';
+$string['show_in_course_help'] = 'Se selecionada, esta ferramenta de configuração irá aparecer no &quot;tipo de ferramenta externa&quot; suspensa quando os professores configurar as ferramentas externas dentro das turmas. Na maioria dos casos, essa opção não precisa ser selecionado. Os professores podem utilizar esta ferramenta de configuração baseada na URL lançamento correspondente a URL base da ferramenta, que é o método preferido. O único caso em que esta opção deve ser selecionada é se a ferramenta de configuração é apenas destinado para uma única assinatura. Por exemplo, se todos os lançamentos para o provedor de ferramenta apenas levar o usuário para uma página de destino, em vez de a um recurso específico.';
 $string['size'] = 'Parâmetros de tamanho';
 $string['submission'] = 'Envio';
 $string['submissions'] = 'Envios';
@@ -321,7 +321,7 @@ $string['toolsetup'] = 'Configuração da ferramenta externa';
 $string['toolurl'] = 'URL base da ferramenta';
 $string['toolurl_help'] = 'A URL base da ferramenta é usada para combinar com URLs lançamento ferramenta para a configuração correta da ferramenta. Prefxing a URL com http (s) é opcional. Além disso, o URL de base é utilizada como o URL lançamento se um URL lançamento não é especificado no exemplo ferramenta externa. <table><thead><tr><td> <b>URL Base</b> </td><td> <b>Casa com padrões</b> </td></tr></thead><tbody><tr><td> tool.com </td><td> tool.com, tool.com / quizzes, tool.com / quizzes / quiz.php? id = 10, www.tool.com / quizzes </td></tr><tr><td> www.tool.com / quizzes </td><td> tool.com / quizzes, tool.com / quizzes / take.php? id = 10, www.tool.com / quizzes </td></tr><tr><td> quiz.tool.com </td><td> quiz.tool.com, quiz.tool.com / take.php? ID = 10 </td></tr></tbody></table> Se duas configurações diferentes de ferramentas são válidos para o mesmo domínio, a correspondência mais específica será usado.';
 $string['typename'] = 'Nome da ferramenta';
-$string['typename_help'] = 'O nome da ferramenta é utilizado pelo provedor da ferramenta através do moodle. O nome inserido será visível a professores quando adicionadas ferramentas externas nos cursos.';
+$string['typename_help'] = 'O nome da ferramenta é utilizado pelo provedor da ferramenta através do moodle. O nome inserido será visível a professores quando adicionadas ferramentas externas nas turmas.';
 $string['types'] = 'Tipos';
 $string['update'] = 'Atualização';
 $string['using_tool_configuration'] = 'Configurações da ferramenta:';

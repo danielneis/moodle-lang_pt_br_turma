@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['auth_fcchangepasswordurl'] = 'Página de mudança de senha';
 $string['auth_fcconnfail'] = 'Falha na conexão com erro número: {$a->no} e string de erro: {$a->str}';
-$string['auth_fccreators'] = 'Lista de grupos cujos membros tem permissão para criar novos cursos. Separar os grupos com \';\'. Os nomes devem ser escritos exatamente como no FirstClass, o sistema é sensível a diferenças entre maiúsculas e minúsculas.';
+$string['auth_fccreators'] = 'Lista de grupos cujos membros tem permissão para criar novas turmas. Separar os grupos com \';\'. Os nomes devem ser escritos exatamente como no FirstClass, o sistema é sensível a diferenças entre maiúsculas e minúsculas.';
 $string['auth_fccreators_key'] = 'Criadores';
 $string['auth_fcdescription'] = 'Este método usa um servidor FirstClass para verificar se usuário e a senha informados são válidos.';
 $string['auth_fcfppport'] = 'Porta do servidor (3333 é a mais comum)';

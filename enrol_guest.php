@@ -35,9 +35,9 @@ $string['passwordinvalid'] = 'Senha de acesso incorreta, por favor tente novamen
 $string['passwordinvalidhint'] = 'Essa senha de acesso estava incorreta, por favor, tente novamente<br />
 (Aqui vai uma dica - começa com \'{$a}\')';
 $string['pluginname'] = 'Acesso como visitante';
-$string['pluginname_desc'] = 'O plugin para acesso como visitante apenas concede acesso temporário aos cursos, ele não inscreve usuários.';
+$string['pluginname_desc'] = 'O plugin para acesso como visitante apenas concede acesso temporário aas turmas, ele não inscreve usuários.';
 $string['requirepassword'] = 'Exigir senha de acesso de visitantes';
-$string['requirepassword_desc'] = 'Exigir senha de acesso em novos cursos e evitar a remoção da senha de acesso dos cursos existentes.';
+$string['requirepassword_desc'] = 'Exigir senha de acesso em novas turmas e evitar a remoção da senha de acesso dos cursos existentes.';
 $string['showhint'] = 'Mostrar dica';
 $string['showhint_desc'] = 'Mostrar primeira letra da senha de acesso como visitante.';
 $string['status'] = 'Permitir o acesso de visitantes';

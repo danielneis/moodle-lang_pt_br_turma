@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['category:config'] = 'Configurar instâncias de inscrição em categoria';
-$string['category:synchronised'] = 'Atribuições de papel sincronizadas para inscrição nos cursos';
+$string['category:synchronised'] = 'Atribuições de papel sincronizadas para inscrição nas turmas';
 $string['pluginname'] = 'Inscrições em categorias';
 $string['pluginname_desc'] = 'O plugin "inscrição em categoria"  é uma solução para as inscrições legadas em nível de categoria via atribuições de papel. Recomenda-se usar a sincronização de coorte em vez disso.';

@@ -253,7 +253,7 @@ $string['includegroupbreaks'] = 'Incluir separação de grupos';
 $string['isglobal'] = 'Selecionar o box para definir o glossário como glossário global';
 $string['isglobal_help'] = '<p>Apenas os Administradores e usuários com capacidades ilimitadas no site podem configurar um glossário como global.</p>
 
-<p>Estes glossários podem ser utilizados em todos os cursos.</p>
+<p>Estes glossários podem ser utilizados em todos as turmas.</p>
 
 <p>Os links automáticos criados a partir dos itens de um glossário global incluem todas as páginas do site enquanto os links automáticos criados a partir de um glossário normal são presentes apenas nas páginas da turma específico associado àquele glossário</p>';
 $string['letter'] = 'letra';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activitytime'] = 'Tempo em atividades:';
 $string['advancement'] = 'Avanço';
-$string['allcourses'] = 'Todos os cursos';
+$string['allcourses'] = 'Todos as turmas';
 $string['allgroups'] = 'Todos os grupos';
 $string['ashtml'] = 'Formato HTML';
 $string['asxls'] = 'Baixar no formato Excel';
@@ -47,7 +47,7 @@ $string['generatereports'] = 'Gerar relatórios';
 $string['generateXLS'] = 'Gerar no formato XLS';
 $string['headsection'] = 'Seção do título';
 $string['hits'] = 'Acessos';
-$string['incourses'] = 'Nos cursos';
+$string['incourses'] = 'Nas turmas';
 $string['institution'] = 'Instituição';
 $string['institutions'] = 'Instituições';
 $string['instructure'] = 'O tempo gasto dentro da estrutura';

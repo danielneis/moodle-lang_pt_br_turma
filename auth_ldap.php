@@ -40,7 +40,7 @@ $string['auth_ldap_contexts_key'] = 'Contextos';
 $string['auth_ldap_create_context'] = 'Se você ativar a confirmação via correio eletrônico para a criação de usuário, indique o contexto em que os usuários são criados. Este contexto deve ser diverso de outros usuários para evitar problemas de segurança. Você não precisa adicionar este contexto ao ldap_context-variable, isto vai ser feito automaticamente.';
 $string['auth_ldap_create_context_key'] = 'Contexto para novos usuários';
 $string['auth_ldap_create_error'] = 'Erro ao criar usuário em LDAP';
-$string['auth_ldap_creators'] = 'Lista dos grupos em que os membros tem permissão para criar novos cursos. Separe os grupos com \';\'. Por exemplo \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_creators'] = 'Lista dos grupos em que os membros tem permissão para criar novas turmas. Separe os grupos com \';\'. Por exemplo \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Criadores';
 $string['auth_ldapdescription'] = 'Este método faz a autenticação em um servidor LDAP externo. Se o usuário e a senha informados forem válidos, o Moodle cria um novo registro de usuário na sua base de dados. Este módulo pode ler atributos do usuário a partir do LDAP e preencher os valores desejados no Moodle. Nos logins seguintes serão verificados apenas o nome de usuário e a senha.';
 $string['auth_ldap_expiration_desc'] = 'Selecionar NO para desabilitar o controle de senhas expiradas ou LDAP para verificar a data de expiração da senha diretamente do LDAP';

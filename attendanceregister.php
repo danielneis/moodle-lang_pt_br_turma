@@ -52,10 +52,10 @@ $string['enable_offline_sessions_certification'] = 'Ativar Sessões offline';
 $string['end'] = 'Fim';
 $string['first_calc_at_next_cron_run'] = 'Qualquer sessão no passado será exibida na próxima execução do Cron';
 $string['force_recalc_all_session'] = 'Recalcular todas as sessões on-line';
-$string['force_recalc_all_session_help'] = 'Excluir e recalcular todas as sessões on-line de todos os usuários rastreados. <br />Normalmente você <b>não precisa fazê-lo!</b> <br /> Novas sessões são calculados automaticamente em segundo plano (depois de algum atraso). <br />Esta operação pode ser útil <b>apenas:</b> <ul><li> Depois de mudar o papel de um usuário que já atuou em qualquer um dos cursos rastreados com um papel diferente (ou seja, mudança de professor para aluno, quando os alunos são rastreados e professores não são). </li><li> Depois de modificar as definições de registro que afeta  o cálculos das sessões (por exemplo, <i>o modo de rastreamento de atendimento, timeout de sessão online )</i> </li></ul> Você <b>não precisa recalcular ao registrar novos usuários!</b> <br /><br /> Recálculo pode ser executado imediatamente ou agendada para a próxima execução do cron. Execução agendada pode ser mais eficiente para cursos muito lotados.';
+$string['force_recalc_all_session_help'] = 'Excluir e recalcular todas as sessões on-line de todos os usuários rastreados. <br />Normalmente você <b>não precisa fazê-lo!</b> <br /> Novas sessões são calculados automaticamente em segundo plano (depois de algum atraso). <br />Esta operação pode ser útil <b>apenas:</b> <ul><li> Depois de mudar o papel de um usuário que já atuou em qualquer um das turmas rastreados com um papel diferente (ou seja, mudança de professor para aluno, quando os alunos são rastreados e professores não são). </li><li> Depois de modificar as definições de registro que afeta  o cálculos das sessões (por exemplo, <i>o modo de rastreamento de atendimento, timeout de sessão online )</i> </li></ul> Você <b>não precisa recalcular ao registrar novos usuários!</b> <br /><br /> Recálculo pode ser executado imediatamente ou agendada para a próxima execução do cron. Execução agendada pode ser mais eficiente para cursos muito lotados.';
 $string['force_recalc_all_session_now'] = 'Recalcular sessões, agora';
 $string['force_recalc_user_session'] = 'Recalcular sessões on-line deste usuário';
-$string['force_recalc_user_session_help'] = 'Excluir e recalcular todas as sessões on-line deste usuário. <br /> Normalmente você <b>não precisa fazê-lo!</b> <br /> Novas sessões são calculados automaticamente em segundo plano (depois de algum atraso). <br /> Esta operação pode ser útil <b>apenas:</b> <ul><li> Depois de mudar o papel do usuário que já atuou em qualquer um dos cursos rastreados com um papel diferente (ou seja, mudança de professor para aluno, quando os alunos são rastreados e professores não são). </li><li> Depois de modificar as definições de registro que afeta  o cálculos das sessões (por exemplo, <i>o modo de rastreamento de atendimento, timeout de sessão online )</i> </li></ul>';
+$string['force_recalc_user_session_help'] = 'Excluir e recalcular todas as sessões on-line deste usuário. <br /> Normalmente você <b>não precisa fazê-lo!</b> <br /> Novas sessões são calculados automaticamente em segundo plano (depois de algum atraso). <br /> Esta operação pode ser útil <b>apenas:</b> <ul><li> Depois de mudar o papel do usuário que já atuou em qualquer um das turmas rastreados com um papel diferente (ou seja, mudança de professor para aluno, quando os alunos são rastreados e professores não são). </li><li> Depois de modificar as definições de registro que afeta  o cálculos das sessões (por exemplo, <i>o modo de rastreamento de atendimento, timeout de sessão online )</i> </li></ul>';
 $string['fullname'] = 'Nome';
 $string['grandtotal_time'] = 'Tempo total';
 $string['insert_new_offline_session'] = 'Inserir uma sessão de trabalho novo offline';
@@ -71,7 +71,7 @@ $string['mandatoryofflinespecifycourse'] = 'Seleção do Curso obrigatório';
 $string['mandatoryofflinespecifycourse_help'] = 'A especificação de uma curso nas sessões offline será obrigatória.';
 $string['maynotaddselfcertforother'] = 'Você não pode adicionar um sessões offline para outros usuários.';
 $string['modulename'] = 'Registro de presença';
-$string['modulename_help'] = 'Registro de Presença calcula o tempo que os usuários passam trabalhando em cursos online. <br /> Opcionalmente permite o registro atividades offline do usuário. <br /> Dependendo do modo de rastreamento, o registro pode rastrear as atividades em um única turma, em todos os cursos da mesma categoria ou em todos os cursos "Meta ligados" no Curso que Registro de Presença esteja incluído <br />Sessões de trabalho online são calculadas com os registros de log gravados pelo Moodle. <br /> <b>Novas sessões on-line são adicionados com algum atraso pelo cron, após o logout do usuário.</b>';
+$string['modulename_help'] = 'Registro de Presença calcula o tempo que os usuários passam trabalhando em cursos online. <br /> Opcionalmente permite o registro atividades offline do usuário. <br /> Dependendo do modo de rastreamento, o registro pode rastrear as atividades em um única turma, em todos as turmas da mesma categoria ou em todos os cursos "Meta ligados" no Curso que Registro de Presença esteja incluído <br />Sessões de trabalho online são calculadas com os registros de log gravados pelo Moodle. <br /> <b>Novas sessões on-line são adicionados com algum atraso pelo cron, após o logout do usuário.</b>';
 $string['modulenameplural'] = 'Registros de presença';
 $string['never'] = '(Nunca)';
 $string['no_refcourse'] = '(Sem Curso especificado)';
@@ -118,8 +118,8 @@ $string['registername'] = 'Nome do registro de frequência';
 $string['registertype'] = 'Modo de rastreamento do registro de presença';
 $string['registertype_help'] = 'Modos de rastreamento do registro de presença determina como será realizado o rastreamento(Por exemplo onde a atividade do usuário será rastreada):
 * _Somente este Curso_: somente na turma onde a instância do registro de presença foi configurada.
-* _Todos os cursos na mesma categoria_: a atividade será monitorada em todos os outros cursos na mesma categoria da turma onde a instância do registro de presença foi configurada.
-* _Todos os cursos ligados por um curso meta link_: a atividade será monitorada neste curso em todos os outros cursos ligados por ligação meta curso.';
+* _Todos as turmas na mesma categoria_: a atividade será monitorada em todos os outros cursos na mesma categoria da turma onde a instância do registro de presença foi configurada.
+* _Todos as turmas ligados por um curso meta link_: a atividade será monitorada neste curso em todos os outros cursos ligados por ligação meta curso.';
 $string['schedule_reclalc_all_session'] = 'Agendar o recálculo das sessões';
 $string['select_a_course'] = '- Selecione um curso -';
 $string['select_a_course_if_any'] = '- Selecione um curso, se for o caso -';
@@ -134,7 +134,7 @@ $string['total_time_offline'] = 'Tempo Total Offline';
 $string['total_time_online'] = 'Tempo Total Online';
 $string['tracked_courses'] = 'Cursos Rastreados';
 $string['tracked_users'] = 'Usuários Rastreados';
-$string['type_category'] = 'Todos os cursos na mesma categoria';
+$string['type_category'] = 'Todos as turmas na mesma categoria';
 $string['type_course'] = 'Somente este Curso';
 $string['type_meta'] = 'Todos os Cursos vinculados por Curso meta link';
 $string['unknown'] = '(Desconhecido)';

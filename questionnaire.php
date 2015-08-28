@@ -360,7 +360,7 @@ $string['realm'] = 'Tipo de Enquete';
 $string['realm_help'] = '* ** Há três tipos de questionários: **
 * Privada  - pertence à turma é definido em apenas.
 * Modelo  - pode ser copiado e editado.
-* Pública  - pode ser compartilhado entre os cursos.';
+* Pública  - pode ser compartilhado entre as turmas.';
 $string['redirecturl'] = 'A URL para a qual o usuário é redirecionado após completar esta enquete.';
 $string['remove'] = 'Remover';
 $string['removeallquestionnaireattempts'] = 'Deletar todas as respostas da enquete';

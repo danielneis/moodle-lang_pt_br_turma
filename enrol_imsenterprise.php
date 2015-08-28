@@ -36,10 +36,10 @@ $string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&g
 <p>O plugin NÃO irá re-categorizar cursos existentes.</p>
 
 <p>Se não existe uma categoria com o nome desejado, então uma categoria OCULTA será criada.</p>';
-$string['createnewcourses'] = 'Criar novos cursos (ocultos) se não forem encontrados no Moodle';
-$string['createnewcourses_desc'] = '<p>O plugin de inscrição IMS Enterprise pode criar novos cursos para qualquer um que ele encontrar nos dados do IMS, mas não no banco de dados do Moodle, se essa configuração estiver ativada</p>
+$string['createnewcourses'] = 'Criar novas turmas (ocultos) se não forem encontrados no Moodle';
+$string['createnewcourses_desc'] = '<p>O plugin de inscrição IMS Enterprise pode criar novas turmas para qualquer um que ele encontrar nos dados do IMS, mas não no banco de dados do Moodle, se essa configuração estiver ativada</p>
 
-<p>Primeiro os cursos são pesquisados pelo seu número de id - um campo alfa-numérico na tabela de cursos do Moodle, que pode especificar o código usado para identificar a turma no Sistema de Informações do Estudante (por exemplo). Se isso não for encontrado, na tabela de cursos procura-se por "descrição curta", que no Moodle é o nome breve de cursos. (Em alguns sistemas esses dois campos podem ser idênticos). Apenas quando essa procura falhar, o plugin cria novos cursos.</p>
+<p>Primeiro as turmas são pesquisados pelo seu número de id - um campo alfa-numérico na tabela de cursos do Moodle, que pode especificar o código usado para identificar a turma no Sistema de Informações do Estudante (por exemplo). Se isso não for encontrado, na tabela de cursos procura-se por "descrição curta", que no Moodle é o nome breve de cursos. (Em alguns sistemas esses dois campos podem ser idênticos). Apenas quando essa procura falhar, o plugin cria novos cursos.</p>
 
 <p>Quaisquer cursos recém-gerados são OCULTOS quando criados. Isso para prevenir a possibilidade de estudantes vagando em cursos completamente vazios dos quais o professor possa não estar ciente.</p>';
 $string['createnewusers'] = 'Criar novas contas de usuários se ainda não forem registrados no Moodle';

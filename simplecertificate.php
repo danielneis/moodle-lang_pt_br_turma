@@ -41,7 +41,7 @@ $string['certificatename'] = 'Nome do certificado';
 $string['certificatename_help'] = 'Nome do certificado';
 $string['certificatenot'] = 'Simple certificate não foi encontrado';
 $string['certificatetext'] = 'Texto do certificado';
-$string['certificatetext_help'] = 'Este é o texto que será usado no certificado, alguns marcadores especiais serão substituídos por variáveis do certificado, como o nome dos cursos, nome do estudante, notas...
+$string['certificatetext_help'] = 'Este é o texto que será usado no certificado, alguns marcadores especiais serão substituídos por variáveis do certificado, como o nome das turmas, nome do estudante, notas...
 Os marcadores são:
 
 <ul>

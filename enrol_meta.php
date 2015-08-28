@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addgroup'] = 'Adicionar ao grupo';
 $string['coursesort'] = 'Ordenar lista de cursos';
-$string['coursesort_help'] = 'Isso determina se a lista de cursos que podem ser vinculadas são classificadas por ordem de classificação (ou seja, a ordem estabelecida no local de administração> Cursos> Gerenciar os cursos e categorias) ou em ordem alfabética por definição.';
+$string['coursesort_help'] = 'Isso determina se a lista de cursos que podem ser vinculadas são classificadas por ordem de classificação (ou seja, a ordem estabelecida no local de administração> Cursos> Gerenciar as turmas e categorias) ou em ordem alfabética por definição.';
 $string['creategroup'] = 'Criar novo grupo';
 $string['defaultgroupnametext'] = '{$a->name} curso {$a->increment}';
 $string['linkedcourse'] = 'Link course';

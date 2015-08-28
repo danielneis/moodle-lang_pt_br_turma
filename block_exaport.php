@@ -180,5 +180,5 @@ $string['nousersfound'] = 'Usuário não encontrado';
 $string['noviews'] = 'Por favor, crie uma nova visualização';
 $string['only_external'] = 'Compartilhar somente visualizações externas';
 $string['opencomps'] = 'Escolha suas competências';
-$string['othercourses'] = 'outros cursos';
-$string['other_groups_course'] = 'Outros cursos';
+$string['othercourses'] = 'outras turmas';
+$string['other_groups_course'] = 'Outras turmas';

@@ -130,7 +130,7 @@ $string['contactinfo'] = 'Informações para Contato';
 $string['contactinfodesc'] = 'Insira suas informações para contato';
 $string['copyright'] = 'Direitos Autorais';
 $string['copyrightdesc'] = 'O nome de sua organização.';
-$string['coursegrades'] = 'Notas dos cursos';
+$string['coursegrades'] = 'Notas das turmas';
 $string['courselistteachericon'] = 'Ícone de lista de professores da turma';
 $string['courselistteachericondesc'] = 'Nome do ícone que você deseja usar ou vazio para nenhum. A lista está <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_new"> aqui </a>. Basta digitar o que está depois de "fa-", por exemplo, "estrela".';
 $string['credit'] = 'O Tema "Essential" é desenvolvido, melhorado e mantido por';

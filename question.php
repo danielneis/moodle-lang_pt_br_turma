@@ -131,7 +131,7 @@ Cada categoria possui um contexto que determina onde a questão pode ser usada:
 
 *Contexto da atividade - Questões somente disponíveis no módulo da atividade
 *Contexto da turma - Questões disponíveis em todos os módulos de atividade daquele curso
-*Contexto da categoria de curso - Questões disponíveis em todos os módulos de atividade de todos os cursos daquela categoria
+*Contexto da categoria de curso - Questões disponíveis em todos os módulos de atividade de todos as turmas daquela categoria
 
 Categorias também são utilizadas em questionários com questões randômicas que são selecionadas de uma categoria particular.';
 $string['editcategory'] = 'Editar categoria';

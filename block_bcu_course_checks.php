@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['blocksenabledopt'] = 'O que os blocos ajudariam você nos cursos?';
+$string['blocksenabledopt'] = 'O que os blocos ajudariam você nas turmas?';
 $string['cachedef_coursechecksdata'] = 'Checar caching do Curso';
 $string['cleanpermfailure'] = 'Desculpe, houve um erro ao tentar limpar este curso.';
 $string['cleansuccess'] = 'Seu curso foi limpo, {$a} seções foram removidas.';

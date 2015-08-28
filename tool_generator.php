@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['bigfile'] = 'Arquivo grande {$a}';
-$string['courseexplanation'] = 'Esta ferramenta cria cursos de teste padrão que incluem muitas seções, atividades e arquivos. Este destina-se a fornecer uma medida padronizada para verificar a confiabilidade e o desempenho dos vários componentes do sistema (como backup e restauração). Este teste é importante porque houve muitos casos anteriores, onde, diante de casos de uso da vida real (por exemplo, um curso com 1.000 atividades), o sistema não funciona. Cursos criados usando esse recurso podem ocupar uma grande quantidade de banco de dados e espaço em sistema de arquivos (dezenas de gigabytes). Você terá de apagar os cursos (e esperar por várias corridas de limpeza) para liberar esse espaço novamente. ** Não utilize esse recurso em um sistema vivo **. Use somente em um servidor desenvolvedor. (Para evitar o uso acidental, este recurso está desativado, a menos que você também tenha selecionado nível de depuração desenvolvedor.)';
+$string['courseexplanation'] = 'Esta ferramenta cria cursos de teste padrão que incluem muitas seções, atividades e arquivos. Este destina-se a fornecer uma medida padronizada para verificar a confiabilidade e o desempenho dos vários componentes do sistema (como backup e restauração). Este teste é importante porque houve muitos casos anteriores, onde, diante de casos de uso da vida real (por exemplo, um curso com 1.000 atividades), o sistema não funciona. Cursos criados usando esse recurso podem ocupar uma grande quantidade de banco de dados e espaço em sistema de arquivos (dezenas de gigabytes). Você terá de apagar as turmas (e esperar por várias corridas de limpeza) para liberar esse espaço novamente. ** Não utilize esse recurso em um sistema vivo **. Use somente em um servidor desenvolvedor. (Para evitar o uso acidental, este recurso está desativado, a menos que você também tenha selecionado nível de depuração desenvolvedor.)';
 $string['coursesize_0'] = 'XS (~ 10KB, criar em ~ 1 segundo)';
 $string['coursesize_1'] = 'S (~ 10MB; criar em ~ 30 segundos)';
 $string['coursesize_2'] = 'M (~ 100MB, criar em aproximadamente 5 minutos)';
@@ -85,7 +85,7 @@ Este plano de teste é projetado para trabalhar junto com {$a}, o que torna mais
 
 Você precisa definir uma senha para os usuários da turma em config.php (por exemplo $CFG->tool_generator_users_password \'moodle\';). Não há valor padrão para esta senha para evitar usos não-intencionais da ferramenta. Você precisa usar a opção de atualização de senhas no caso dos usuários de seus cursos terem outras senhas ou elas forem geradas por tool_generator mas sem definir uma $CFG->tool_generator_users_password valor.
 
-É parte do tool_generator por isso funciona bem com os cursos gerados pelos cursos e os geradores de site, ele também pode ser usado com qualquer curso que contenha, pelo menos:
+É parte do tool_generator por isso funciona bem com as turmas gerados pelos cursos e os geradores de site, ele também pode ser usado com qualquer curso que contenha, pelo menos:
 
 * usuários inscritos suficientes (depende do tamanho do plano de teste que você selecionar) com a redefinição de senha para \'moodle\'
 * Uma instância módulo página
@@ -101,4 +101,4 @@ $string['testplansize_3'] = 'L ({$a->users} usuários, {$a->loops} loops e {$a->
 $string['testplansize_4'] = 'XL ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
 $string['testplansize_5'] = 'XXL ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
 $string['updateuserspassword'] = 'Atualizar senha dos usuários da turma';
-$string['updateuserspassword_help'] = 'JMeter precisa fazer login como os usuários da turma, você pode definir a senha de usuários usando $CFG->tool_generator_users_password em config.php; essa configuração atualiza a senha do usuário de acordo com o curso $CFG->tool_generator_users_password. Ele pode ser útil no caso de você estiver usando um curso não gerada por tool_generator ou $CFG->tool_generator_users_password não foi definido quando criou os cursos de teste.';
+$string['updateuserspassword_help'] = 'JMeter precisa fazer login como os usuários da turma, você pode definir a senha de usuários usando $CFG->tool_generator_users_password em config.php; essa configuração atualiza a senha do usuário de acordo com o curso $CFG->tool_generator_users_password. Ele pode ser útil no caso de você estiver usando um curso não gerada por tool_generator ou $CFG->tool_generator_users_password não foi definido quando criou as turmas de teste.';

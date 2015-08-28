@@ -79,7 +79,7 @@ $string['addteacher'] = 'Acrescentar professor';
 $string['admin'] = 'Administrador';
 $string['adminhelpaddnewuser'] = 'Criar uma nova conta de usuário manualmente';
 $string['adminhelpassignadmins'] = 'Administradores acessam, modificam e configuram todos os recursos do site';
-$string['adminhelpassigncreators'] = 'Criadores de curso podem criar novos cursos';
+$string['adminhelpassigncreators'] = 'Criadores de curso podem criar novas turmas';
 $string['adminhelpassignsiteroles'] = 'Aplicar papéis definidos no site para usuários específicos';
 $string['adminhelpassignstudents'] = 'Entrar em um curso e adicionar participantes usando o painel de administração';
 $string['adminhelpauthentication'] = 'Você pode usar contas de usuários internas ou bases de dados externas';
@@ -110,7 +110,7 @@ $string['adminhelpxmldbeditor'] = 'Interface para edição de arquivos XMLDB. Ap
 $string['administration'] = 'Administração';
 $string['administrationsite'] = 'Administração do site';
 $string['administrator'] = 'Administrador';
-$string['administratordescription'] = 'Administradores podem fazer tudo em todos os cursos.';
+$string['administratordescription'] = 'Administradores podem fazer tudo em todos as turmas.';
 $string['administrators'] = 'Administradores';
 $string['administratorsall'] = 'Todos os administradores';
 $string['administratorsandteachers'] = 'Administradores e professores';
@@ -187,7 +187,7 @@ $string['backupfilename'] = 'backup';
 $string['backupfinished'] = 'Backup concluído com sucesso';
 $string['backupfromthissite'] = 'O backup foi feito neste site?';
 $string['backupgradebookhistoryhelp'] = 'Se habilitado, o histórico do livro de notas será incluído nos backups automáticos. Note que o histórico de notas não pode estar desabilitado nas configurações do servidor (disablegradehistory) para que isto funcione.';
-$string['backupincludemoduleshelp'] = 'Escolha se você quer incluir os módulos dos cursos nos backups automáticos com ou sem os dados dos usuários.';
+$string['backupincludemoduleshelp'] = 'Escolha se você quer incluir os módulos das turmas nos backups automáticos com ou sem os dados dos usuários.';
 $string['backupincludemoduleuserdatahelp'] = 'Escolha se você quer incluir os dados de usuário dos módulos no backup.';
 $string['backupkeephelp'] = 'Quantos backups recentes de cada curso você quer manter? (os mais velhos serão removidos automaticamente)';
 $string['backuplogdetailed'] = 'Relatório detalhado';
@@ -199,7 +199,7 @@ $string['backupnotyetrun'] = 'Backup automatizado pendente';
 $string['backuporiginalname'] = 'Nome do backup';
 $string['backuproleassignments'] = 'Fazer backup de atribuições de papéis para esses papéis';
 $string['backupsavetohelp'] = 'Caminho completo para o diretório onde você deseja salvar os arquivos de backup';
-$string['backupsitefileshelp'] = 'Se habilitado os arquivos do site usados nos cursos serão incluídos automaticamente nos backups';
+$string['backupsitefileshelp'] = 'Se habilitado os arquivos do site usados nas turmas serão incluídos automaticamente nos backups';
 $string['backuptakealook'] = 'Por favor, dê uma olhada nos registros de ocorrência de backup em: {$a}';
 $string['backupuserfileshelp'] = 'Decida se os arquivos dos usuários (ex. imagens dos perfis) devem ser incluídos em backups automáticos';
 $string['backupversion'] = 'Versão do backup';
@@ -217,7 +217,7 @@ $string['brief'] = 'Resumo';
 $string['bulkactions'] = 'Ações em massa';
 $string['bulkactionselect'] = '{$a} ações em lote selecionadas';
 $string['bulkmovecoursessuccess'] = 'Movido com sucessa turmas {$a->courses} para {$a->category}';
-$string['bycourseorder'] = 'Por ordem dos cursos';
+$string['bycourseorder'] = 'Por ordem das turmas';
 $string['byname'] = 'por {$a}';
 $string['bypassed'] = 'Ignorado';
 $string['cachecontrols'] = 'Controles de cache';
@@ -343,9 +343,9 @@ $string['coursecategory_help'] = '<p>Algumas categorias de curso devem ter sido 
    com facilidade.</p>';
 $string['coursecatmanagement'] = 'Gerenciamento de curso e categoria';
 $string['coursecompletion'] = 'Andamento da turma';
-$string['coursecompletions'] = 'Andamento dos cursos';
+$string['coursecompletions'] = 'Andamento das turmas';
 $string['coursecreators'] = 'Criador de cursos';
-$string['coursecreatorsdescription'] = 'Criadores de cursos podem criar novos cursos e agir como professores';
+$string['coursecreatorsdescription'] = 'Criadores de cursos podem criar novas turmas e agir como professores';
 $string['coursedeleted'] = 'Apagada turma {$a}';
 $string['coursedetails'] = 'Detalhes da turma';
 $string['coursedisplay'] = 'Layout da turma';
@@ -408,12 +408,12 @@ $string['courserestore'] = 'Restauração de curso';
 $string['courses'] = 'Cursos';
 $string['coursesectionsummaries'] = 'Sumários da seção de curso';
 $string['coursesectiontitle'] = 'Curso: {$a->course}, {$a->sectionname}: {$a->sectiontitle}';
-$string['coursesettings'] = 'Configurações padrão dos cursos';
+$string['coursesettings'] = 'Configurações padrão das turmas';
 $string['coursesmovedout'] = 'Cursos movidos fora de {$a}';
 $string['coursespending'] = 'Aprovação da turma pendente';
 $string['coursestart'] = 'Início da turma';
 $string['coursesummary'] = 'Sumário da turma';
-$string['coursesummary_help'] = 'A descrição da turma é exibida na lista de cursos. A busca de cursos inclui também os textos da descrição, além dos nomes dos cursos.';
+$string['coursesummary_help'] = 'A descrição da turma é exibida na lista de cursos. A busca de cursos inclui também os textos da descrição, além dos nomes das turmas.';
 $string['coursetitle'] = 'Curso: {$a->course}';
 $string['courseupdates'] = 'Atualizações da turma';
 $string['create'] = 'Criar';
@@ -824,7 +824,7 @@ $string['frontpageformat'] = 'Formato da página inicial';
 $string['frontpageformatloggedin'] = 'Formato da página inicial depois do login';
 $string['frontpagenews'] = 'Novidades';
 $string['frontpagesettings'] = 'Configurações da página inicial';
-$string['fulllistofcourses'] = 'Todos os cursos';
+$string['fulllistofcourses'] = 'Todos as turmas';
 $string['fullname'] = 'Nome completo';
 $string['fullnamecourse'] = 'Nome completo';
 $string['fullnamecourse_help'] = 'O nome completo da turma é apresentado no topo de cada página do curso e na lista de cursos.';
@@ -954,8 +954,8 @@ $string['importdatafrom'] = 'Buscar um curso para importar os seus dados:';
 $string['inactive'] = 'Inativo';
 $string['include'] = 'Incluir';
 $string['includeallusers'] = 'Incluir todos os usuários';
-$string['includecoursefiles'] = 'Incluir os arquivos dos cursos';
-$string['includecourseusers'] = 'Incluir os usuários dos cursos';
+$string['includecoursefiles'] = 'Incluir os arquivos das turmas';
+$string['includecourseusers'] = 'Incluir os usuários das turmas';
 $string['included'] = 'Incluídos';
 $string['includelogentries'] = 'Incluir registros de log';
 $string['includemodules'] = 'Incluir módulos';
@@ -1025,8 +1025,8 @@ $string['loginaspasswordexplain'] = '<p>Você tem que usar uma senha especial da
 $string['login_failure_logs'] = 'Relatório dos erros de identificação (login)';
 $string['loginguest'] = 'Acessar como visitante';
 $string['loginsite'] = 'Acesso ao site';
-$string['loginsteps'] = 'Olá! Para o acesso completo aos cursos, você precisará criar uma nova conta neste web site.
-Cada um dos cursos individuais pode também ter uma "chave de inscrição de uso único" que você não precisará até mais tarde.
+$string['loginsteps'] = 'Olá! Para o acesso completo aas turmas, você precisará criar uma nova conta neste web site.
+Cada um das turmas individuais pode também ter uma "chave de inscrição de uso único" que você não precisará até mais tarde.
 
 Aqui estão os passos:
 <ol>
@@ -1036,7 +1036,7 @@ Aqui estão os passos:
 <li>Acesse o seu curso clicando o nome correspondente na lista de cursos disponíveis.</li>
 <li>Se for pedido um código de inscrição use a senha que foi fornecida pelo administrador ou pelo professor. Esta senha é reservada aos usuários do site inscritos na turma e será necessária apenas na primeira vez que você entrar no curso.</li>
 <li>Quando você retornar ao site, para entrar na turma basta usar o seu nome de usuário e a sua senha nesta página de acesso.</li></ol>';
-$string['loginstepsnone'] = '<p>Olá!</p> <p>Para o acesso aos cursos você precisa ser cadastrado como usuário do site.</p><p>Para fazer isto, basta completar o formulário desta página escolhendo um usuário e uma senha que você queira usar.</p><p>Se alguém já tiver escolhido o mesmo usuário, você vai tentar novamente escolhendo um usuário diferente.</p>';
+$string['loginstepsnone'] = '<p>Olá!</p> <p>Para o acesso aas turmas você precisa ser cadastrado como usuário do site.</p><p>Para fazer isto, basta completar o formulário desta página escolhendo um usuário e uma senha que você queira usar.</p><p>Se alguém já tiver escolhido o mesmo usuário, você vai tentar novamente escolhendo um usuário diferente.</p>';
 $string['loginto'] = 'Acesso a {$a}';
 $string['logout'] = 'Sair';
 $string['logoutconfirm'] = 'Você quer realmente fazer o logout?';
@@ -1218,7 +1218,7 @@ $string['newpicture_help'] = 'Para adicionar uma nova imagem, navegue e selecion
 $string['newsitem'] = 'Notícia';
 $string['newsitems'] = 'Notícias';
 $string['newsitemsnumber'] = 'Quantas notícias mostrar';
-$string['newsitemsnumber_help'] = '<P>"Últimas Notícias" é um fórum especial dos cursos que adotam os formatos "semanal" e "tópicos". É
+$string['newsitemsnumber_help'] = '<P>"Últimas Notícias" é um fórum especial das turmas que adotam os formatos "semanal" e "tópicos". É
    um bom lugar para publicar avisos que devam ser vistos por todos os alunos.
    Como regra predefinida, todos os alunos são assinantes deste fórum
    e receberão uma cópia dos avisos via email.</p>
@@ -1560,14 +1560,14 @@ $string['scale_help'] = '<p>Os professores podem criar novas escalas e critério
 
 <p>As escalas devem incluir uma boa descrição dos critérios e de como deve ser utilizada. Esta descrição é visualizada nas páginas de ajuda correspondentes.</p>
 
-<p>O administrador do site pode definir algumas escalas como "Standard" para que elas sejam disponíveis em todos os cursos.</p>';
+<p>O administrador do site pode definir algumas escalas como "Standard" para que elas sejam disponíveis em todos as turmas.</p>';
 $string['scales'] = 'Escalas';
 $string['scalescustom'] = 'Escalas personalizadas';
 $string['scalescustomcreate'] = 'Adicionar nova escala';
 $string['scalescustomno'] = 'Nenhuma escala personalizada';
 $string['scalesstandard'] = 'Escalas predefinidas';
 $string['scalestandard'] = 'Escala padrão';
-$string['scalestandard_help'] = '<p>Uma escala padrão fica disponível a nível do site, para todos os cursos.</p>';
+$string['scalestandard_help'] = '<p>Uma escala padrão fica disponível a nível do site, para todos as turmas.</p>';
 $string['scalestip'] = 'Para criar escalas personalizadas, use o botão "escalas" no painel de administração da turma';
 $string['scalestip2'] = 'Para criar escalas personalizadas, clique no link Notas no menu de administração da turma, depois escolha Editar, Escalas.';
 $string['schedule'] = 'Programação';
@@ -1619,7 +1619,7 @@ $string['selectanoptions'] = 'Selecione uma opção';
 $string['selectaregion'] = 'Selecione a região';
 $string['selectcategorysort'] = 'Quais categorias você gostaria de ordenar?';
 $string['selectcategorysortby'] = 'Selecione como você gostaria de ordenar as categorias';
-$string['selectcoursesortby'] = 'Selecione como você gostaria de ordenar os cursos';
+$string['selectcoursesortby'] = 'Selecione como você gostaria de ordenar as turmas';
 $string['selectdefault'] = 'Selecionar padrão';
 $string['selectedcategories'] = 'Categorias selecionadas';
 $string['selectedfile'] = 'Arquivo selecionado';
@@ -1654,7 +1654,7 @@ $string['show'] = 'Mostrar';
 $string['showactions'] = 'Mostrar ações';
 $string['showadvancedsettings'] = 'Mostrar configurações avançadas';
 $string['showall'] = 'Mostrar todos os {$a}';
-$string['showallcourses'] = 'Mostrar todos os cursos';
+$string['showallcourses'] = 'Mostrar todos as turmas';
 $string['showallusers'] = 'Mostrar todos os usuários';
 $string['showblockcourse'] = 'Mostrar lista de cursos que contém o bloco';
 $string['showcategory'] = 'Mostrar {$a}';
@@ -1670,7 +1670,7 @@ $string['showgrades_help'] = '<P>Muitas atividades podem ser avaliadas mediante 
 <p>Para restringir o acesso ao Relatório de Notas apenas aos professores, é necessário desabilitar a visualização no painel de configuração da turma. Este procedimento é útil também nos casos em que o curso não prevê o uso de atividades com avaliação correspondente. Isto não impede que atividades individuais utilizem ou atribuam notas, apenas desativa a exibição da página de relatório para os estudantes.</p>';
 $string['showingacourses'] = 'Mostrando todos os {$a} cursos';
 $string['showingxofycourses'] = 'Mostranda turmas de {$a->start} até {$a->end} de um total de {$a->total} cursos';
-$string['showlistofcourses'] = 'Mostrar  a lista dos cursos';
+$string['showlistofcourses'] = 'Mostrar  a lista das turmas';
 $string['showmodulecourse'] = 'Mostrar lista de cursos que contém a atividade';
 $string['showonly'] = 'Mostrar só';
 $string['showperpage'] = 'Mostrar {$a} por página';
@@ -1924,8 +1924,8 @@ $string['usingexistingcourse'] = 'Usanda turma existente';
 $string['valuealreadyused'] = 'Este valor já foi utilizado.';
 $string['version'] = 'Versão';
 $string['view'] = 'Ver';
-$string['viewallcourses'] = 'Ver todos os cursos';
-$string['viewallcoursescategories'] = 'Ver todos os cursos e categorias';
+$string['viewallcourses'] = 'Ver todos as turmas';
+$string['viewallcoursescategories'] = 'Ver todos as turmas e categorias';
 $string['viewallsubcategories'] = 'Ver todas as subcategorias';
 $string['viewfileinpopup'] = 'Ver arquivo em uma janela pop-up';
 $string['viewing'] = 'Visualizando:';

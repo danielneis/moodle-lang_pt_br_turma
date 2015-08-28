@@ -41,7 +41,7 @@ $string['addarandomselectedquestion'] = 'Adicionar uma questão aleatória';
 $string['addasection'] = 'Novo título da seção';
 $string['adddescriptionlabel'] = 'Adicionar um item de descrição';
 $string['addingquestion'] = 'Adicionando uma questão';
-$string['addingquestions'] = 'Neste lado da página você administra a sua base de dados de questões. As questões são organizadas em categorias e podem ser usadas por qualquer questionário deste curso ou de outros cursos.
+$string['addingquestions'] = 'Neste lado da página você administra a sua base de dados de questões. As questões são organizadas em categorias e podem ser usadas por qualquer questionário deste curso ou de outras turmas.
 <br /><br />Depois de selecionar ou criar uma categoria você poderá criar ou editar questões. Você pode selecionar qualquer destas questões para adicionar ao seu questionário que se encontra no outro lado desta página.';
 $string['addmoreoverallfeedbacks'] = 'Adicionar {no} outro(s) campo(s) de feedback';
 $string['addnewgroupoverride'] = 'Nova sobreposição de grupo';

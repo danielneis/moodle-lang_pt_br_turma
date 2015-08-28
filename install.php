@@ -113,7 +113,7 @@ $string['fail'] = 'Erro';
 $string['fileuploads'] = 'Carregamento de arquivos';
 $string['fileuploadserror'] = 'Isto deve estar ativado';
 $string['fileuploadshelp'] = '<p>Parece que o envio de documentos a este servidor não está habilitado.</p>
-<p>Moodle pode ser instalado, mas não será possível carregar arquivos ou imagens nos cursos.</p>
+<p>Moodle pode ser instalado, mas não será possível carregar arquivos ou imagens nas turmas.</p>
 <p>para habilitar o envio de arquivos é necessário editar o arquivo php.ini do sistema e mudar a configuração de
 <b>file_uploads</b> para \'1\'.</p>';
 $string['inputdatadirectory'] = 'Diretório de Dados:';

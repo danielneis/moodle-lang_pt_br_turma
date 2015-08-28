@@ -263,7 +263,7 @@ $string['missingfield'] = 'Erro de programação: você deve especificar um camp
 $string['modulename'] = 'Base de dados';
 $string['modulename_help'] = 'O módulo de atividade de banco de dados permite que os participantes possam criar, manter e procurar registros. A estrutura das entradas é definido pelo professor como um número de campos. Tipos de campo incluem caixa de seleção, botões de rádio, menu dropdown, área de texto, URL, imagem e arquivo enviado.
 
-O layout visual de informações ao listar, visualizar ou entradas de banco de dados edição pode ser controlado por modelos de banco de dados. Atividades de banco de dados podem ser compartilhados entre os cursos como presets e um professor pode também importar e entradas de banco de dados de exportação.
+O layout visual de informações ao listar, visualizar ou entradas de banco de dados edição pode ser controlado por modelos de banco de dados. Atividades de banco de dados podem ser compartilhados entre as turmas como presets e um professor pode também importar e entradas de banco de dados de exportação.
 
 Se o filtro de auto-linking banco de dados estiver ativado, nenhuma entrada em um banco de dados será vinculado automaticamente onde as palavras ou frases aparecem dentro da turma.
 

@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['check_backup'] = 'Backup automático';
 $string['check_backup_comment_disable'] = 'O desempenho pode ser afetado durante o processo de backup. Se ativado, os backups devem ser agendados para horários de pico.';
 $string['check_backup_comment_enable'] = 'O desempenho pode ser afetado durante o processo de backup. Os backups devem ser agendados para horários de pico.';
-$string['check_backup_details'] = 'Ativando backup automatizado irá criar automaticamente arquivos de todos os cursos no servidor no momento que você especificou.  Durante esse processo, ele irá consumir mais recursos do servidor e pode afetar o desempenho.';
+$string['check_backup_details'] = 'Ativando backup automatizado irá criar automaticamente arquivos de todos as turmas no servidor no momento que você especificou.  Durante esse processo, ele irá consumir mais recursos do servidor e pode afetar o desempenho.';
 $string['check_cachejs_comment_disable'] = 'Se habilitado, o desempenho do carregamento da página é melhorado.';
 $string['check_cachejs_comment_enable'] = 'Se estiver desabilitado, a página pode carregar lentamente.';
 $string['check_cachejs_details'] = 'Javascript caching e compressão melhoram muito o desempenho do carregamento da página. É fortemente recomendado para zonas de produção.';
