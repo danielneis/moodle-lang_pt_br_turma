@@ -81,7 +81,7 @@ Caso uma chave de inscrição seja especificada, em qualquer tentativa de inscri
 $string['passwordinvalid'] = 'Chave de inscrição incorreta, por favor tente novamente';
 $string['passwordinvalidhint'] = 'Código de inscrição errado, por favor tente novamente<br /> (uma dica - começa com \'{$a}\')';
 $string['pluginname'] = 'Autoinscrição';
-$string['pluginname_desc'] = 'O plugin de auto inscrição permite que usuários escolham em quais cursos queiram participar. Os cursos devem ser protegidos por umachave de inscrição. Internamente a inscrição é realizada através do plugin de inscrição manual o qual deve ser habilitado no mesma turma.';
+$string['pluginname_desc'] = 'O plugin de auto inscrição permite que usuários escolham em quais cursos queiram participar. As turmas devem ser protegidos por umachave de inscrição. Internamente a inscrição é realizada através do plugin de inscrição manual o qual deve ser habilitado no mesma turma.';
 $string['requirepassword'] = 'Exigir chave de inscrição';
 $string['requirepassword_desc'] = 'Requer chave de inscrição em novas turmas e previne remoção de chaves de inscrição de cursos existentes.';
 $string['role'] = 'Papel atribuído por padrão';

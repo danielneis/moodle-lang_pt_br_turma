@@ -389,7 +389,7 @@ $string['courseprofiles'] = 'Cursos inscritos';
 $string['coursereasonforrejecting'] = 'Seus motivos para rejeitar esta solicitação';
 $string['coursereasonforrejectingemail'] = 'Isto será enviado por email para o solicitante';
 $string['coursereject'] = 'Rejeitar o pedido de aprovação de curso';
-$string['courserejected'] = 'O curso foi rejeitado e o requerente foi notificado.';
+$string['courserejected'] = 'A turma foi rejeitado e o requerente foi notificado.';
 $string['courserejectemail'] = 'Infelizmente o seu pedido de abertura de curso não foi aceito. Esta é a razão indicada:
 {$a}';
 $string['courserejectreason'] = 'Descreva as razões para rejeitar este curso<br />(uma cópia será mandada por email ao autor do pedido)';
@@ -492,7 +492,7 @@ $string['deleteallcannotundo'] = 'Excluir todos - não pode ser desfeito';
 $string['deleteallcomments'] = 'Excluir todos os comentários';
 $string['deleteallratings'] = 'Excluir todas as pontuações';
 $string['deletecategory'] = 'Excluir categoria: {$a}';
-$string['deletecategorycheck'] = 'Você tem certeza que deseja excluir definitivamente esta categoria <b>\'{$a}\'</b>?<br />Os cursos serão transferidos para a categoria superior, se presente, ou para a categoria padrão';
+$string['deletecategorycheck'] = 'Você tem certeza que deseja excluir definitivamente esta categoria <b>\'{$a}\'</b>?<br />As turmas serão transferidos para a categoria superior, se presente, ou para a categoria padrão';
 $string['deletecategorycheck2'] = 'Se você excluir esta categoria, escolha o que fazer com seus cursos e subcategorias.';
 $string['deletecategoryempty'] = 'Esta categoria está vazia.';
 $string['deletecheck'] = 'Excluir {$a} ?';

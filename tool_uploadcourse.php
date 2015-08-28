@@ -47,8 +47,8 @@ $string['couldnotresolvecatgorybypath'] = 'Não foi possível resolver categoria
 $string['coursecreated'] = 'Curso criado';
 $string['coursedeleted'] = 'Curso apagado';
 $string['coursedeletionnotallowed'] = 'Deleção de cursos está permitida';
-$string['coursedoesnotexistandcreatenotallowed'] = 'O curso não existe e a criação de cursos está proibida';
-$string['courseexistsanduploadnotallowed'] = 'O curso existe e a atualização de curso está proibida';
+$string['coursedoesnotexistandcreatenotallowed'] = 'A turma não existe e a criação de cursos está proibida';
+$string['courseexistsanduploadnotallowed'] = 'A turma existe e a atualização de curso está proibida';
 $string['coursefile'] = 'Arquivo';
 $string['coursefile_help'] = 'Este arquivo deve ser um arquivo CSV.';
 $string['courseidnumberincremented'] = 'Número ID da turma incrementado {$a->from} -> {$a->to}';
@@ -67,7 +67,7 @@ $string['coursestotal'] = 'Total de cursos: {$a}';
 $string['coursesupdated'] = 'Cursos atualizados: {$a}';
 $string['coursetemplatename'] = 'Restaurar a partir desse curso depois de fazer o';
 $string['coursetemplatename_help'] = 'Insira o nome breve de um curso existente para usá-lo como modelo para todos as turmas.';
-$string['coursetorestorefromdoesnotexist'] = 'O curso escolhido como modelo não existe';
+$string['coursetorestorefromdoesnotexist'] = 'A turma escolhido como modelo não existe';
 $string['courseupdated'] = 'Curso atualizado';
 $string['createall'] = 'Criar todos, incrementar nome breve se necessário';
 $string['createnew'] = 'Criar novas turmas apenas, saltar cursos existentes';
@@ -120,7 +120,7 @@ $string['updateonly'] = 'Somente atualizar curso existentes';
 $string['updatewithdataonly'] = 'Atualizar com dados do CSV apenas';
 $string['updatewithdataordefaults'] = 'Atualizar com dados do CSV e padrões';
 $string['uploadcourses'] = 'Carregar cursos';
-$string['uploadcourses_help'] = 'Os cursos podem ser criados a partir de um arquivo texto. O formato do arquivo deve ser o seguinte:
+$string['uploadcourses_help'] = 'As turmas podem ser criados a partir de um arquivo texto. O formato do arquivo deve ser o seguinte:
 
 * Cada linha do arquivo contém um registro
 * Cada registro é uma sequência de dados separados por vírgulas (ou outros delimitadores)
