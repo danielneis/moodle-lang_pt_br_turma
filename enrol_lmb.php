@@ -40,7 +40,7 @@ $string['bannerxmllocationcomp'] = 'Tratar o arquivo Banner XML como compreensiv
 $string['bannerxmllocationcomphelp'] = 'Se esta opção for selecionada, as inscrições faltantes dos arquivos extraídos serão descartadas.';
 $string['bannerxmllocationhelp'] = 'O caminho (no servidor do Moodle) onde ficam os arquivos XML que você gostaria de importar.';
 $string['bizdowngracehelp'] = 'Quantos minutos podem ser levados desde a última mensagem LMB antes que e-mail de aviso sejam enviados durante o horário de expediente.';
-$string['categorytype'] = 'Categorias de cursos';
+$string['categorytype'] = 'Categorias de turmas';
 $string['categorytypehelp'] = 'Isso permite que você selecione em quais categorias você gostaria que as turmas fossem criados. Opções:
 <ul>
 <li>Períodos: Esta configuração fará com que as turmas sejam colocados nas categorias com o nome do período/semestre deles.</li>

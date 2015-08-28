@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configplugin'] = 'Configuração para repositório de arquivos de curso legados';
+$string['configplugin'] = 'Configuração para repositório de arquivos de turma legados';
 $string['coursefiles:view'] = 'Usar plugin de repositório de arquivos da turma';
 $string['emptyfilelist'] = 'Não há arquivos para exibir';
 $string['notitle'] = 'sem título';
-$string['pluginname'] = 'Arquivos de curso legados';
-$string['pluginname_help'] = 'Arquivos de curso legados';
+$string['pluginname'] = 'Arquivos de turma legados';
+$string['pluginname_help'] = 'Arquivos de turma legados';
 $string['remember'] = 'Lembre-me';

@@ -95,7 +95,7 @@ $string['offline_sessions_certification_help'] = 'Permitir aos usuários inserir
 $string['offline_session_start'] = 'Iniciar';
 $string['offline_session_start_help'] = 'Selecione data e hora de início e fim da trabalho da sessão offline que você quer enviar. <br /> A sessão offline não pode sobrepor qualquer sessão previamente gravada, online ou offline, nem a sessão online atual.';
 $string['offline_sessions_total_duration'] = 'Tempo total offline';
-$string['offlinespecifycourse'] = 'Especifique Curso de Sessões offline';
+$string['offlinespecifycourse'] = 'Especifique Turma de Sessões offline';
 $string['offlinespecifycourse_help'] = 'Permitir que o usuário selecione a turma da sessão offline relacionada. <br /> Esta opção só tem sentido se registro de presença estiver no modo de rastreamento para mais de um curso(Por exemplo: mode de rastreamento "Categoria" ou "Meta-ligado")';
 $string['online'] = 'Online';
 $string['online_offline'] = 'Online/Offline';
@@ -117,9 +117,9 @@ $string['ref_course'] = 'Ref.Curso';
 $string['registername'] = 'Nome do registro de frequência';
 $string['registertype'] = 'Modo de rastreamento do registro de presença';
 $string['registertype_help'] = 'Modos de rastreamento do registro de presença determina como será realizado o rastreamento(Por exemplo onde a atividade do usuário será rastreada):
-* _Somente este Curso_: somente na turma onde a instância do registro de presença foi configurada.
+* _Somente este Turma_: somente na turma onde a instância do registro de presença foi configurada.
 * _Todos as turmas na mesma categoria_: a atividade será monitorada em todos os outros cursos na mesma categoria da turma onde a instância do registro de presença foi configurada.
-* _Todos as turmas ligados por um curso meta link_: a atividade será monitorada neste curso em todos os outros cursos ligados por ligação meta curso.';
+* _Todos as turmas ligados por um curso meta link_: a atividade será monitorada nesta turma em todos os outros cursos ligados por ligação meta curso.';
 $string['schedule_reclalc_all_session'] = 'Agendar o recálculo das sessões';
 $string['select_a_course'] = '- Selecione um curso -';
 $string['select_a_course_if_any'] = '- Selecione um curso, se for o caso -';
@@ -135,7 +135,7 @@ $string['total_time_online'] = 'Tempo Total Online';
 $string['tracked_courses'] = 'Cursos Rastreados';
 $string['tracked_users'] = 'Usuários Rastreados';
 $string['type_category'] = 'Todos as turmas na mesma categoria';
-$string['type_course'] = 'Somente este Curso';
+$string['type_course'] = 'Somente este Turma';
 $string['type_meta'] = 'Todos os Cursos vinculados por Curso meta link';
 $string['unknown'] = '(Desconhecido)';
 $string['unreasoneable_session'] = 'Você tem certeza? Isso é mais do que {$a} horas de duração!';

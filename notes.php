@@ -62,7 +62,7 @@ $string['publishstate'] = 'Estado';
 $string['publishstate_help'] = '<p>Há 3 configurações possíveis aqui:</p>
 <ul>
 <li><strong>Pessoal</strong> - A anotação será visível apenas para você</li>
-<li><strong>Curso</strong> - A anotação será visível para os professores desse curso</li>
+<li><strong>Curso</strong> - A anotação será visível para os professores desse turma</li>
 <li><strong>Site</strong> - A anotação será visível para todos os professores de todos as turmas</li>
 </ul>';
 $string['selectnotestate'] = 'Selecione estado da nota';

@@ -124,4 +124,4 @@ $string['selectparticipants'] = 'Atribuir papéis';
 $string['starttime'] = 'Hora de início';
 $string['testconnection'] = 'Testar Conexão';
 $string['unableretrdetails'] = 'Não foi possível obter detalhes da reunião';
-$string['usernotenrolled'] = 'Somente os usuários inscritos e que tenham uma função neste curso podem participar desta reunião';
+$string['usernotenrolled'] = 'Somente os usuários inscritos e que tenham uma função nesta turma podem participar desta reunião';

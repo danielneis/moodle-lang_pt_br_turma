@@ -126,23 +126,23 @@ $string['enableobfuscate'] = 'Habilitar ofuscação do código do reprodutor de 
 $string['enableswf'] = 'Permitir incorporar arquivos SWF em atividades Hotpotatoes';
 $string['entry_attempts'] = 'Tentativas';
 $string['entrycm'] = 'Atividades prévias';
-$string['entrycmcourse'] = 'Atividade prévia neste curso';
+$string['entrycmcourse'] = 'Atividade prévia nesta turma';
 $string['entrycm_help'] = 'Esta configuração especifica uma atividade Moodle e uma classificação mínima para esta atividade a qual deve ser completada antes que este Quizport possa ser iniciado.
 
 O professor pode selecionar uma atividade específica, ou uma das seguintes configurações de uso geral:
 
-* Atividade prévia neste curso
+* Atividade prévia nesta turma
 * Atividade prévia nesta seção
-* HotPot anterior neste curso
+* HotPot anterior nesta turma
 * HotPot anterior nesta seção';
-$string['entrycmsection'] = 'Atividade prévia nesta seção de curso';
+$string['entrycmsection'] = 'Atividade prévia nesta seção de turma';
 $string['entrycompletionwarning'] = 'Antes de iniciar esta atividade, você precisa olha o {$a}.';
 $string['entry_dates'] = 'Datas';
 $string['entrygrade'] = 'Nota da atividade anterior';
 $string['entrygradewarning'] = 'Você não pode iniciar esta atividade até que atinja a marca de {$a->entrygrade}% em {$a->entryactivity}. Atualmente seu aproveitamento para aquela atividade é de {$a->usergrade}%';
 $string['entry_grading'] = 'Nota';
-$string['entryhotpotcourse'] = 'Atividade Hotpotatoes anterior neste curso';
-$string['entryhotpotsection'] = 'Atividade Hotpotatoes anterior nesta seção de curso';
+$string['entryhotpotcourse'] = 'Atividade Hotpotatoes anterior nesta turma';
+$string['entryhotpotsection'] = 'Atividade Hotpotatoes anterior nesta seção de turma';
 $string['entryoptions'] = 'Opções de item de página';
 $string['entryoptions_help'] = 'Estas caixas de seleção permitem habilitar e desbilitar a exibição de itens na página inicial do HotPots.
 
@@ -173,18 +173,18 @@ $string['entry_title'] = 'Nome de unidade como título';
 $string['exit_areyouok'] = 'Olá, você está ainda aqui ?';
 $string['exit_attemptscore'] = 'Seu aproveitamento para aquela tentativa foi {$a}';
 $string['exitcm'] = 'Próxima atividade';
-$string['exitcmcourse'] = 'Próxima atividade neste curso';
+$string['exitcmcourse'] = 'Próxima atividade nesta turma';
 $string['exitcm_help'] = 'Esta configuração especifica uma atividade Moodle para ser feita após a conclusão deste questionário.
 
 O professor pode selecionar uma atividade específica, ou uma das seguintes configurações de uso geral:
 
-* Próxima atividade neste curso
+* Próxima atividade nesta turma
 * Próxima atividade nesta seção
-* HotPot seguinte neste curso
+* HotPot seguinte nesta turma
 * Próximo HotPot  nesta seção
 
 Se outras opções de saída de página estiverem desativadas, o aluno irá direto para a próxima atividade. Caso contrário, será mostrado ao aluno um link para levá-lo para a atividade seguinte, quando ele estiver pronto.';
-$string['exitcmsection'] = 'Próxima atividade nesta seção de curso';
+$string['exitcmsection'] = 'Próxima atividade nesta seção de turma';
 $string['exit_course'] = 'Curso';
 $string['exit_course_text'] = 'Retornar à página principal da turma';
 $string['exit_encouragement'] = 'encorajamento';
@@ -212,15 +212,15 @@ Além disso, se o método de classificação da unidade for a nota mais elevada,
 $string['exit_goodtry'] = 'Boa Tentativa!';
 $string['exitgrade'] = 'Próxima nota de atividade';
 $string['exit_grades'] = 'Notas';
-$string['exit_grades_text'] = 'Veja suas notas nesse curso até agora';
-$string['exithotpotcourse'] = 'Próximo HotPot neste curso';
+$string['exit_grades_text'] = 'Veja suas notas nesse turma até agora';
+$string['exithotpotcourse'] = 'Próximo HotPot nesta turma';
 $string['exit_hotpotgrade'] = 'Sua nota para esta atividade é {$a}';
 $string['exit_hotpotgrade_average'] = 'Sua nota média até agora para esta atividade é {$a}';
 $string['exit_hotpotgrade_highest'] = 'Sua nota mais alta até agora para esta atividade é {$a}';
 $string['exit_hotpotgrade_highest_equal'] = 'Você igualou sua melhor tentativa anterior para esta atividade!';
 $string['exit_hotpotgrade_highest_previous'] = 'Sua maior nota anterior para esta atividade é {$a}';
 $string['exit_hotpotgrade_highest_zero'] = 'Você não marcou mais que {$a} nesta atividade ainda';
-$string['exithotpotsection'] = 'Próximo HotPot nesta seção de curso';
+$string['exithotpotsection'] = 'Próximo HotPot nesta seção de turma';
 $string['exit_index'] = 'Índice';
 $string['exit_index_text'] = 'Ir para o índice das atividades';
 $string['exit_links'] = 'Sair da página de links';

@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['attendance:addinstance'] = 'Adicionar um novo bloco de frequência';
 $string['blockname'] = 'Presença';
-$string['needactivity'] = 'Este bloco trabalha apenas com uma atividade de frequência. Por favor, adicione a atividade neste curso.';
+$string['needactivity'] = 'Este bloco trabalha apenas com uma atividade de frequência. Por favor, adicione a atividade nesta turma.';
 $string['pluginname'] = 'Presença';

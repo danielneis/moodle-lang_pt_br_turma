@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['apply:unenrol'] = 'Cancelar usuários de curso';
+$string['apply:unenrol'] = 'Cancelar usuários de turma';
 $string['applyuser'] = 'Nome / Apelido';
 $string['applyusermail'] = 'E-mail';
 $string['btncancel'] = 'Cancelar';

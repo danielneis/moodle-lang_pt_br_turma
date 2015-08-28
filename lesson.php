@@ -37,7 +37,7 @@ $string['actionaftercorrectanswer_help'] = '<p>A ação padrão é seguir confor
 <p>Em cada tipo de lições Flash Card, o professor pode decidir usar todos os Cards/Páginas na lição ou escolher um subconjunto (aleatório). Isso pode ser definido no parâmetro "Número de Páginas (fichas) a serem mostradas" .</p>';
 $string['actions'] = 'Ações';
 $string['activitylink'] = 'Link para a próxima atividade';
-$string['activitylink_help'] = '<p>A caixa de selação contém todas as atividades deste curso. Se uma estiver selecionada, então um link para esta atividade aparecerá no final da Lição.</p>';
+$string['activitylink_help'] = '<p>A caixa de selação contém todas as atividades desta turma. Se uma estiver selecionada, então um link para esta atividade aparecerá no final da Lição.</p>';
 $string['activitylinkname'] = 'Vai a {$a}';
 $string['activityoverview'] = 'Você tem aulas que são devidas';
 $string['addabranchtable'] = 'Inserir página com painel de navegação';
@@ -258,7 +258,7 @@ $string['gradeis'] = 'Resultado: {$a}';
 $string['gradeoptions'] = 'Opções de avaliação';
 $string['groupoverrides'] = 'Sobreposições de grupo';
 $string['groupoverridesdeleted'] = 'Sobreposições de grupo excluídas';
-$string['groupsnone'] = 'Não existem grupos neste curso';
+$string['groupsnone'] = 'Não existem grupos nesta turma';
 $string['handlingofretakes'] = 'Calculando o resultado das tentativas';
 $string['handlingofretakes_help'] = '<p>Quando são habilitadas novas tentativas na lição, esta opção permite que
     o professor mostre a nota para a lição, por exemplo, na página de Notas,

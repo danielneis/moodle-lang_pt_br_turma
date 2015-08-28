@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['completionprogressdetails'] = 'Detalhes do andamento';
-$string['completionstatus:addinstance'] = 'Adicionar um novo bloco de status de conclusão de curso';
+$string['completionstatus:addinstance'] = 'Adicionar um novo bloco de status de conclusão de turma';
 $string['criteriagroup'] = 'Grupo de critérios';
 $string['firstofsecond'] = '{$a->first} de {$a->second}';
 $string['pluginname'] = 'Andamento da turma';

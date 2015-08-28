@@ -27,14 +27,14 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activities'] = 'Atividades';
 $string['add'] = 'Adicionar';
-$string['addcommunitycourse'] = 'Adicionar comunidade de curso';
+$string['addcommunitycourse'] = 'Adicionar comunidade de turma';
 $string['addcourse'] = 'Busca';
-$string['addedtoblock'] = 'Um link para este curso foi adicionado em seu bloco de localização de comunidade';
+$string['addedtoblock'] = 'Um link para esta turma foi adicionado em seu bloco de localização de comunidade';
 $string['additionalcoursedesc'] = '	
 {$a->lang} Criador: {$a->creatorname} - Editor: {$a->publishername} - Assunto: {$a->subject} - Público: {$a->audience} - Escolaridade: {$a->educationallevel} - Licença: {$a->license}';
 $string['addtocommunityblock'] = 'Salvar um link para a turma';
 $string['audience'] = 'Projetado para';
-$string['audience_help'] = 'Que tipo de curso que você está procurando? Você poderá encontrar tanta turmas tradicionais destinados a estudantes, como também poderá procurar por comunidades de educadores e administradores do Moodle.';
+$string['audience_help'] = 'Que tipo de turma que você está procurando? Você poderá encontrar tanta turmas tradicionais destinados a estudantes, como também poderá procurar por comunidades de educadores e administradores do Moodle.';
 $string['blocks'] = 'Blocos';
 $string['cannotselecttopsubject'] = 'Você não pode selecionar um tópico deste nível.';
 $string['comments'] = 'Comentários ({$a})';
@@ -65,10 +65,10 @@ $string['educationallevel_help'] = 'Qual nível de escolaridade que você está 
 $string['enroldownload'] = 'Pesquisar';
 $string['enroldownload_help'] = 'Alguns cursos listados no hub selecionado informam que as pessoas podem acessar e participar dos mesmos no site original.
 
-Outros são modelos de cursos fornecidos para você baixar e usar em seu próprio site Moodle.';
+Outros são modelos de turmas fornecidos para você baixar e usar em seu próprio site Moodle.';
 $string['enrollable'] = 'cursos que posso me inscrever';
 $string['enrollablecourses'] = 'Cursos que aceitam inscrição';
-$string['errorcourselisting'] = 'Ocorreu um erro ao recuperar a lista de cursos do hub selecionado, por favor tente novamente mais tarde. ({$a})';
+$string['errorcourselisting'] = 'Ocorreu um erro ao recuperar a lista de turmas do hub selecionado, por favor tente novamente mais tarde. ({$a})';
 $string['errorhublisting'] = 'Ocorreu um erro ao recuperar a lista de hubs do Moodle.org, por favor, tente novamente mais tarde. ({$a})';
 $string['fileinfo'] = 'Idioma: {$a->lang} - Licença: {$a->license} -  Última atualização: {$a->timeupdated}';
 $string['hideall'] = 'Ocultar hubs';
@@ -109,7 +109,7 @@ $string['search'] = 'Busca';
 $string['searchcommunitycourse'] = 'Busca por curso da comunidade';
 $string['searchcourse'] = 'Busca por curso da comunidade';
 $string['selecthub'] = 'hub selecionado';
-$string['selecthub_help'] = 'Selecione o hub onde deve ser feita a pesquisa de cursos.';
+$string['selecthub_help'] = 'Selecione o hub onde deve ser feita a pesquisa de turmas.';
 $string['showall'] = 'Mostrar todos os hubs';
 $string['sites'] = 'Sites';
 $string['subject'] = 'Assunto';

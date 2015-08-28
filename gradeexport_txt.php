@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Arquivo de texto';
-$string['timeexported'] = 'Último download realizado neste curso.';
+$string['timeexported'] = 'Último download realizado nesta turma.';
 $string['txt:publish'] = 'Exportar livro de notas em formato TXT';
 $string['txt:view'] = 'Usar exportação de livro de notas em formato TXT';

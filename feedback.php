@@ -96,7 +96,7 @@ $string['dropdown'] = 'Múltipla escolha - resposta única (\'dropdown list\') '
 $string['dropdownlist'] = 'Múltipla escolha - resposta única (\'dropdown\') ';
 $string['dropdownrated'] = 'Lista dropdown (rateada)';
 $string['dropdown_values'] = 'Respostas';
-$string['drop_feedback'] = 'Remover deste curso';
+$string['drop_feedback'] = 'Remover desta turma';
 $string['edit_item'] = 'Editar questão';
 $string['edit_items'] = 'Editar questões';
 $string['email_notification'] = 'Habilitar notificações de submissões';
@@ -154,7 +154,7 @@ $string['mapcourse_help'] = 'Por padrão, os formulários de pesquisa criados em
 $string['mapcourseinfo'] = 'Esta é uma pesquisa no nível do site que está disponível para todos as turmas usando o bloco de comentários. No entanto,você pode mapear os cursos disponíveis para mapeá-los. Localize a turma e mapei-o para esta pesquisa.';
 $string['mapcoursenone'] = 'Nenhum curso foi mapeado. A pesquisa estará disponível a todos as turmas.';
 $string['mapcourses'] = 'Mapear pesquisa para as turmas';
-$string['mapcourses_help'] = 'Após ter selecionado o(s) curso(s) relevante(s) para a pesquisa, você pode associá-lo(s) com usando este mapa de curso(s). Várias turmas podem ser selecionados mantendo pressionada a tecla Ctrl (ou Apple, no Mac) e clicando nos nomes dos cursos. Um curso pode ser dissociada de uma pesquisa a qualquer momento.';
+$string['mapcourses_help'] = 'Após ter selecionado o(s) curso(s) relevante(s) para a pesquisa, você pode associá-lo(s) com usando este mapa de turma(s). Várias turmas podem ser selecionados mantendo pressionada a tecla Ctrl (ou Apple, no Mac) e clicando nos nomes dos cursos. Um curso pode ser dissociada de uma pesquisa a qualquer momento.';
 $string['mappedcourses'] = 'Cursos mapeados';
 $string['max_args_exceeded'] = 'Máximo 6 argumentos podem ser manipulados, muitos argumentos para';
 $string['maximal'] = 'máximo';
@@ -169,8 +169,8 @@ Respostas de feedback pode ser anônimo, se desejar, e os resultados podem ser m
 Actividades de feedback pode ser usado
 
 * Para avaliações da turma, contribuindo para melhorar o conteúdo para os participantes posteriores
-* Para capacitar os participantes para se inscrever para módulos de cursos, eventos etc.
-* Para levantamentos de hóspedes de opções de cursos, políticas escolares etc.
+* Para capacitar os participantes para se inscrever para módulos de turmas, eventos etc.
+* Para levantamentos de hóspedes de opções de turmas, políticas escolares etc.
 * Para inquéritos anti-bullying nas quais os alunos podem relatar incidentes de forma anônima';
 $string['modulenameplural'] = 'Pesquisa';
 $string['movedown_item'] = 'Mover a questão para baixo';

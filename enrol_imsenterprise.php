@@ -30,7 +30,7 @@ $string['allowunenrol'] = 'Permitir que o IMS data <strong>cancele a inscrição
 $string['allowunenrol_desc'] = 'Se habilitado, inscrições na turma serão removidas quando especificado nos dados do Enterprise.';
 $string['basicsettings'] = 'Configuração básica';
 $string['coursesettings'] = 'Opções de dados da turma';
-$string['createnewcategories'] = 'Criar novas categorias de cursos (ocultas) se não forem encontradas no Moodle';
+$string['createnewcategories'] = 'Criar novas categorias de turmas (ocultas) se não forem encontradas no Moodle';
 $string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&gt; está presente na informação de entrada de um curso, seu conteúdo será usado para especificar uma categoria quando a turma for criado.</p>
 
 <p>O plugin NÃO irá re-categorizar cursos existentes.</p>
@@ -39,7 +39,7 @@ $string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&g
 $string['createnewcourses'] = 'Criar novas turmas (ocultos) se não forem encontrados no Moodle';
 $string['createnewcourses_desc'] = '<p>O plugin de inscrição IMS Enterprise pode criar novas turmas para qualquer um que ele encontrar nos dados do IMS, mas não no banco de dados do Moodle, se essa configuração estiver ativada</p>
 
-<p>Primeiro as turmas são pesquisados pelo seu número de id - um campo alfa-numérico na tabela de cursos do Moodle, que pode especificar o código usado para identificar a turma no Sistema de Informações do Estudante (por exemplo). Se isso não for encontrado, na tabela de cursos procura-se por "descrição curta", que no Moodle é o nome breve de cursos. (Em alguns sistemas esses dois campos podem ser idênticos). Apenas quando essa procura falhar, o plugin cria novos cursos.</p>
+<p>Primeiro as turmas são pesquisados pelo seu número de id - um campo alfa-numérico na tabela de turmas do Moodle, que pode especificar o código usado para identificar a turma no Sistema de Informações do Estudante (por exemplo). Se isso não for encontrado, na tabela de cursos procura-se por "descrição curta", que no Moodle é o nome breve de cursos. (Em alguns sistemas esses dois campos podem ser idênticos). Apenas quando essa procura falhar, o plugin cria novos cursos.</p>
 
 <p>Quaisquer cursos recém-gerados são OCULTOS quando criados. Isso para prevenir a possibilidade de estudantes vagando em cursos completamente vazios dos quais o professor possa não estar ciente.</p>';
 $string['createnewusers'] = 'Criar novas contas de usuários se ainda não forem registrados no Moodle';
@@ -82,7 +82,7 @@ $string['restricttarget_desc'] = '<p>Um arquivo de dados IMS Enterprise pode ser
 </p>';
 $string['roles'] = 'Papéis';
 $string['settingfullname'] = 'A descrição do tag IMS para o nome da turma completo';
-$string['settingfullnamedescription'] = 'O nome completo é um campo de curso obrigatório para que você tem que definir a tag descrição selecionada em seu arquivo IMS Enterprise';
+$string['settingfullnamedescription'] = 'O nome completo é um campo de turma obrigatório para que você tem que definir a tag descrição selecionada em seu arquivo IMS Enterprise';
 $string['settingshortname'] = 'Descrição do tag IMS para o nome curto da turma';
 $string['settingshortnamedescription'] = 'O nome curto da turma é um campo obrigatório, portanto você precisa definir a descrição do tag no seu arquvo IMS enterprise';
 $string['settingsummary'] = 'Tag de descição IMS para o sumário da turma';
@@ -92,8 +92,8 @@ $string['sourcedidfallback_desc'] = 'Em ISM data, o campo <sourcedid>
 representa o código ID persistente de uma pessoa, como o utilizado no sistema de origem. O campo <userid> é um campo separado que deve conter o código ID utilizado pelo seu usuário para fazer seu login. Em muitos casos estes dois códigos serão o mesmo, mas não sempre.
 
 Alguns sistemas de informação de estudantes falham ao imprimir o campo <userid>. Se este for o caso, você deve habilitar esta configuração para permitir a utilização do <sourcedid> como o ID do usuário do Moodle. Caso contrário, deixe esta opção desabilitada.';
-$string['truncatecoursecodes'] = 'Reduzir códigos de curso para este tamanho';
-$string['truncatecoursecodes_desc'] = '<p>Em algumas situações você pode ter códigos de curso que deseje reduzir para um tamanho específico antes de processar. Se assim desejar, insira o número de caracteres nesse box. Caso contrário, deixe esse box <strong>em branco</strong> e nenhuma redução ocorrerá.</p>';
+$string['truncatecoursecodes'] = 'Reduzir códigos de turma para este tamanho';
+$string['truncatecoursecodes_desc'] = '<p>Em algumas situações você pode ter códigos de turma que deseje reduzir para um tamanho específico antes de processar. Se assim desejar, insira o número de caracteres nesse box. Caso contrário, deixe esse box <strong>em branco</strong> e nenhuma redução ocorrerá.</p>';
 $string['usecapitafix'] = 'Selecione este box se usar "Capita" (o formato XML deles é um pouco defeituoso)';
 $string['usecapitafix_desc'] = '<p>Os sistemas de dados de alunos produzidos pelo Capita possuem um pequeno erro no código XML. Se você está usando Capita, deve habilitar essa opção. Em caso contrário deixe-a desmarcada.</p>';
 $string['usersettings'] = 'Opções de dados de usuários';

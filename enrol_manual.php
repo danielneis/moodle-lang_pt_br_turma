@@ -66,7 +66,7 @@ $string['status'] = 'Habilitar inscrições manuais';
 $string['status_desc'] = 'Permitir acesso à turma por usuários inscritos internamente. Isto deve ser mantido habilitado na maioria dos casos.';
 $string['statusdisabled'] = 'Desabilitado';
 $string['statusenabled'] = 'Habilitado';
-$string['status_help'] = 'Esta configuração determina se usuários podem ser inscritos manualmente, através de um link na configuração da administração de cursos, através de um usuário com permissões apropriadas como um professor.';
+$string['status_help'] = 'Esta configuração determina se usuários podem ser inscritos manualmente, através de um link na configuração da administração de turmas, através de um usuário com permissões apropriadas como um professor.';
 $string['unenrol'] = 'Desinscrever usuário';
 $string['unenrolselectedusers'] = 'Desinscrever usuários selecionados';
 $string['unenrolselfconfirm'] = 'Você deseja realmente cancelar sua inscrição na turma "{$a}"?';
@@ -74,4 +74,4 @@ $string['unenroluser'] = 'Você tem certeza que deseja desinscrever "{$a->user}"
 $string['unenrolusers'] = 'Desinscrever usuários';
 $string['wscannotenrol'] = 'A instância do Plugin não permite a inscrição manual de um usuário na turma  id = {$a->courseid}';
 $string['wsnoinstance'] = 'A instância do Plugin para inscrição manual não existe ou foi desativada para a turma (id = {$a->courseid})';
-$string['wsusercannotassign'] = 'Você não tem permissão para atribuir este papel  ({$a->roleid}) para este usuário  ({$a->userid}) neste curso ({$a->courseid}).';
+$string['wsusercannotassign'] = 'Você não tem permissão para atribuir este papel  ({$a->roleid}) para este usuário  ({$a->userid}) nesta turma ({$a->courseid}).';

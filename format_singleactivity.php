@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activitytype'] = 'Tipo de atividade';
-$string['activitytype_help'] = 'Escolha o tipo de atividade ou recurso a ser usado neste curso';
+$string['activitytype_help'] = 'Escolha o tipo de atividade ou recurso a ser usado nesta turma';
 $string['defactivitytype'] = 'Tipo de atividade padrão';
 $string['defactivitytypedesc'] = 'Especifique o tipo de atividade a ser selecionada com padrão ao criar um nova turma';
 $string['erroractivitytype'] = 'O tipo de atividade não está configurada nas configurações da turma';
@@ -34,4 +34,4 @@ $string['orphaned'] = 'Órfão';
 $string['orphanedwarning'] = 'Estas atividades estão indisponíveis para os usuários!';
 $string['pluginname'] = 'Formato de atividade única';
 $string['sectionname'] = '';
-$string['warningchangeformat'] = 'Ao alterar o formato de curso corrente para o "Formato de atividade única" certifique-se de remover todas as demais atividades da turma, incluindo o "Fórum de notícias". Note que a estrutura de tópicos pode ser modificada.';
+$string['warningchangeformat'] = 'Ao alterar o formato de turma corrente para o "Formato de atividade única" certifique-se de remover todas as demais atividades da turma, incluindo o "Fórum de notícias". Note que a estrutura de tópicos pode ser modificada.';

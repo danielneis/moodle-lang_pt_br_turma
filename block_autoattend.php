@@ -43,9 +43,9 @@ $string['Amethodfull'] = 'Automático';
 $string['attendance'] = 'Comparecimento';
 $string['attenddata'] = 'Dados de frequência';
 $string['attenderror'] = 'Houve um erro na frequência.';
-$string['attendforsession'] = 'Frequência para a seção neste curso';
+$string['attendforsession'] = 'Frequência para a seção nesta turma';
 $string['attendforthecourse'] = 'Frequência para a turma';
-$string['attendforuser'] = 'Frequência para usuário neste curso';
+$string['attendforuser'] = 'Frequência para usuário nesta turma';
 $string['attendgrade'] = 'Nota';
 $string['attendgradeshort'] = 'G';
 $string['attendkey'] = 'Senha da frequência';
@@ -53,7 +53,7 @@ $string['attendkey_help'] = 'Quando registrar a frequência no modo semi-automá
 a senha (alfabeto) que o estudante deve inserir é especificada.
 Quando você marcar "Senha aleatória" a senha é gerada automaticamente.<br>
 No caso do modo automático ou manual, isto é desconsiderado.';
-$string['attendnotstarted'] = 'Frequência ainda não começou neste curso';
+$string['attendnotstarted'] = 'Frequência ainda não começou nesta turma';
 $string['attendpercent'] = 'Percentual';
 $string['attendreport'] = 'Relatório de frequência';
 $string['attendsubmiterr'] = 'Ocorreu um erro ao enviar a frequência';

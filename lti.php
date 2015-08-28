@@ -77,7 +77,7 @@ $string['configtypes'] = 'Habilitar Aplicações LTI';
 $string['configured'] = 'Configurado';
 $string['courseid'] = 'Número id da turma';
 $string['coursemisconf'] = 'Curso está desconfigurado';
-$string['course_tool_types'] = 'Tipos de ferramentas de curso';
+$string['course_tool_types'] = 'Tipos de ferramentas de turma';
 $string['createdon'] = 'Criada em';
 $string['curllibrarymissing'] = 'Biblioteca PHP Curl deve estar instalada para utilizar LTI';
 $string['custom'] = 'Parâmetros customizados';
@@ -134,7 +134,7 @@ $string['external_tool_type_help'] = 'O principal objetivo de uma ferramenta de 
 Ele também fornece uma oportunidade para os padrões de configuração e criação de serviços adicionais fornecidos pela ferramenta.
 
 *** Automática, com base na URL Lançamento ** - Esta definição deve ser usado em quase todos os casos. Moodle irá selecionar a configuração da ferramenta mais adequada
-        com base na URL lançamento. Ferramentas configurados tanto por um administrador ou dentro deste curso será utilizado.
+        com base na URL lançamento. Ferramentas configurados tanto por um administrador ou dentro desta turma será utilizado.
         Quando o URL lançamento está especificado, o Moodle irá fornecer feedback sobre se reconhece ou não. Se o Moodle não reconhece a URL de Lançamento,
         você pode precisar para entrar nos detalhes de configuração da ferramenta manualmente.
 *** Um tipo de ferramenta específica ** - Ao selecionar um tipo de ferramenta específica, você pode forçar Moodle para usar essa configuração de ferramentas de comunicação com o
@@ -148,9 +148,9 @@ Configuração personalizada *** ** - Para configurar ferramenta de configuraç�
 
 Três ícones estão disponíveis após a lista externo ferramenta de texto dropdown:
 
- ***Adicionar ** - Criar um curso de configuração de ferramentas de nível. Todas as instâncias de ferramentas externas neste curso podem usar a ferramenta de configuração.
- ***Editar ** - Escolha um tipo de curso ferramenta de nível no menu suspenso, clique neste ícone. Os pormenores da configuração da ferramenta pode ser editado.
- ***Excluir ** - Retire o selecionado tipo de curso ferramenta de nível.';
+ ***Adicionar ** - Criar um curso de configuração de ferramentas de nível. Todas as instâncias de ferramentas externas nesta turma podem usar a ferramenta de configuração.
+ ***Editar ** - Escolha um tipo de turma ferramenta de nível no menu suspenso, clique neste ícone. Os pormenores da configuração da ferramenta pode ser editado.
+ ***Excluir ** - Retire o selecionado tipo de turma ferramenta de nível.';
 $string['external_tool_types'] = 'Tipos de ferramentas externas';
 $string['failedtoconnect'] = 'O Moodle não foi capaz de se comunicar com o sitema "{$a}"';
 $string['filter_basiclti_configlink'] = 'Configure seus sites preferidos e suas senhas';
@@ -172,7 +172,7 @@ $string['generaltool'] = 'Ferramenta Geral';
 $string['global_tool_types'] = 'Tipos globais de ferramentas';
 $string['grading'] = 'Grau de Roteamento';
 $string['icon_url'] = 'URL do ícone';
-$string['icon_url_help'] = 'A URL do ícone permite ser modificado na listagem de cursos para esta atividade. Ao invés de usar o ícone LTI padrão, um ícone transmite o tipo de atividade que pode ser especificado';
+$string['icon_url_help'] = 'A URL do ícone permite ser modificado na listagem de turmas para esta atividade. Ao invés de usar o ícone LTI padrão, um ícone transmite o tipo de atividade que pode ser especificado';
 $string['id'] = 'id';
 $string['invalidid'] = 'LTI ID está incorreta';
 $string['launch_in_moodle'] = 'Ferramenta de lançamento no moodle';
@@ -246,7 +246,7 @@ $string['parameter_help'] = 'Parâmetros da ferramenta são configurações soli
 $string['password'] = 'Segredo compartilhado';
 $string['password_admin'] = 'Segredo compartilhado';
 $string['password_admin_help'] = 'O segredo compartilhado pode ser pensado como uma senha usada para autenticar o acesso à ferramenta. Deve ser fornecido juntamente com a chave do consumidor a partir do fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir um segredo compartilhado.';
-$string['password_help'] = 'Para a pré-configurados ferramentas, não é necessário para inserir um segredo compartilhado aqui, como o segredo compartilhado será fornecido como parte do processo de configuração. Este campo deve ser preenchido se criar um link para um provedor de ferramenta que não já está configurado. Se o fornecedor de ferramenta deve ser usada mais de uma vez neste curso, acrescentando uma ferramenta de configuração da turma é uma boa idéia. O segredo compartilhado pode ser pensado como uma senha usada para autenticar o acesso à ferramenta. Deve ser fornecido juntamente com a chave do consumidor a partir do fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir um segredo compartilhado.';
+$string['password_help'] = 'Para a pré-configurados ferramentas, não é necessário para inserir um segredo compartilhado aqui, como o segredo compartilhado será fornecido como parte do processo de configuração. Este campo deve ser preenchido se criar um link para um provedor de ferramenta que não já está configurado. Se o fornecedor de ferramenta deve ser usada mais de uma vez nesta turma, acrescentando uma ferramenta de configuração da turma é uma boa idéia. O segredo compartilhado pode ser pensado como uma senha usada para autenticar o acesso à ferramenta. Deve ser fornecido juntamente com a chave do consumidor a partir do fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir um segredo compartilhado.';
 $string['pending'] = 'Pendente';
 $string['pluginadministration'] = 'Administração LTI';
 $string['pluginname'] = 'LTI';
@@ -272,7 +272,7 @@ $string['resource'] = 'Recurso';
 $string['resourcekey'] = 'Chave do consumidor';
 $string['resourcekey_admin'] = 'Chave do consumidor';
 $string['resourcekey_admin_help'] = 'A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de recurso.';
-$string['resourcekey_help'] = 'Para a pré-configurados ferramentas, não é necessário introduzir uma chave de recurso aqui, como a chave consumidor será fornecido como parte do processo de configuração. Este campo deve ser preenchido se criar um link para um provedor de ferramenta que não já está configurado. Se o fornecedor de ferramenta deve ser usada mais de uma vez neste curso, acrescentando uma ferramenta de configuração da turma é uma boa idéia. A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de recurso.';
+$string['resourcekey_help'] = 'Para a pré-configurados ferramentas, não é necessário introduzir uma chave de recurso aqui, como a chave consumidor será fornecido como parte do processo de configuração. Este campo deve ser preenchido se criar um link para um provedor de ferramenta que não já está configurado. Se o fornecedor de ferramenta deve ser usada mais de uma vez nesta turma, acrescentando uma ferramenta de configuração da turma é uma boa idéia. A chave do consumidor pode ser pensado como um nome utilizado para autenticar o acesso à ferramenta. Ele pode ser usado pelo prestador de ferramenta para identificar exclusivamente o sítio Moodle a partir do qual os utilizadores lançar para a ferramenta. A chave consumidor deve ser fornecido pelo fornecedor de ferramenta. O método de obtenção de uma chave consumidor varia entre os prestadores de ferramenta. Pode ser um processo automatizado, ou pode requerer um diálogo com o fornecedor de ferramenta. Ferramentas que não requerem comunicação segura de Moodle e não fornecem serviços adicionais (tais como relatórios de grau) não pode exigir uma chave de recurso.';
 $string['resourceurl'] = 'Recurso URL';
 $string['return_to_course'] = 'Clique <a href="{$a->link}" target="_top">aqui</a> para retornar à turma';
 $string['saveallfeedback'] = 'Salvar todos os meus feedbacks';
@@ -292,10 +292,10 @@ $string['share_name'] = 'Compartilhar nome de inicialização com a ferramenta';
 $string['share_name_admin'] = 'Compartilhar nome de inicialização com ferramenta';
 $string['share_name_admin_help'] = 'Especifique se o nome completo do usuário lançar a ferramenta deve ser compartilhado com o fornecedor da ferramenta. O fornecedor de ferramenta pode precisar nomes dos lançadores para mostrar informação relevante dentro da ferramenta.';
 $string['share_name_help'] = 'Especifique se o nome completo do usuário lançar a ferramenta deve ser compartilhado com o fornecedor da ferramenta. O fornecedor de ferramenta pode precisar nomes dos lançadores para mostrar informação relevante dentro da ferramenta. Observe que essa configuração pode ser substituído na configuração da ferramenta.';
-$string['share_roster'] = 'Permitir a ferramenta acesso a lista de cursos';
-$string['share_roster_admin'] = 'Ferramenta pode acessar lista de cursos';
+$string['share_roster'] = 'Permitir a ferramenta acesso a lista de turmas';
+$string['share_roster_admin'] = 'Ferramenta pode acessar lista de turmas';
 $string['share_roster_admin_help'] = 'Especificar se a ferramenta pode acessar a lista de usuários inscritos em cursos a partir do qual o tipo de ferramenta é inicializado';
-$string['share_roster_help'] = 'Especifica caso uma ferramentapossa acessara lista de usuários inscritos neste curso.
+$string['share_roster_help'] = 'Especifica caso uma ferramentapossa acessara lista de usuários inscritos nesta turma.
 
 Note que esta configuração pode ser sobreescrita na ferramenta de configuração.';
 $string['show_in_course'] = 'Exibir tipo de ferramenta quando criando instâncias';

@@ -120,7 +120,7 @@ $string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore on
 <p> O <strong> opção "Alterar dados da folha de" </ strong> atualiza os valores selecionados para as propriedades da folha selecionada. As propriedades que podem ser modificados são: </ p>
 <ul>
     <li> nome Folha <strong>:. </ strong> a marca que aparece para esta folha no menu </ li>
-    <li> secção <strong> Alvo: </ strong> Se a folha é usada para uma secção de curso, esta opção indica que a secção será o seleccionado. Se uma seção é selecionada, uma URL externa não pode ser selecionado para que direcionam o link da opção no menu. </ Li>
+    <li> secção <strong> Alvo: </ strong> Se a folha é usada para uma secção de turma, esta opção indica que a secção será o seleccionado. Se uma seção é selecionada, uma URL externa não pode ser selecionado para que direcionam o link da opção no menu. </ Li>
     <li> <strong> URL: </ strong> indica um URL para o qual fará referência à opção de menu. É só podem ser especified se uma secção alvo não foi seleccionada. </ Li>
     <li> alvo ligação <strong>: </ strong> Indica se você deseja abrir o link, a seção ou a URL externa, em uma nova janela ou na mesma janela. Se uma opção não for selecionada, o link será aberto na mesma janela. </ Li>
 </ Ul>

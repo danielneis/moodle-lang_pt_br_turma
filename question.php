@@ -114,7 +114,7 @@ $string['defaultfor'] = 'Padrão para {$a}';
 $string['defaultinfofor'] = 'A categoria padrão para as questões compartilhadas no contexto \'{$a}\'.';
 $string['defaultmark'] = 'Marcação padrão';
 $string['defaultmarkmustbepositive'] = 'A nota padrão precisa ser positiva.';
-$string['deletecoursecategorywithquestions'] = 'Existem questões deste banco associadas à esta categoria de curso. Se você continuar, serão apagadas. Use a interface de administração do banco de questões para transferir as questões.';
+$string['deletecoursecategorywithquestions'] = 'Existem questões deste banco associadas à esta categoria de turma. Se você continuar, serão apagadas. Use a interface de administração do banco de questões para transferir as questões.';
 $string['deletequestioncheck'] = 'Você tem absoluta certeza que deseja excluir \'{$a}\'';
 $string['deletequestionscheck'] = 'Você está absolutamente certo que deseja excluir as seguintes questões?<br /><br />{$a}';
 $string['deletingbehaviour'] = 'Eliminando comportamento da questão \'{$a}\'';
@@ -130,8 +130,8 @@ $string['editcategories_help'] = 'Em vez de manter todas as questões em uma lis
 Cada categoria possui um contexto que determina onde a questão pode ser usada:
 
 *Contexto da atividade - Questões somente disponíveis no módulo da atividade
-*Contexto da turma - Questões disponíveis em todos os módulos de atividade daquele curso
-*Contexto da categoria de curso - Questões disponíveis em todos os módulos de atividade de todos as turmas daquela categoria
+*Contexto da turma - Questões disponíveis em todos os módulos de atividade daquele turma
+*Contexto da categoria de turma - Questões disponíveis em todos os módulos de atividade de todos as turmas daquela categoria
 
 Categorias também são utilizadas em questionários com questões randômicas que são selecionadas de uma categoria particular.';
 $string['editcategory'] = 'Editar categoria';
@@ -208,7 +208,7 @@ $string['importcategory_help'] = '<p>A lista <b>Categoria:</b> que se abre é us
 <p>Quando categorias são especificadas dentro do arquivo de importação e não existem, elas são criadas automáticamente.</p>';
 $string['importerror'] = 'Ocorreu um erro durante o processo de importação';
 $string['importerrorquestion'] = 'Erro importando questão';
-$string['importfromcoursefiles'] = '...ou escolha um arquivo de curso para importar.';
+$string['importfromcoursefiles'] = '...ou escolha um arquivo de turma para importar.';
 $string['importfromupload'] = 'Selecione um arquivo para enviar...';
 $string['importingquestions'] = 'Importando {$a} questões do arquivo';
 $string['importparseerror'] = 'Um ou mais erros foram encontrados ao ler o arquivo de importação. Nenhuma questão foi importada. Para importar as questões em bom estado tente novamente com a configuração "Parar se houver erro" definida como "Não".';
@@ -396,7 +396,7 @@ $string['questionpreviewdefaults_desc'] = 'Esses padrões são usados quando um 
 $string['questions'] = 'Questões';
 $string['questionsaveerror'] = 'Ocorrerem erros durante salvar questão - ({$a})';
 $string['questionsinuse'] = '(*Questões marcadas com um asterisco já estão em uso em alguns questionários. Estas questões não serão apagadas dos questionários, mas somente da lista da categoria.)';
-$string['questionsmovedto'] = 'Questões ainda utilizadas movidas para "{$a}" na categoria de curso correspondente.';
+$string['questionsmovedto'] = 'Questões ainda utilizadas movidas para "{$a}" na categoria de turma correspondente.';
 $string['questionsrescuedfrom'] = 'Questões copiadas do contexto {$a}.';
 $string['questionsrescuedfrominfo'] = 'Estas questões (algumas podem estar escondidas) foram salvas quando o contexto {$a} foi apagado pois ainda eram utilizadas.';
 $string['questiontext'] = 'Texto da questão';

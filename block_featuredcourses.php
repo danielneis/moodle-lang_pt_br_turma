@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addfeaturedcourse'] = 'Adicionar um curso existente à lista de cursos em destaque';
-$string['confirmdelete'] = 'Você tem certeza que deseja excluir este curso da lista de cursos em destaque?';
+$string['addfeaturedcourse'] = 'Adicionar um curso existente à lista de turmas em destaque';
+$string['confirmdelete'] = 'Você tem certeza que deseja excluir esta turma da lista de cursos em destaque?';
 $string['courseid'] = 'Curso';
 $string['delete_featuredcourse'] = 'Excluir curso em destaque';
 $string['deletelink'] = '<a href="{$a}">Excluir</a>';
 $string['doadd'] = 'Marque para adicionar um nova turma em destaque';
 $string['editlink'] = '<a href="{$a}">Clique aqui para editar ou adicionar cursos em destaque</a>';
-$string['editpagedesc'] = 'Editando lista de cursos em destaque';
+$string['editpagedesc'] = 'Editando lista de turmas em destaque';
 $string['editpagetitle'] = 'Cursos em destaque - editando';
 $string['featuredcourse'] = 'Curso em destaque: {$a}';
 $string['featuredcourses'] = 'Cursos em destaque';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['backupsize'] = 'Tamanho de backups';
 $string['catsystembackupuse'] = 'O uso por backups do sistema e categorias é {$a}.';
-$string['catsystemuse'] = 'O uso pelo sistema e pelas categorias exluindo usuários e cursos é: {$a}.';
+$string['catsystemuse'] = 'O uso pelo sistema e pelas categorias exluindo usuários e turmas é: {$a}.';
 $string['coursebackupbytes'] = '{$a->backupbytes} bytes utilizados para backup pela turma {$a->shortname}';
 $string['coursebytes'] = '{$a->bytes} bytes utilizados pela turma {$a->shortname}';
 $string['coursesize'] = 'Tamanho da turma';

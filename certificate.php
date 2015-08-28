@@ -62,11 +62,11 @@ Pastas com novos modelos podem ser adicionadas a certificate/type. O nome da pas
 $string['certificate:view'] = 'Ver um certificado';
 $string['certify'] = 'Certificamos que';
 $string['code'] = 'Código';
-$string['completiondate'] = 'Conclusão de Curso';
+$string['completiondate'] = 'Conclusão de Turma';
 $string['course'] = 'Para';
 $string['coursegrade'] = 'Notas da turma';
 $string['coursename'] = 'Curso';
-$string['coursetimereq'] = 'Requer tempo mínimo de curso';
+$string['coursetimereq'] = 'Requer tempo mínimo de turma';
 $string['coursetimereq_help'] = 'Digite aqui a quantidade mínima de tempo, em minutos, que um estudante precisa estar logado na turma para que ele esteja apto a receber o certificado.';
 $string['credithours'] = 'Carga-horária';
 $string['customtext'] = 'Texto personalizado';

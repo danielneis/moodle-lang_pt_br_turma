@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['errbadxmlformat'] = 'Erro - XML mal formado';
-$string['errduplicategradeidnumber'] = 'Erro - existem dois itens de nota com idnumber \'{$a}\' neste curso. Isto deveria ser impossível.';
+$string['errduplicategradeidnumber'] = 'Erro - existem dois itens de nota com idnumber \'{$a}\' nesta turma. Isto deveria ser impossível.';
 $string['errduplicateidnumber'] = 'Erro - idnumber duplicado.';
 $string['errincorrectgradeidnumber'] = 'Erro - idnumber \'{$a}\' do arquivo importado não é igual a nenhum item de nota.';
 $string['errincorrectidnumber'] = 'Erro - idnumber incorreto.';

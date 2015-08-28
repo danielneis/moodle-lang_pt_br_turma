@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Planilha Excel';
-$string['timeexported'] = 'Último download realizado neste curso.';
+$string['timeexported'] = 'Último download realizado nesta turma.';
 $string['xls:publish'] = 'Exportar livro de notas em formato XLS';
 $string['xls:view'] = 'Usar exportação do livro de notas em formato Excel';

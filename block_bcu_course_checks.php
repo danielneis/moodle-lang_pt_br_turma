@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['blocksenabledopt'] = 'O que os blocos ajudariam você nas turmas?';
 $string['cachedef_coursechecksdata'] = 'Checar caching do Curso';
-$string['cleanpermfailure'] = 'Desculpe, houve um erro ao tentar limpar este curso.';
+$string['cleanpermfailure'] = 'Desculpe, houve um erro ao tentar limpar esta turma.';
 $string['cleansuccess'] = 'Seu curso foi limpo, {$a} seções foram removidas.';
 $string['cleanupbutton'] = 'Limpar Curso';
 $string['contentsections'] = 'Conteúdo';
@@ -38,7 +38,7 @@ $string['courseimageopt'] = 'Verificar se imagem curso é definida?';
 $string['courserenamesecopt'] = 'Caso todas as seções sejam renomeadas?';
 $string['coursesummary'] = 'Definir resumo da turma?';
 $string['coursesummaryopt'] = 'Verificar se o resumo da turma não está vazio?';
-$string['courseuseropt'] = 'Permitir que o usuário defina seus próprios controles de cursos?';
+$string['courseuseropt'] = 'Permitir que o usuário defina seus próprios controles de turmas?';
 $string['coursevisible'] = 'A turma é visível?';
 $string['coursevisibleopt'] = 'Verificar se a turma é visível para os alunos?';
 $string['creationprogress'] = 'Verificar Curso';

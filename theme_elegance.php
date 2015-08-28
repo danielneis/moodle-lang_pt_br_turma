@@ -52,7 +52,7 @@ $string['bodycolor'] = 'Cor do fundo';
 $string['bodycolordesc'] = 'Se nenhuma imagem é carregada no Moodle, então, o padrão para essa cor.';
 $string['categoryicondesc'] = 'Selecione o ícone a ser usado para a categoria';
 $string['categoryiconheading'] = 'Categoria de Ícones';
-$string['categoryiconheadingdesc'] = 'Se ativado, permitirá que você defina ícones para cada categoria de curso.';
+$string['categoryiconheadingdesc'] = 'Se ativado, permitirá que você defina ícones para cada categoria de turma.';
 $string['categoryiconheadingsub'] = 'Use ícones para representar suas categorias.';
 $string['categoryiconinfo'] = 'Conjunto personalizado de ícones de Categoria';
 $string['categoryiconinfodesc'] = 'Cada ícone é definido pela categoria "Categoria ID". Você conseguiu isso ao olhar para a URL de cada categoria. A lista de ícones está <a href="http://fontawesome.github.io/Font-Awesome/cheatsheet/">aqui</a>.  Basta digitar o que está depois de "fa-".';

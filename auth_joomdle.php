@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['auth_joomdledescription'] = 'Este método utiliza serviços web Joomdle para saber se um usuário tem uma sessão válida em Joomla. Version 0.95';
 $string['auth_joomla_auto_mailing_lists'] = 'Listas de discussão automáticas';
 $string['auth_joomla_auto_mailing_lists_description'] = 'Gerenciar automaticamente listas de discussão seguindo configuração Joomla';
-$string['auth_joomla_auto_sell'] = 'Venda de cursos automática';
+$string['auth_joomla_auto_sell'] = 'Venda de turmas automática';
 $string['auth_joomla_auto_sell_description'] = 'Criar/atualizar/excluir cursos na loja Joomla quando feito em Moodle';
 $string['auth_joomla_connection_method'] = 'Método de conexão';
 $string['auth_joomla_connection_method_description'] = 'Método de conexão para Web Services';
@@ -56,7 +56,7 @@ $string['auth_joomla_sync_to_joomla_description'] = 'Sincronizar novos usuários
 $string['auth_joomla_url'] = 'Joomla URL';
 $string['auth_joomla_url_desc'] = 'URL do servidor de Joomla';
 $string['auth_joomla_use_kunena_forums'] = 'Usar Kunena fóruns';
-$string['auth_joomla_use_kunena_forums_description'] = 'Sincronize fóruns de curso com fóruns Kunena em Joomla. Joomla 1.6 + apenas';
+$string['auth_joomla_use_kunena_forums_description'] = 'Sincronize fóruns de turma com fóruns Kunena em Joomla. Joomla 1.6 + apenas';
 $string['auth_joomla_version_description'] = 'Versão Joomla';
 $string['joomla_sp_description'] = 'Serviços para Integração Joomla';
 $string['joomla_sp_name'] = 'Joomdle';

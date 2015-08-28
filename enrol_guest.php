@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allowguests'] = 'Visitantes podem entrar neste curso';
+$string['allowguests'] = 'Visitantes podem entrar nesta turma';
 $string['guestaccess_withoutpassword'] = 'Acesso como visitante';
 $string['guestaccess_withpassword'] = 'Acesso como visitante';
 $string['guest:config'] = 'Configurar instâncias do acesso como visitante';

@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['adminview'] = 'Visão do administrador';
 $string['allcourses'] = 'O administrador vê todos as turmas';
-$string['configadminview'] = 'O que o administrador deve ver no bloco Lista de Cursos?';
-$string['confighideallcourseslink'] = 'Remover o link \'\'Todos as turmas" da lista de cursos. (Essa configuração não afeta a visualização do administrador.)';
-$string['course_list:addinstance'] = 'Adicionar um novo bloco de cursos';
-$string['course_list:myaddinstance'] = 'Adicionar um novo bloco de cursos ao Painel';
+$string['configadminview'] = 'O que o administrador deve ver no bloco Lista de Turmas?';
+$string['confighideallcourseslink'] = 'Remover o link \'\'Todos as turmas" da lista de turmas. (Essa configuração não afeta a visualização do administrador.)';
+$string['course_list:addinstance'] = 'Adicionar um novo bloco de turmas';
+$string['course_list:myaddinstance'] = 'Adicionar um novo bloco de turmas ao Painel';
 $string['hideallcourseslink'] = 'Ocultar o link \'Todos as turmas\'';
 $string['owncourses'] = 'O administrador vê apenas os seus cursos';
 $string['pluginname'] = 'Cursos';

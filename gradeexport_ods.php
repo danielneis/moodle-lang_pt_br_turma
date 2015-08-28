@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['ods:publish'] = 'Exportar livro de notas em formato ODS';
 $string['ods:view'] = 'Usar exportação de livro de notas em formato ODS';
 $string['pluginname'] = 'Planilha ODS - Open Document';
-$string['timeexported'] = 'Último download realizado neste curso.';
+$string['timeexported'] = 'Último download realizado nesta turma.';

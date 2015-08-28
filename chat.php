@@ -91,7 +91,7 @@ A conversa pode ser uma atividade de uma só vez ou pode ser repetido na mesma h
 
 Bate-papo são especialmente úteis quando o bate-papo grupo não é capaz de se encontrarem cara-a-cara, como:
 
-* As reuniões regulares dos alunos que participam de cursos on-line para que possam compartilhar experiências com outros no mesma turma, mas em um local diferente
+* As reuniões regulares dos alunos que participam de turmas on-line para que possam compartilhar experiências com outros no mesma turma, mas em um local diferente
 * Um estudante temporariamente impossibilitado de comparecer pessoalmente conversar com seu professor para conversar com trabalho
 * Os estudantes fora na experiência de trabalho se reunir para discutir as suas experiências uns com os outros e seu professor
 * As crianças mais novas que usam bate-papo em casa à noite como um (monitorado) introdução controlada ao mundo das redes sociais

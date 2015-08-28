@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addgroup'] = 'Adicionar ao grupo';
-$string['coursesort'] = 'Ordenar lista de cursos';
-$string['coursesort_help'] = 'Isso determina se a lista de cursos que podem ser vinculadas são classificadas por ordem de classificação (ou seja, a ordem estabelecida no local de administração> Cursos> Gerenciar as turmas e categorias) ou em ordem alfabética por definição.';
+$string['coursesort'] = 'Ordenar lista de turmas';
+$string['coursesort_help'] = 'Isso determina se a lista de turmas que podem ser vinculadas são classificadas por ordem de classificação (ou seja, a ordem estabelecida no local de administração> Cursos> Gerenciar as turmas e categorias) ou em ordem alfabética por definição.';
 $string['creategroup'] = 'Criar novo grupo';
 $string['defaultgroupnametext'] = '{$a->name} curso {$a->increment}';
 $string['linkedcourse'] = 'Link course';
@@ -35,7 +35,7 @@ $string['meta:config'] = 'Configura meta instâncias de inscrição';
 $string['meta:selectaslinked'] = 'Selecionar curso como meta curso';
 $string['meta:unenrol'] = 'Cancelar inscrição de usuários suspensos';
 $string['nosyncroleids'] = 'Papéis que não estão sincronizados';
-$string['nosyncroleids_desc'] = 'Por padrão, todas as atribuições de papel em nível de curso são sincronizadas da turma-pai para o curso-filho. Papéis que são selecionados aqui não serão incluídos no processo de sincronização. Os papéis disponíveis para sincronização serão atualizados na próxima execução do cron.';
+$string['nosyncroleids_desc'] = 'Por padrão, todas as atribuições de papel em nível de turma são sincronizadas da turma-pai para o curso-filho. Papéis que são selecionados aqui não serão incluídos no processo de sincronização. Os papéis disponíveis para sincronização serão atualizados na próxima execução do cron.';
 $string['pluginname'] = 'Curso meta link';
 $string['pluginname_desc'] = 'O plugin de inscrição Curso meta link sincroniza inscrição e papéis em dois cursos diferentes.';
 $string['syncall'] = 'Sincroniza todos os usuários inscritos';

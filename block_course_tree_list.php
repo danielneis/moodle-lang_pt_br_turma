@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['plugindisplayname'] = 'Lista de cursos';
+$string['plugindisplayname'] = 'Lista de turmas';
 $string['weeksafter'] = 'Semanas posteriores';
 $string['weeksbefore'] = 'Semanas anteriores';

@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alreadyselfcompleted'] = 'Você já marcou a sua participação como concluída neste curso';
+$string['alreadyselfcompleted'] = 'Você já marcou a sua participação como concluída nesta turma';
 $string['completecourse'] = 'Clique aqui para marcar a turma como completo';
 $string['pluginname'] = 'Auto-completar';
 $string['selfcompletion:addinstance'] = 'Adicione um bloco novo de auto conclusão';
-$string['selfcompletionnotenabled'] = 'O critério de auto completar não foi habilitado para este curso';
+$string['selfcompletionnotenabled'] = 'O critério de auto completar não foi habilitado para esta turma';

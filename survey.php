@@ -78,7 +78,7 @@ $string['attlsintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
 O objetivo deste questionário é fazer uma pesquisa sobre as posturas dos participantes da turma perante a aprendizagem e a reflexão crítica.
 
-Cada ítem abaixo consiste em uma declaração que descreve posturas e atitudes que você pode assumir ao longo deste curso.
+Cada ítem abaixo consiste em uma declaração que descreve posturas e atitudes que você pode assumir ao longo desta turma.
 
 Reflita sobre cada ítem e decida se as afirmações são válidas em relação a você mesmo, e em que medida. Depois, escolha a opção correspondente às suas conclusões.
 
@@ -103,7 +103,7 @@ $string['ciq4'] = 'Qual das ações de outros participantes nos fóruns você ac
 $string['ciq4short'] = 'momento de confusão';
 $string['ciq5'] = 'Qual evento foi mais surpreendente?';
 $string['ciq5short'] = 'momento surpreendente';
-$string['ciqintro'] = 'Reflita sobre os eventos recentes deste curso para responder às próximas questões.';
+$string['ciqintro'] = 'Reflita sobre os eventos recentes desta turma para responder às próximas questões.';
 $string['ciqname'] = 'Incidentes críticos';
 $string['clicktocontinue'] = 'Continuar';
 $string['clicktocontinuecheck'] = 'Enviar respostas';
@@ -157,11 +157,11 @@ $string['colles9'] = 'Eu explico as minhas idéias aos outros participantes.';
 $string['colles9short'] = 'eu explico as minhas idéias';
 $string['collesaintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
-O objetivo deste questionário é fazer uma pesquisa sobre a medida em que as atividades deste curso favorecem o seu processo de aprendizagem.
+O objetivo deste questionário é fazer uma pesquisa sobre a medida em que as atividades desta turma favorecem o seu processo de aprendizagem.
 
-Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem neste curso.
+Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem nesta turma.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que as situações descritas ocorrem neste curso.
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que as situações descritas ocorrem nesta turma.
 
 Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não têm nenhum impacto sobre a avaliação do participante.
 
@@ -169,11 +169,11 @@ Agradecemos a sua colaboração.';
 $string['collesaname'] = 'COLLES (experiência efetiva)';
 $string['collesapintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
-O objetivo deste questionário é fazer uma pesquisa sobre a medida em que o seu processo de aprendizagem neste curso corresponte às suas expectativas.
+O objetivo deste questionário é fazer uma pesquisa sobre a medida em que o seu processo de aprendizagem nesta turma corresponte às suas expectativas.
 
-Cada ítem abaixo consiste na comparação entre as suas expectativas e a sua experiência efetiva ao freqüentar este curso.
+Cada ítem abaixo consiste na comparação entre as suas expectativas e a sua experiência efetiva ao freqüentar esta turma.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem neste curso (freqüência desejada) e a freqüência em que as situações descritas ocorrem atualmente neste curso (freqüência atual).
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem nesta turma (freqüência desejada) e a freqüência em que as situações descritas ocorrem atualmente neste curso (freqüência atual).
 
 Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
 
@@ -191,14 +191,14 @@ $string['collesm5'] = 'Apoio dos Colegas';
 $string['collesm5short'] = 'Apoio dos Colegas';
 $string['collesm6'] = 'Compreensão';
 $string['collesm6short'] = 'Compreensão';
-$string['collesmintro'] = 'Neste curso...';
+$string['collesmintro'] = 'Nesta turma...';
 $string['collespintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
 
-O objetivo deste questionário é fazer uma pesquisa sobre as suas expectativas em relação ao seu processo de aprendizagem neste curso.
+O objetivo deste questionário é fazer uma pesquisa sobre as suas expectativas em relação ao seu processo de aprendizagem nesta turma.
 
-Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem neste curso.
+Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem nesta turma.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem neste curso (freqüência desejada).
+Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que você gostaria que as situações descritas ocorressem nesta turma (freqüência desejada).
 
 Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
 

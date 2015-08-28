@@ -40,7 +40,7 @@ $string['eventcertificatecreated'] = 'Um certificado foi enviado para Accredible
 $string['id'] = 'ID';
 $string['indexheader'] = 'Todos os certificados para  {$a}';
 $string['modulename'] = 'Certificado Accredible';
-$string['modulename_help'] = 'O módulo de atividade certificados Accredible lhe permite emitir certificados de cursos para estudantes em accredible.com.
+$string['modulename_help'] = 'O módulo de atividade certificados Accredible lhe permite emitir certificados de turmas para estudantes em accredible.com.
 Adicionar a atividade onde você queira que os alunos vejam o seu certificado.';
 $string['modulenameplural'] = 'Certificados Accredible';
 $string['nocertificates'] = 'Não há certificados';
