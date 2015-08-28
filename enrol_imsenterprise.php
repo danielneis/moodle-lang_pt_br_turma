@@ -30,12 +30,12 @@ $string['allowunenrol'] = 'Permitir que o IMS data <strong>cancele a inscrição
 $string['allowunenrol_desc'] = 'Se habilitado, inscrições na turma serão removidas quando especificado nos dados do Enterprise.';
 $string['basicsettings'] = 'Configuração básica';
 $string['coursesettings'] = 'Opções de dados da turma';
-$string['createnewcategories'] = 'Criar novas categorias de turmas (ocultas) se não forem encontradas no Moodle';
-$string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&gt; está presente na informação de entrada de um turma, seu conteúdo será usado para especificar uma categoria quando a turma for criado.</p>
+$string['createnewcategories'] = 'Criar novas cursos de turmas (ocultas) se não forem encontradas no Moodle';
+$string['createnewcategories_desc'] = '<p>Se o elemento &lt;org&gt;&lt;orgunit&gt; está presente na informação de entrada de um turma, seu conteúdo será usado para especificar um curso quando a turma for criado.</p>
 
 <p>O plugin NÃO irá re-categorizar turmas existentes.</p>
 
-<p>Se não existe uma categoria com o nome desejado, então uma categoria OCULTA será criada.</p>';
+<p>Se não existe um curso com o nome desejado, então uma categoria OCULTA será criada.</p>';
 $string['createnewcourses'] = 'Criar novas turmas (ocultos) se não forem encontrados no Moodle';
 $string['createnewcourses_desc'] = '<p>O plugin de inscrição IMS Enterprise pode criar novas turmas para qualquer um que ele encontrar nos dados do IMS, mas não no banco de dados do Moodle, se essa configuração estiver ativada</p>
 

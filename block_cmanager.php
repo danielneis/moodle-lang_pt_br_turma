@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['actions'] = 'Ações';
 $string['addviewcomments'] = 'Adicionar / Ver Comentários';
 $string['allarchivedrequests'] = 'Todos os pedidos arquivados';
-$string['allowSelfCategorization'] = 'Permitir que o usuário selecione a categoria';
+$string['allowSelfCategorization'] = 'Permitir que o usuário selecione o curso';
 $string['allowSelfCategorization_desc'] = 'Quando ativado, o usuário será solicitado a selecionar um local no catálogo Moodle para colocar seu turma';
 $string['approve'] = 'Aprovar';
 $string['approvecourse'] = 'Aprovar Curso';

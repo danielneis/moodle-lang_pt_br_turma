@@ -67,21 +67,21 @@ $string['cannotmovequestion'] = 'Você não pode utilizar este script para mover
 $string['cannotopenforwriting'] = 'Impossível abrir para escrever: {$a}';
 $string['cannotpreview'] = 'Você não pode pré-visualizar estas questões!';
 $string['cannotread'] = 'Impossível ler arquivo de importação (ou o arquivo é vazio)';
-$string['cannotretrieveqcat'] = 'Não foi possível recuperar a categoria de pergunta';
+$string['cannotretrieveqcat'] = 'Não foi possível recuperar o curso de pergunta';
 $string['cannotunhidequestion'] = 'Falha ao exibir a pergunta.';
 $string['cannotunzip'] = 'Não foi possível descompactar o arquivo.';
 $string['cannotwriteto'] = 'Não foi possível escrever perguntas exportadas para {$a}';
 $string['categories'] = 'Categorias';
 $string['category'] = 'Categoria';
 $string['categorycurrent'] = 'Categoria atual';
-$string['categorycurrentuse'] = 'Usar essa categoria';
-$string['categorydoesnotexist'] = 'Esta categoria não existe';
-$string['categoryinfo'] = 'Informações da categoria';
-$string['categorymove'] = 'A categoria \'{$a->name}\' contém {$a->count} perguntas.  Por favor transfira as perguntas para outra categoria.';
-$string['categorymoveto'] = 'Gravar na categoria';
-$string['categorynamecantbeblank'] = 'O nome da categoria não pode ser deixado em branco.';
+$string['categorycurrentuse'] = 'Usar esso curso';
+$string['categorydoesnotexist'] = 'Esto curso não existe';
+$string['categoryinfo'] = 'Informações do curso';
+$string['categorymove'] = 'O curso \'{$a->name}\' contém {$a->count} perguntas.  Por favor transfira as perguntas para outro curso.';
+$string['categorymoveto'] = 'Gravar no curso';
+$string['categorynamecantbeblank'] = 'O nome do curso não pode ser deixado em branco.';
 $string['changeoptions'] = 'Alterar opções';
-$string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> na turma "{$a->coursename}" terá seu status de compartilhamento trocado de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
+$string['changepublishstatuscat'] = '<a href="{$a->caturl}">O curso "{$a->name}"</a> na turma "{$a->coursename}" terá seu status de compartilhamento trocado de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
 $string['check'] = 'Verificar';
 $string['chooseqtypetoadd'] = 'Escolha um tipo de questão para adicionar';
 $string['clearwrongparts'] = 'Limpar repostas incorretas';
@@ -106,15 +106,15 @@ $string['created'] = 'Criado';
 $string['createdby'] = 'Criado por';
 $string['createdmodifiedheader'] = 'Criado/modificado';
 $string['createnewquestion'] = 'Criar uma nova questão ...';
-$string['cwrqpfs'] = 'Questões aleatórias selecionando questões de sub categorias.';
-$string['cwrqpfsinfo'] = '<p>Durante a migração para o Moodle 1.9 iremos separar categorias de questões em diferentes contextos. Algumas categorias de questões e algumas questões terão seu status de compartilhamento alterado. Isto é necessário em um caso raro quando uma ou mais questões \'aleatória\' em um questionário são configuradas para selecionar de uma mistura de categorias compartilhadas e não compartilhadas(como é o caso neste site).Isto acontece quando uma questão \'aleatória\' é configurada para selecionar de subcategorias e uma ou mais subcategorias tem status diferentes de compartilhamento com a categoria ascendente na qual a questão \'aleatória\' é criada.</p><p>As categorias de questões seguintes, das quais as questões \'aleatórias\' em categorias ascendentes são selecionadas, terão o seu status de compartilhamento alterado para o mesmo status de compartilhamento da categoria que contém a questão \'aleatória\' quando da migração para o Moodle 1.9. As categorias seguintes terão seus status de compartilhamento alterado. Questões que são afetadas continuarão a funcionar em todos os questionários até que você as remova destes questionários.</p>';
-$string['cwrqpfsnoprob'] = 'Nenhuma categoria de questões no seu site é afetada pelo problema de \'Selecionar questões aleatórias de subcategorias\'';
+$string['cwrqpfs'] = 'Questões aleatórias selecionando questões de sub cursos.';
+$string['cwrqpfsinfo'] = '<p>Durante a migração para o Moodle 1.9 iremos separar cursos de questões em diferentes contextos. Algumas cursos de questões e algumas questões terão seu status de compartilhamento alterado. Isto é necessário em um caso raro quando uma ou mais questões \'aleatória\' em um questionário são configuradas para selecionar de uma mistura de cursos compartilhadas e não compartilhadas(como é o caso neste site).Isto acontece quando uma questão \'aleatória\' é configurada para selecionar de subcursos e uma ou mais subcursos tem status diferentes de compartilhamento com o curso ascendente na qual a questão \'aleatória\' é criada.</p><p>Os cursos de questões seguintes, das quais as questões \'aleatórias\' em cursos ascendentes são selecionadas, terão o seu status de compartilhamento alterado para o mesmo status de compartilhamento da categoria que contém a questão \'aleatória\' quando da migração para o Moodle 1.9. As cursos seguintes terão seus status de compartilhamento alterado. Questões que são afetadas continuarão a funcionar em todos os questionários até que você as remova destes questionários.</p>';
+$string['cwrqpfsnoprob'] = 'Nenhum curso de questões no seu site é afetada pelo problema de \'Selecionar questões aleatórias de subcursos\'';
 $string['decimalplacesingrades'] = 'Casas decimais no avaliação';
 $string['defaultfor'] = 'Padrão para {$a}';
-$string['defaultinfofor'] = 'A categoria padrão para as questões compartilhadas no contexto \'{$a}\'.';
+$string['defaultinfofor'] = 'O curso padrão para as questões compartilhadas no contexto \'{$a}\'.';
 $string['defaultmark'] = 'Marcação padrão';
 $string['defaultmarkmustbepositive'] = 'A nota padrão precisa ser positiva.';
-$string['deletecoursecategorywithquestions'] = 'Existem questões deste banco associadas à esta categoria de turma. Se você continuar, serão apagadas. Use a interface de administração do banco de questões para transferir as questões.';
+$string['deletecoursecategorywithquestions'] = 'Existem questões deste banco associadas à este curso de turma. Se você continuar, serão apagadas. Use a interface de administração do banco de questões para transferir as questões.';
 $string['deletequestioncheck'] = 'Você tem absoluta certeza que deseja excluir \'{$a}\'';
 $string['deletequestionscheck'] = 'Você está absolutamente certo que deseja excluir as seguintes questões?<br /><br />{$a}';
 $string['deletingbehaviour'] = 'Eliminando comportamento da questão \'{$a}\'';
@@ -124,26 +124,26 @@ $string['disabled'] = 'Desativado';
 $string['displayoptions'] = 'Opções de exibição';
 $string['disterror'] = 'A distribuição {$a} causou problemas';
 $string['donothing'] = 'Não copie, mova arquivos ou mude os links.';
-$string['editcategories'] = 'Editar categorias';
-$string['editcategories_help'] = 'Em vez de manter todas as questões em uma lista grande, você pode criar categorias e sub-categorias.
+$string['editcategories'] = 'Editar cursos';
+$string['editcategories_help'] = 'Em vez de manter todas as questões em uma lista grande, você pode criar cursos e sub-cursos.
 
-Cada categoria possui um contexto que determina onde a questão pode ser usada:
+Cado curso possui um contexto que determina onde a questão pode ser usada:
 
 *Contexto da atividade - Questões somente disponíveis no módulo da atividade
 *Contexto da turma - Questões disponíveis em todos os módulos de atividade daquele turma
-*Contexto da categoria de turma - Questões disponíveis em todos os módulos de atividade de todos as turmas daquela categoria
+*Contexto do curso de turma - Questões disponíveis em todos os módulos de atividade de todos as turmas daquela categoria
 
-Categorias também são utilizadas em questionários com questões randômicas que são selecionadas de uma categoria particular.';
+Categorias também são utilizadas em questionários com questões randômicas que são selecionadas de um curso particular.';
 $string['editcategory'] = 'Editar categoria';
-$string['editingcategory'] = 'Editando a categoria';
+$string['editingcategory'] = 'Editando o curso';
 $string['editingquestion'] = 'Editando uma questão';
 $string['editquestion'] = 'Editar questão';
 $string['editquestions'] = 'Editar questões';
-$string['editthiscategory'] = 'Editar esta categoria';
+$string['editthiscategory'] = 'Editar este curso';
 $string['emptyxml'] = 'Erro desconhecido - imsmanifest.xm vazio';
 $string['enabled'] = 'Ativado';
 $string['erroraccessingcontext'] = 'Não pode acessar o contexto';
-$string['errordeletingquestionsfromcategory'] = 'Erro excluindo questões da categoria {$a}.';
+$string['errordeletingquestionsfromcategory'] = 'Erro excluindo questões do curso {$a}.';
 $string['errorduringpost'] = 'Erro ocorreu durante o pós-processamento!';
 $string['errorduringpre'] = 'Erro ocorreu durante o pré-processamento!';
 $string['errorduringproc'] = 'Erro ocorreu durante o processamento!';
@@ -166,14 +166,14 @@ $string['export'] = 'Exportar';
 $string['exportcategory'] = 'Exportar categoria';
 $string['exportcategory_help'] = '<h2>Categoria de Exportação</h2>
 
-<p>A lista <b>Categoria:</b> que se abre é usada para selocionar a categoria da qual as questões para exportação serão tiradas.</p>
+<p>A lista <b>Categoria:</b> que se abre é usada para selocionar o curso da qual as questões para exportação serão tiradas.</p>
 
-<p>Alguns formatos de importação (GIFT e Formato XML) permitem a categoria ser incluída no arquivo gravado, possibilitando que as categorias (opcionalmente) sejam recriadas na importação. Para que esta informação seja incluída a caixa <b>para o arquivo</b> deve ser marcada.</p>';
+<p>Alguns formatos de importação (GIFT e Formato XML) permitem o curso ser incluída no arquivo gravado, possibilitando que as cursos (opcionalmente) sejam recriadas na importação. Para que esta informação seja incluída a caixa <b>para o arquivo</b> deve ser marcada.</p>';
 $string['exporterror'] = 'Erros ocorreram durante a exportação!';
 $string['exportfilename'] = 'questionario';
 $string['exportnameformat'] = '%Y%m%d-%H%M';
 $string['exportquestions'] = 'Exportar questões para o arquivo';
-$string['exportquestions_help'] = 'Esta função permite exportar completamente uma categoria (e quaisquer subcategorias) de questões para um arquivo. Por favor, note que, dependendo do tipo de arquivo selecionado, alguns tipos de questões e alguns dados das questões podem não ser exportados.';
+$string['exportquestions_help'] = 'Esta função permite exportar completamente um curso (e quaisquer subcursos) de questões para um arquivo. Por favor, note que, dependendo do tipo de arquivo selecionado, alguns tipos de questões e alguns dados das questões podem não ser exportados.';
 $string['feedback'] = 'Feedback';
 $string['filecantmovefrom'] = 'Os arquivos de perguntas não podem ser movidos porque você não tem permissão para remover arquivos do local que você está trazendo as questões.';
 $string['filecantmoveto'] = 'Os arquivos de perguntas não podem ser movidos ou copiados porque você não tem permissão para adicionar arquivos no local para onde está levando as questões.';
@@ -201,11 +201,11 @@ $string['howquestionsbehave_help'] = 'Alunos podem interagir com as questões no
 $string['ignorebroken'] = 'Ignorar links quebrados';
 $string['import'] = 'Importação';
 $string['importcategory'] = 'Importar categoria';
-$string['importcategory_help'] = '<p>A lista <b>Categoria:</b> que se abre é usada para selecionar a categoria na qual as questões da Importação serão colocadas.</p>
+$string['importcategory_help'] = '<p>A lista <b>Categoria:</b> que se abre é usada para selecionar o curso na qual as questões da Importação serão colocadas.</p>
 
-<p>Alguns formatos de importação (GIFT e Formato XML) permitem que a categoria seja específicada no arquivo de importação. Para que isto aconteça a caixa <b>vindo do arquivo</b> deve ser marcada. Se não for, as questões irão para as categorias selecionadas independente de qualquer instrução dentro do arquivo.</p>
+<p>Alguns formatos de importação (GIFT e Formato XML) permitem que o curso seja específicada no arquivo de importação. Para que isto aconteça a caixa <b>vindo do arquivo</b> deve ser marcada. Se não for, as questões irão para as cursos selecionadas independente de qualquer instrução dentro do arquivo.</p>
 
-<p>Quando categorias são especificadas dentro do arquivo de importação e não existem, elas são criadas automáticamente.</p>';
+<p>Quando cursos são especificadas dentro do arquivo de importação e não existem, elas são criadas automáticamente.</p>';
 $string['importerror'] = 'Ocorreu um erro durante o processo de importação';
 $string['importerrorquestion'] = 'Erro importando questão';
 $string['importfromcoursefiles'] = '...ou escolha um arquivo de turma para importar.';
@@ -216,15 +216,15 @@ $string['importquestions'] = 'Importar questões do arquivo';
 $string['importquestions_help'] = 'Esta funcão possibilita a importação de perguntas em distintos formatos por meio de um arquivo de texto. Observe que o arquivo deve ter a codificação UTF-8.';
 $string['importwrongfiletype'] = 'O tipo do arquivo selecionado ({$a->actualtype}) não corresponde ao tipo de arquivo esperado para o formato de importação ({$a->expectedtype}).';
 $string['impossiblechar'] = 'Detectado o caractere impossível {$a} como parênteses';
-$string['includesubcategories'] = 'Também mostrar questões de subcategorias';
+$string['includesubcategories'] = 'Também mostrar questões de subcursos';
 $string['incorrect'] = 'Incorreto';
 $string['incorrectfeedback'] = 'Para qualquer resposta incorreta';
 $string['incorrectfeedbackdefault'] = 'Sua resposta está incorreta.';
 $string['information'] = 'Informação';
 $string['invalidanswer'] = 'Resposta incompleta';
 $string['invalidarg'] = 'Nenhum argumento válido fornecido ou configuração incorreta do servidor';
-$string['invalidcategoryidforparent'] = 'Id inválido para categoria pai!';
-$string['invalidcategoryidtomove'] = 'Id inválido da categoria a mover!';
+$string['invalidcategoryidforparent'] = 'Id inválido paro curso pai!';
+$string['invalidcategoryidtomove'] = 'Id inválido do curso a mover!';
 $string['invalidconfirm'] = 'String de confirmação estava incorreta';
 $string['invalidcontextinhasanyquestions'] = 'Contexto inválido para question_context_has_any_questions.';
 $string['invalidgrade'] = 'Avaliações não correspondem às opções de avaliação -';
@@ -297,29 +297,29 @@ $string['missingoption'] = 'A questão {$a} cloze está faltando suas opções';
 $string['modified'] = 'Último salvo';
 $string['move'] = 'Mover de {$a} e mudar links';
 $string['movecategory'] = 'Mover Categoria';
-$string['movedquestionsandcategories'] = 'Questões e categorias movidas de {$a->oldplace} para {$a->newplace}.';
+$string['movedquestionsandcategories'] = 'Questões e cursos movidas de {$a->oldplace} para {$a->newplace}.';
 $string['movelinksonly'] = 'Apenas mudar para onde os links apontam, não mover ou copiar arquivos.';
 $string['moveq'] = 'Mover pergunta(s)';
 $string['moveqtoanothercontext'] = 'Mover pergunta para outro contexto';
 $string['moveto'] = 'Mover para >>';
 $string['movingcategory'] = 'Movendo categoria';
-$string['movingcategoryandfiles'] = 'Você tem certeza que deseja mover a categoria {$a->name} e todas as categorias descendentes para o contexto "{$a->contextto}"?<br /> Foram detectados {$a->urlcount} arquivos ligados a questões em {$a->fromareaname}, você gostaria de copiar ou mover isto para {$a->toareaname}?';
-$string['movingcategorynofiles'] = 'Você tem certeza que deseja mover a categoria "{$a->name}" e todas as categorias descendentes para o contexto "{$a->contextto}"?';
+$string['movingcategoryandfiles'] = 'Você tem certeza que deseja mover o curso {$a->name} e todas as cursos descendentes para o contexto "{$a->contextto}"?<br /> Foram detectados {$a->urlcount} arquivos ligados a questões em {$a->fromareaname}, você gostaria de copiar ou mover isto para {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Você tem certeza que deseja mover o curso "{$a->name}" e todas as cursos descendentes para o contexto "{$a->contextto}"?';
 $string['movingquestions'] = 'Movendo perguntas e todos os arquivos';
 $string['movingquestionsandfiles'] = 'Você tem certeza que deseja mover a(s) questõe(s) {$a->questions} para o contexto de <strong>"{$a->tocontext}"</strong>?<br /> Foram detectados <strong>{$a->urlcount} arquivos</strong> ligados a esta(s) questão(s) em {$a->fromareaname}, você quer copiar ou mover isto para {$a->toareaname}?';
 $string['movingquestionsnofiles'] = 'Você tem certeza que deseja mudar as questões {$a->questions} para o contexto <strong>"{$a->tocontext}"</strong>?<br />  <strong>Não existem arquivos</strong> ligados a estas questões em {$a->fromareaname}.';
-$string['needtochoosecat'] = 'Você precisa escolher uma categoria para mover as questões, ou então clicar em \'cancelar\'.';
+$string['needtochoosecat'] = 'Você precisa escolher um curso para mover as questões, ou então clicar em \'cancelar\'.';
 $string['nocate'] = 'Categoría {$a} inexistente!';
 $string['nopermissionadd'] = 'Você não tem permissão para adicionar questões aqui.';
-$string['nopermissionmove'] = 'Você não tem permissão para remover estas questões. Você pode salvar a questão nesta categoria ou salvá-la como nova pergunta.';
+$string['nopermissionmove'] = 'Você não tem permissão para remover estas questões. Você pode salvar a questão neste curso ou salvá-la como nova pergunta.';
 $string['noprobs'] = 'Nenhum problema encontrado no banco de dados da sua pergunta.';
-$string['noquestions'] = 'Nenhuma questão encontrada pode ser exportada. Certifique-se de que você selecionou uma categoria que contem questões para exportar.';
+$string['noquestions'] = 'Nenhuma questão encontrada pode ser exportada. Certifique-se de que você selecionou um curso que contem questões para exportar.';
 $string['noquestionsinfile'] = 'Nenhuma questão presente no arquivo importado';
 $string['noresponse'] = '[Não há resposta]';
 $string['notanswered'] = 'Não respondido';
 $string['notchanged'] = 'Não mudou desde a última tentativa';
 $string['notenoughanswers'] = 'Este tipo de questão requer pelo menos {$a} respostas';
-$string['notenoughdatatoeditaquestion'] = 'Não foram especificados: id da questão, id da categoria e tipo de questão.';
+$string['notenoughdatatoeditaquestion'] = 'Não foram especificados: id da questão, id do curso e tipo de questão.';
 $string['notenoughdatatomovequestions'] = 'Você precisa fornecer os ids das questões que você quer mover.';
 $string['notflagged'] = 'Não marcada';
 $string['notgraded'] = 'Não avaliada';
@@ -331,9 +331,9 @@ $string['numqas'] = 'Sem tentativas de questão';
 $string['numquestions'] = 'Número de questões';
 $string['numquestionsandhidden'] = '{$a->numquestions} (+{$a->numhidden} ocultas)';
 $string['options'] = 'Opções';
-$string['orphanedquestionscategory'] = 'Questões salvas de categorias excluídas';
-$string['orphanedquestionscategoryinfo'] = 'Ocasionalmente, tipicamente devido a erros antigos de software, questões podem permanecer na base de dados mesmo quando a categoria correspondente da questão tenha sido excluída. É claro que isto não deveria acontecer, isto deve ter acontecido no passado neste site. Esta categoria foi criada automaticamente, e as questões órfãs foram movidas para cá, assim você pode gerenciá-las. Observe que qualquer imagem ou arquivos de mídia utilizados por estas questões provavelmente devem ter sido perdidos.';
-$string['page-question-category'] = 'Página de categorias de questionário';
+$string['orphanedquestionscategory'] = 'Questões salvas de cursos excluídas';
+$string['orphanedquestionscategoryinfo'] = 'Ocasionalmente, tipicamente devido a erros antigos de software, questões podem permanecer na base de dados mesmo quando o curso correspondente da questão tenha sido excluída. É claro que isto não deveria acontecer, isto deve ter acontecido no passado neste site. Esta categoria foi criada automaticamente, e as questões órfãs foram movidas para cá, assim você pode gerenciá-las. Observe que qualquer imagem ou arquivos de mídia utilizados por estas questões provavelmente devem ter sido perdidos.';
+$string['page-question-category'] = 'Página de cursos de questionário';
 $string['page-question-edit'] = 'Página de edição de questões';
 $string['page-question-export'] = 'Página de exportação de questões';
 $string['page-question-import'] = 'Página de importação de questões';
@@ -342,11 +342,11 @@ $string['parent'] = 'Nível superior';
 $string['parentcategory'] = 'Categoria pai';
 $string['parentcategory_help'] = '<h2>Categoria Pai</h2>
 
-<p>A categoria na qual um item deve ser incluído. \'Topo\' significa que essa categoria não estará contida em nenhuma outra.</p>
+<p>O curso na qual um item deve ser incluído. \'Topo\' significa que esso curso não estará contida em nenhuma outra.</p>
 
-<p>Normalmente você verá vários \'contextos\' de categoria, que estão em negrito. Perceba que cada contexto tem sua própria hierarquia de categorias. Vá até o final da página para mais informações sobre contextos. Se você não vir esses contextos pode ser que você não tenha permissão para acessar outros contextos.</p>
+<p>Normalmente você verá vários \'contextos\' de categoria, que estão em negrito. Perceba que cada contexto tem sua própria hierarquia de cursos. Vá até o final da página para mais informações sobre contextos. Se você não vir esses contextos pode ser que você não tenha permissão para acessar outros contextos.</p>
 
-<p>Se há somente uma categoria no contexto, você não poderá movê-la, já que é necessário que haja ao menos uma em cada um deles.</p>
+<p>Se há somente um curso no contexto, você não poderá movê-la, já que é necessário que haja ao menos uma em cada um deles.</p>
 
 <p>Veja também :</p>
 <ul>
@@ -377,7 +377,7 @@ $string['permissionto'] = 'Você tem permissão para:';
 $string['previewquestion'] = 'Pré-visualizar questão: {$a}';
 $string['published'] = 'compartilhado';
 $string['qtypeveryshort'] = 'T';
-$string['questionaffected'] = '<a href="{$a->qurl}">Questão "{$a->name}" ({$a->qtype})</a> está nesta categoria de questão mas também está na <a href="{$a->qurl}">questão "{$a->quizname}"</a> na turma "{$a->coursename}".';
+$string['questionaffected'] = '<a href="{$a->qurl}">Questão "{$a->name}" ({$a->qtype})</a> está neste curso de questão mas também está na <a href="{$a->qurl}">questão "{$a->quizname}"</a> na turma "{$a->coursename}".';
 $string['questionbank'] = 'Banco de questões';
 $string['questionbehaviouradminsetting'] = 'Configurações de comportamento de questão';
 $string['questionbehavioursdisabled'] = 'Comportamentos de questão para desabilitar';
@@ -395,8 +395,8 @@ $string['questionpreviewdefaults'] = 'Padrões de pré-visualização de questã
 $string['questionpreviewdefaults_desc'] = 'Esses padrões são usados quando um usuário visualiza primeiro uma pergunta no banco de questões. Uma vez que um usuário tenha inspecionado uma pergunta, suas preferências pessoais são armazenados como preferências do usuário.';
 $string['questions'] = 'Questões';
 $string['questionsaveerror'] = 'Ocorrerem erros durante salvar questão - ({$a})';
-$string['questionsinuse'] = '(*Questões marcadas com um asterisco já estão em uso em alguns questionários. Estas questões não serão apagadas dos questionários, mas somente da lista da categoria.)';
-$string['questionsmovedto'] = 'Questões ainda utilizadas movidas para "{$a}" na categoria de turma correspondente.';
+$string['questionsinuse'] = '(*Questões marcadas com um asterisco já estão em uso em alguns questionários. Estas questões não serão apagadas dos questionários, mas somente da lista do curso.)';
+$string['questionsmovedto'] = 'Questões ainda utilizadas movidas para "{$a}" no curso de turma correspondente.';
 $string['questionsrescuedfrom'] = 'Questões copiadas do contexto {$a}.';
 $string['questionsrescuedfrominfo'] = 'Estas questões (algumas podem estar escondidas) foram salvas quando o contexto {$a} foi apagado pois ainda eram utilizadas.';
 $string['questiontext'] = 'Texto da questão';
@@ -415,9 +415,9 @@ $string['save'] = 'Salvar';
 $string['savechangesandcontinueediting'] = 'Salvar alterações e continuar editando';
 $string['saved'] = 'Salvou: {$a}';
 $string['saveflags'] = 'Gravar o estado das marcas';
-$string['selectacategory'] = 'Selecione uma categoria:';
+$string['selectacategory'] = 'Selecione um curso:';
 $string['selectaqtypefordescription'] = 'Selecione um tipo de pergunta para ver a sua descrição.';
-$string['selectcategoryabove'] = 'Selecione uma categoria acima';
+$string['selectcategoryabove'] = 'Selecione um curso acima';
 $string['selectquestionsforbulk'] = 'Selecionar perguntas para ações em massa';
 $string['settingsformultipletries'] = 'Múltiplas tentativas';
 $string['shareincontext'] = 'Compartilhar o contexto com {$a}';
@@ -461,11 +461,11 @@ $string['unknownquestioncatregory'] = 'Categoria de questão desconhecida: {$a}'
 $string['unknownquestiontype'] = 'Tipo de questão desconhecido: {$a}.';
 $string['unknowntolerance'] = 'Tipo de tolerância desconhecido {$a}';
 $string['unpublished'] = 'Não-compartilhado';
-$string['unusedcategorydeleted'] = 'Esta categoria foi cancelada porque depois do cancelamento da turma as questões não foram mais usadas.';
+$string['unusedcategorydeleted'] = 'Esto curso foi cancelada porque depois do cancelamento da turma as questões não foram mais usadas.';
 $string['updatedisplayoptions'] = 'Atualizar opções de exibição';
-$string['upgradeproblemcategoryloop'] = 'Problema atualizando categorias de questões. Loop na árvore de categorias. O id da categoria com problemas é {$a}.';
-$string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível modificar a categoria {$a->name} ({$a->id}).';
-$string['upgradeproblemunknowncategory'] = 'Problema atualizando categorias de questões. A categoria {$a->id} aponta para {$a->parent},que não existe. O problema foi resolvido apontando para uma categoria existente.';
+$string['upgradeproblemcategoryloop'] = 'Problema atualizando cursos de questões. Loop na árvore de cursos. O id do curso com problemas é {$a}.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível modificar o curso {$a->name} ({$a->id}).';
+$string['upgradeproblemunknowncategory'] = 'Problema atualizando cursos de questões. O curso {$a->id} aponta para {$a->parent},que não existe. O problema foi resolvido apontando para um curso existente.';
 $string['whethercorrect'] = 'Acertos/Erros';
 $string['whethercorrect_help'] = 'Este diz a respeito de todas, \'Correto\', \'Parcialmente correto\' or \'Incorreto\' e qualquer outro texto destacado junto da mesma informação.';
 $string['whichtries'] = 'Quais tentativas';

@@ -33,7 +33,7 @@ $string['aliases'] = 'Outras palavras que serão linkadas ao mesmo item';
 $string['aliases_help'] = '<p>Cada item do glossário pode ser associado a uma lista de palavras-chave (ou aliases).
 <p><b>Escreva cada alias em uma nova linha</b> (sem separar com vírgulas).</p>
 <p>Estas palavras-chave podem ser usadas como referências alternativas ao item associado. Por exemplo, todas estas palavras chave serão linkadas automaticamente ao mesmo item do glossário em caso de criação automática de links (filtro auto-linking).</p>';
-$string['allcategories'] = 'Todas as categorias';
+$string['allcategories'] = 'Todas as cursos';
 $string['allentries'] = 'Todos';
 $string['allowcomments'] = 'Permitir comentários';
 $string['allowcomments_help'] = 'Se habilitado, todos os participantes com permissão para criar comentários estarão hábeis a comentar nas entradas de glossário.';
@@ -66,7 +66,7 @@ $string['author'] = 'autor';
 $string['authorview'] = 'Por autor';
 $string['back'] = 'Voltar';
 $string['cachedef_concepts'] = 'Ligação de conceito';
-$string['cantinsertcat'] = 'Não é possível inserir uma categoria';
+$string['cantinsertcat'] = 'Não é possível inserir um curso';
 $string['cantinsertrec'] = 'Não é possível inserir um registro';
 $string['cantinsertrel'] = 'Não é possível inserir uma relação categoria-item';
 $string['casesensitive'] = 'Item sensível à distinção entre maiúsculas e minúsculas';
@@ -120,7 +120,7 @@ $string['definitions'] = 'Definições';
 $string['deleteentry'] = 'Excluir item';
 $string['deletenotenrolled'] = 'Excluir os itens criados por usuários não inscritos';
 $string['deletingcomment'] = 'Excluindo comentário';
-$string['deletingnoneemptycategory'] = 'O cancelamento desta categoria não provoca o cancelamento dos itens que ela contém. Estes serão classificados como não incluídos em nenhuma categoria';
+$string['deletingnoneemptycategory'] = 'O cancelamento deste curso não provoca o cancelamento dos itens que ela contém. Estes serão classificados como não incluídos em nenhuma categoria';
 $string['descending'] = 'decrescente';
 $string['destination'] = 'Destino das entradas importadas';
 $string['destination_help'] = '<P>Você pode especificar para onde quer importar os itens:</p>
@@ -173,7 +173,7 @@ $string['editalways_help'] = '<P>Esta opção define se os estudantes são autor
 
 <LI><B>Não:</B> Os itens só são editáveis durante o período definido.
 </UL>';
-$string['editcategories'] = 'Editar categorias';
+$string['editcategories'] = 'Editar cursos';
 $string['editentry'] = 'Editar item';
 $string['editingcomment'] = 'Editando comentário';
 $string['entbypage'] = 'Número de itens mostrados em cada página';
@@ -232,7 +232,7 @@ $string['glossary:exportentry'] = 'Exportar única entrada';
 $string['glossary:exportownentry'] = 'Exportar suas entradas únicas';
 $string['glossary:import'] = 'Importar itens';
 $string['glossaryleveldefaultsettings'] = 'Configurações predefinidas do glossário';
-$string['glossary:managecategories'] = 'Gerenciar categorias';
+$string['glossary:managecategories'] = 'Gerenciar cursos';
 $string['glossary:managecomments'] = 'Gerenciar comentários';
 $string['glossary:manageentries'] = 'Gerenciar itens';
 $string['glossary:rate'] = 'Avaliar itens';
@@ -244,7 +244,7 @@ $string['glossary:viewanyrating'] = 'Ver avaliação total que todos receberam';
 $string['glossary:viewrating'] = 'Ver as suas avaliações';
 $string['glossary:write'] = 'Criar novos itens';
 $string['guestnoedit'] = 'Visitantes não tem permissão para editar glossários';
-$string['importcategories'] = 'Importar categorias';
+$string['importcategories'] = 'Importar cursos';
 $string['importedcategories'] = 'Categorias importadas';
 $string['importedentries'] = 'Itens importados';
 $string['importentries'] = 'Importar itens';
@@ -257,10 +257,10 @@ $string['isglobal_help'] = '<p>Apenas os Administradores e usuários com capacid
 
 <p>Os links automáticos criados a partir dos itens de um glossário global incluem todas as páginas do site enquanto os links automáticos criados a partir de um glossário normal são presentes apenas nas páginas da turma específico associado àquele glossário</p>';
 $string['letter'] = 'letra';
-$string['linkcategory'] = 'Fazer o link automático desta categoria';
-$string['linkcategory_help'] = '<P>Você pode definir se os nomes das categorias, como os itens, geram links automaticamente ou não.</p>
+$string['linkcategory'] = 'Fazer o link automático deste curso';
+$string['linkcategory_help'] = '<P>Você pode definir se os nomes das cursos, como os itens, geram links automaticamente ou não.</p>
 
-<p>Os links que levam às categorias são sensíveis às diferenças entre maiúsculas e minúsculas, e consideram apenas palavras inteiras.</p>';
+<p>Os links que levam às cursos são sensíveis às diferenças entre maiúsculas e minúsculas, e consideram apenas palavras inteiras.</p>';
 $string['linking'] = 'Auto-link';
 $string['mainglossary'] = 'Glossário principal';
 $string['maxtimehaspassed'] = 'Sinto muito, mas o período de edição deste comentário ({$a}) terminou';
@@ -371,7 +371,7 @@ $string['usedynalink_help'] = '<P>Esta opção habilita a criação automática 
 
 <p>Se você não quiser que um texto tenha links, você deve adicionar os tags  &lt;nolink> e &lt;/nolink> ao redor do texto.</p>
 
-<p>Os nomes das categorias também dão origem a links nos textos.</p>';
+<p>Os nomes das cursos também dão origem a links nos textos.</p>';
 $string['visibletabs'] = 'Guias visíveis';
 $string['waitingapproval'] = 'Itens pendentes';
 $string['warningstudentcapost'] = '(Não é aplicável ao glossário principal)';

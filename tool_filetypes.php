@@ -54,7 +54,7 @@ $string['error_notfound'] = 'O tipo de arquivo com extensão {$a} não pôde ser
 $string['extension'] = 'Extensão';
 $string['extension_help'] = 'Extensão do nome do arquivo sem o ponto, por exemplo, "mobi"';
 $string['groups'] = 'Grupos de tipos';
-$string['groups_help'] = 'Lista opcional de grupos de tipo de arquivo que este tipo pertence. Essas são categorias genéricas, como "documento" e "imagem".';
+$string['groups_help'] = 'Lista opcional de grupos de tipo de arquivo que este tipo pertence. Essas são cursos genéricas, como "documento" e "imagem".';
 $string['icon'] = 'Ícone do arquivo';
 $string['icon_help'] = 'Nome do arquivo do ícone.
 

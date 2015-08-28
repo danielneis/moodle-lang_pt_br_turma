@@ -71,7 +71,7 @@ $string['mandatoryofflinespecifycourse'] = 'Seleção do Curso obrigatório';
 $string['mandatoryofflinespecifycourse_help'] = 'A especificação de uma turma nas sessões offline será obrigatória.';
 $string['maynotaddselfcertforother'] = 'Você não pode adicionar um sessões offline para outros usuários.';
 $string['modulename'] = 'Registro de presença';
-$string['modulename_help'] = 'Registro de Presença calcula o tempo que os usuários passam trabalhando em turmas online. <br /> Opcionalmente permite o registro atividades offline do usuário. <br /> Dependendo do modo de rastreamento, o registro pode rastrear as atividades em um única turma, em todos as turmas da mesma categoria ou em todos os turmas "Meta ligados" no Curso que Registro de Presença esteja incluído <br />Sessões de trabalho online são calculadas com os registros de log gravados pelo Moodle. <br /> <b>Novas sessões on-line são adicionados com algum atraso pelo cron, após o logout do usuário.</b>';
+$string['modulename_help'] = 'Registro de Presença calcula o tempo que os usuários passam trabalhando em turmas online. <br /> Opcionalmente permite o registro atividades offline do usuário. <br /> Dependendo do modo de rastreamento, o registro pode rastrear as atividades em um única turma, em todos as turmas da mesmo curso ou em todos os turmas "Meta ligados" no Curso que Registro de Presença esteja incluído <br />Sessões de trabalho online são calculadas com os registros de log gravados pelo Moodle. <br /> <b>Novas sessões on-line são adicionados com algum atraso pelo cron, após o logout do usuário.</b>';
 $string['modulenameplural'] = 'Registros de presença';
 $string['never'] = '(Nunca)';
 $string['no_refcourse'] = '(Sem Curso especificado)';
@@ -118,7 +118,7 @@ $string['registername'] = 'Nome do registro de frequência';
 $string['registertype'] = 'Modo de rastreamento do registro de presença';
 $string['registertype_help'] = 'Modos de rastreamento do registro de presença determina como será realizado o rastreamento(Por exemplo onde a atividade do usuário será rastreada):
 * _Somente este Turma_: somente na turma onde a instância do registro de presença foi configurada.
-* _Todos as turmas na mesma categoria_: a atividade será monitorada em todos os outros turmas na mesma categoria da turma onde a instância do registro de presença foi configurada.
+* _Todos as turmas na mesmo curso_: a atividade será monitorada em todos os outros turmas na mesma categoria da turma onde a instância do registro de presença foi configurada.
 * _Todos as turmas ligados por um turma meta link_: a atividade será monitorada nesta turma em todos os outros turmas ligados por ligação meta turma.';
 $string['schedule_reclalc_all_session'] = 'Agendar o recálculo das sessões';
 $string['select_a_course'] = '- Selecione um turma -';
@@ -134,7 +134,7 @@ $string['total_time_offline'] = 'Tempo Total Offline';
 $string['total_time_online'] = 'Tempo Total Online';
 $string['tracked_courses'] = 'Cursos Rastreados';
 $string['tracked_users'] = 'Usuários Rastreados';
-$string['type_category'] = 'Todos as turmas na mesma categoria';
+$string['type_category'] = 'Todos as turmas na mesmo curso';
 $string['type_course'] = 'Somente este Turma';
 $string['type_meta'] = 'Todos os Cursos vinculados por Curso meta link';
 $string['unknown'] = '(Desconhecido)';

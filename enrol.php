@@ -115,7 +115,7 @@ $string['periodstart'] = 'de {$a}';
 $string['periodstartend'] = 'de {$a->start} até {$a->end}';
 $string['proceedtocourse'] = 'Ir para o conteúdo da turma';
 $string['recovergrades'] = 'Restaurar as notas antigas do usuário se possível';
-$string['rolefromcategory'] = '{$a->role} (Herdado da categoria da turma)';
+$string['rolefromcategory'] = '{$a->role} (Herdado do curso da turma)';
 $string['rolefrommetacourse'] = '{$a->role} (Herdado de turma pai)';
 $string['rolefromsystem'] = '	
 {$a->role} (Atribuído no nível do site)';

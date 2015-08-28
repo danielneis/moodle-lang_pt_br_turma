@@ -50,12 +50,12 @@ $string['bodybg'] = 'Imagem de Fundo';
 $string['bodybgdesc'] = 'Se você deseja substituir o fundo padrão, você pode enviar o seu fundo próprio aqui. <br> <strong>Dica legal:</strong> </br>Você pode usar isso para mostrar através de conteúdo Moodle usando a opção de transparência abaixo.';
 $string['bodycolor'] = 'Cor do fundo';
 $string['bodycolordesc'] = 'Se nenhuma imagem é carregada no Moodle, então, o padrão para essa cor.';
-$string['categoryicondesc'] = 'Selecione o ícone a ser usado para a categoria';
+$string['categoryicondesc'] = 'Selecione o ícone a ser usado para o curso';
 $string['categoryiconheading'] = 'Categoria de Ícones';
-$string['categoryiconheadingdesc'] = 'Se ativado, permitirá que você defina ícones para cada categoria de turma.';
-$string['categoryiconheadingsub'] = 'Use ícones para representar suas categorias.';
+$string['categoryiconheadingdesc'] = 'Se ativado, permitirá que você defina ícones para cado curso de turma.';
+$string['categoryiconheadingsub'] = 'Use ícones para representar suas cursos.';
 $string['categoryiconinfo'] = 'Conjunto personalizado de ícones de Categoria';
-$string['categoryiconinfodesc'] = 'Cada ícone é definido pela categoria "Categoria ID". Você conseguiu isso ao olhar para a URL de cada categoria. A lista de ícones está <a href="http://fontawesome.github.io/Font-Awesome/cheatsheet/">aqui</a>.  Basta digitar o que está depois de "fa-".';
+$string['categoryiconinfodesc'] = 'Cada ícone é definido pelo curso "Categoria ID". Você conseguiu isso ao olhar para a URL de cada categoria. A lista de ícones está <a href="http://fontawesome.github.io/Font-Awesome/cheatsheet/">aqui</a>.  Basta digitar o que está depois de "fa-".';
 $string['choosereadme'] = '<div class="clearfix">
 <div class="well">
 <h2>Tema Elegance</h2>
@@ -79,7 +79,7 @@ $string['customlinknamedesc'] = 'Nome exibido aos usuário para seu link';
 $string['customlinkurl'] = 'Link da URL de destino';
 $string['customlinkurldesc'] = 'Caminho completo ou relativo para a URL de destino.';
 $string['defaultcategoryicon'] = 'Ícones da Categoria Padrão';
-$string['defaultcategoryicondesc'] = 'Se você não digitar um valor em qualquer das categorias abaixo, em seguida, esse valor padrão será usado. Esta é uma maneira fácil de mudar rapidamente muitos ícones de categorias.';
+$string['defaultcategoryicondesc'] = 'Se você não digitar um valor em qualquer das cursos abaixo, em seguida, esse valor padrão será usado. Esta é uma maneira fácil de mudar rapidamente muitos ícones de cursos.';
 $string['displayafterlogin'] = 'Mostrar apenas após o login';
 $string['displaybeforelogin'] = 'Mostrar antes do login';
 $string['dontdisplay'] = 'Nunca mostrar';
@@ -90,7 +90,7 @@ $string['enablebannerdesc'] = 'Você usará este slide?';
 $string['enablecalendar'] = 'Calendário do Usuário';
 $string['enablecalendardesc'] = 'Mostra um link para o calendário dos usuários';
 $string['enablecategoryicon'] = 'Habilitar Ícones da Categoria';
-$string['enablecategoryicondesc'] = 'Se ativado, você será capaz de selecionar ícones da categoria depois de clicar em "Salvar mudanças".';
+$string['enablecategoryicondesc'] = 'Se ativado, você será capaz de selecionar ícones do curso depois de clicar em "Salvar mudanças".';
 $string['enablecustomlogin'] = 'Usar login personalizado';
 $string['enableeditprofile'] = 'Editar Perfil';
 $string['enableeditprofiledesc'] = 'Mostra um link para editar perfil dos usuários.';

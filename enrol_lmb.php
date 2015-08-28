@@ -41,17 +41,17 @@ $string['bannerxmllocationcomphelp'] = 'Se esta opção for selecionada, as insc
 $string['bannerxmllocationhelp'] = 'O caminho (no servidor do Moodle) onde ficam os arquivos XML que você gostaria de importar.';
 $string['bizdowngracehelp'] = 'Quantos minutos podem ser levados desde a última mensagem LMB antes que e-mail de aviso sejam enviados durante o horário de expediente.';
 $string['categorytype'] = 'Categorias de turmas';
-$string['categorytypehelp'] = 'Isso permite que você selecione em quais categorias você gostaria que as turmas fossem criados. Opções:
+$string['categorytypehelp'] = 'Isso permite que você selecione em quais cursos você gostaria que as turmas fossem criados. Opções:
 <ul>
-<li>Períodos: Esta configuração fará com que as turmas sejam colocados nas categorias com o nome do período/semestre deles.</li>
-<li> Departamentos: Esta configuração fará com que as turmas sejam colocados em categorias com o nome do departamento que o hospeda.</li>
+<li>Períodos: Esta configuração fará com que as turmas sejam colocados nas cursos com o nome do período/semestre deles.</li>
+<li> Departamentos: Esta configuração fará com que as turmas sejam colocados em cursos com o nome do departamento que o hospeda.</li>
 <li> Códigos de departamento:  Usa o código de departamento ao invés do nome completo.</li>
-<li>  Períodos depois departamento? Esta configuração fará com que as turmas sejam colocados nas categorias com o nome do departamento que os hospeda, que está contido em um termo período com o nome dado para o período/semestre.</li>
+<li>  Períodos depois departamento? Esta configuração fará com que as turmas sejam colocados nas cursos com o nome do departamento que os hospeda, que está contido em um termo período com o nome dado para o período/semestre.</li>
 <li> Períodos depois Código de departamento: O mesmo que Períodos depois Avaliação, só que usa a abreviatura do departamento ao invés do nome completo.</li>
-<li> Selecionado: Com esta configuração, selecione a categoria existente onde você gostaria que a turma fosse colocado, a partir do segundo menu drop down.</li>
+<li> Selecionado: Com esta configuração, selecione o curso existente onde você gostaria que a turma fosse colocado, a partir do segundo menu drop down.</li>
 </ul>';
-$string['cathidden'] = 'Criar novas categorias como ocultas';
-$string['cathiddenhelp'] = 'Criar novas categorias como ocultas.';
+$string['cathidden'] = 'Criar novas cursos como ocultas';
+$string['cathiddenhelp'] = 'Criar novas cursos como ocultas.';
 $string['catselect'] = 'Categoria selecionada';
 $string['commadelimit'] = '(separado por vírgula)';
 $string['computesections'] = 'Computar o número de sessões';

@@ -26,12 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configselectmanualquestions'] = 'Permitir a inclusão de perguntas com avaliação manual?';
-$string['includingsubcategories'] = 'Incluindo subcategorias';
+$string['includingsubcategories'] = 'Incluindo subcursos';
 $string['pluginname'] = 'Aleatório';
 $string['pluginnameediting'] = 'Editando uma pergunta aleatória';
-$string['pluginname_help'] = 'Uma pergunta aleatória não é um tipo de pergunta, como tal, mas é uma maneira de inserir uma pergunta aleatoriamente escolhidos a partir de uma determinada categoria em um questionário.';
+$string['pluginname_help'] = 'Uma pergunta aleatória não é um tipo de pergunta, como tal, mas é uma maneira de inserir uma pergunta aleatoriamente escolhidos a partir de uma determinado curso em um questionário.';
 $string['randomqname'] = 'Aleatório ({$a})';
 $string['randomqplusname'] = '	
-Aleatório ({$a} e sub-categorias)';
+Aleatório ({$a} e sub-cursos)';
 $string['selectedby'] = '{$a->questionname} selecionado por {$a->randomname}';
 $string['selectmanualquestions'] = 'Questões aleatórias podem incluir perguntas com avaliação manual';
