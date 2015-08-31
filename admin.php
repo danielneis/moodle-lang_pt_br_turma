@@ -242,7 +242,7 @@ $string['configforcelogin'] = 'Normalmente a página inicial da instalação e a
 $string['configforceloginforprofiles'] = 'Habilitar esta opção para forçar as pessoas a fazerem o login com uma conta de usuário que não seja de visitante antes de poder ver os perfis de usuários. Normalmente esta opção está habilitada ("verdadeiro") para permitir que possíveis alunos se informem sobre os docentes de cada turma, e permitir o acesso aos dados pelos motores de busca.';
 $string['configfrontpage'] = 'Os itens selecionados acima serão visualizados na página inicial do site.';
 $string['configfrontpagecourselimit'] = 'Número máximo de turmas';
-$string['configfrontpagecourselimithelp'] = 'Número máximo de turmas a serem exibidos na primeira página do site na listagem de turmas.';
+$string['configfrontpagecourselimithelp'] = 'Número máximo de turmas a serem exibidas na primeira página do site na listagem de turmas.';
 $string['configfrontpageloggedin'] = 'O ítem selecionado acima será visualizado na página inicial depois do login dos usuários.';
 $string['configfullnamedisplay'] = 'Isto define como serão mostrados os nomes completos.  O valor padrão, "idioma", deixa que a string "fullnamedisplay" do pacote de idioma em uso defina o formato. Alguns idiomas tem diferentes convenções para exibir os nomes.
 
