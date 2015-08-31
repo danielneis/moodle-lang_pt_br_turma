@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['about_mrbs'] = 'Sobre MRBS';
 $string['accessdenied'] = 'Acesso negado';
-$string['accessmrbs'] = 'Agendar um returma (Sala de Informática)';
+$string['accessmrbs'] = 'Agendar um recurso (Sala de Informática)';
 $string['addarea'] = 'Adicionar Área';
 $string['addroom'] = 'Adicionar sala';
 $string['advanced_search'] = 'Pesquisa avançada';

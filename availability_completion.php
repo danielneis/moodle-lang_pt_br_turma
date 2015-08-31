@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Requer que o aluno conclua (ou não conclua) outra atividade.';
 $string['error_selectcmid'] = 'Você deve selecionar uma atividade para atender a condição de conclusão.';
-$string['label_cm'] = 'Atividade ou returma';
+$string['label_cm'] = 'Atividade ou recurso';
 $string['label_completion'] = 'Requer estado concluído';
 $string['missing'] = '(Atividade faltante)';
 $string['option_complete'] = 'deve ser marcada como concluída';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addactivityresource'] = 'Adicionar atividade/returma';
+$string['addactivityresource'] = 'Adicionar atividade/recurso';
 $string['addalink'] = 'Adicionar um link';
 $string['allmodultypes'] = 'Todos os tipos de módulos';
 $string['allmygroups'] = 'Todos os meus grupos';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['bigfile'] = 'Arquivo grande {$a}';
-$string['courseexplanation'] = 'Esta ferramenta cria turmas de teste padrão que incluem muitas seções, atividades e arquivos. Este destina-se a fornecer uma medida padronizada para verificar a confiabilidade e o desempenho dos vários componentes do sistema (como backup e restauração). Este teste é importante porque houve muitos casos anteriores, onde, diante de casos de uso da vida real (por exemplo, um turma com 1.000 atividades), o sistema não funciona. Cursos criados usando esse returma podem ocupar uma grande quantidade de banco de dados e espaço em sistema de arquivos (dezenas de gigabytes). Você terá de apagar as turmas (e esperar por várias corridas de limpeza) para liberar esse espaço novamente. ** Não utilize esse returma em um sistema vivo **. Use somente em um servidor desenvolvedor. (Para evitar o uso acidental, este returma está desativado, a menos que você também tenha selecionado nível de depuração desenvolvedor.)';
+$string['courseexplanation'] = 'Esta ferramenta cria turmas de teste padrão que incluem muitas seções, atividades e arquivos. Este destina-se a fornecer uma medida padronizada para verificar a confiabilidade e o desempenho dos vários componentes do sistema (como backup e restauração). Este teste é importante porque houve muitos casos anteriores, onde, diante de casos de uso da vida real (por exemplo, um turma com 1.000 atividades), o sistema não funciona. Cursos criados usando esse recurso podem ocupar uma grande quantidade de banco de dados e espaço em sistema de arquivos (dezenas de gigabytes). Você terá de apagar as turmas (e esperar por várias corridas de limpeza) para liberar esse espaço novamente. ** Não utilize esse returma em um sistema vivo **. Use somente em um servidor desenvolvedor. (Para evitar o uso acidental, este returma está desativado, a menos que você também tenha selecionado nível de depuração desenvolvedor.)';
 $string['coursesize_0'] = 'XS (~ 10KB, criar em ~ 1 segundo)';
 $string['coursesize_1'] = 'S (~ 10MB; criar em ~ 30 segundos)';
 $string['coursesize_2'] = 'M (~ 100MB, criar em aproximadamente 5 minutos)';
@@ -93,7 +93,7 @@ Você precisa definir uma senha para os usuários da turma em config.php (por ex
 
 Você pode querer considerar a sua capacidade de servidores durante a execução de planos de teste grandes como a quantidade de carga gerada pelo JMeter pode ser especialmente grande . O período de construção foi ajustado de acordo com o número de segmentos (usuários) para reduzir este tipo de questões, mas a carga ainda é enorme.
 
-** Não execute o plano de teste em um sistema vivo **. Este returma só cria os arquivos para alimentar JMeter, portanto, não é perigoso por si só, mas você**NUNCA**  deve executar este plano de teste em um local de produção.';
+** Não execute o plano de teste em um sistema vivo **. Este recurso só cria os arquivos para alimentar JMeter, portanto, não é perigoso por si só, mas você**NUNCA**  deve executar este plano de teste em um local de produção.';
 $string['testplansize_0'] = 'XS ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
 $string['testplansize_1'] = 'S ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';
 $string['testplansize_2'] = 'M ({$a->users} usuários, {$a->loops} loops e {$a->rampup} período de construção)';

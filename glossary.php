@@ -280,7 +280,7 @@ Glossários tem muitos usos, como por exemplo:
 * Um espaço "apresente-se" onde novos estudantes adicionam seus nomes e detalhes pessoais
 * Centralização de dicas ou melhores práticas sobre algum item
 * Uma área de compartilhamento de vídeos, imagens ou arquivos de som
-* Como returma de revisão de fatos a serem lembrados';
+* Como recurso de revisão de fatos a serem lembrados';
 $string['modulenameplural'] = 'Glossários';
 $string['newentries'] = 'Novos itens';
 $string['newglossary'] = 'Novo glossário';

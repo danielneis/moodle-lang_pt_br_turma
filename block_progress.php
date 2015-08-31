@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activity_completion'] = 'conclusão de atividade';
-$string['addallcurrentitems'] = 'Adicione todas as atividades/returmas';
+$string['addallcurrentitems'] = 'Adicione todas as atividades/recursos';
 $string['answered'] = 'respondido';
 $string['assessed'] = 'avaliado';
 $string['assign'] = 'Tarefa';
@@ -75,10 +75,10 @@ $string['how_ordering_works'] = 'Como encomendar trabalhos';
 $string['how_ordering_works_help'] = '<p> Há duas maneiras os itens na barra de progresso podem ser encomendados. </p>
 <ul>
      <li> <em> "Espera-se por" data-hora </ em> (default) <br />
-     As datas de vencimento ou definir manualmente datas das atividades / returmas são utilizados para ordenar os itens mostrados na barra de progresso.
+     As datas de vencimento ou definir manualmente datas das atividades / recursos são utilizados para ordenar os itens mostrados na barra de progresso.
      </li>
      <li> <em> pedindo na turma </ em> <br />
-     Atividades / returmas são apresentados na mesma ordem em que estão na página da turma. Quando esta opção for usada, os aspectos relacionados com o tempo são desativados.
+     Atividades / recursos são apresentados na mesma ordem em que estão na página da turma. Quando esta opção for usada, os aspectos relacionados com o tempo são desativados.
      </ li>
 </ul>';
 $string['hsuforum'] = 'Fórum avançado';
@@ -89,7 +89,7 @@ $string['lesson'] = 'Lição';
 $string['marked'] = 'avaliada';
 $string['mouse_over_prompt'] = 'Passe com o mouse para obter informações';
 $string['no_blocks'] = 'Nenhum bloco Barra de Progresso estão configurados para os seus turmas.';
-$string['no_events_config_message'] = 'Não existem atividades ou returmas a serem monitorados. Crie primeiro atividades e/ou returmas e retorne depois a este bloco.';
+$string['no_events_config_message'] = 'Não existem atividades ou recursos a serem monitorados. Crie primeiro atividades e/ou recursos e retorne depois a este bloco.';
 $string['no_events_message'] = 'Sem eventos a serem monitorados. Use a Configuração para adicionar eventos.';
 $string['notAttempted_colour'] = '#FF5C5C';
 $string['notattempted_colour_descr'] = 'Código de cores HTML para elementos que ainda não tem tentativas';
@@ -113,19 +113,19 @@ $string['recordingsbn'] = 'Gravações de BBB';
 $string['resource'] = 'Arquivo';
 $string['responded_to'] = 'respondido para';
 $string['scorm'] = 'Scorm';
-$string['selectitemstobeadded'] = 'Selecione as actividades/returmas';
+$string['selectitemstobeadded'] = 'Selecione as actividades/recursos';
 $string['submitted'] = 'enviada';
 $string['time_expected'] = 'Esperado';
 $string['turnitintool'] = 'Ferramenta Turnitin';
 $string['url'] = 'URL';
 $string['viewed'] = 'visualizado';
 $string['what_actions_can_be_monitored'] = 'Quais as ações podem ser monitoradas?';
-$string['what_actions_can_be_monitored_help'] = '<p>O fato de diferentes atividades e returmas serem utilizados de forma diferente, o que é monitorado para cada módulo varia. Por exemplo, para as Tarefas, a submissão é monitorada; Questionários são monitorados pela tentativa realizada; Fóruns são monitorados para postagens colocadas pelo estudante; a atividade Escolha é monitorada pela seleção de uma alternativa e returmas são monitorados pelo acesso/visualização.</p>';
+$string['what_actions_can_be_monitored_help'] = '<p>O fato de diferentes atividades e recursos serem utilizados de forma diferente, o que é monitorado para cada módulo varia. Por exemplo, para as Tarefas, a submissão é monitorada; Questionários são monitorados pela tentativa realizada; Fóruns são monitorados para postagens colocadas pelo estudante; a atividade Escolha é monitorada pela seleção de uma alternativa e recursos são monitorados pelo acesso/visualização.</p>';
 $string['what_does_monitored_mean'] = 'O que significa Monitorado?';
-$string['what_does_monitored_mean_help'] = '<p>O objetivo deste bloco é incentivar os alunos a gerir o seu tempo de forma eficaz. Cada aluno pode monitorar seu progresso no que respeita ao completar as atividades e visualizar os returmas que você criou.</p>
-<p>Na página de configuração, você verá uma lista de todos os módulos que você criou, que podem ser monitorados pelo bloco Barra de Progresso. O módulo só será monitorado e aparecerá como um pequeno bloco na Barra de Progresso, se a respectiva actividade/returma for selecionada. </p>';
+$string['what_does_monitored_mean_help'] = '<p>O objetivo deste bloco é incentivar os alunos a gerir o seu tempo de forma eficaz. Cada aluno pode monitorar seu progresso no que respeita ao completar as atividades e visualizar os recursos que você criou.</p>
+<p>Na página de configuração, você verá uma lista de todos os módulos que você criou, que podem ser monitorados pelo bloco Barra de Progresso. O módulo só será monitorado e aparecerá como um pequeno bloco na Barra de Progresso, se a respectiva actividade/recurso for selecionada. </p>';
 $string['what_expected_by_means'] = 'O que significa Esperado em?';
-$string['what_expected_by_means_help'] = '<p>A data e hora <em> Esperado em </em> é independente de qualquer data ou hora na configuração de uma atividade ou returma. Quando você inicialmente criar uma nova atividade ou returma e visita a página de configuração da Barra de Progresso, o bloco tentará adivinhar uma adequada <em> Esperado em </em> data e hora baseados nas datas de configuração do módulo (uma data padrão será usada se não houver nenhuma expectativa). Depois disso, todas as alterações a data na Barra de Progresso não terá qualquer efeito sobre a atividade/returma monitorada e vice-versa.</p>';
+$string['what_expected_by_means_help'] = '<p>A data e hora <em> Esperado em </em> é independente de qualquer data ou hora na configuração de uma atividade ou recurso. Quando você inicialmente criar uma nova atividade ou returma e visita a página de configuração da Barra de Progresso, o bloco tentará adivinhar uma adequada <em> Esperado em </em> data e hora baseados nas datas de configuração do módulo (uma data padrão será usada se não houver nenhuma expectativa). Depois disso, todas as alterações a data na Barra de Progresso não terá qualquer efeito sobre a atividade/returma monitorada e vice-versa.</p>';
 $string['what_locked_means'] = 'O que significa bloquear o prazo?';
 $string['what_locked_means_help'] = '<p>Sempre que uma atividade pode, nas suas próprias configurações, ter um prazo, e um prazo limite foi definido, é opcional utilizar o prazo da atividade, ou definir uma data diferente utilizada na Barra de Progresso.</p>
 <p>Para bloquear a Barra de Progresso prazo de uma atividade deve ter prazo habilitado e definido. Se o prazo está bloqueado, alterando o prazo de configurações da atividade irá mudar automaticamente a data associada com a atividade na barra de progresso.</p>
@@ -134,7 +134,7 @@ $string['why_display_now'] = 'Por que você pode querer esconder / mostrar o ind
 $string['why_display_now_help'] = '<p>Not all course are focussed on completion of tasks by specific times. Some courses may have an open-enrollment, allowing students to enrol and complete when they can.</p>
 <p>To use the Progess Bar as a tool in such courses, create "Expected by" dates in the far-future and set the "Use NOW" setting to No.</p>';
 $string['why_set_the_title'] = 'Por que definir o Título?';
-$string['why_set_the_title_help'] = '<p>Pode haver várias instâncias do bloco Barra de Progresso. Você pode usar diferentes blocos Barra de Progresso para monitorar diferentes conjuntos de atividades ou returmas. Para exemplo, você poderá acompanhar o progresso das tarefas em um bloco e questionários em outro. Por esta razão, você pode substituir o nome padrão e definir um título mais apropriado para cada instância do bloco. </p>';
+$string['why_set_the_title_help'] = '<p>Pode haver várias instâncias do bloco Barra de Progresso. Você pode usar diferentes blocos Barra de Progresso para monitorar diferentes conjuntos de atividades ou recursos. Para exemplo, você poderá acompanhar o progresso das tarefas em um bloco e questionários em outro. Por esta razão, você pode substituir o nome padrão e definir um título mais apropriado para cada instância do bloco. </p>';
 $string['why_show_precentage'] = 'Por que mostrar uma porcentagem de progresso para os alunos?';
 $string['why_show_precentage_help'] = '<p>É possível mostrar uma percentagem global dos progressos realizados para os alunos.</p>
 <p>Este é calculado como o número de itens completar dividido pelo número total de itens na barra.</p>
