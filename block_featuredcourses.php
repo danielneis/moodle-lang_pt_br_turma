@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addfeaturedcourse'] = 'Adicionar um turma existente à lista de turmas em destaque';
+$string['addfeaturedcourse'] = 'Adicionar uma turma existente à lista de turmas em destaque';
 $string['confirmdelete'] = 'Você tem certeza que deseja excluir esta turma da lista de turmas em destaque?';
 $string['courseid'] = 'Curso';
 $string['delete_featuredcourse'] = 'Excluir turma em destaque';
@@ -38,7 +38,7 @@ $string['featuredcourse'] = 'Curso em destaque: {$a}';
 $string['featuredcourses'] = 'Cursos em destaque';
 $string['featuredcourses:addinstance'] = 'Adicione um bloco "Cursos em destaque"';
 $string['featuredcourses:myaddinstance'] = 'Adicione um bloco "Cursos em destaque" ao my Moodle';
-$string['missingcourseid'] = 'Você deve selecionar um turma.';
+$string['missingcourseid'] = 'Você deve selecionar uma turma.';
 $string['missingsortorder'] = 'Você deve informar um valor para ordenação.';
 $string['pluginname'] = 'Cursos em destaque';
 $string['sortorder'] = 'Valor de ordenação';

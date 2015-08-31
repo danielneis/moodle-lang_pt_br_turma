@@ -27,14 +27,14 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addnewentry'] = 'Acrescentar novo texto';
 $string['addnewexternalblog'] = 'Registrar um blog externo';
-$string['assocdescription'] = 'Se estiver escrevendo sobre um turma e/ou sobre módulos de atividades, selecione-os aqui.';
+$string['assocdescription'] = 'Se estiver escrevendo sobre uma turma e/ou sobre módulos de atividades, selecione-os aqui.';
 $string['associated'] = 'Associado {$a}';
 $string['associatewithcourse'] = 'Blog sobre a turma {$a->coursename}';
 $string['associatewithmodule'] = '	
 Blog sobre {$a->modtype}: {$a->modname}';
 $string['association'] = 'Associação';
 $string['associations'] = 'Associações';
-$string['associationunviewable'] = 'Esta entrada não pode ser vista por outras pessoas até que um turma seja associado a ela ou o campo \'Publicar\' for modificado.';
+$string['associationunviewable'] = 'Esta entrada não pode ser vista por outras pessoas até que uma turma seja associado a ela ou o campo \'Publicar\' for modificado.';
 $string['autotags'] = 'Adicione estas tags';
 $string['autotags_help'] = 'Informe uma ou mais tags locais (separadas por vírgulas) que você deseja adicionar automaticamente a cada entrada de blog copiada do blog externo para seu blog local.';
 $string['backupblogshelp'] = 'Se habilitada, os blogs serão incluídos no backup automático do site';

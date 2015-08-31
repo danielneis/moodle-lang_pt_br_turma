@@ -128,7 +128,7 @@ $string['browsersecurity_help'] = 'Se a opção "Tela cheia pop-up com seguranç
  * Estudantes são impedidos, na medida do possível, de usar os recursos como copiar e colar.';
 $string['calculated'] = 'Calculado';
 $string['calculatedquestion'] = 'A Questão-Calculada da linha {$a} não é suportada. A questão será ignorada';
-$string['cannotcreatepath'] = 'Perturma não pode ser criado ({$a})';
+$string['cannotcreatepath'] = 'Percurso não pode ser criado ({$a})';
 $string['cannoteditafterattempts'] = 'Você não pode adicionar ou remover perguntas, porque já foram registradas tentativas. ({$a})';
 $string['cannotfindprevattempt'] = 'Não foi possível encontrar tentativa anterior de construção.
 ';

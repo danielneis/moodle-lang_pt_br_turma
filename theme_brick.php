@@ -63,7 +63,7 @@ tema <p> Este foi codificado e é mantido por John Stabinger de Aprendizagem New
 </ div>';
 $string['configtitle'] = 'Configurações de tijolo';
 $string['headingcolor'] = 'headingcolor';
-$string['headingcolordesc'] = 'Esta é a cor indo para grandes rubricas (notícias do site, meus turmas) e outras rubricas.';
+$string['headingcolordesc'] = 'Esta é a cor indo para grandes rubricas (notícias do site, minhas turmas) e outras rubricas.';
 $string['linkcolor'] = 'link';
 $string['linkcolordesc'] = 'Defina a cor dos links no tema, use o código hexadecimal html.';
 $string['linkhover'] = 'linkhover';

@@ -44,6 +44,6 @@ $string['module'] = 'Módulo';
 $string['name'] = 'Nome';
 $string['pluginname'] = 'Acompanhamento de status de turma';
 $string['report_coursecompletion'] = 'Relatório de conclusão de turma';
-$string['report_courseenrollment'] = 'Relatório de turmas inscritos';
+$string['report_courseenrollment'] = 'Relatório de inscrições na turma';
 $string['s_no'] = '<abbr title="number">Número</abbr> de série';
 $string['undefined_coursecriteria'] = 'Critério de turma não definido';

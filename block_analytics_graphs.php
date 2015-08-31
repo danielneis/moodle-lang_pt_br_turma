@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['red_tooltip'] = 'Nenhum módulo foi acessado na última semana';
-$string['resources'] = 'Returmas';
+$string['resources'] = 'Recursos';
 $string['resources_by_week'] = 'Número de recursos acessados por semana';
-$string['resources_with_access'] = 'Returmas com acesso';
+$string['resources_with_access'] = 'Recursos com acesso';
 $string['send_email'] = 'Enviar email';
 $string['sender'] = 'Remetente';
 $string['student_information'] = 'Informação';

@@ -53,7 +53,7 @@ $string['config_header_monitored'] = 'Monitorado';
 $string['config_icons'] = 'Usar ícones na barra';
 $string['config_now'] = 'Usar';
 $string['config_orderby'] = 'Itens da barra de Ordenação por';
-$string['config_orderby_course_order'] = 'Encomenda em turma';
+$string['config_orderby_course_order'] = 'Ordenação na turma';
 $string['config_orderby_due_time'] = '"Espera-se por" data-hora';
 $string['config_percentage'] = 'Mostrar porcentagem de alunos';
 $string['config_title'] = 'Título alternativo';
@@ -88,7 +88,7 @@ $string['lastonline'] = 'Último acesso';
 $string['lesson'] = 'Lição';
 $string['marked'] = 'avaliada';
 $string['mouse_over_prompt'] = 'Passe com o mouse para obter informações';
-$string['no_blocks'] = 'Nenhum bloco Barra de Progresso estão configurados para os seus turmas.';
+$string['no_blocks'] = 'Nenhum bloco Barra de Progresso estão configurados para os suas turmas.';
 $string['no_events_config_message'] = 'Não existem atividades ou recursos a serem monitorados. Crie primeiro atividades e/ou recursos e retorne depois a este bloco.';
 $string['no_events_message'] = 'Sem eventos a serem monitorados. Use a Configuração para adicionar eventos.';
 $string['notAttempted_colour'] = '#FF5C5C';
@@ -125,7 +125,7 @@ $string['what_does_monitored_mean'] = 'O que significa Monitorado?';
 $string['what_does_monitored_mean_help'] = '<p>O objetivo deste bloco é incentivar os alunos a gerir o seu tempo de forma eficaz. Cada aluno pode monitorar seu progresso no que respeita ao completar as atividades e visualizar os recursos que você criou.</p>
 <p>Na página de configuração, você verá uma lista de todos os módulos que você criou, que podem ser monitorados pelo bloco Barra de Progresso. O módulo só será monitorado e aparecerá como um pequeno bloco na Barra de Progresso, se a respectiva actividade/recurso for selecionada. </p>';
 $string['what_expected_by_means'] = 'O que significa Esperado em?';
-$string['what_expected_by_means_help'] = '<p>A data e hora <em> Esperado em </em> é independente de qualquer data ou hora na configuração de uma atividade ou recurso. Quando você inicialmente criar uma nova atividade ou returma e visita a página de configuração da Barra de Progresso, o bloco tentará adivinhar uma adequada <em> Esperado em </em> data e hora baseados nas datas de configuração do módulo (uma data padrão será usada se não houver nenhuma expectativa). Depois disso, todas as alterações a data na Barra de Progresso não terá qualquer efeito sobre a atividade/returma monitorada e vice-versa.</p>';
+$string['what_expected_by_means_help'] = '<p>A data e hora <em> Esperado em </em> é independente de qualquer data ou hora na configuração de uma atividade ou recurso. Quando você inicialmente criar uma nova atividade ou recurso e visita a página de configuração da Barra de Progresso, o bloco tentará adivinhar uma adequada <em> Esperado em </em> data e hora baseados nas datas de configuração do módulo (uma data padrão será usada se não houver nenhuma expectativa). Depois disso, todas as alterações a data na Barra de Progresso não terá qualquer efeito sobre a atividade/recurso monitorada e vice-versa.</p>';
 $string['what_locked_means'] = 'O que significa bloquear o prazo?';
 $string['what_locked_means_help'] = '<p>Sempre que uma atividade pode, nas suas próprias configurações, ter um prazo, e um prazo limite foi definido, é opcional utilizar o prazo da atividade, ou definir uma data diferente utilizada na Barra de Progresso.</p>
 <p>Para bloquear a Barra de Progresso prazo de uma atividade deve ter prazo habilitado e definido. Se o prazo está bloqueado, alterando o prazo de configurações da atividade irá mudar automaticamente a data associada com a atividade na barra de progresso.</p>
